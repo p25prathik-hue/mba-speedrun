@@ -29,7 +29,6 @@ from __future__ import annotations
 from typing import Dict, List, Optional, Set
 
 import numpy as np
-import pulp
 
 from .costs import INF, Evaluator
 from .heuristics import local_search
@@ -169,6 +168,8 @@ def profit_max_tour(ev: Evaluator, budget: float, values: Optional[Dict[int, flo
 
 def knapsack_closure(ev: Evaluator, budget: float) -> Dict:
     """Session 5 slide 7 (capital budgeting with logical constraints) as a 0-1 IP."""
+    import pulp  # imported here so the crunch heuristic works without PuLP installed
+
     prob = pulp.LpProblem("knap", pulp.LpMaximize)
     z = {i: pulp.LpVariable(f"z{i}", cat=pulp.LpBinary) for i in range(ev.n)}
     vals = {i: ev.inst.web.topics[ev.ids[i]].value for i in range(ev.n)}

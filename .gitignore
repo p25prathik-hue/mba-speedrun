@@ -12,3 +12,5 @@ report/*.bbl
 .pytest_cache/
 *.nbi
 *.nbc
+.venv/
+my_roadmaps/

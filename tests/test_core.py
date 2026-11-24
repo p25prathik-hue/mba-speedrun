@@ -109,3 +109,33 @@ def test_milp_matches_brute_force_when_revision_cap_binds(targets):
     r = milp.solve_exact(ev, time_limit=60)
     assert abs(r["objective_eval"] - zb) < 1e-6
     assert abs(r["objective_model"] - zb) < 1e-6
+
+
+@pytest.mark.parametrize("data", ["sample", "iima"])
+def test_numpy_kernel_matches_loop_kernel(data):
+    """The numpy fallback (used when numba is missing) must give the loop kernel's cost."""
+    import random
+    import numpy as np
+    from speedrun.costs import _total_np, _total_py
+    d = os.path.join(ROOT, "data", data)
+    ev = Evaluator(build_instance(load_web(d), Profile(), Params.load(os.path.join(d, "params.json"))))
+    rng = random.Random(7)
+    for t in range(60):
+        s = H.random_topological(ev, rng)
+        if t % 3 == 0:  # make some orders infeasible
+            i, j = rng.randrange(ev.n), rng.randrange(ev.n)
+            s[i], s[j] = s[j], s[i]
+        a = np.asarray(s, np.int64)
+        x, y = _total_py(a, *ev._args), _total_np(a, *ev._args)
+        assert (np.isinf(x) and np.isinf(y)) or abs(x - y) < 1e-8
+
+
+def test_easy_front_end_on_pilot():
+    from speedrun.easy import make_crunch, make_roadmap, match_areas
+    assert match_areas("2, fin", ["ACC", "FIN"]) == ["FIN"]
+    r = make_roadmap("pilot", hours_per_day=6, root=ROOT)
+    assert r["n_topics"] == len(r["rows"]) == 28
+    assert r["total_hours_est"] <= r["subject_by_subject_hours_est"]
+    assert [x["id"] for x in r["rows"]] and len({x["id"] for x in r["rows"]}) == 28
+    c = make_crunch(20, "pilot", root=ROOT)
+    assert c["hours_used_est"] <= 20 + 1e-9 and len(c["rows"]) + len(c["left_out"]) == 28

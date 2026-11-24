@@ -283,11 +283,12 @@ Sorting topics by size, as first-fit decreasing does, would break prerequisites,
 
 \paragraph{Crunch.} The \emph{profit-maximising tour heuristic} grows the plan by the topic, together with its missing prerequisites, that gives the most value per hour actually consumed after cheapest insertion. The usual bang-for-buck ratio $(r_i-\delta_i)/d_i$ assumes value and cost in the same money units; here value and hours are different units, so the ratio is value $\div$ hours added. Several initial tours are tried and the best is kept. Two exact references check it: the prize-collecting MILP, and the capital-budgeting knapsack with $z_j\le z_k$, which ignores sequencing effects. Topics left out are the ``common carrier'' list: candidates for a senior's session or peer notes.
 
-\paragraph{Implementation.} The model is in Python (\texttt{src/speedrun}). Evaluating one order of 266 topics takes about 7\,$\mu$s with an optional compiled evaluator (Numba) that performs exactly the same arithmetic. One full local search then takes 1--3\,s. There are 16 tests:
+\paragraph{Implementation.} The model is in Python (\texttt{src/speedrun}). Evaluating one order of 266 topics takes about 7\,$\mu$s with an optional compiled evaluator (Numba) that performs exactly the same arithmetic; without Numba a vectorised NumPy evaluator takes about 30\,$\mu$s and agrees to within $10^{-12}$\,h. One full local search then takes 1--3\,s. There are 19 tests:
 \begin{itemize}
 \item brute force on small instances, including cases where the revision cap binds;
 \item split optimality, closure and the null model;
-\item JavaScript parity on both webs.
+\item JavaScript parity on both webs;
+\item the NumPy evaluator against the plain loops, and the plain-language front end.
 \end{itemize}
 The website runs a line-by-line JavaScript port of the heuristics, which reproduces the Python results exactly for every preset. For scopes of more than 120 topics the browser uses only the two strongest constructions, so that it answers in a few seconds.
 
@@ -469,6 +470,8 @@ Every hour and cost parameter is an estimate, so this is the weakest point of th
 \item set hours per day, and choose \emph{Full roadmap} or \emph{Crunch}.
 \end{itemize}
 The heuristics run live in the browser, in a few seconds for the full web, and presets also show the Python result. The planner states in plain language any prerequisite it had to add back. Two explorers show what each topic needs and unlocks: ours, and the starter kit's detailed one (\texttt{docs/topic-web.html}, rebuilt by \texttt{scripts/kit/layout.py}).
+
+\paragraph{Running the Python tool.} Students who want the Python version need not type commands. On Windows they download the repository and double-click \texttt{START\_HERE\_Windows.bat}; on a Mac or Linux they run \texttt{bash start\_mac\_linux.sh}. The first run installs what it needs. A menu then opens the planner, makes a roadmap or a crunch plan from a few plain questions (areas known, half known or skipped, and hours per day), and saves the plan as a CSV. The same questions are a form in a Google Colab notebook, opened from the README with one click.
 
 \paragraph{For future groups.} Every module documents its method and assumptions in its docstring.
 \begin{verbatim}

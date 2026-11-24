@@ -4,7 +4,31 @@
 Group project for *Optimisation Methods in Logistics* (OML), IIM Ahmedabad. Group: Prathik, Nikita Naik Mood, Anureet Biswas, Mrinal Bhaskar.
 
 **Roadmap planner (live):** https://p25prathik-hue.github.io/mba-speedrun/  
-**Report (PDF):** [docs/report.pdf](docs/report.pdf)
+**Report (PDF):** [docs/report.pdf](docs/report.pdf)  
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/p25prathik-hue/mba-speedrun/blob/main/notebooks/00_run_in_colab.ipynb)
+
+## Run it the easy way
+
+| You want to | Do this |
+|---|---|
+| Make a study plan, nothing to install | Open the [roadmap planner](https://p25prathik-hue.github.io/mba-speedrun/). Offline: download the folder and open `docs/index.html` in your browser. |
+| Run the Python tool without installing anything | Click **Open in Colab** above, then *Runtime → Run all*. Fill in the form; the plan downloads as a CSV. |
+| Run it on your Windows laptop | *Code → Download ZIP*, unzip, double-click **`START_HERE_Windows.bat`**. |
+| Run it on a Mac or Linux | In the unzipped folder run `bash start_mac_linux.sh`. |
+
+The launchers need Python 3.9+ ([python.org](https://www.python.org/downloads/); on Windows tick *Add python.exe to PATH*). The first run sets up a private environment in `.venv` and installs the requirements, which takes 1-3 minutes and needs internet. After that they open this menu at once:
+
+```
+  1  Open the roadmap planner website (in your browser, nothing else needed)
+  2  Make my study roadmap here (answer a few questions, get a day-by-day plan)
+  3  Exam crunch: best topics for a fixed number of hours
+  4  Reproduce every number and figure in the report
+  5  Run the tests
+```
+
+Options 2 and 3 ask which subject areas you know, half know or want to skip, any single topics you know, and your hours per day. They print the first days and save the whole plan to `my_roadmaps/` as a CSV that opens in Excel. Already have Python set up? `python start.py` opens the same menu, and `python start.py roadmap` (or `crunch`, `planner`, `reproduce`, `test`) jumps straight to one option.
+
+The full 266-topic roadmap takes about 20 seconds, or about a minute if `numba` could not be installed. All hours are **estimates**.
 
 A student catching up alone (before end-terms or summer-placement prep) learns one topic at a time, but the core is taught as parallel courses for a cohort of ~400. This repo orders core micro-topics so that
 
@@ -32,12 +56,12 @@ python run.py exact    --data data/sample --targets F8,M6     # branch and bound
 python run.py profiles --data data/iima --out results/iima
 python run.py sensitivity --data data/iima --draws 60 --restarts 0 --out results/iima/sensitivity.json
 python run.py web      --data data/iima --out docs/data/web.json      # refresh the website data
-python -m pytest -q                                # 16 tests incl. brute force and JS parity
+python -m pytest -q                                # 19 tests incl. brute force and JS parity
 ```
 
 On Windows use `python`, not `py`. Open `docs/planner.html` straight from disk: it also works without a server.
 
-Optional: `python -m pip install numba` makes evaluation of a 266-topic order about 15x faster (same results).
+Optional: `python -m pip install numba` makes evaluation of a 266-topic order about 4x faster than the built-in numpy evaluator (same results). The launchers install it for you when they can.
 
 Reproduce every number in the report:
 
@@ -105,9 +129,12 @@ data/iima/        266-topic web: topics.csv, prereqs.csv (after Step 1), prereqs
 data/sample/      28-topic pilot web (exact-method checks)
 data/external/    Step 1: sources.csv (register + licences), units.csv (chapter/session order), step1_changes_iima.csv
 scripts/kit/      the starter kit's audit.py, layout.py and explorer template (paths now relative to the repo)
-src/speedrun/     data, graph, costs, baselines, heuristics, milp, days, crunch, sensitivity, experiments, cli
+src/speedrun/     data, graph, costs, baselines, heuristics, milp, days, crunch, sensitivity, experiments, cli,
+                  easy (plain-language front end used by start.py and the Colab notebook)
+start.py          menu launcher (planner, roadmap, crunch, reproduce, tests); START_HERE_Windows.bat and
+                  start_mac_linux.sh set up .venv on first run and then open it
 scripts/          scale_experiment.py, integrate_external.py, make_figures.py
-notebooks/        one walkthrough per class concept (executed, with outputs)
+notebooks/        00_run_in_colab.ipynb (one-click roadmap in Colab); 01-06 one walkthrough per class concept
 tests/            brute-force checks and the JS/Python parity test
 docs/             GitHub Pages: index, planner (live JS heuristic), explorer, topic-web (kit explorer), concepts, proposal/
 report/           LaTeX source (Overleaf-ready), figures, compiled PDF
