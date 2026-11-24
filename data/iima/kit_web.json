@@ -1,0 +1,8360 @@
+{
+"topics": [
+{
+"id": "QNT01",
+"name": "Algebra and functions refresher",
+"courses": [
+"QM-1a"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 2,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 45,
+"n_unlocks": 127,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT02",
+"name": "Calculus basics: derivatives and optimisation",
+"courses": [
+"QM-1a",
+"ME"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 32,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT03",
+"name": "Descriptive statistics: centre and spread",
+"courses": [
+"QM-1b"
+],
+"primary": "QM-1b",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 4,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 45,
+"n_unlocks": 89,
+"first_course": "QM-1b"
+},
+{
+"id": "QNT04",
+"name": "Data visualisation and distribution shapes",
+"courses": [
+"QM-1b",
+"MGRCMP"
+],
+"primary": "QM-1b",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 90,
+"n_unlocks": 2,
+"first_course": "QM-1b"
+},
+{
+"id": "QNT05",
+"name": "Probability basics: events, axioms, counting",
+"courses": [
+"QM-1a"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 68,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT06",
+"name": "Conditional probability and independence",
+"courses": [
+"QM-1a"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 4,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT07",
+"name": "Bayes' theorem",
+"courses": [
+"QM-1a"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 3,
+"closure_minutes": 315,
+"n_unlocks": 1,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT08",
+"name": "Random variables, expectation and variance",
+"courses": [
+"QM-1a"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 2,
+"n_prereq_closure": 3,
+"closure_minutes": 270,
+"n_unlocks": 65,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT09",
+"name": "Covariance and correlation",
+"courses": [
+"QM-1a",
+"QM-1b",
+"FM"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 5,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 315,
+"n_unlocks": 34,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT10",
+"name": "Discrete distributions: binomial and Poisson",
+"courses": [
+"QM-1a"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 360,
+"n_unlocks": 7,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT11",
+"name": "Continuous distributions: uniform and exponential",
+"courses": [
+"QM-1a"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 360,
+"n_unlocks": 52,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT12",
+"name": "Normal distribution",
+"courses": [
+"QM-1a"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 5,
+"closure_minutes": 450,
+"n_unlocks": 48,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT13",
+"name": "Expected-value decisions and payoff tables",
+"courses": [
+"QM-1a"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 360,
+"n_unlocks": 5,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT14",
+"name": "Decision trees",
+"courses": [
+"QM-1a",
+"CF"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 6,
+"closure_minutes": 540,
+"n_unlocks": 2,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT15",
+"name": "Value of information (EVPI, EVSI)",
+"courses": [
+"QM-1a"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 720,
+"n_unlocks": 0,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT16",
+"name": "Risk attitude and utility functions",
+"courses": [
+"QM-1a",
+"FM"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 4,
+"n_prereq_closure": 5,
+"closure_minutes": 450,
+"n_unlocks": 0,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT17",
+"name": "Monte Carlo simulation",
+"courses": [
+"QM-1a",
+"MGRCMP",
+"CF"
+],
+"primary": "QM-1a",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 9,
+"closure_minutes": 810,
+"n_unlocks": 2,
+"first_course": "QM-1a"
+},
+{
+"id": "QNT18",
+"name": "Sampling and sampling distributions",
+"courses": [
+"QM-1b"
+],
+"primary": "QM-1b",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 6,
+"closure_minutes": 540,
+"n_unlocks": 41,
+"first_course": "QM-1b"
+},
+{
+"id": "QNT19",
+"name": "Central limit theorem",
+"courses": [
+"QM-1b"
+],
+"primary": "QM-1b",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 4,
+"depth": 6,
+"n_prereq_closure": 7,
+"closure_minutes": 585,
+"n_unlocks": 40,
+"first_course": "QM-1b"
+},
+{
+"id": "QNT20",
+"name": "Confidence intervals",
+"courses": [
+"QM-1b"
+],
+"primary": "QM-1b",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 7,
+"n_prereq_closure": 8,
+"closure_minutes": 675,
+"n_unlocks": 39,
+"first_course": "QM-1b"
+},
+{
+"id": "QNT21",
+"name": "Hypothesis testing: logic, p-values, type I/II errors",
+"courses": [
+"QM-1b",
+"BRM"
+],
+"primary": "QM-1b",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 8,
+"n_prereq_closure": 9,
+"closure_minutes": 825,
+"n_unlocks": 35,
+"first_course": "QM-1b"
+},
+{
+"id": "QNT22",
+"name": "t-tests: one and two samples",
+"courses": [
+"QM-1b",
+"BRM"
+],
+"primary": "QM-1b",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 9,
+"n_prereq_closure": 10,
+"closure_minutes": 915,
+"n_unlocks": 3,
+"first_course": "QM-1b"
+},
+{
+"id": "QNT23",
+"name": "Tests for proportions",
+"courses": [
+"QM-1b"
+],
+"primary": "QM-1b",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 9,
+"n_prereq_closure": 11,
+"closure_minutes": 960,
+"n_unlocks": 0,
+"first_course": "QM-1b"
+},
+{
+"id": "QNT24",
+"name": "Chi-square tests",
+"courses": [
+"QM-1b",
+"BRM"
+],
+"primary": "QM-1b",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 9,
+"n_prereq_closure": 10,
+"closure_minutes": 915,
+"n_unlocks": 0,
+"first_course": "QM-1b"
+},
+{
+"id": "QNT25",
+"name": "ANOVA",
+"courses": [
+"QM-1b",
+"BRM"
+],
+"primary": "QM-1b",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 10,
+"n_prereq_closure": 11,
+"closure_minutes": 1005,
+"n_unlocks": 0,
+"first_course": "QM-1b"
+},
+{
+"id": "QNT26",
+"name": "Simple linear regression",
+"courses": [
+"QM-2",
+"BRM",
+"FM"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 9,
+"n_prereq_closure": 11,
+"closure_minutes": 1020,
+"n_unlocks": 29,
+"first_course": "QM-2"
+},
+{
+"id": "QNT27",
+"name": "Multiple regression",
+"courses": [
+"QM-2",
+"BRM",
+"MKT-III"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 10,
+"n_prereq_closure": 12,
+"closure_minutes": 1170,
+"n_unlocks": 7,
+"first_course": "QM-2"
+},
+{
+"id": "QNT28",
+"name": "Regression diagnostics: multicollinearity, heteroscedasticity",
+"courses": [
+"QM-2"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 11,
+"n_prereq_closure": 13,
+"closure_minutes": 1260,
+"n_unlocks": 0,
+"first_course": "QM-2"
+},
+{
+"id": "QNT29",
+"name": "Dummy variables and interaction terms",
+"courses": [
+"QM-2",
+"BRM"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 11,
+"n_prereq_closure": 13,
+"closure_minutes": 1260,
+"n_unlocks": 1,
+"first_course": "QM-2"
+},
+{
+"id": "QNT30",
+"name": "Logistic regression",
+"courses": [
+"QM-2",
+"BRM",
+"TBIT"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 11,
+"n_prereq_closure": 14,
+"closure_minutes": 1350,
+"n_unlocks": 1,
+"first_course": "QM-2"
+},
+{
+"id": "QNT31",
+"name": "Time series: components and smoothing",
+"courses": [
+"QM-2",
+"OM-I"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 7,
+"first_course": "OM-I"
+},
+{
+"id": "QNT32",
+"name": "Linear programming formulation",
+"courses": [
+"QM-2",
+"OM-II",
+"MGRCMP"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 195,
+"n_unlocks": 10,
+"first_course": "MGRCMP"
+},
+{
+"id": "QNT33",
+"name": "Graphical LP and simplex intuition",
+"courses": [
+"QM-2"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 285,
+"n_unlocks": 1,
+"first_course": "QM-2"
+},
+{
+"id": "QNT34",
+"name": "LP sensitivity analysis and shadow prices",
+"courses": [
+"QM-2"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 3,
+"n_prereq_closure": 3,
+"closure_minutes": 375,
+"n_unlocks": 0,
+"first_course": "QM-2"
+},
+{
+"id": "QNT35",
+"name": "Integer and binary programming",
+"courses": [
+"QM-2"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 285,
+"n_unlocks": 0,
+"first_course": "QM-2"
+},
+{
+"id": "QNT36",
+"name": "Transportation and assignment models",
+"courses": [
+"QM-2",
+"OM-III"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 285,
+"n_unlocks": 1,
+"first_course": "QM-2"
+},
+{
+"id": "QNT37",
+"name": "Network models: shortest path, max flow",
+"courses": [
+"QM-2"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 285,
+"n_unlocks": 1,
+"first_course": "QM-2"
+},
+{
+"id": "QNT38",
+"name": "Multi-criteria decisions (AHP, scoring)",
+"courses": [
+"QM-2"
+],
+"primary": "QM-2",
+"domain": "Quant & Analytics",
+"term": 2,
+"size": "S",
+"minutes": 45,
+"value": 2,
+"depth": 4,
+"n_prereq_closure": 5,
+"closure_minutes": 405,
+"n_unlocks": 0,
+"first_course": "QM-2"
+},
+{
+"id": "CMP01",
+"name": "Spreadsheet fundamentals: formulas, references, lookups",
+"courses": [
+"MGRCMP"
+],
+"primary": "MGRCMP",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 90,
+"n_unlocks": 11,
+"first_course": "MGRCMP"
+},
+{
+"id": "CMP02",
+"name": "Spreadsheet modelling and what-if analysis",
+"courses": [
+"MGRCMP"
+],
+"primary": "MGRCMP",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 5,
+"first_course": "MGRCMP"
+},
+{
+"id": "CMP03",
+"name": "Pivot tables and data summarisation",
+"courses": [
+"MGRCMP"
+],
+"primary": "MGRCMP",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 2,
+"closure_minutes": 180,
+"n_unlocks": 0,
+"first_course": "MGRCMP"
+},
+{
+"id": "CMP04",
+"name": "Solver for optimisation",
+"courses": [
+"MGRCMP",
+"QM-2"
+],
+"primary": "MGRCMP",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 4,
+"depth": 2,
+"n_prereq_closure": 4,
+"closure_minutes": 420,
+"n_unlocks": 0,
+"first_course": "MGRCMP"
+},
+{
+"id": "CMP05",
+"name": "Databases and SQL basics",
+"courses": [
+"MGRCMP",
+"TBIT"
+],
+"primary": "MGRCMP",
+"domain": "Quant & Analytics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 3,
+"first_course": "MGRCMP"
+},
+{
+"id": "ACC01",
+"name": "Accounting equation and double entry",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 90,
+"n_unlocks": 80,
+"first_course": "FRA"
+},
+{
+"id": "ACC02",
+"name": "Journal, ledger and trial balance",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 1,
+"first_course": "FRA"
+},
+{
+"id": "ACC03",
+"name": "Accrual vs cash basis and matching",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 76,
+"first_course": "FRA"
+},
+{
+"id": "ACC04",
+"name": "Income statement (P&L) structure",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 270,
+"n_unlocks": 74,
+"first_course": "FRA"
+},
+{
+"id": "ACC05",
+"name": "Balance sheet structure",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 37,
+"first_course": "FRA"
+},
+{
+"id": "ACC06",
+"name": "Adjusting and closing entries",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 2,
+"depth": 2,
+"n_prereq_closure": 3,
+"closure_minutes": 315,
+"n_unlocks": 0,
+"first_course": "FRA"
+},
+{
+"id": "ACC07",
+"name": "Revenue recognition (Ind AS 115)",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 3,
+"closure_minutes": 360,
+"n_unlocks": 1,
+"first_course": "FRA"
+},
+{
+"id": "ACC08",
+"name": "Inventory valuation: FIFO, weighted average",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 450,
+"n_unlocks": 4,
+"first_course": "FRA"
+},
+{
+"id": "ACC09",
+"name": "Fixed assets and depreciation",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 450,
+"n_unlocks": 23,
+"first_course": "FRA"
+},
+{
+"id": "ACC10",
+"name": "Intangibles, goodwill and impairment",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 4,
+"n_prereq_closure": 5,
+"closure_minutes": 540,
+"n_unlocks": 1,
+"first_course": "FRA"
+},
+{
+"id": "ACC11",
+"name": "Liabilities, provisions and contingencies",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 2,
+"first_course": "FRA"
+},
+{
+"id": "ACC12",
+"name": "Lease accounting (Ind AS 116)",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 2,
+"depth": 4,
+"n_prereq_closure": 9,
+"closure_minutes": 765,
+"n_unlocks": 0,
+"first_course": "FRA"
+},
+{
+"id": "ACC13",
+"name": "Shareholders' equity and EPS",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 405,
+"n_unlocks": 4,
+"first_course": "FRA"
+},
+{
+"id": "ACC14",
+"name": "Deferred tax",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 2,
+"depth": 3,
+"n_prereq_closure": 5,
+"closure_minutes": 495,
+"n_unlocks": 0,
+"first_course": "FRA"
+},
+{
+"id": "ACC15",
+"name": "Cash flow statement",
+"courses": [
+"FRA",
+"CF"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 5,
+"closure_minutes": 600,
+"n_unlocks": 19,
+"first_course": "FRA"
+},
+{
+"id": "ACC16",
+"name": "Consolidation and group accounts basics",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 2,
+"depth": 5,
+"n_prereq_closure": 7,
+"closure_minutes": 675,
+"n_unlocks": 0,
+"first_course": "FRA"
+},
+{
+"id": "ACC17",
+"name": "Ratio analysis: profitability, liquidity, solvency",
+"courses": [
+"FRA",
+"CF"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 510,
+"n_unlocks": 14,
+"first_course": "FRA"
+},
+{
+"id": "ACC18",
+"name": "DuPont analysis",
+"courses": [
+"FRA",
+"CF"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 5,
+"closure_minutes": 555,
+"n_unlocks": 0,
+"first_course": "FRA"
+},
+{
+"id": "ACC19",
+"name": "Earnings quality and red flags",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 930,
+"n_unlocks": 0,
+"first_course": "FRA"
+},
+{
+"id": "ACC20",
+"name": "Reading an annual report and notes",
+"courses": [
+"FRA"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 7,
+"closure_minutes": 840,
+"n_unlocks": 0,
+"first_course": "FRA"
+},
+{
+"id": "ACC21",
+"name": "Working capital and cash conversion cycle",
+"courses": [
+"FRA",
+"CF",
+"OM-II"
+],
+"primary": "FRA",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 5,
+"closure_minutes": 600,
+"n_unlocks": 1,
+"first_course": "FRA"
+},
+{
+"id": "ACC22",
+"name": "Cost concepts and behaviour: fixed, variable, sunk, opportunity",
+"courses": [
+"CCS",
+"ME",
+"OM-II"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 3,
+"n_prereq_closure": 3,
+"closure_minutes": 360,
+"n_unlocks": 55,
+"first_course": "ME"
+},
+{
+"id": "ACC23",
+"name": "Cost-volume-profit and break-even",
+"courses": [
+"CCS",
+"MKT-II"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 4,
+"closure_minutes": 450,
+"n_unlocks": 16,
+"first_course": "CCS"
+},
+{
+"id": "ACC24",
+"name": "Job and process costing",
+"courses": [
+"CCS"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 2,
+"depth": 4,
+"n_prereq_closure": 6,
+"closure_minutes": 630,
+"n_unlocks": 3,
+"first_course": "CCS"
+},
+{
+"id": "ACC25",
+"name": "Overhead allocation and absorption costing",
+"courses": [
+"CCS"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 7,
+"closure_minutes": 720,
+"n_unlocks": 2,
+"first_course": "CCS"
+},
+{
+"id": "ACC26",
+"name": "Activity-based costing",
+"courses": [
+"CCS"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 6,
+"n_prereq_closure": 8,
+"closure_minutes": 810,
+"n_unlocks": 0,
+"first_course": "CCS"
+},
+{
+"id": "ACC27",
+"name": "Variable vs absorption costing",
+"courses": [
+"CCS"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 6,
+"n_prereq_closure": 9,
+"closure_minutes": 855,
+"n_unlocks": 0,
+"first_course": "CCS"
+},
+{
+"id": "ACC28",
+"name": "Relevant costing: make-or-buy, special orders",
+"courses": [
+"CCS",
+"OM-III",
+"SM"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 4,
+"closure_minutes": 450,
+"n_unlocks": 12,
+"first_course": "CCS"
+},
+{
+"id": "ACC29",
+"name": "Budgeting and the master budget",
+"courses": [
+"CCS"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 870,
+"n_unlocks": 7,
+"first_course": "CCS"
+},
+{
+"id": "ACC30",
+"name": "Standard costing and variance analysis",
+"courses": [
+"CCS"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "L",
+"minutes": 150,
+"value": 4,
+"depth": 6,
+"n_prereq_closure": 9,
+"closure_minutes": 1020,
+"n_unlocks": 0,
+"first_course": "CCS"
+},
+{
+"id": "ACC31",
+"name": "Responsibility centres and segment reporting",
+"courses": [
+"CCS"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 6,
+"n_prereq_closure": 9,
+"closure_minutes": 960,
+"n_unlocks": 4,
+"first_course": "CCS"
+},
+{
+"id": "ACC32",
+"name": "Transfer pricing",
+"courses": [
+"CCS"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 7,
+"n_prereq_closure": 11,
+"closure_minutes": 1140,
+"n_unlocks": 0,
+"first_course": "CCS"
+},
+{
+"id": "ACC33",
+"name": "Performance measures: ROI, residual income, EVA",
+"courses": [
+"CCS",
+"CF"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 13,
+"n_prereq_closure": 33,
+"closure_minutes": 3195,
+"n_unlocks": 2,
+"first_course": "CCS"
+},
+{
+"id": "ACC34",
+"name": "Balanced scorecard and management control systems",
+"courses": [
+"CCS",
+"SM"
+],
+"primary": "CCS",
+"domain": "Accounting",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 14,
+"n_prereq_closure": 34,
+"closure_minutes": 3285,
+"n_unlocks": 1,
+"first_course": "CCS"
+},
+{
+"id": "FIN01",
+"name": "Financial system: markets, institutions, instruments",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 90,
+"n_unlocks": 17,
+"first_course": "FM"
+},
+{
+"id": "FIN02",
+"name": "Interest rates: simple, compound, nominal vs effective",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 90,
+"n_unlocks": 44,
+"first_course": "FM"
+},
+{
+"id": "FIN03",
+"name": "Time value of money: PV and FV",
+"courses": [
+"FM",
+"CF"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 180,
+"n_unlocks": 39,
+"first_course": "FM"
+},
+{
+"id": "FIN04",
+"name": "Annuities and perpetuities",
+"courses": [
+"FM",
+"CF"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 3,
+"n_prereq_closure": 3,
+"closure_minutes": 270,
+"n_unlocks": 27,
+"first_course": "FM"
+},
+{
+"id": "FIN05",
+"name": "Loan amortisation and EMIs",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 4,
+"n_prereq_closure": 4,
+"closure_minutes": 315,
+"n_unlocks": 0,
+"first_course": "FM"
+},
+{
+"id": "FIN06",
+"name": "Bond pricing and yield to maturity",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 4,
+"closure_minutes": 360,
+"n_unlocks": 14,
+"first_course": "FM"
+},
+{
+"id": "FIN07",
+"name": "Term structure and the yield curve",
+"courses": [
+"FM",
+"MEP"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 5,
+"closure_minutes": 450,
+"n_unlocks": 0,
+"first_course": "FM"
+},
+{
+"id": "FIN08",
+"name": "Duration and convexity",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 5,
+"closure_minutes": 450,
+"n_unlocks": 0,
+"first_course": "FM"
+},
+{
+"id": "FIN09",
+"name": "Stock valuation: dividend discount model",
+"courses": [
+"FM",
+"CF"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 5,
+"closure_minutes": 450,
+"n_unlocks": 4,
+"first_course": "FM"
+},
+{
+"id": "FIN10",
+"name": "Measuring return and risk",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 3,
+"n_prereq_closure": 6,
+"closure_minutes": 495,
+"n_unlocks": 16,
+"first_course": "FM"
+},
+{
+"id": "FIN11",
+"name": "Diversification and portfolio theory",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 2,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 8,
+"closure_minutes": 690,
+"n_unlocks": 15,
+"first_course": "FM"
+},
+{
+"id": "FIN12",
+"name": "Efficient frontier and optimal portfolio",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 9,
+"closure_minutes": 780,
+"n_unlocks": 14,
+"first_course": "FM"
+},
+{
+"id": "FIN13",
+"name": "CAPM and beta",
+"courses": [
+"FM",
+"CF"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 2,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 10,
+"n_prereq_closure": 17,
+"closure_minutes": 1635,
+"n_unlocks": 13,
+"first_course": "FM"
+},
+{
+"id": "FIN14",
+"name": "Market efficiency",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 11,
+"n_prereq_closure": 18,
+"closure_minutes": 1725,
+"n_unlocks": 0,
+"first_course": "FM"
+},
+{
+"id": "FIN15",
+"name": "Forwards and futures",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 360,
+"n_unlocks": 4,
+"first_course": "FM"
+},
+{
+"id": "FIN16",
+"name": "Options: payoffs and strategies",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 4,
+"n_prereq_closure": 5,
+"closure_minutes": 450,
+"n_unlocks": 2,
+"first_course": "FM"
+},
+{
+"id": "FIN17",
+"name": "Option pricing: binomial and Black-Scholes intuition",
+"courses": [
+"FM"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 2,
+"size": "L",
+"minutes": 150,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 10,
+"closure_minutes": 915,
+"n_unlocks": 0,
+"first_course": "FM"
+},
+{
+"id": "FIN18",
+"name": "FX markets and parity conditions",
+"courses": [
+"FM",
+"MEP"
+],
+"primary": "FM",
+"domain": "Finance",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 4,
+"n_prereq_closure": 10,
+"closure_minutes": 900,
+"n_unlocks": 0,
+"first_course": "FM"
+},
+{
+"id": "FIN19",
+"name": "Goal of the firm and agency problems",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 1,
+"first_course": "CF"
+},
+{
+"id": "FIN20",
+"name": "Capital budgeting: the NPV rule",
+"courses": [
+"CF",
+"FM",
+"ME"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 1,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 5,
+"n_prereq_closure": 10,
+"closure_minutes": 1020,
+"n_unlocks": 8,
+"first_course": "FM"
+},
+{
+"id": "FIN21",
+"name": "IRR, payback and other criteria",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 6,
+"n_prereq_closure": 11,
+"closure_minutes": 1110,
+"n_unlocks": 0,
+"first_course": "CF"
+},
+{
+"id": "FIN22",
+"name": "Estimating project cash flows (incremental FCF)",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 6,
+"n_prereq_closure": 13,
+"closure_minutes": 1350,
+"n_unlocks": 6,
+"first_course": "CF"
+},
+{
+"id": "FIN23",
+"name": "Project risk: sensitivity, scenario, simulation",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 7,
+"n_prereq_closure": 23,
+"closure_minutes": 2205,
+"n_unlocks": 1,
+"first_course": "CF"
+},
+{
+"id": "FIN24",
+"name": "Real options",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 8,
+"n_prereq_closure": 30,
+"closure_minutes": 2835,
+"n_unlocks": 0,
+"first_course": "CF"
+},
+{
+"id": "FIN25",
+"name": "Cost of equity and cost of debt",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 11,
+"n_prereq_closure": 20,
+"closure_minutes": 1905,
+"n_unlocks": 11,
+"first_course": "CF"
+},
+{
+"id": "FIN26",
+"name": "WACC",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 12,
+"n_prereq_closure": 21,
+"closure_minutes": 1995,
+"n_unlocks": 10,
+"first_course": "CF"
+},
+{
+"id": "FIN27",
+"name": "Capital structure: MM propositions",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 13,
+"n_prereq_closure": 22,
+"closure_minutes": 2145,
+"n_unlocks": 2,
+"first_course": "CF"
+},
+{
+"id": "FIN28",
+"name": "Trade-off and pecking-order theories",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 14,
+"n_prereq_closure": 23,
+"closure_minutes": 2235,
+"n_unlocks": 0,
+"first_course": "CF"
+},
+{
+"id": "FIN29",
+"name": "Dividend policy and buybacks",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 14,
+"n_prereq_closure": 25,
+"closure_minutes": 2415,
+"n_unlocks": 0,
+"first_course": "CF"
+},
+{
+"id": "FIN30",
+"name": "DCF valuation of a firm",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 13,
+"n_prereq_closure": 33,
+"closure_minutes": 3375,
+"n_unlocks": 3,
+"first_course": "CF"
+},
+{
+"id": "FIN31",
+"name": "Relative valuation: multiples",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 5,
+"n_prereq_closure": 12,
+"closure_minutes": 1095,
+"n_unlocks": 2,
+"first_course": "CF"
+},
+{
+"id": "FIN32",
+"name": "Working capital management",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 9,
+"closure_minutes": 870,
+"n_unlocks": 0,
+"first_course": "CF"
+},
+{
+"id": "FIN33",
+"name": "Financial planning and forecasting statements",
+"courses": [
+"CF"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 6,
+"n_prereq_closure": 12,
+"closure_minutes": 1290,
+"n_unlocks": 0,
+"first_course": "CF"
+},
+{
+"id": "FIN34",
+"name": "Mergers and acquisitions: synergies and valuation",
+"courses": [
+"CF",
+"SM"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 14,
+"n_prereq_closure": 38,
+"closure_minutes": 3780,
+"n_unlocks": 1,
+"first_course": "CF"
+},
+{
+"id": "FIN35",
+"name": "Corporate governance",
+"courses": [
+"CF",
+"SM",
+"LAB"
+],
+"primary": "CF",
+"domain": "Finance",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 180,
+"n_unlocks": 0,
+"first_course": "LAB"
+},
+{
+"id": "ECO01",
+"name": "Demand and supply basics",
+"courses": [
+"ME"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 90,
+"n_unlocks": 30,
+"first_course": "ME"
+},
+{
+"id": "ECO02",
+"name": "Market equilibrium and comparative statics",
+"courses": [
+"ME"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 25,
+"first_course": "ME"
+},
+{
+"id": "ECO03",
+"name": "Elasticities: price, income, cross",
+"courses": [
+"ME",
+"MKT-II"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 22,
+"first_course": "ME"
+},
+{
+"id": "ECO04",
+"name": "Consumer surplus and welfare",
+"courses": [
+"ME"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 3,
+"first_course": "ME"
+},
+{
+"id": "ECO05",
+"name": "Consumer choice: utility and indifference curves",
+"courses": [
+"ME"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 3,
+"closure_minutes": 315,
+"n_unlocks": 0,
+"first_course": "ME"
+},
+{
+"id": "ECO06",
+"name": "Production functions and returns to scale",
+"courses": [
+"ME"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 24,
+"first_course": "ME"
+},
+{
+"id": "ECO07",
+"name": "Cost curves and economies of scale",
+"courses": [
+"ME",
+"OM-I"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 7,
+"closure_minutes": 675,
+"n_unlocks": 21,
+"first_course": "ME"
+},
+{
+"id": "ECO08",
+"name": "Perfect competition",
+"courses": [
+"ME"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 10,
+"closure_minutes": 945,
+"n_unlocks": 20,
+"first_course": "ME"
+},
+{
+"id": "ECO09",
+"name": "Monopoly and market power",
+"courses": [
+"ME"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 6,
+"n_prereq_closure": 12,
+"closure_minutes": 1125,
+"n_unlocks": 19,
+"first_course": "ME"
+},
+{
+"id": "ECO10",
+"name": "Price discrimination and dynamic pricing",
+"courses": [
+"ME",
+"MKT-II"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 7,
+"n_prereq_closure": 13,
+"closure_minutes": 1215,
+"n_unlocks": 1,
+"first_course": "ME"
+},
+{
+"id": "ECO11",
+"name": "Game theory: strategic form and Nash equilibrium",
+"courses": [
+"ME",
+"SM"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 150,
+"n_unlocks": 7,
+"first_course": "ME"
+},
+{
+"id": "ECO12",
+"name": "Sequential games, commitment and credibility",
+"courses": [
+"ME",
+"SM"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 240,
+"n_unlocks": 2,
+"first_course": "ME"
+},
+{
+"id": "ECO13",
+"name": "Oligopoly: Cournot, Bertrand, Stackelberg",
+"courses": [
+"ME"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "L",
+"minutes": 150,
+"value": 4,
+"depth": 7,
+"n_prereq_closure": 15,
+"closure_minutes": 1515,
+"n_unlocks": 0,
+"first_course": "ME"
+},
+{
+"id": "ECO14",
+"name": "Monopolistic competition and product differentiation",
+"courses": [
+"ME",
+"MKT-I"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 7,
+"n_prereq_closure": 13,
+"closure_minutes": 1170,
+"n_unlocks": 0,
+"first_course": "ME"
+},
+{
+"id": "ECO15",
+"name": "Information asymmetry: adverse selection, signalling",
+"courses": [
+"ME"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 240,
+"n_unlocks": 3,
+"first_course": "ME"
+},
+{
+"id": "ECO16",
+"name": "Moral hazard and principal-agent incentives",
+"courses": [
+"ME",
+"HRM-II",
+"CF"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 330,
+"n_unlocks": 2,
+"first_course": "ME"
+},
+{
+"id": "ECO17",
+"name": "Externalities and public goods",
+"courses": [
+"ME",
+"BES",
+"GSP"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 3,
+"closure_minutes": 315,
+"n_unlocks": 2,
+"first_course": "ME"
+},
+{
+"id": "ECO18",
+"name": "Network effects and platform economics",
+"courses": [
+"ME",
+"IEB",
+"SM"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 7,
+"n_prereq_closure": 13,
+"closure_minutes": 1215,
+"n_unlocks": 2,
+"first_course": "ME"
+},
+{
+"id": "ECO19",
+"name": "Behavioural economics: biases and heuristics",
+"courses": [
+"ME",
+"MKT-I",
+"ID"
+],
+"primary": "ME",
+"domain": "Economics",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 90,
+"n_unlocks": 0,
+"first_course": "ME"
+},
+{
+"id": "ECO20",
+"name": "National income accounting and GDP",
+"courses": [
+"MEP"
+],
+"primary": "MEP",
+"domain": "Economics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 90,
+"n_unlocks": 12,
+"first_course": "MEP"
+},
+{
+"id": "ECO21",
+"name": "Inflation and price indices",
+"courses": [
+"MEP",
+"FM"
+],
+"primary": "MEP",
+"domain": "Economics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 5,
+"first_course": "MEP"
+},
+{
+"id": "ECO22",
+"name": "Money, banking and money creation",
+"courses": [
+"MEP"
+],
+"primary": "MEP",
+"domain": "Economics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 2,
+"closure_minutes": 270,
+"n_unlocks": 5,
+"first_course": "MEP"
+},
+{
+"id": "ECO23",
+"name": "Monetary policy: RBI, repo rate, transmission",
+"courses": [
+"MEP",
+"FM"
+],
+"primary": "MEP",
+"domain": "Economics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 2,
+"n_prereq_closure": 6,
+"closure_minutes": 540,
+"n_unlocks": 4,
+"first_course": "MEP"
+},
+{
+"id": "ECO24",
+"name": "Fiscal policy, deficits and public debt",
+"courses": [
+"MEP",
+"GSP"
+],
+"primary": "MEP",
+"domain": "Economics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 5,
+"first_course": "MEP"
+},
+{
+"id": "ECO25",
+"name": "IS-LM and aggregate demand",
+"courses": [
+"MEP"
+],
+"primary": "MEP",
+"domain": "Economics",
+"term": 2,
+"size": "L",
+"minutes": 150,
+"value": 3,
+"depth": 3,
+"n_prereq_closure": 8,
+"closure_minutes": 780,
+"n_unlocks": 1,
+"first_course": "MEP"
+},
+{
+"id": "ECO26",
+"name": "Aggregate supply, Phillips curve, business cycles",
+"courses": [
+"MEP"
+],
+"primary": "MEP",
+"domain": "Economics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 4,
+"n_prereq_closure": 9,
+"closure_minutes": 870,
+"n_unlocks": 0,
+"first_course": "MEP"
+},
+{
+"id": "ECO27",
+"name": "Open economy: balance of payments and exchange rates",
+"courses": [
+"MEP",
+"FM"
+],
+"primary": "MEP",
+"domain": "Economics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 7,
+"closure_minutes": 630,
+"n_unlocks": 1,
+"first_course": "MEP"
+},
+{
+"id": "ECO28",
+"name": "Long-run growth and its drivers",
+"courses": [
+"MEP"
+],
+"primary": "MEP",
+"domain": "Economics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 405,
+"n_unlocks": 1,
+"first_course": "MEP"
+},
+{
+"id": "ECO29",
+"name": "Indian economy: structure and reforms",
+"courses": [
+"MEP",
+"GSP"
+],
+"primary": "MEP",
+"domain": "Economics",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 4,
+"n_prereq_closure": 6,
+"closure_minutes": 585,
+"n_unlocks": 0,
+"first_course": "MEP"
+},
+{
+"id": "MKT01",
+"name": "Marketing concept and customer value",
+"courses": [
+"MKT-I"
+],
+"primary": "MKT-I",
+"domain": "Marketing",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 45,
+"n_unlocks": 38,
+"first_course": "MKT-I"
+},
+{
+"id": "MKT02",
+"name": "Consumer behaviour and customer needs",
+"courses": [
+"MKT-I"
+],
+"primary": "MKT-I",
+"domain": "Marketing",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 26,
+"first_course": "MKT-I"
+},
+{
+"id": "MKT03",
+"name": "Buying decision process and B2B buying",
+"courses": [
+"MKT-I"
+],
+"primary": "MKT-I",
+"domain": "Marketing",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 0,
+"first_course": "MKT-I"
+},
+{
+"id": "MKT04",
+"name": "Defining a marketing research problem",
+"courses": [
+"MKT-I",
+"BRM"
+],
+"primary": "MKT-I",
+"domain": "Marketing",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 90,
+"n_unlocks": 29,
+"first_course": "MKT-I"
+},
+{
+"id": "MKT05",
+"name": "Market sizing and demand estimation",
+"courses": [
+"MKT-I"
+],
+"primary": "MKT-I",
+"domain": "Marketing",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 2,
+"n_prereq_closure": 3,
+"closure_minutes": 225,
+"n_unlocks": 19,
+"first_course": "MKT-I"
+},
+{
+"id": "MKT06",
+"name": "Segmentation",
+"courses": [
+"MKT-I"
+],
+"primary": "MKT-I",
+"domain": "Marketing",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 24,
+"first_course": "MKT-I"
+},
+{
+"id": "MKT07",
+"name": "Targeting and segment attractiveness",
+"courses": [
+"MKT-I"
+],
+"primary": "MKT-I",
+"domain": "Marketing",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 3,
+"n_prereq_closure": 6,
+"closure_minutes": 495,
+"n_unlocks": 18,
+"first_course": "MKT-I"
+},
+{
+"id": "MKT08",
+"name": "Positioning and perceptual maps",
+"courses": [
+"MKT-I"
+],
+"primary": "MKT-I",
+"domain": "Marketing",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 7,
+"closure_minutes": 585,
+"n_unlocks": 14,
+"first_course": "MKT-I"
+},
+{
+"id": "MKT09",
+"name": "Competitor analysis for marketers",
+"courses": [
+"MKT-I"
+],
+"primary": "MKT-I",
+"domain": "Marketing",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 630,
+"n_unlocks": 0,
+"first_course": "MKT-I"
+},
+{
+"id": "MKT10",
+"name": "Product decisions and product life cycle",
+"courses": [
+"MKT-I"
+],
+"primary": "MKT-I",
+"domain": "Marketing",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 675,
+"n_unlocks": 2,
+"first_course": "MKT-I"
+},
+{
+"id": "MKT11",
+"name": "New product development and diffusion (Bass model)",
+"courses": [
+"MKT-II"
+],
+"primary": "MKT-II",
+"domain": "Marketing",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 6,
+"n_prereq_closure": 9,
+"closure_minutes": 765,
+"n_unlocks": 1,
+"first_course": "MKT-II"
+},
+{
+"id": "MKT12",
+"name": "Brand equity and brand management",
+"courses": [
+"MKT-II"
+],
+"primary": "MKT-II",
+"domain": "Marketing",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 675,
+"n_unlocks": 0,
+"first_course": "MKT-II"
+},
+{
+"id": "MKT13",
+"name": "Pricing strategy: cost, value and competition based",
+"courses": [
+"MKT-II"
+],
+"primary": "MKT-II",
+"domain": "Marketing",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 5,
+"n_prereq_closure": 15,
+"closure_minutes": 1305,
+"n_unlocks": 3,
+"first_course": "MKT-II"
+},
+{
+"id": "MKT14",
+"name": "Pricing tactics: bundling, psychological pricing",
+"courses": [
+"MKT-II"
+],
+"primary": "MKT-II",
+"domain": "Marketing",
+"term": 2,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 8,
+"n_prereq_closure": 24,
+"closure_minutes": 2025,
+"n_unlocks": 0,
+"first_course": "MKT-II"
+},
+{
+"id": "MKT15",
+"name": "Distribution channels and channel design",
+"courses": [
+"MKT-II"
+],
+"primary": "MKT-II",
+"domain": "Marketing",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 4,
+"n_prereq_closure": 7,
+"closure_minutes": 585,
+"n_unlocks": 4,
+"first_course": "MKT-II"
+},
+{
+"id": "MKT16",
+"name": "Channel conflict and retail management",
+"courses": [
+"MKT-II"
+],
+"primary": "MKT-II",
+"domain": "Marketing",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 675,
+"n_unlocks": 0,
+"first_course": "MKT-II"
+},
+{
+"id": "MKT17",
+"name": "Integrated marketing communications",
+"courses": [
+"MKT-II"
+],
+"primary": "MKT-II",
+"domain": "Marketing",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 675,
+"n_unlocks": 5,
+"first_course": "MKT-II"
+},
+{
+"id": "MKT18",
+"name": "Advertising budgets and media planning",
+"courses": [
+"MKT-II"
+],
+"primary": "MKT-II",
+"domain": "Marketing",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 6,
+"n_prereq_closure": 14,
+"closure_minutes": 1215,
+"n_unlocks": 0,
+"first_course": "MKT-II"
+},
+{
+"id": "MKT19",
+"name": "Sales management and salesforce design",
+"courses": [
+"MKT-II"
+],
+"primary": "MKT-II",
+"domain": "Marketing",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 675,
+"n_unlocks": 0,
+"first_course": "MKT-II"
+},
+{
+"id": "MKT20",
+"name": "Digital marketing and funnel metrics",
+"courses": [
+"MKT-III",
+"IEB"
+],
+"primary": "MKT-III",
+"domain": "Marketing",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 6,
+"n_prereq_closure": 9,
+"closure_minutes": 765,
+"n_unlocks": 0,
+"first_course": "MKT-III"
+},
+{
+"id": "MKT21",
+"name": "Customer lifetime value",
+"courses": [
+"MKT-III",
+"IEB"
+],
+"primary": "MKT-III",
+"domain": "Marketing",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 7,
+"closure_minutes": 585,
+"n_unlocks": 3,
+"first_course": "MKT-III"
+},
+{
+"id": "MKT22",
+"name": "CRM, loyalty and retention",
+"courses": [
+"MKT-III"
+],
+"primary": "MKT-III",
+"domain": "Marketing",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 630,
+"n_unlocks": 0,
+"first_course": "MKT-III"
+},
+{
+"id": "MKT23",
+"name": "Marketing mix modelling and marketing ROI",
+"courses": [
+"MKT-III"
+],
+"primary": "MKT-III",
+"domain": "Marketing",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 11,
+"n_prereq_closure": 21,
+"closure_minutes": 1890,
+"n_unlocks": 0,
+"first_course": "MKT-III"
+},
+{
+"id": "MKT24",
+"name": "Services marketing",
+"courses": [
+"MKT-III"
+],
+"primary": "MKT-III",
+"domain": "Marketing",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 630,
+"n_unlocks": 0,
+"first_course": "MKT-III"
+},
+{
+"id": "MKT25",
+"name": "Go-to-market strategy and the marketing plan",
+"courses": [
+"MKT-III"
+],
+"primary": "MKT-III",
+"domain": "Marketing",
+"term": 3,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 6,
+"n_prereq_closure": 18,
+"closure_minutes": 1635,
+"n_unlocks": 1,
+"first_course": "MKT-III"
+},
+{
+"id": "OPS01",
+"name": "Process analysis: flow, capacity, bottleneck",
+"courses": [
+"OM-I"
+],
+"primary": "OM-I",
+"domain": "Operations",
+"term": 1,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 150,
+"n_unlocks": 16,
+"first_course": "OM-I"
+},
+{
+"id": "OPS02",
+"name": "Little's law",
+"courses": [
+"OM-I"
+],
+"primary": "OM-I",
+"domain": "Operations",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 5,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 195,
+"n_unlocks": 3,
+"first_course": "OM-I"
+},
+{
+"id": "OPS03",
+"name": "Process flow charts and process design",
+"courses": [
+"OM-I"
+],
+"primary": "OM-I",
+"domain": "Operations",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 195,
+"n_unlocks": 0,
+"first_course": "OM-I"
+},
+{
+"id": "OPS04",
+"name": "Capacity planning and utilisation",
+"courses": [
+"OM-I"
+],
+"primary": "OM-I",
+"domain": "Operations",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 240,
+"n_unlocks": 4,
+"first_course": "OM-I"
+},
+{
+"id": "OPS05",
+"name": "Variability and queueing basics",
+"courses": [
+"OM-I"
+],
+"primary": "OM-I",
+"domain": "Operations",
+"term": 1,
+"size": "L",
+"minutes": 150,
+"value": 4,
+"depth": 4,
+"n_prereq_closure": 7,
+"closure_minutes": 705,
+"n_unlocks": 2,
+"first_course": "OM-I"
+},
+{
+"id": "OPS06",
+"name": "Managing waiting lines in services",
+"courses": [
+"OM-III",
+"SOM"
+],
+"primary": "OM-III",
+"domain": "Operations",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 750,
+"n_unlocks": 0,
+"first_course": "OM-III"
+},
+{
+"id": "OPS07",
+"name": "Forecasting methods",
+"courses": [
+"OM-I"
+],
+"primary": "OM-I",
+"domain": "Operations",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 10,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 6,
+"first_course": "OM-I"
+},
+{
+"id": "OPS08",
+"name": "Forecast accuracy: MAD, MAPE, bias",
+"courses": [
+"OM-I"
+],
+"primary": "OM-I",
+"domain": "Operations",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 11,
+"n_prereq_closure": 3,
+"closure_minutes": 270,
+"n_unlocks": 0,
+"first_course": "OM-I"
+},
+{
+"id": "OPS09",
+"name": "Inventory basics and inventory costs",
+"courses": [
+"OM-II"
+],
+"primary": "OM-II",
+"domain": "Operations",
+"term": 2,
+"size": "S",
+"minutes": 45,
+"value": 4,
+"depth": 4,
+"n_prereq_closure": 4,
+"closure_minutes": 405,
+"n_unlocks": 12,
+"first_course": "OM-II"
+},
+{
+"id": "OPS10",
+"name": "EOQ model",
+"courses": [
+"OM-II"
+],
+"primary": "OM-II",
+"domain": "Operations",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 5,
+"n_prereq_closure": 7,
+"closure_minutes": 630,
+"n_unlocks": 6,
+"first_course": "OM-II"
+},
+{
+"id": "OPS11",
+"name": "Reorder point and safety stock",
+"courses": [
+"OM-II"
+],
+"primary": "OM-II",
+"domain": "Operations",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 6,
+"n_prereq_closure": 13,
+"closure_minutes": 1125,
+"n_unlocks": 5,
+"first_course": "OM-II"
+},
+{
+"id": "OPS12",
+"name": "Newsvendor model",
+"courses": [
+"OM-II"
+],
+"primary": "OM-II",
+"domain": "Operations",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 5,
+"n_prereq_closure": 12,
+"closure_minutes": 1035,
+"n_unlocks": 1,
+"first_course": "OM-II"
+},
+{
+"id": "OPS13",
+"name": "ABC analysis and inventory policies",
+"courses": [
+"OM-II"
+],
+"primary": "OM-II",
+"domain": "Operations",
+"term": 2,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 5,
+"closure_minutes": 450,
+"n_unlocks": 0,
+"first_course": "OM-II"
+},
+{
+"id": "OPS14",
+"name": "Aggregate planning",
+"courses": [
+"OM-II"
+],
+"primary": "OM-II",
+"domain": "Operations",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 4,
+"closure_minutes": 525,
+"n_unlocks": 1,
+"first_course": "OM-II"
+},
+{
+"id": "OPS15",
+"name": "Material requirements planning (MRP)",
+"courses": [
+"OM-II"
+],
+"primary": "OM-II",
+"domain": "Operations",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 3,
+"n_prereq_closure": 5,
+"closure_minutes": 615,
+"n_unlocks": 0,
+"first_course": "OM-II"
+},
+{
+"id": "OPS16",
+"name": "Scheduling and sequencing",
+"courses": [
+"OM-II"
+],
+"primary": "OM-II",
+"domain": "Operations",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 240,
+"n_unlocks": 0,
+"first_course": "OM-II"
+},
+{
+"id": "OPS17",
+"name": "Project management: CPM and PERT",
+"courses": [
+"OM-II"
+],
+"primary": "OM-II",
+"domain": "Operations",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 1,
+"closure_minutes": 240,
+"n_unlocks": 0,
+"first_course": "OM-II"
+},
+{
+"id": "OPS18",
+"name": "Quality management and TQM",
+"courses": [
+"OM-III"
+],
+"primary": "OM-III",
+"domain": "Operations",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 240,
+"n_unlocks": 2,
+"first_course": "OM-III"
+},
+{
+"id": "OPS19",
+"name": "Statistical process control",
+"courses": [
+"OM-III"
+],
+"primary": "OM-III",
+"domain": "Operations",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 8,
+"n_prereq_closure": 11,
+"closure_minutes": 1005,
+"n_unlocks": 1,
+"first_course": "OM-III"
+},
+{
+"id": "OPS20",
+"name": "Six Sigma and process capability",
+"courses": [
+"OM-III"
+],
+"primary": "OM-III",
+"domain": "Operations",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 9,
+"n_prereq_closure": 12,
+"closure_minutes": 1095,
+"n_unlocks": 0,
+"first_course": "OM-III"
+},
+{
+"id": "OPS21",
+"name": "Lean and the Toyota Production System",
+"courses": [
+"OM-III"
+],
+"primary": "OM-III",
+"domain": "Operations",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 5,
+"n_prereq_closure": 6,
+"closure_minutes": 645,
+"n_unlocks": 2,
+"first_course": "OM-III"
+},
+{
+"id": "OPS22",
+"name": "Supply chain basics and the bullwhip effect",
+"courses": [
+"OM-III"
+],
+"primary": "OM-III",
+"domain": "Operations",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 11,
+"n_prereq_closure": 16,
+"closure_minutes": 1395,
+"n_unlocks": 4,
+"first_course": "OM-III"
+},
+{
+"id": "OPS23",
+"name": "Supply chain coordination and contracts",
+"courses": [
+"OM-III"
+],
+"primary": "OM-III",
+"domain": "Operations",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 12,
+"n_prereq_closure": 19,
+"closure_minutes": 1665,
+"n_unlocks": 0,
+"first_course": "OM-III"
+},
+{
+"id": "OPS24",
+"name": "Logistics: facility location and transportation",
+"courses": [
+"OM-III"
+],
+"primary": "OM-III",
+"domain": "Operations",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 12,
+"n_prereq_closure": 19,
+"closure_minutes": 1725,
+"n_unlocks": 0,
+"first_course": "OM-III"
+},
+{
+"id": "OPS25",
+"name": "Sourcing and procurement",
+"courses": [
+"OM-III"
+],
+"primary": "OM-III",
+"domain": "Operations",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 12,
+"n_prereq_closure": 18,
+"closure_minutes": 1530,
+"n_unlocks": 1,
+"first_course": "OM-III"
+},
+{
+"id": "OPS26",
+"name": "Service operations and service design",
+"courses": [
+"SOM",
+"OM-III"
+],
+"primary": "SOM",
+"domain": "Operations",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 750,
+"n_unlocks": 0,
+"first_course": "SOM"
+},
+{
+"id": "OPS27",
+"name": "Operations strategy and trade-offs",
+"courses": [
+"OM-III",
+"SM"
+],
+"primary": "OM-III",
+"domain": "Operations",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 6,
+"n_prereq_closure": 8,
+"closure_minutes": 825,
+"n_unlocks": 1,
+"first_course": "OM-III"
+},
+{
+"id": "OBH01",
+"name": "Personality and individual differences",
+"courses": [
+"ID"
+],
+"primary": "ID",
+"domain": "OB & HR",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 90,
+"n_unlocks": 18,
+"first_course": "ID"
+},
+{
+"id": "OBH02",
+"name": "Perception and attribution",
+"courses": [
+"ID"
+],
+"primary": "ID",
+"domain": "OB & HR",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 10,
+"first_course": "ID"
+},
+{
+"id": "OBH03",
+"name": "Self-awareness and emotional intelligence",
+"courses": [
+"ID"
+],
+"primary": "ID",
+"domain": "OB & HR",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 4,
+"first_course": "ID"
+},
+{
+"id": "OBH04",
+"name": "Motivation theories: needs, two-factor, expectancy",
+"courses": [
+"ID",
+"HRM-I"
+],
+"primary": "ID",
+"domain": "OB & HR",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 7,
+"first_course": "ID"
+},
+{
+"id": "OBH05",
+"name": "Group dynamics and team development",
+"courses": [
+"IGP"
+],
+"primary": "IGP",
+"domain": "OB & HR",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 9,
+"first_course": "IGP"
+},
+{
+"id": "OBH06",
+"name": "Interpersonal communication and feedback",
+"courses": [
+"IGP"
+],
+"primary": "IGP",
+"domain": "OB & HR",
+"term": 2,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 180,
+"n_unlocks": 3,
+"first_course": "IGP"
+},
+{
+"id": "OBH07",
+"name": "Conflict management",
+"courses": [
+"IGP"
+],
+"primary": "IGP",
+"domain": "OB & HR",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 5,
+"closure_minutes": 405,
+"n_unlocks": 1,
+"first_course": "IGP"
+},
+{
+"id": "OBH08",
+"name": "Negotiation basics: BATNA, ZOPA",
+"courses": [
+"IGP"
+],
+"primary": "IGP",
+"domain": "OB & HR",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 4,
+"n_prereq_closure": 6,
+"closure_minutes": 495,
+"n_unlocks": 0,
+"first_course": "IGP"
+},
+{
+"id": "OBH09",
+"name": "Leadership theories",
+"courses": [
+"ODY"
+],
+"primary": "ODY",
+"domain": "OB & HR",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 405,
+"n_unlocks": 2,
+"first_course": "ODY"
+},
+{
+"id": "OBH10",
+"name": "Power and influence",
+"courses": [
+"ODY"
+],
+"primary": "ODY",
+"domain": "OB & HR",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 4,
+"n_prereq_closure": 5,
+"closure_minutes": 495,
+"n_unlocks": 1,
+"first_course": "ODY"
+},
+{
+"id": "OBH11",
+"name": "Organisational structure and design",
+"courses": [
+"ODY",
+"SM"
+],
+"primary": "ODY",
+"domain": "OB & HR",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 3,
+"closure_minutes": 315,
+"n_unlocks": 4,
+"first_course": "ODY"
+},
+{
+"id": "OBH12",
+"name": "Organisational culture",
+"courses": [
+"ODY"
+],
+"primary": "ODY",
+"domain": "OB & HR",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 4,
+"n_prereq_closure": 4,
+"closure_minutes": 405,
+"n_unlocks": 2,
+"first_course": "ODY"
+},
+{
+"id": "OBH13",
+"name": "Change management",
+"courses": [
+"ODY"
+],
+"primary": "ODY",
+"domain": "OB & HR",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 5,
+"n_prereq_closure": 8,
+"closure_minutes": 765,
+"n_unlocks": 0,
+"first_course": "ODY"
+},
+{
+"id": "OBH14",
+"name": "HR planning and job analysis",
+"courses": [
+"HRM-I"
+],
+"primary": "HRM-I",
+"domain": "OB & HR",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 45,
+"n_unlocks": 6,
+"first_course": "HRM-I"
+},
+{
+"id": "OBH15",
+"name": "Recruitment and selection",
+"courses": [
+"HRM-I"
+],
+"primary": "HRM-I",
+"domain": "OB & HR",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 1,
+"first_course": "HRM-I"
+},
+{
+"id": "OBH16",
+"name": "Performance management and appraisal",
+"courses": [
+"HRM-I"
+],
+"primary": "HRM-I",
+"domain": "OB & HR",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 2,
+"n_prereq_closure": 3,
+"closure_minutes": 315,
+"n_unlocks": 3,
+"first_course": "HRM-I"
+},
+{
+"id": "OBH17",
+"name": "Compensation and incentive design",
+"courses": [
+"HRM-II"
+],
+"primary": "HRM-II",
+"domain": "OB & HR",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 7,
+"closure_minutes": 735,
+"n_unlocks": 1,
+"first_course": "HRM-II"
+},
+{
+"id": "OBH18",
+"name": "Training and development",
+"courses": [
+"HRM-II"
+],
+"primary": "HRM-II",
+"domain": "OB & HR",
+"term": 2,
+"size": "S",
+"minutes": 45,
+"value": 2,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 360,
+"n_unlocks": 0,
+"first_course": "HRM-II"
+},
+{
+"id": "OBH19",
+"name": "Industrial relations and labour law in India",
+"courses": [
+"HRM-II",
+"LAB"
+],
+"primary": "HRM-II",
+"domain": "OB & HR",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 0,
+"first_course": "LAB"
+},
+{
+"id": "OBH20",
+"name": "Strategic HRM and talent management",
+"courses": [
+"SHRM",
+"TCM"
+],
+"primary": "SHRM",
+"domain": "OB & HR",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 13,
+"closure_minutes": 1230,
+"n_unlocks": 0,
+"first_course": "SHRM"
+},
+{
+"id": "STR01",
+"name": "Strategy basics: vision, mission, goals",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 4,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 45,
+"n_unlocks": 16,
+"first_course": "SM"
+},
+{
+"id": "STR02",
+"name": "PESTEL and macro-environment analysis",
+"courses": [
+"SM",
+"BES"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 90,
+"n_unlocks": 0,
+"first_course": "SM"
+},
+{
+"id": "STR03",
+"name": "Porter's five forces",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 7,
+"n_prereq_closure": 14,
+"closure_minutes": 1260,
+"n_unlocks": 12,
+"first_course": "SM"
+},
+{
+"id": "STR04",
+"name": "Industry life cycle and strategic groups",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 8,
+"n_prereq_closure": 15,
+"closure_minutes": 1305,
+"n_unlocks": 0,
+"first_course": "SM"
+},
+{
+"id": "STR05",
+"name": "Value chain analysis",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 12,
+"first_course": "SM"
+},
+{
+"id": "STR06",
+"name": "Resource-based view and VRIO",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 11,
+"first_course": "SM"
+},
+{
+"id": "STR07",
+"name": "Competitive advantage: cost leadership vs differentiation",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 8,
+"n_prereq_closure": 17,
+"closure_minutes": 1530,
+"n_unlocks": 10,
+"first_course": "SM"
+},
+{
+"id": "STR08",
+"name": "Competitive dynamics: strategic moves and responses",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 9,
+"n_prereq_closure": 20,
+"closure_minutes": 1860,
+"n_unlocks": 0,
+"first_course": "SM"
+},
+{
+"id": "STR09",
+"name": "Platform and ecosystem strategy",
+"courses": [
+"SM",
+"IEB"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 9,
+"n_prereq_closure": 19,
+"closure_minutes": 1710,
+"n_unlocks": 1,
+"first_course": "SM"
+},
+{
+"id": "STR10",
+"name": "Corporate strategy: diversification and scope",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 9,
+"n_prereq_closure": 18,
+"closure_minutes": 1620,
+"n_unlocks": 4,
+"first_course": "SM"
+},
+{
+"id": "STR11",
+"name": "Vertical integration and outsourcing",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 13,
+"n_prereq_closure": 32,
+"closure_minutes": 2745,
+"n_unlocks": 0,
+"first_course": "SM"
+},
+{
+"id": "STR12",
+"name": "Alliances and M&A strategy",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 15,
+"n_prereq_closure": 53,
+"closure_minutes": 5085,
+"n_unlocks": 0,
+"first_course": "SM"
+},
+{
+"id": "STR13",
+"name": "International strategy and entry modes",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 10,
+"n_prereq_closure": 19,
+"closure_minutes": 1710,
+"n_unlocks": 0,
+"first_course": "SM"
+},
+{
+"id": "STR14",
+"name": "Innovation and disruptive technologies",
+"courses": [
+"SM"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 9,
+"n_prereq_closure": 28,
+"closure_minutes": 2385,
+"n_unlocks": 0,
+"first_course": "SM"
+},
+{
+"id": "STR15",
+"name": "Strategy implementation and execution",
+"courses": [
+"SM",
+"ODY"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 15,
+"n_prereq_closure": 53,
+"closure_minutes": 4905,
+"n_unlocks": 0,
+"first_course": "SM"
+},
+{
+"id": "STR16",
+"name": "Integrative business case analysis",
+"courses": [
+"SM",
+"WAC-II"
+],
+"primary": "SM",
+"domain": "Strategy",
+"term": 3,
+"size": "L",
+"minutes": 150,
+"value": 5,
+"depth": 14,
+"n_prereq_closure": 67,
+"closure_minutes": 6435,
+"n_unlocks": 0,
+"first_course": "SM"
+},
+{
+"id": "RES01",
+"name": "Research design: exploratory, descriptive, causal",
+"courses": [
+"BRM"
+],
+"primary": "BRM",
+"domain": "Research Methods",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 180,
+"n_unlocks": 8,
+"first_course": "BRM"
+},
+{
+"id": "RES02",
+"name": "Measurement, scales, reliability and validity",
+"courses": [
+"BRM"
+],
+"primary": "BRM",
+"domain": "Research Methods",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 3,
+"n_prereq_closure": 3,
+"closure_minutes": 270,
+"n_unlocks": 3,
+"first_course": "BRM"
+},
+{
+"id": "RES03",
+"name": "Questionnaire and survey design",
+"courses": [
+"BRM",
+"MKT-III"
+],
+"primary": "BRM",
+"domain": "Research Methods",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 4,
+"n_prereq_closure": 4,
+"closure_minutes": 360,
+"n_unlocks": 1,
+"first_course": "BRM"
+},
+{
+"id": "RES04",
+"name": "Sampling methods and sample size",
+"courses": [
+"BRM"
+],
+"primary": "BRM",
+"domain": "Research Methods",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 8,
+"n_prereq_closure": 12,
+"closure_minutes": 945,
+"n_unlocks": 0,
+"first_course": "BRM"
+},
+{
+"id": "RES05",
+"name": "Experiments and A/B testing",
+"courses": [
+"BRM",
+"IEB"
+],
+"primary": "BRM",
+"domain": "Research Methods",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 10,
+"n_prereq_closure": 14,
+"closure_minutes": 1185,
+"n_unlocks": 1,
+"first_course": "BRM"
+},
+{
+"id": "RES06",
+"name": "Factor analysis",
+"courses": [
+"BRM"
+],
+"primary": "BRM",
+"domain": "Research Methods",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 4,
+"n_prereq_closure": 9,
+"closure_minutes": 675,
+"n_unlocks": 0,
+"first_course": "BRM"
+},
+{
+"id": "RES07",
+"name": "Cluster analysis",
+"courses": [
+"BRM",
+"MKT-I"
+],
+"primary": "BRM",
+"domain": "Research Methods",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 4,
+"n_prereq_closure": 8,
+"closure_minutes": 630,
+"n_unlocks": 0,
+"first_course": "MKT-I"
+},
+{
+"id": "RES08",
+"name": "Conjoint analysis",
+"courses": [
+"BRM",
+"MKT-II"
+],
+"primary": "BRM",
+"domain": "Research Methods",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 12,
+"n_prereq_closure": 19,
+"closure_minutes": 1710,
+"n_unlocks": 0,
+"first_course": "MKT-II"
+},
+{
+"id": "RES09",
+"name": "Qualitative research: interviews and focus groups",
+"courses": [
+"BRM"
+],
+"primary": "BRM",
+"domain": "Research Methods",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 3,
+"n_prereq_closure": 3,
+"closure_minutes": 225,
+"n_unlocks": 0,
+"first_course": "BRM"
+},
+{
+"id": "RES10",
+"name": "Causal inference: endogeneity, diff-in-diff",
+"courses": [
+"BRM"
+],
+"primary": "BRM",
+"domain": "Research Methods",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 11,
+"n_prereq_closure": 18,
+"closure_minutes": 1620,
+"n_unlocks": 0,
+"first_course": "BRM"
+},
+{
+"id": "LAW01",
+"name": "Indian legal system and sources of law",
+"courses": [
+"LAB"
+],
+"primary": "LAB",
+"domain": "Law",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 2,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 45,
+"n_unlocks": 8,
+"first_course": "LAB"
+},
+{
+"id": "LAW02",
+"name": "Contract law: formation, consideration, breach",
+"courses": [
+"LAB"
+],
+"primary": "LAB",
+"domain": "Law",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 3,
+"first_course": "LAB"
+},
+{
+"id": "LAW03",
+"name": "Agency, sale of goods, negotiable instruments",
+"courses": [
+"LAB"
+],
+"primary": "LAB",
+"domain": "Law",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 2,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 0,
+"first_course": "LAB"
+},
+{
+"id": "LAW04",
+"name": "Company law: incorporation and directors' duties",
+"courses": [
+"LAB"
+],
+"primary": "LAB",
+"domain": "Law",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 1,
+"first_course": "LAB"
+},
+{
+"id": "LAW05",
+"name": "Intellectual property basics",
+"courses": [
+"LAB"
+],
+"primary": "LAB",
+"domain": "Law",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 90,
+"n_unlocks": 0,
+"first_course": "LAB"
+},
+{
+"id": "LAW06",
+"name": "Competition law and consumer protection",
+"courses": [
+"LAB"
+],
+"primary": "LAB",
+"domain": "Law",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 7,
+"n_prereq_closure": 14,
+"closure_minutes": 1215,
+"n_unlocks": 0,
+"first_course": "LAB"
+},
+{
+"id": "LAW07",
+"name": "Insolvency and Bankruptcy Code",
+"courses": [
+"LAB",
+"CF"
+],
+"primary": "LAB",
+"domain": "Law",
+"term": 1,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 3,
+"n_prereq_closure": 3,
+"closure_minutes": 270,
+"n_unlocks": 0,
+"first_course": "LAB"
+},
+{
+"id": "ITD01",
+"name": "Information systems and business value",
+"courses": [
+"TBIT"
+],
+"primary": "TBIT",
+"domain": "IT & Digital",
+"term": 2,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 45,
+"n_unlocks": 7,
+"first_course": "TBIT"
+},
+{
+"id": "ITD02",
+"name": "Enterprise systems: ERP, CRM, SCM",
+"courses": [
+"TBIT",
+"OM-II"
+],
+"primary": "TBIT",
+"domain": "IT & Digital",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 135,
+"n_unlocks": 1,
+"first_course": "TBIT"
+},
+{
+"id": "ITD03",
+"name": "Data, analytics and business intelligence",
+"courses": [
+"TBIT"
+],
+"primary": "TBIT",
+"domain": "IT & Digital",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 2,
+"n_prereq_closure": 3,
+"closure_minutes": 315,
+"n_unlocks": 2,
+"first_course": "TBIT"
+},
+{
+"id": "ITD04",
+"name": "Machine learning for managers",
+"courses": [
+"TBIT"
+],
+"primary": "TBIT",
+"domain": "IT & Digital",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 12,
+"n_prereq_closure": 19,
+"closure_minutes": 1755,
+"n_unlocks": 0,
+"first_course": "TBIT"
+},
+{
+"id": "ITD05",
+"name": "Digital transformation and IT strategy",
+"courses": [
+"TBIT",
+"SM"
+],
+"primary": "TBIT",
+"domain": "IT & Digital",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 225,
+"n_unlocks": 0,
+"first_course": "TBIT"
+},
+{
+"id": "ITD06",
+"name": "Internet business models and unit economics",
+"courses": [
+"IEB"
+],
+"primary": "IEB",
+"domain": "IT & Digital",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 5,
+"n_prereq_closure": 14,
+"closure_minutes": 1170,
+"n_unlocks": 1,
+"first_course": "IEB"
+},
+{
+"id": "ITD07",
+"name": "E-commerce and marketplaces",
+"courses": [
+"IEB"
+],
+"primary": "IEB",
+"domain": "IT & Digital",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 10,
+"n_prereq_closure": 30,
+"closure_minutes": 2565,
+"n_unlocks": 0,
+"first_course": "IEB"
+},
+{
+"id": "ITD08",
+"name": "Cybersecurity, privacy and data governance",
+"courses": [
+"TBIT"
+],
+"primary": "TBIT",
+"domain": "IT & Digital",
+"term": 2,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 360,
+"n_unlocks": 0,
+"first_course": "TBIT"
+},
+{
+"id": "ENV01",
+"name": "Business ethics frameworks",
+"courses": [
+"PCE"
+],
+"primary": "PCE",
+"domain": "Ethics, Society & Env",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 90,
+"n_unlocks": 3,
+"first_course": "PCE"
+},
+{
+"id": "ENV02",
+"name": "Stakeholder theory and CSR",
+"courses": [
+"PCE",
+"BES"
+],
+"primary": "PCE",
+"domain": "Ethics, Society & Env",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 2,
+"first_course": "PCE"
+},
+{
+"id": "ENV03",
+"name": "Sustainability and ESG metrics",
+"courses": [
+"BES",
+"FM"
+],
+"primary": "BES",
+"domain": "Ethics, Society & Env",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 4,
+"n_prereq_closure": 6,
+"closure_minutes": 585,
+"n_unlocks": 1,
+"first_course": "BES"
+},
+{
+"id": "ENV04",
+"name": "Climate change and carbon markets",
+"courses": [
+"BES"
+],
+"primary": "BES",
+"domain": "Ethics, Society & Env",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 5,
+"n_prereq_closure": 7,
+"closure_minutes": 675,
+"n_unlocks": 0,
+"first_course": "BES"
+},
+{
+"id": "ENV05",
+"name": "Social and cultural environment of Indian business",
+"courses": [
+"SCEB"
+],
+"primary": "SCEB",
+"domain": "Ethics, Society & Env",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 90,
+"n_unlocks": 0,
+"first_course": "SCEB"
+},
+{
+"id": "ENV06",
+"name": "Public policy process and regulation",
+"courses": [
+"GSP"
+],
+"primary": "GSP",
+"domain": "Ethics, Society & Env",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 3,
+"depth": 2,
+"n_prereq_closure": 3,
+"closure_minutes": 315,
+"n_unlocks": 1,
+"first_course": "GSP"
+},
+{
+"id": "ENV07",
+"name": "Business-government relations",
+"courses": [
+"GSP"
+],
+"primary": "GSP",
+"domain": "Ethics, Society & Env",
+"term": 3,
+"size": "S",
+"minutes": 45,
+"value": 3,
+"depth": 3,
+"n_prereq_closure": 4,
+"closure_minutes": 360,
+"n_unlocks": 0,
+"first_course": "GSP"
+},
+{
+"id": "COM01",
+"name": "Structuring communication: the pyramid principle",
+"courses": [
+"MGRCMN",
+"WAC-I"
+],
+"primary": "MGRCMN",
+"domain": "Communication",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 0,
+"n_prereq_closure": 0,
+"closure_minutes": 90,
+"n_unlocks": 5,
+"first_course": "MGRCMN"
+},
+{
+"id": "COM02",
+"name": "Business writing: memos, emails, reports",
+"courses": [
+"WAC-I"
+],
+"primary": "WAC-I",
+"domain": "Communication",
+"term": 2,
+"size": "M",
+"minutes": 90,
+"value": 4,
+"depth": 1,
+"n_prereq_closure": 1,
+"closure_minutes": 180,
+"n_unlocks": 2,
+"first_course": "WAC-I"
+},
+{
+"id": "COM03",
+"name": "Writing a case analysis",
+"courses": [
+"WAC-II"
+],
+"primary": "WAC-II",
+"domain": "Communication",
+"term": 3,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 2,
+"n_prereq_closure": 2,
+"closure_minutes": 270,
+"n_unlocks": 1,
+"first_course": "WAC-II"
+},
+{
+"id": "COM04",
+"name": "Presentations and storytelling with data",
+"courses": [
+"MGRCMN",
+"WIP"
+],
+"primary": "MGRCMN",
+"domain": "Communication",
+"term": 1,
+"size": "M",
+"minutes": 90,
+"value": 5,
+"depth": 2,
+"n_prereq_closure": 3,
+"closure_minutes": 270,
+"n_unlocks": 1,
+"first_course": "MGRCMN"
+},
+{
+"id": "COM05",
+"name": "Interview and group discussion preparation",
+"courses": [
+"WIP"
+],
+"primary": "WIP",
+"domain": "Communication",
+"term": 2,
+"size": "S",
+"minutes": 45,
+"value": 4,
+"depth": 3,
+"n_prereq_closure": 7,
+"closure_minutes": 495,
+"n_unlocks": 0,
+"first_course": "WIP"
+}
+],
+"edges": [
+{
+"from_id": "QNT01",
+"to_id": "QNT02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT03",
+"to_id": "QNT04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT01",
+"to_id": "QNT05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT05",
+"to_id": "QNT06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT06",
+"to_id": "QNT07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT05",
+"to_id": "QNT08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT03",
+"to_id": "QNT08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT08",
+"to_id": "QNT09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT08",
+"to_id": "QNT10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT08",
+"to_id": "QNT11",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT02",
+"to_id": "QNT11",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "QNT11",
+"to_id": "QNT12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT08",
+"to_id": "QNT13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT13",
+"to_id": "QNT14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT06",
+"to_id": "QNT14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT14",
+"to_id": "QNT15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT07",
+"to_id": "QNT15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT13",
+"to_id": "QNT16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT12",
+"to_id": "QNT17",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT10",
+"to_id": "QNT17",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "CMP02",
+"to_id": "QNT17",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT12",
+"to_id": "QNT18",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT18",
+"to_id": "QNT19",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT19",
+"to_id": "QNT20",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT20",
+"to_id": "QNT21",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT21",
+"to_id": "QNT22",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT21",
+"to_id": "QNT23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT10",
+"to_id": "QNT23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT21",
+"to_id": "QNT24",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT22",
+"to_id": "QNT25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT09",
+"to_id": "QNT26",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT21",
+"to_id": "QNT26",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT26",
+"to_id": "QNT27",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT27",
+"to_id": "QNT28",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT27",
+"to_id": "QNT29",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT27",
+"to_id": "QNT30",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT10",
+"to_id": "QNT30",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT03",
+"to_id": "QNT31",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT01",
+"to_id": "QNT32",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT32",
+"to_id": "QNT33",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT33",
+"to_id": "QNT34",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT32",
+"to_id": "QNT35",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT32",
+"to_id": "QNT36",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT32",
+"to_id": "QNT37",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT13",
+"to_id": "QNT38",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "CMP01",
+"to_id": "CMP02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "CMP01",
+"to_id": "CMP03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT03",
+"to_id": "CMP03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "CMP02",
+"to_id": "CMP04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT32",
+"to_id": "CMP04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "CMP01",
+"to_id": "CMP05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC01",
+"to_id": "ACC02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC01",
+"to_id": "ACC03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC03",
+"to_id": "ACC04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC01",
+"to_id": "ACC05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC02",
+"to_id": "ACC06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC03",
+"to_id": "ACC06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC04",
+"to_id": "ACC07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC04",
+"to_id": "ACC08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC05",
+"to_id": "ACC08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC04",
+"to_id": "ACC09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC05",
+"to_id": "ACC09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC09",
+"to_id": "ACC10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC05",
+"to_id": "ACC11",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC11",
+"to_id": "ACC12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC09",
+"to_id": "ACC12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN03",
+"to_id": "ACC12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC04",
+"to_id": "ACC13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC05",
+"to_id": "ACC13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC04",
+"to_id": "ACC14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC11",
+"to_id": "ACC14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC09",
+"to_id": "ACC15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC13",
+"to_id": "ACC16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC10",
+"to_id": "ACC16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC04",
+"to_id": "ACC17",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC05",
+"to_id": "ACC17",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC17",
+"to_id": "ACC18",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC17",
+"to_id": "ACC19",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC15",
+"to_id": "ACC19",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC07",
+"to_id": "ACC19",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC15",
+"to_id": "ACC20",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC17",
+"to_id": "ACC20",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC17",
+"to_id": "ACC21",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC04",
+"to_id": "ACC22",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC22",
+"to_id": "ACC23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC22",
+"to_id": "ACC24",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC08",
+"to_id": "ACC24",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC24",
+"to_id": "ACC25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC25",
+"to_id": "ACC26",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC25",
+"to_id": "ACC27",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC23",
+"to_id": "ACC27",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC22",
+"to_id": "ACC28",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC23",
+"to_id": "ACC29",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC15",
+"to_id": "ACC29",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC29",
+"to_id": "ACC30",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC29",
+"to_id": "ACC31",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC31",
+"to_id": "ACC32",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC28",
+"to_id": "ACC32",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC31",
+"to_id": "ACC33",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC17",
+"to_id": "ACC33",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN26",
+"to_id": "ACC33",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC33",
+"to_id": "ACC34",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT01",
+"to_id": "FIN02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN02",
+"to_id": "FIN03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN03",
+"to_id": "FIN04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN04",
+"to_id": "FIN05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN04",
+"to_id": "FIN06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN06",
+"to_id": "FIN07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN06",
+"to_id": "FIN08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT02",
+"to_id": "FIN08",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "FIN04",
+"to_id": "FIN09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN01",
+"to_id": "FIN09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT08",
+"to_id": "FIN10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN03",
+"to_id": "FIN10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN10",
+"to_id": "FIN11",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT09",
+"to_id": "FIN11",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN11",
+"to_id": "FIN12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT02",
+"to_id": "FIN12",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "FIN12",
+"to_id": "FIN13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT26",
+"to_id": "FIN13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN13",
+"to_id": "FIN14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN03",
+"to_id": "FIN15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN01",
+"to_id": "FIN15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN15",
+"to_id": "FIN16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN16",
+"to_id": "FIN17",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT10",
+"to_id": "FIN17",
+"kind": "or",
+"or_group": "FIN17-OR1"
+},
+{
+"from_id": "QNT12",
+"to_id": "FIN17",
+"kind": "or",
+"or_group": "FIN17-OR1"
+},
+{
+"from_id": "FIN15",
+"to_id": "FIN18",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO27",
+"to_id": "FIN18",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN01",
+"to_id": "FIN19",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN04",
+"to_id": "FIN20",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC15",
+"to_id": "FIN20",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN20",
+"to_id": "FIN21",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN20",
+"to_id": "FIN22",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC28",
+"to_id": "FIN22",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN22",
+"to_id": "FIN23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT17",
+"to_id": "FIN23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN23",
+"to_id": "FIN24",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN16",
+"to_id": "FIN24",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT14",
+"to_id": "FIN24",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN13",
+"to_id": "FIN25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN06",
+"to_id": "FIN25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN25",
+"to_id": "FIN26",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN26",
+"to_id": "FIN27",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN27",
+"to_id": "FIN28",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN27",
+"to_id": "FIN29",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN09",
+"to_id": "FIN29",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN26",
+"to_id": "FIN30",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN22",
+"to_id": "FIN30",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC17",
+"to_id": "FIN30",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN09",
+"to_id": "FIN31",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC17",
+"to_id": "FIN31",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC13",
+"to_id": "FIN31",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC21",
+"to_id": "FIN32",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN03",
+"to_id": "FIN32",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC17",
+"to_id": "FIN33",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC29",
+"to_id": "FIN33",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "CMP02",
+"to_id": "FIN33",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN30",
+"to_id": "FIN34",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN31",
+"to_id": "FIN34",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN19",
+"to_id": "FIN35",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "LAW04",
+"to_id": "FIN35",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "ECO01",
+"to_id": "ECO02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO01",
+"to_id": "ECO03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO02",
+"to_id": "ECO04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO01",
+"to_id": "ECO05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT02",
+"to_id": "ECO05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT02",
+"to_id": "ECO06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO06",
+"to_id": "ECO07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC22",
+"to_id": "ECO07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO07",
+"to_id": "ECO08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO02",
+"to_id": "ECO08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO08",
+"to_id": "ECO09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO03",
+"to_id": "ECO09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO09",
+"to_id": "ECO10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO11",
+"to_id": "ECO12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO09",
+"to_id": "ECO13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO12",
+"to_id": "ECO13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO09",
+"to_id": "ECO14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO11",
+"to_id": "ECO15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO15",
+"to_id": "ECO16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO04",
+"to_id": "ECO17",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO09",
+"to_id": "ECO18",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO05",
+"to_id": "ECO19",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "ECO20",
+"to_id": "ECO21",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO20",
+"to_id": "ECO22",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN01",
+"to_id": "ECO22",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO22",
+"to_id": "ECO23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO21",
+"to_id": "ECO23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN02",
+"to_id": "ECO23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO20",
+"to_id": "ECO24",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO23",
+"to_id": "ECO25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO24",
+"to_id": "ECO25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO25",
+"to_id": "ECO26",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO23",
+"to_id": "ECO27",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO20",
+"to_id": "ECO28",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO06",
+"to_id": "ECO28",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO24",
+"to_id": "ECO29",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO28",
+"to_id": "ECO29",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT01",
+"to_id": "MKT02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO19",
+"to_id": "MKT02",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "MKT02",
+"to_id": "MKT03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT01",
+"to_id": "MKT04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT04",
+"to_id": "MKT05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT03",
+"to_id": "MKT05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT02",
+"to_id": "MKT06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT06",
+"to_id": "MKT07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT05",
+"to_id": "MKT07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT07",
+"to_id": "MKT08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT08",
+"to_id": "MKT09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT08",
+"to_id": "MKT10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT10",
+"to_id": "MKT11",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT08",
+"to_id": "MKT12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC23",
+"to_id": "MKT13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO03",
+"to_id": "MKT13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT08",
+"to_id": "MKT13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT13",
+"to_id": "MKT14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO10",
+"to_id": "MKT14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT07",
+"to_id": "MKT15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT15",
+"to_id": "MKT16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT08",
+"to_id": "MKT17",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT17",
+"to_id": "MKT18",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC23",
+"to_id": "MKT18",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT15",
+"to_id": "MKT19",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT17",
+"to_id": "MKT20",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN04",
+"to_id": "MKT21",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT06",
+"to_id": "MKT21",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT21",
+"to_id": "MKT22",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT27",
+"to_id": "MKT23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT17",
+"to_id": "MKT23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT08",
+"to_id": "MKT24",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT13",
+"to_id": "MKT25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT15",
+"to_id": "MKT25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT17",
+"to_id": "MKT25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS01",
+"to_id": "OPS02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS01",
+"to_id": "OPS03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS01",
+"to_id": "OPS04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS02",
+"to_id": "OPS05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT11",
+"to_id": "OPS05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS05",
+"to_id": "OPS06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT31",
+"to_id": "OPS07",
+"kind": "or",
+"or_group": "OPS07-OR0"
+},
+{
+"from_id": "QNT26",
+"to_id": "OPS07",
+"kind": "or",
+"or_group": "OPS07-OR0"
+},
+{
+"from_id": "OPS07",
+"to_id": "OPS08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC22",
+"to_id": "OPS09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS09",
+"to_id": "OPS10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT02",
+"to_id": "OPS10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS10",
+"to_id": "OPS11",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT12",
+"to_id": "OPS11",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS09",
+"to_id": "OPS12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT12",
+"to_id": "OPS12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC28",
+"to_id": "OPS12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS09",
+"to_id": "OPS13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS04",
+"to_id": "OPS14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT32",
+"to_id": "OPS14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS14",
+"to_id": "OPS15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS01",
+"to_id": "OPS16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT37",
+"to_id": "OPS17",
+"kind": "or",
+"or_group": "OPS17-OR0"
+},
+{
+"from_id": "OPS01",
+"to_id": "OPS17",
+"kind": "or",
+"or_group": "OPS17-OR0"
+},
+{
+"from_id": "OPS01",
+"to_id": "OPS18",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS18",
+"to_id": "OPS19",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT20",
+"to_id": "OPS19",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS19",
+"to_id": "OPS20",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS01",
+"to_id": "OPS21",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS09",
+"to_id": "OPS21",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS11",
+"to_id": "OPS22",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS07",
+"to_id": "OPS22",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS22",
+"to_id": "OPS23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS12",
+"to_id": "OPS23",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS22",
+"to_id": "OPS24",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT36",
+"to_id": "OPS24",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC28",
+"to_id": "OPS25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS22",
+"to_id": "OPS25",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS05",
+"to_id": "OPS26",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS21",
+"to_id": "OPS27",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS04",
+"to_id": "OPS27",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH01",
+"to_id": "OBH02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH01",
+"to_id": "OBH03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH01",
+"to_id": "OBH04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH02",
+"to_id": "OBH05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH03",
+"to_id": "OBH06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH05",
+"to_id": "OBH07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH06",
+"to_id": "OBH07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH07",
+"to_id": "OBH08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO11",
+"to_id": "OBH08",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "OBH04",
+"to_id": "OBH09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH05",
+"to_id": "OBH09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH09",
+"to_id": "OBH10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH05",
+"to_id": "OBH11",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH11",
+"to_id": "OBH12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH12",
+"to_id": "OBH13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH10",
+"to_id": "OBH13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH14",
+"to_id": "OBH15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH04",
+"to_id": "OBH16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH14",
+"to_id": "OBH16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH16",
+"to_id": "OBH17",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO16",
+"to_id": "OBH17",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH16",
+"to_id": "OBH18",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH14",
+"to_id": "OBH19",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "LAW01",
+"to_id": "OBH19",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "OBH17",
+"to_id": "OBH20",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH15",
+"to_id": "OBH20",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH12",
+"to_id": "OBH20",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR01",
+"to_id": "STR02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO20",
+"to_id": "STR02",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "STR01",
+"to_id": "STR03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO09",
+"to_id": "STR03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR03",
+"to_id": "STR04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR01",
+"to_id": "STR05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR05",
+"to_id": "STR06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR03",
+"to_id": "STR07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR06",
+"to_id": "STR07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR07",
+"to_id": "STR08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO12",
+"to_id": "STR08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR07",
+"to_id": "STR09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO18",
+"to_id": "STR09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR07",
+"to_id": "STR10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR10",
+"to_id": "STR11",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS25",
+"to_id": "STR11",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO16",
+"to_id": "STR11",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "STR10",
+"to_id": "STR12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN34",
+"to_id": "STR12",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR10",
+"to_id": "STR13",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO27",
+"to_id": "STR13",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "STR07",
+"to_id": "STR14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT11",
+"to_id": "STR14",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR10",
+"to_id": "STR15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH11",
+"to_id": "STR15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC34",
+"to_id": "STR15",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR07",
+"to_id": "STR16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT25",
+"to_id": "STR16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN30",
+"to_id": "STR16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OPS27",
+"to_id": "STR16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "COM03",
+"to_id": "STR16",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT04",
+"to_id": "RES01",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "RES01",
+"to_id": "RES02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "RES02",
+"to_id": "RES03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "RES01",
+"to_id": "RES04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT20",
+"to_id": "RES04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "RES01",
+"to_id": "RES05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT22",
+"to_id": "RES05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT09",
+"to_id": "RES06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "RES02",
+"to_id": "RES06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT09",
+"to_id": "RES07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT06",
+"to_id": "RES07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT29",
+"to_id": "RES08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "RES03",
+"to_id": "RES08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "RES01",
+"to_id": "RES09",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT27",
+"to_id": "RES10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "RES05",
+"to_id": "RES10",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "LAW01",
+"to_id": "LAW02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "LAW02",
+"to_id": "LAW03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "LAW02",
+"to_id": "LAW04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "LAW01",
+"to_id": "LAW05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "LAW01",
+"to_id": "LAW06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO09",
+"to_id": "LAW06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "LAW04",
+"to_id": "LAW07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ITD01",
+"to_id": "ITD02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ITD01",
+"to_id": "ITD03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "CMP05",
+"to_id": "ITD03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ITD03",
+"to_id": "ITD04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT30",
+"to_id": "ITD04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ITD02",
+"to_id": "ITD05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR05",
+"to_id": "ITD05",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "ITD01",
+"to_id": "ITD06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ACC23",
+"to_id": "ITD06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "MKT21",
+"to_id": "ITD06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ITD06",
+"to_id": "ITD07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "STR09",
+"to_id": "ITD07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ITD03",
+"to_id": "ITD08",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ENV01",
+"to_id": "ENV02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "FIN19",
+"to_id": "ENV02",
+"kind": "soft",
+"or_group": ""
+},
+{
+"from_id": "ENV02",
+"to_id": "ENV03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO17",
+"to_id": "ENV03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ENV03",
+"to_id": "ENV04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ECO24",
+"to_id": "ENV06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "LAW01",
+"to_id": "ENV06",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "ENV06",
+"to_id": "ENV07",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "COM01",
+"to_id": "COM02",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "COM02",
+"to_id": "COM03",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "COM01",
+"to_id": "COM04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "QNT04",
+"to_id": "COM04",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "COM04",
+"to_id": "COM05",
+"kind": "and",
+"or_group": ""
+},
+{
+"from_id": "OBH06",
+"to_id": "COM05",
+"kind": "and",
+"or_group": ""
+}
+],
+"redundant": [
+{
+"from_id": "ACC04",
+"to_id": "ACC15",
+"kind": "and",
+"implied_via": "ACC04 > ACC09 > ACC15"
+},
+{
+"from_id": "ACC05",
+"to_id": "ACC15",
+"kind": "and",
+"implied_via": "ACC05 > ACC09 > ACC15"
+},
+{
+"from_id": "ECO21",
+"to_id": "FIN18",
+"kind": "and",
+"implied_via": "ECO21 > ECO23 > ECO27 > FIN18"
+},
+{
+"from_id": "ACC15",
+"to_id": "FIN22",
+"kind": "and",
+"implied_via": "ACC15 > FIN20 > FIN22"
+},
+{
+"from_id": "ECO21",
+"to_id": "ECO26",
+"kind": "and",
+"implied_via": "ECO21 > ECO23 > ECO25 > ECO26"
+},
+{
+"from_id": "ECO20",
+"to_id": "ECO27",
+"kind": "and",
+"implied_via": "ECO20 > ECO22 > ECO23 > ECO27"
+},
+{
+"from_id": "MKT02",
+"to_id": "MKT17",
+"kind": "and",
+"implied_via": "MKT02 > MKT06 > MKT07 > MKT08 > MKT17"
+},
+{
+"from_id": "ECO07",
+"to_id": "STR07",
+"kind": "and",
+"implied_via": "ECO07 > ECO08 > ECO09 > STR03 > STR07"
+},
+{
+"from_id": "ACC17",
+"to_id": "STR16",
+"kind": "and",
+"implied_via": "ACC17 > FIN30 > STR16"
+}
+],
+"gaps": [
+{
+"prereq": "FIN26",
+"prereq_name": "WACC",
+"prereq_course": "CF",
+"prereq_term": 3,
+"topic": "ACC33",
+"topic_name": "Performance measures: ROI, residual income, EVA",
+"topic_course": "CCS",
+"topic_term": 2,
+"kind": "and"
+},
+{
+"prereq": "FIN19",
+"prereq_name": "Goal of the firm and agency problems",
+"prereq_course": "CF",
+"prereq_term": 3,
+"topic": "FIN35",
+"topic_name": "Corporate governance",
+"topic_course": "LAB",
+"topic_term": 1,
+"kind": "and"
+},
+{
+"prereq": "RES03",
+"prereq_name": "Questionnaire and survey design",
+"prereq_course": "BRM",
+"prereq_term": 3,
+"topic": "RES08",
+"topic_name": "Conjoint analysis",
+"topic_course": "MKT-II",
+"topic_term": 2,
+"kind": "and"
+},
+{
+"prereq": "STR05",
+"prereq_name": "Value chain analysis",
+"prereq_course": "SM",
+"prereq_term": 3,
+"topic": "ITD05",
+"topic_name": "Digital transformation and IT strategy",
+"topic_course": "TBIT",
+"topic_term": 2,
+"kind": "soft"
+},
+{
+"prereq": "FIN19",
+"prereq_name": "Goal of the firm and agency problems",
+"prereq_course": "CF",
+"prereq_term": 3,
+"topic": "ENV02",
+"topic_name": "Stakeholder theory and CSR",
+"topic_course": "PCE",
+"topic_term": 2,
+"kind": "soft"
+}
+],
+"overlaps": [
+{
+"id": "QNT02",
+"name": "Calculus basics: derivatives and optimisation",
+"courses": "QM-1a, ME"
+},
+{
+"id": "QNT04",
+"name": "Data visualisation and distribution shapes",
+"courses": "QM-1b, MGRCMP"
+},
+{
+"id": "QNT09",
+"name": "Covariance and correlation",
+"courses": "QM-1a, QM-1b, FM"
+},
+{
+"id": "QNT14",
+"name": "Decision trees",
+"courses": "QM-1a, CF"
+},
+{
+"id": "QNT16",
+"name": "Risk attitude and utility functions",
+"courses": "QM-1a, FM"
+},
+{
+"id": "QNT17",
+"name": "Monte Carlo simulation",
+"courses": "QM-1a, MGRCMP, CF"
+},
+{
+"id": "QNT21",
+"name": "Hypothesis testing: logic, p-values, type I/II errors",
+"courses": "QM-1b, BRM"
+},
+{
+"id": "QNT22",
+"name": "t-tests: one and two samples",
+"courses": "QM-1b, BRM"
+},
+{
+"id": "QNT24",
+"name": "Chi-square tests",
+"courses": "QM-1b, BRM"
+},
+{
+"id": "QNT25",
+"name": "ANOVA",
+"courses": "QM-1b, BRM"
+},
+{
+"id": "QNT26",
+"name": "Simple linear regression",
+"courses": "QM-2, BRM, FM"
+},
+{
+"id": "QNT27",
+"name": "Multiple regression",
+"courses": "QM-2, BRM, MKT-III"
+},
+{
+"id": "QNT29",
+"name": "Dummy variables and interaction terms",
+"courses": "QM-2, BRM"
+},
+{
+"id": "QNT30",
+"name": "Logistic regression",
+"courses": "QM-2, BRM, TBIT"
+},
+{
+"id": "QNT31",
+"name": "Time series: components and smoothing",
+"courses": "QM-2, OM-I"
+},
+{
+"id": "QNT32",
+"name": "Linear programming formulation",
+"courses": "QM-2, OM-II, MGRCMP"
+},
+{
+"id": "QNT36",
+"name": "Transportation and assignment models",
+"courses": "QM-2, OM-III"
+},
+{
+"id": "CMP04",
+"name": "Solver for optimisation",
+"courses": "MGRCMP, QM-2"
+},
+{
+"id": "CMP05",
+"name": "Databases and SQL basics",
+"courses": "MGRCMP, TBIT"
+},
+{
+"id": "ACC15",
+"name": "Cash flow statement",
+"courses": "FRA, CF"
+},
+{
+"id": "ACC17",
+"name": "Ratio analysis: profitability, liquidity, solvency",
+"courses": "FRA, CF"
+},
+{
+"id": "ACC18",
+"name": "DuPont analysis",
+"courses": "FRA, CF"
+},
+{
+"id": "ACC21",
+"name": "Working capital and cash conversion cycle",
+"courses": "FRA, CF, OM-II"
+},
+{
+"id": "ACC22",
+"name": "Cost concepts and behaviour: fixed, variable, sunk, opportunity",
+"courses": "CCS, ME, OM-II"
+},
+{
+"id": "ACC23",
+"name": "Cost-volume-profit and break-even",
+"courses": "CCS, MKT-II"
+},
+{
+"id": "ACC28",
+"name": "Relevant costing: make-or-buy, special orders",
+"courses": "CCS, OM-III, SM"
+},
+{
+"id": "ACC33",
+"name": "Performance measures: ROI, residual income, EVA",
+"courses": "CCS, CF"
+},
+{
+"id": "ACC34",
+"name": "Balanced scorecard and management control systems",
+"courses": "CCS, SM"
+},
+{
+"id": "FIN03",
+"name": "Time value of money: PV and FV",
+"courses": "FM, CF"
+},
+{
+"id": "FIN04",
+"name": "Annuities and perpetuities",
+"courses": "FM, CF"
+},
+{
+"id": "FIN07",
+"name": "Term structure and the yield curve",
+"courses": "FM, MEP"
+},
+{
+"id": "FIN09",
+"name": "Stock valuation: dividend discount model",
+"courses": "FM, CF"
+},
+{
+"id": "FIN13",
+"name": "CAPM and beta",
+"courses": "FM, CF"
+},
+{
+"id": "FIN18",
+"name": "FX markets and parity conditions",
+"courses": "FM, MEP"
+},
+{
+"id": "FIN20",
+"name": "Capital budgeting: the NPV rule",
+"courses": "CF, FM, ME"
+},
+{
+"id": "FIN34",
+"name": "Mergers and acquisitions: synergies and valuation",
+"courses": "CF, SM"
+},
+{
+"id": "FIN35",
+"name": "Corporate governance",
+"courses": "CF, SM, LAB"
+},
+{
+"id": "ECO03",
+"name": "Elasticities: price, income, cross",
+"courses": "ME, MKT-II"
+},
+{
+"id": "ECO07",
+"name": "Cost curves and economies of scale",
+"courses": "ME, OM-I"
+},
+{
+"id": "ECO10",
+"name": "Price discrimination and dynamic pricing",
+"courses": "ME, MKT-II"
+},
+{
+"id": "ECO11",
+"name": "Game theory: strategic form and Nash equilibrium",
+"courses": "ME, SM"
+},
+{
+"id": "ECO12",
+"name": "Sequential games, commitment and credibility",
+"courses": "ME, SM"
+},
+{
+"id": "ECO14",
+"name": "Monopolistic competition and product differentiation",
+"courses": "ME, MKT-I"
+},
+{
+"id": "ECO16",
+"name": "Moral hazard and principal-agent incentives",
+"courses": "ME, HRM-II, CF"
+},
+{
+"id": "ECO17",
+"name": "Externalities and public goods",
+"courses": "ME, BES, GSP"
+},
+{
+"id": "ECO18",
+"name": "Network effects and platform economics",
+"courses": "ME, IEB, SM"
+},
+{
+"id": "ECO19",
+"name": "Behavioural economics: biases and heuristics",
+"courses": "ME, MKT-I, ID"
+},
+{
+"id": "ECO21",
+"name": "Inflation and price indices",
+"courses": "MEP, FM"
+},
+{
+"id": "ECO23",
+"name": "Monetary policy: RBI, repo rate, transmission",
+"courses": "MEP, FM"
+},
+{
+"id": "ECO24",
+"name": "Fiscal policy, deficits and public debt",
+"courses": "MEP, GSP"
+},
+{
+"id": "ECO27",
+"name": "Open economy: balance of payments and exchange rates",
+"courses": "MEP, FM"
+},
+{
+"id": "ECO29",
+"name": "Indian economy: structure and reforms",
+"courses": "MEP, GSP"
+},
+{
+"id": "MKT04",
+"name": "Defining a marketing research problem",
+"courses": "MKT-I, BRM"
+},
+{
+"id": "MKT20",
+"name": "Digital marketing and funnel metrics",
+"courses": "MKT-III, IEB"
+},
+{
+"id": "MKT21",
+"name": "Customer lifetime value",
+"courses": "MKT-III, IEB"
+},
+{
+"id": "OPS06",
+"name": "Managing waiting lines in services",
+"courses": "OM-III, SOM"
+},
+{
+"id": "OPS26",
+"name": "Service operations and service design",
+"courses": "SOM, OM-III"
+},
+{
+"id": "OPS27",
+"name": "Operations strategy and trade-offs",
+"courses": "OM-III, SM"
+},
+{
+"id": "OBH04",
+"name": "Motivation theories: needs, two-factor, expectancy",
+"courses": "ID, HRM-I"
+},
+{
+"id": "OBH11",
+"name": "Organisational structure and design",
+"courses": "ODY, SM"
+},
+{
+"id": "OBH19",
+"name": "Industrial relations and labour law in India",
+"courses": "HRM-II, LAB"
+},
+{
+"id": "OBH20",
+"name": "Strategic HRM and talent management",
+"courses": "SHRM, TCM"
+},
+{
+"id": "STR02",
+"name": "PESTEL and macro-environment analysis",
+"courses": "SM, BES"
+},
+{
+"id": "STR09",
+"name": "Platform and ecosystem strategy",
+"courses": "SM, IEB"
+},
+{
+"id": "STR15",
+"name": "Strategy implementation and execution",
+"courses": "SM, ODY"
+},
+{
+"id": "STR16",
+"name": "Integrative business case analysis",
+"courses": "SM, WAC-II"
+},
+{
+"id": "RES03",
+"name": "Questionnaire and survey design",
+"courses": "BRM, MKT-III"
+},
+{
+"id": "RES05",
+"name": "Experiments and A/B testing",
+"courses": "BRM, IEB"
+},
+{
+"id": "RES07",
+"name": "Cluster analysis",
+"courses": "BRM, MKT-I"
+},
+{
+"id": "RES08",
+"name": "Conjoint analysis",
+"courses": "BRM, MKT-II"
+},
+{
+"id": "LAW07",
+"name": "Insolvency and Bankruptcy Code",
+"courses": "LAB, CF"
+},
+{
+"id": "ITD02",
+"name": "Enterprise systems: ERP, CRM, SCM",
+"courses": "TBIT, OM-II"
+},
+{
+"id": "ITD05",
+"name": "Digital transformation and IT strategy",
+"courses": "TBIT, SM"
+},
+{
+"id": "ENV02",
+"name": "Stakeholder theory and CSR",
+"courses": "PCE, BES"
+},
+{
+"id": "ENV03",
+"name": "Sustainability and ESG metrics",
+"courses": "BES, FM"
+},
+{
+"id": "COM01",
+"name": "Structuring communication: the pyramid principle",
+"courses": "MGRCMN, WAC-I"
+},
+{
+"id": "COM04",
+"name": "Presentations and storytelling with data",
+"courses": "MGRCMN, WIP"
+}
+],
+"near": [
+[
+0.4,
+"MKT01",
+"Marketing concept and customer value",
+"MKT21",
+"Customer lifetime value"
+],
+[
+0.4,
+"ACC25",
+"Overhead allocation and absorption costing",
+"ACC27",
+"Variable vs absorption costing"
+],
+[
+0.4,
+"ACC21",
+"Working capital and cash conversion cycle",
+"FIN32",
+"Working capital management"
+],
+[
+0.33,
+"QNT27",
+"Multiple regression",
+"QNT30",
+"Logistic regression"
+],
+[
+0.33,
+"QNT15",
+"Value of information (EVPI, EVSI)",
+"ITD01",
+"Information systems and business value"
+],
+[
+0.33,
+"OPS22",
+"Supply chain basics and the bullwhip effect",
+"OPS23",
+"Supply chain coordination and contracts"
+],
+[
+0.33,
+"OPS14",
+"Aggregate planning",
+"OBH14",
+"HR planning and job analysis"
+],
+[
+0.33,
+"OPS01",
+"Process analysis: flow, capacity, bottleneck",
+"OPS03",
+"Process flow charts and process design"
+],
+[
+0.33,
+"MKT16",
+"Channel conflict and retail management",
+"OBH07",
+"Conflict management"
+],
+[
+0.33,
+"ECO25",
+"IS-LM and aggregate demand",
+"OPS14",
+"Aggregate planning"
+],
+[
+0.33,
+"ECO01",
+"Demand and supply basics",
+"ECO25",
+"IS-LM and aggregate demand"
+],
+[
+0.29,
+"MKT10",
+"Product decisions and product life cycle",
+"STR04",
+"Industry life cycle and strategic groups"
+],
+[
+0.29,
+"ECO24",
+"Fiscal policy, deficits and public debt",
+"ENV06",
+"Public policy process and regulation"
+],
+[
+0.25,
+"STR16",
+"Integrative business case analysis",
+"COM03",
+"Writing a case analysis"
+],
+[
+0.25,
+"STR12",
+"Alliances and M&A strategy",
+"STR15",
+"Strategy implementation and execution"
+],
+[
+0.25,
+"STR12",
+"Alliances and M&A strategy",
+"ITD05",
+"Digital transformation and IT strategy"
+],
+[
+0.25,
+"STR09",
+"Platform and ecosystem strategy",
+"STR12",
+"Alliances and M&A strategy"
+],
+[
+0.25,
+"QNT26",
+"Simple linear regression",
+"QNT30",
+"Logistic regression"
+],
+[
+0.25,
+"QNT26",
+"Simple linear regression",
+"QNT27",
+"Multiple regression"
+],
+[
+0.25,
+"QNT23",
+"Tests for proportions",
+"QNT24",
+"Chi-square tests"
+],
+[
+0.25,
+"QNT07",
+"Bayes' theorem",
+"QNT19",
+"Central limit theorem"
+],
+[
+0.25,
+"QNT02",
+"Calculus basics: derivatives and optimisation",
+"CMP04",
+"Solver for optimisation"
+],
+[
+0.25,
+"OPS09",
+"Inventory basics and inventory costs",
+"OPS13",
+"ABC analysis and inventory policies"
+],
+[
+0.25,
+"OPS04",
+"Capacity planning and utilisation",
+"OPS14",
+"Aggregate planning"
+],
+[
+0.25,
+"OPS04",
+"Capacity planning and utilisation",
+"OBH14",
+"HR planning and job analysis"
+],
+[
+0.25,
+"OBH13",
+"Change management",
+"ENV04",
+"Climate change and carbon markets"
+],
+[
+0.25,
+"OBH11",
+"Organisational structure and design",
+"OBH12",
+"Organisational culture"
+],
+[
+0.25,
+"MKT21",
+"Customer lifetime value",
+"STR05",
+"Value chain analysis"
+],
+[
+0.25,
+"MKT17",
+"Integrated marketing communications",
+"MKT24",
+"Services marketing"
+],
+[
+0.25,
+"FIN27",
+"Capital structure: MM propositions",
+"FIN32",
+"Working capital management"
+],
+[
+0.25,
+"FIN25",
+"Cost of equity and cost of debt",
+"MKT12",
+"Brand equity and brand management"
+],
+[
+0.25,
+"FIN16",
+"Options: payoffs and strategies",
+"FIN24",
+"Real options"
+],
+[
+0.25,
+"FIN14",
+"Market efficiency",
+"ECO09",
+"Monopoly and market power"
+],
+[
+0.25,
+"FIN03",
+"Time value of money: PV and FV",
+"STR05",
+"Value chain analysis"
+],
+[
+0.25,
+"ECO09",
+"Monopoly and market power",
+"OBH10",
+"Power and influence"
+],
+[
+0.25,
+"ACC24",
+"Job and process costing",
+"OBH14",
+"HR planning and job analysis"
+],
+[
+0.25,
+"ACC13",
+"Shareholders' equity and EPS",
+"MKT12",
+"Brand equity and brand management"
+]
+],
+"sources": [
+"QNT01",
+"QNT03",
+"CMP01",
+"ACC01",
+"FIN01",
+"ECO01",
+"ECO11",
+"ECO19",
+"ECO20",
+"MKT01",
+"OPS01",
+"OBH01",
+"OBH14",
+"STR01",
+"LAW01",
+"ITD01",
+"ENV01",
+"ENV05",
+"COM01"
+],
+"sinks": [
+"QNT15",
+"QNT16",
+"QNT23",
+"QNT24",
+"QNT25",
+"QNT28",
+"QNT34",
+"QNT35",
+"QNT38",
+"CMP03",
+"CMP04",
+"ACC06",
+"ACC12",
+"ACC14",
+"ACC16",
+"ACC18",
+"ACC19",
+"ACC20",
+"ACC26",
+"ACC27",
+"ACC30",
+"ACC32",
+"FIN05",
+"FIN07",
+"FIN08",
+"FIN14",
+"FIN17",
+"FIN18",
+"FIN21",
+"FIN24",
+"FIN28",
+"FIN29",
+"FIN32",
+"FIN33",
+"FIN35",
+"ECO13",
+"ECO14",
+"ECO26",
+"ECO29",
+"MKT03",
+"MKT09",
+"MKT12",
+"MKT14",
+"MKT16",
+"MKT18",
+"MKT19",
+"MKT20",
+"MKT22",
+"MKT23",
+"MKT24",
+"OPS03",
+"OPS06",
+"OPS08",
+"OPS13",
+"OPS15",
+"OPS16",
+"OPS17",
+"OPS20",
+"OPS23",
+"OPS24",
+"OPS26",
+"OBH08",
+"OBH13",
+"OBH18",
+"OBH19",
+"OBH20",
+"STR02",
+"STR04",
+"STR08",
+"STR11",
+"STR12",
+"STR13",
+"STR14",
+"STR15",
+"STR16",
+"RES04",
+"RES06",
+"RES07",
+"RES08",
+"RES09",
+"RES10",
+"LAW03",
+"LAW05",
+"LAW06",
+"LAW07",
+"ITD04",
+"ITD05",
+"ITD07",
+"ITD08",
+"ENV04",
+"ENV05",
+"ENV07",
+"COM05"
+],
+"isolated": [
+"ENV05"
+],
+"courses": [
+{
+"code": "FM",
+"name": "Financial Markets",
+"term": 1,
+"primary_topics": 18,
+"tagged_topics": 26
+},
+{
+"code": "FRA",
+"name": "Financial Reporting and Analysis",
+"term": 1,
+"primary_topics": 21,
+"tagged_topics": 21
+},
+{
+"code": "HRM-I",
+"name": "Human Resource Management-I",
+"term": 1,
+"primary_topics": 3,
+"tagged_topics": 4
+},
+{
+"code": "ID",
+"name": "Individual Dynamics",
+"term": 1,
+"primary_topics": 4,
+"tagged_topics": 5
+},
+{
+"code": "LAB",
+"name": "Legal Aspects of Business",
+"term": 1,
+"primary_topics": 7,
+"tagged_topics": 9
+},
+{
+"code": "MGRCMN",
+"name": "Managerial Communication",
+"term": 1,
+"primary_topics": 2,
+"tagged_topics": 2
+},
+{
+"code": "MGRCMP",
+"name": "Managerial Computing",
+"term": 1,
+"primary_topics": 5,
+"tagged_topics": 8
+},
+{
+"code": "MKT-I",
+"name": "Marketing-I",
+"term": 1,
+"primary_topics": 10,
+"tagged_topics": 13
+},
+{
+"code": "ME",
+"name": "Microeconomics",
+"term": 1,
+"primary_topics": 19,
+"tagged_topics": 22
+},
+{
+"code": "OM-I",
+"name": "Operations Management-I",
+"term": 1,
+"primary_topics": 7,
+"tagged_topics": 9
+},
+{
+"code": "QM-1a",
+"name": "Quantitative Methods-IA",
+"term": 1,
+"primary_topics": 15,
+"tagged_topics": 15
+},
+{
+"code": "QM-1b",
+"name": "Quantitative Methods-IB",
+"term": 1,
+"primary_topics": 10,
+"tagged_topics": 11
+},
+{
+"code": "CCS",
+"name": "Costing and Control Systems",
+"term": 2,
+"primary_topics": 13,
+"tagged_topics": 13
+},
+{
+"code": "HRM-II",
+"name": "Human Resource Management-II",
+"term": 2,
+"primary_topics": 3,
+"tagged_topics": 4
+},
+{
+"code": "IGP",
+"name": "Interpersonal and Group Processes",
+"term": 2,
+"primary_topics": 4,
+"tagged_topics": 4
+},
+{
+"code": "MEP",
+"name": "Macroeconomics and Policy",
+"term": 2,
+"primary_topics": 10,
+"tagged_topics": 12
+},
+{
+"code": "MKT-II",
+"name": "Marketing-II",
+"term": 2,
+"primary_topics": 9,
+"tagged_topics": 13
+},
+{
+"code": "OM-II",
+"name": "Operations Management-II",
+"term": 2,
+"primary_topics": 9,
+"tagged_topics": 13
+},
+{
+"code": "PCE",
+"name": "Personal and Corporate Ethics",
+"term": 2,
+"primary_topics": 2,
+"tagged_topics": 2
+},
+{
+"code": "QM-2",
+"name": "Quantitative Methods-2",
+"term": 2,
+"primary_topics": 13,
+"tagged_topics": 14
+},
+{
+"code": "SCEB",
+"name": "Social and Cultural Environment of Business",
+"term": 2,
+"primary_topics": 1,
+"tagged_topics": 1
+},
+{
+"code": "TBIT",
+"name": "Transforming Business through IT",
+"term": 2,
+"primary_topics": 6,
+"tagged_topics": 8
+},
+{
+"code": "WIP",
+"name": "Workshop on Interviews and Presentations",
+"term": 2,
+"primary_topics": 1,
+"tagged_topics": 2
+},
+{
+"code": "WAC-I",
+"name": "Written Analysis and Communication-I",
+"term": 2,
+"primary_topics": 1,
+"tagged_topics": 2
+},
+{
+"code": "BRM",
+"name": "Business Research Methods",
+"term": 3,
+"primary_topics": 10,
+"tagged_topics": 19
+},
+{
+"code": "BES",
+"name": "Business, Environment and Sustainability",
+"term": 3,
+"primary_topics": 2,
+"tagged_topics": 5
+},
+{
+"code": "CF",
+"name": "Corporate Finance",
+"term": 3,
+"primary_topics": 17,
+"tagged_topics": 30
+},
+{
+"code": "GSP",
+"name": "Government Systems and Policy Process",
+"term": 3,
+"primary_topics": 2,
+"tagged_topics": 5
+},
+{
+"code": "IEB",
+"name": "Internet-Enabled Businesses",
+"term": 3,
+"primary_topics": 2,
+"tagged_topics": 7
+},
+{
+"code": "MKT-III",
+"name": "Marketing-III",
+"term": 3,
+"primary_topics": 6,
+"tagged_topics": 8
+},
+{
+"code": "ODY",
+"name": "Organizational Dynamics",
+"term": 3,
+"primary_topics": 5,
+"tagged_topics": 6
+},
+{
+"code": "SM",
+"name": "Strategic Management",
+"term": 3,
+"primary_topics": 16,
+"tagged_topics": 26
+},
+{
+"code": "WAC-II",
+"name": "Written Analysis and Communication-II",
+"term": 3,
+"primary_topics": 1,
+"tagged_topics": 2
+},
+{
+"code": "OM-III",
+"name": "Operations Management-III",
+"term": 3,
+"primary_topics": 10,
+"tagged_topics": 13
+},
+{
+"code": "SOM",
+"name": "Service Operations Management",
+"term": 3,
+"primary_topics": 1,
+"tagged_topics": 2
+},
+{
+"code": "SHRM",
+"name": "Strategic HRM (flexi-core)",
+"term": 3,
+"primary_topics": 1,
+"tagged_topics": 1
+},
+{
+"code": "TCM",
+"name": "Talent and Competency Mgmt (flexi-core)",
+"term": 3,
+"primary_topics": 0,
+"tagged_topics": 1
+}
+],
+"summary": {
+"n_topics": 266,
+"n_edges": 383,
+"n_and": 364,
+"n_or_edges": 6,
+"n_or_groups": 3,
+"n_soft": 13,
+"n_redundant_removed": 9,
+"n_gaps": 5,
+"n_overlaps": 77,
+"n_sources": 19,
+"n_sinks": 93,
+"n_isolated": 1,
+"cross_domain_edges": 88,
+"max_depth": 15,
+"critical_chain": [
+"QNT01",
+"QNT05",
+"QNT08",
+"QNT11",
+"QNT12",
+"QNT18",
+"QNT19",
+"QNT20",
+"QNT21",
+"QNT26",
+"FIN13",
+"FIN25",
+"FIN26",
+"ACC33",
+"ACC34",
+"STR15"
+],
+"total_hours": 381.8
+}
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MBA Speedrun · Class concept map</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="brand">MBA Speedrun <span>· OML project</span></div>
+  <nav><a href="index.html">Home</a><a href="planner.html">Roadmap planner</a><a href="explorer.html">Topic web</a><a href="topic-web.html">Detailed explorer</a><a href="concepts.html" class="active">Class concepts</a></nav>
+</header>
+<main>
+  <h1>Class concept map</h1>
+  <p class="lede">Every concept from the OML decks (Sessions 1, 3, 5–10), where it appears in this project, and how strongly it is used. Source: <code>docs/class_concept_map.csv</code>.</p>
+  <div class="row noprint" style="margin-bottom:8px">
+    <select id="f"><option value="">All strengths</option><option>core</option><option>supporting</option><option>not used</option></select>
+    <span class="small muted" id="count"></span>
+  </div>
+  <table class="cmp" id="tbl"><thead><tr><th>Deck</th><th>Slides</th><th>Concept</th><th>Where in the project</th><th>Use</th></tr></thead><tbody></tbody></table>
+</main>
+<footer>MBA Speedrun · OML, IIM Ahmedabad · <a href="https://github.com/p25prathik-hue/mba-speedrun">source on GitHub</a></footer>
+<script src="data/concepts.js"></script>
+<script>
+  const rows = window.SPEEDRUN_CONCEPTS, tb = document.querySelector("#tbl tbody"), f = document.getElementById("f");
+  function draw(){ const v=f.value; const r = rows.filter(x=>!v||x.strength===v);
+    document.getElementById("count").textContent = `${r.length} of ${rows.length} concepts`;
+    tb.innerHTML = r.map(x=>`<tr><td>${x.deck}</td><td>${x.slides}</td><td>${x.concept}${x.class_notation&&x.class_notation!=="-"?`<br><span class="muted small"><code>${x.class_notation}</code></span>`:""}</td><td>${x.where_in_project}${x.note?`<br><span class="muted small">${x.note}</span>`:""}</td><td class="strength-${x.strength.split(" ")[0]}">${x.strength}</td></tr>`).join(""); }
+  f.onchange = draw; draw();
+</script>
+</body>
+</html>

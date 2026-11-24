@@ -1,0 +1,29 @@
+id,name,course,domain,term,order,hours,value,note
+A1,Accounting equation and the balance sheet,Financial Reporting (pilot),ACC,1,1,3.0,4,estimate
+A2,Income statement and the accrual principle,Financial Reporting (pilot),ACC,1,2,2.5,4,estimate
+A3,"Journal entries, adjusting and closing entries",Financial Reporting (pilot),ACC,1,3,3.0,2,estimate
+A4,Revenue recognition,Financial Reporting (pilot),ACC,1,4,2.0,2,estimate
+A5,Inventory and cost of goods sold,Financial Reporting (pilot),ACC,1,5,2.0,2,estimate
+A6,Fixed assets and depreciation,Financial Reporting (pilot),ACC,1,6,2.0,2,estimate
+A7,Cash flow statement (indirect method),Financial Reporting (pilot),ACC,1,7,3.0,4,estimate
+A8,Ratio analysis and DuPont,Financial Reporting (pilot),ACC,1,8,3.0,5,estimate
+Q1,"Probability, expected value and variance",Statistics (pilot),QM,1,1,2.5,2,estimate
+Q2,"Covariance, correlation and simple regression",Statistics (pilot),QM,1,2,3.0,2,estimate
+M1,Cost terms and cost behaviour,Management Accounting (pilot),MA,2,1,2.0,2,estimate
+M2,Cost-volume-profit and break-even,Management Accounting (pilot),MA,2,2,2.5,3,estimate
+M3,Job costing and overhead allocation,Management Accounting (pilot),MA,2,3,2.5,2,estimate
+M4,Activity-based costing,Management Accounting (pilot),MA,2,4,2.0,2,estimate
+M5,Master budget,Management Accounting (pilot),MA,2,5,2.5,2,estimate
+M6,Flexible budgets and variance analysis,Management Accounting (pilot),MA,2,6,3.0,2,estimate
+M7,Relevant costs and make-or-buy,Management Accounting (pilot),MA,2,7,2.0,3,estimate
+F1,"Time value of money: PV, annuities, perpetuities",Corporate Finance (pilot),FIN,3,1,3.0,5,estimate
+F2,Bond valuation and yield to maturity,Corporate Finance (pilot),FIN,3,2,2.5,4,estimate
+F3,"Stock valuation: dividend discount, P/E",Corporate Finance (pilot),FIN,3,3,2.5,4,estimate
+F4,"NPV, IRR and payback",Corporate Finance (pilot),FIN,3,4,2.5,5,estimate
+F5,Incremental free cash flows for projects,Corporate Finance (pilot),FIN,3,5,3.0,4,estimate
+F6,"Risk, return and diversification",Corporate Finance (pilot),FIN,3,6,3.0,3,estimate
+F7,CAPM and beta,Corporate Finance (pilot),FIN,3,7,2.5,4,estimate
+F8,Cost of capital (WACC),Corporate Finance (pilot),FIN,3,8,2.5,5,estimate
+F9,"Capital structure: MM, tax shields",Corporate Finance (pilot),FIN,3,9,3.0,3,estimate
+F10,"Options: payoffs, put-call parity",Corporate Finance (pilot),FIN,3,10,2.5,3,estimate
+F11,Working capital management,Corporate Finance (pilot),FIN,3,11,2.0,3,estimate

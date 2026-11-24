@@ -1,0 +1,43 @@
+topic_id,topic,source_id,position,unit,keyword_hits
+A1,Accounting equation and the balance sheet,MIT511,2.0,Balance sheet,2
+A2,Income statement and the accrual principle,MIT511,3.0,Income statement and accrual accounting,2
+A2,Income statement and the accrual principle,MIT501,3.0,Income statement and accrual accounting,2
+A3,"Journal entries, adjusting and closing entries",MIT511,4.0,Accrual accounting process,2
+A3,"Journal entries, adjusting and closing entries",MIT501,5.0,The accounting process,2
+A4,Revenue recognition,MIT511,3.0,Income statement and accrual accounting,1
+A4,Revenue recognition,MIT501,6.0,Revenue recognition,1
+A5,Inventory and cost of goods sold,CT5,2.0,Process view of the organisation,1
+A6,Fixed assets and depreciation,MIT511,2.0,Balance sheet,1
+A7,Cash flow statement (indirect method),BMA14,6.0,Investment decisions with the NPV rule,1
+A7,Cash flow statement (indirect method),MIT401,11.0,Capital budgeting,1
+A8,Ratio analysis and DuPont,BMA14,29.0,Financial analysis,2
+Q1,"Probability, expected value and variance",BMA14,7.0,"Risk, diversification and portfolio selection",1
+Q1,"Probability, expected value and variance",HDR17,7.0,Flexible budgets and direct-cost variances,1
+Q2,"Covariance, correlation and simple regression",BMA14,7.0,"Risk, diversification and portfolio selection",1
+Q2,"Covariance, correlation and simple regression",HDR17,7.0,Flexible budgets and direct-cost variances,1
+M1,Cost terms and cost behaviour,HDR17,2.0,Cost terms and purposes,2
+M2,Cost-volume-profit and break-even,BMA14,10.0,Project analysis,1
+M2,Cost-volume-profit and break-even,HDR17,3.0,Cost-volume-profit analysis,1
+M3,Job costing and overhead allocation,HDR17,4.0,Job costing,3
+M4,Activity-based costing,HDR17,5.0,Activity-based costing,1
+M5,Master budget,HDR17,6.0,Master budget,2
+M6,Flexible budgets and variance analysis,BMA14,7.0,"Risk, diversification and portfolio selection",1
+M6,Flexible budgets and variance analysis,HDR17,7.0,Flexible budgets and direct-cost variances,2
+F1,"Time value of money: PV, annuities, perpetuities",BMA14,2.0,Present values,1
+F2,Bond valuation and yield to maturity,BMA14,3.0,Valuing bonds,2
+F2,Bond valuation and yield to maturity,MIT401,3.0,Fixed-income securities,1
+F3,"Stock valuation: dividend discount, P/E",BMA14,4.0,Valuing stocks,3
+F3,"Stock valuation: dividend discount, P/E",MIT401,4.0,Common stocks,2
+F4,"NPV, IRR and payback",BMA14,5.0,NPV and other investment criteria,3
+F4,"NPV, IRR and payback",MIT401,2.0,Present value,1
+F5,Incremental free cash flows for projects,BMA14,6.0,Investment decisions with the NPV rule,3
+F5,Incremental free cash flows for projects,MIT401,11.0,Capital budgeting,1
+F6,"Risk, return and diversification",BMA14,7.0,"Risk, diversification and portfolio selection",3
+F6,"Risk, return and diversification",MIT401,7.0,Introduction to risk and return,2
+F7,CAPM and beta,BMA14,8.0,Capital asset pricing model,2
+F7,CAPM and beta,MIT401,10.0,CAPM,2
+F8,Cost of capital (WACC),BMA14,9.0,Risk and the cost of capital,2
+F9,"Capital structure: MM, tax shields",BMA14,16.0,Debt policy (MM),2
+F10,"Options: payoffs, put-call parity",BMA14,21.0,Understanding options,5
+F10,"Options: payoffs, put-call parity",MIT401,6.0,Options,1
+F11,Working capital management,BMA14,31.0,Working capital management,1

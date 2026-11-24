@@ -1,0 +1,7815 @@
+{
+ "generated_by": "speedrun.webexport",
+ "params": {
+  "w_switch": 0.5,
+  "s_synergy": 0.15,
+  "rho_revision": 0.02,
+  "L_revision_free": 12.0,
+  "revision_cap_share": 0.5,
+  "soft_penalty": 1.0,
+  "start_warmup": 0.5,
+  "day_hours": 6.0,
+  "day_warmup": 0.25
+ },
+ "topics": [
+  {
+   "id": "QNT01",
+   "name": "Algebra and functions refresher",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 0.0,
+   "hours": 0.75,
+   "value": 2.0
+  },
+  {
+   "id": "QNT02",
+   "name": "Calculus basics: derivatives and optimisation",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a",
+    "ME"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 1.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "QNT03",
+   "name": "Descriptive statistics: centre and spread",
+   "course": "QM-1b",
+   "courses": [
+    "QM-1b"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 2.0,
+   "hours": 0.75,
+   "value": 4.0
+  },
+  {
+   "id": "QNT04",
+   "name": "Data visualisation and distribution shapes",
+   "course": "QM-1b",
+   "courses": [
+    "QM-1b",
+    "MGRCMP"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 3.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "QNT05",
+   "name": "Probability basics: events, axioms, counting",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 4.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT06",
+   "name": "Conditional probability and independence",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 5.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT07",
+   "name": "Bayes' theorem",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 6.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT08",
+   "name": "Random variables, expectation and variance",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 7.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "QNT09",
+   "name": "Covariance and correlation",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a",
+    "QM-1b",
+    "FM"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 8.0,
+   "hours": 0.75,
+   "value": 5.0
+  },
+  {
+   "id": "QNT10",
+   "name": "Discrete distributions: binomial and Poisson",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 9.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT11",
+   "name": "Continuous distributions: uniform and exponential",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 10.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "QNT12",
+   "name": "Normal distribution",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 11.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "QNT13",
+   "name": "Expected-value decisions and payoff tables",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 12.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT14",
+   "name": "Decision trees",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a",
+    "CF"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 13.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "QNT15",
+   "name": "Value of information (EVPI, EVSI)",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 14.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "QNT16",
+   "name": "Risk attitude and utility functions",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a",
+    "FM"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 15.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "QNT17",
+   "name": "Monte Carlo simulation",
+   "course": "QM-1a",
+   "courses": [
+    "QM-1a",
+    "MGRCMP",
+    "CF"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 16.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT18",
+   "name": "Sampling and sampling distributions",
+   "course": "QM-1b",
+   "courses": [
+    "QM-1b"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 17.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT19",
+   "name": "Central limit theorem",
+   "course": "QM-1b",
+   "courses": [
+    "QM-1b"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 18.0,
+   "hours": 0.75,
+   "value": 4.0
+  },
+  {
+   "id": "QNT20",
+   "name": "Confidence intervals",
+   "course": "QM-1b",
+   "courses": [
+    "QM-1b"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 19.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "QNT21",
+   "name": "Hypothesis testing: logic, p-values, type I/II errors",
+   "course": "QM-1b",
+   "courses": [
+    "QM-1b",
+    "BRM"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 20.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "QNT22",
+   "name": "t-tests: one and two samples",
+   "course": "QM-1b",
+   "courses": [
+    "QM-1b",
+    "BRM"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 21.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT23",
+   "name": "Tests for proportions",
+   "course": "QM-1b",
+   "courses": [
+    "QM-1b"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 22.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "QNT24",
+   "name": "Chi-square tests",
+   "course": "QM-1b",
+   "courses": [
+    "QM-1b",
+    "BRM"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 23.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "QNT25",
+   "name": "ANOVA",
+   "course": "QM-1b",
+   "courses": [
+    "QM-1b",
+    "BRM"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 24.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "QNT26",
+   "name": "Simple linear regression",
+   "course": "QM-2",
+   "courses": [
+    "QM-2",
+    "BRM",
+    "FM"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 25.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "QNT27",
+   "name": "Multiple regression",
+   "course": "QM-2",
+   "courses": [
+    "QM-2",
+    "BRM",
+    "MKT-III"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 26.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "QNT28",
+   "name": "Regression diagnostics: multicollinearity, heteroscedasticity",
+   "course": "QM-2",
+   "courses": [
+    "QM-2"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 27.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "QNT29",
+   "name": "Dummy variables and interaction terms",
+   "course": "QM-2",
+   "courses": [
+    "QM-2",
+    "BRM"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 28.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT30",
+   "name": "Logistic regression",
+   "course": "QM-2",
+   "courses": [
+    "QM-2",
+    "BRM",
+    "TBIT"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 29.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT31",
+   "name": "Time series: components and smoothing",
+   "course": "QM-2",
+   "courses": [
+    "QM-2",
+    "OM-I"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 30.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT32",
+   "name": "Linear programming formulation",
+   "course": "QM-2",
+   "courses": [
+    "QM-2",
+    "OM-II",
+    "MGRCMP"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 31.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "QNT33",
+   "name": "Graphical LP and simplex intuition",
+   "course": "QM-2",
+   "courses": [
+    "QM-2"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 32.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "QNT34",
+   "name": "LP sensitivity analysis and shadow prices",
+   "course": "QM-2",
+   "courses": [
+    "QM-2"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 33.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "QNT35",
+   "name": "Integer and binary programming",
+   "course": "QM-2",
+   "courses": [
+    "QM-2"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 34.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT36",
+   "name": "Transportation and assignment models",
+   "course": "QM-2",
+   "courses": [
+    "QM-2",
+    "OM-III"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 35.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "QNT37",
+   "name": "Network models: shortest path, max flow",
+   "course": "QM-2",
+   "courses": [
+    "QM-2"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 36.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "QNT38",
+   "name": "Multi-criteria decisions (AHP, scoring)",
+   "course": "QM-2",
+   "courses": [
+    "QM-2"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 2.0,
+   "order": 37.0,
+   "hours": 0.75,
+   "value": 2.0
+  },
+  {
+   "id": "CMP01",
+   "name": "Spreadsheet fundamentals: formulas, references, lookups",
+   "course": "MGRCMP",
+   "courses": [
+    "MGRCMP"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 38.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "CMP02",
+   "name": "Spreadsheet modelling and what-if analysis",
+   "course": "MGRCMP",
+   "courses": [
+    "MGRCMP"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 39.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "CMP03",
+   "name": "Pivot tables and data summarisation",
+   "course": "MGRCMP",
+   "courses": [
+    "MGRCMP"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 40.0,
+   "hours": 0.75,
+   "value": 4.0
+  },
+  {
+   "id": "CMP04",
+   "name": "Solver for optimisation",
+   "course": "MGRCMP",
+   "courses": [
+    "MGRCMP",
+    "QM-2"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 41.0,
+   "hours": 0.75,
+   "value": 4.0
+  },
+  {
+   "id": "CMP05",
+   "name": "Databases and SQL basics",
+   "course": "MGRCMP",
+   "courses": [
+    "MGRCMP",
+    "TBIT"
+   ],
+   "domain": "Quant & Analytics",
+   "term": 1.0,
+   "order": 42.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ACC01",
+   "name": "Accounting equation and double entry",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 43.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ACC02",
+   "name": "Journal, ledger and trial balance",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 44.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ACC03",
+   "name": "Accrual vs cash basis and matching",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 45.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ACC04",
+   "name": "Income statement (P&L) structure",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 46.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ACC05",
+   "name": "Balance sheet structure",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 47.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ACC06",
+   "name": "Adjusting and closing entries",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 48.0,
+   "hours": 0.75,
+   "value": 2.0
+  },
+  {
+   "id": "ACC07",
+   "name": "Revenue recognition (Ind AS 115)",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 49.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ACC08",
+   "name": "Inventory valuation: FIFO, weighted average",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 50.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ACC09",
+   "name": "Fixed assets and depreciation",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 51.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ACC10",
+   "name": "Intangibles, goodwill and impairment",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 52.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ACC11",
+   "name": "Liabilities, provisions and contingencies",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 53.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "ACC12",
+   "name": "Lease accounting (Ind AS 116)",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 54.0,
+   "hours": 1.5,
+   "value": 2.0
+  },
+  {
+   "id": "ACC13",
+   "name": "Shareholders' equity and EPS",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 55.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "ACC14",
+   "name": "Deferred tax",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 56.0,
+   "hours": 1.5,
+   "value": 2.0
+  },
+  {
+   "id": "ACC15",
+   "name": "Cash flow statement",
+   "course": "FRA",
+   "courses": [
+    "FRA",
+    "CF"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 57.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "ACC16",
+   "name": "Consolidation and group accounts basics",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 58.0,
+   "hours": 1.5,
+   "value": 2.0
+  },
+  {
+   "id": "ACC17",
+   "name": "Ratio analysis: profitability, liquidity, solvency",
+   "course": "FRA",
+   "courses": [
+    "FRA",
+    "CF"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 59.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "ACC18",
+   "name": "DuPont analysis",
+   "course": "FRA",
+   "courses": [
+    "FRA",
+    "CF"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 60.0,
+   "hours": 0.75,
+   "value": 5.0
+  },
+  {
+   "id": "ACC19",
+   "name": "Earnings quality and red flags",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 61.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ACC20",
+   "name": "Reading an annual report and notes",
+   "course": "FRA",
+   "courses": [
+    "FRA"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 62.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ACC21",
+   "name": "Working capital and cash conversion cycle",
+   "course": "FRA",
+   "courses": [
+    "FRA",
+    "CF",
+    "OM-II"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 63.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ACC22",
+   "name": "Cost concepts and behaviour: fixed, variable, sunk, opportunity",
+   "course": "CCS",
+   "courses": [
+    "CCS",
+    "ME",
+    "OM-II"
+   ],
+   "domain": "Accounting",
+   "term": 1.0,
+   "order": 64.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ACC23",
+   "name": "Cost-volume-profit and break-even",
+   "course": "CCS",
+   "courses": [
+    "CCS",
+    "MKT-II"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 65.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ACC24",
+   "name": "Job and process costing",
+   "course": "CCS",
+   "courses": [
+    "CCS"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 66.0,
+   "hours": 1.5,
+   "value": 2.0
+  },
+  {
+   "id": "ACC25",
+   "name": "Overhead allocation and absorption costing",
+   "course": "CCS",
+   "courses": [
+    "CCS"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 67.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ACC26",
+   "name": "Activity-based costing",
+   "course": "CCS",
+   "courses": [
+    "CCS"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 68.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ACC27",
+   "name": "Variable vs absorption costing",
+   "course": "CCS",
+   "courses": [
+    "CCS"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 69.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "ACC28",
+   "name": "Relevant costing: make-or-buy, special orders",
+   "course": "CCS",
+   "courses": [
+    "CCS",
+    "OM-III",
+    "SM"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 70.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ACC29",
+   "name": "Budgeting and the master budget",
+   "course": "CCS",
+   "courses": [
+    "CCS"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 71.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ACC30",
+   "name": "Standard costing and variance analysis",
+   "course": "CCS",
+   "courses": [
+    "CCS"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 72.0,
+   "hours": 2.5,
+   "value": 4.0
+  },
+  {
+   "id": "ACC31",
+   "name": "Responsibility centres and segment reporting",
+   "course": "CCS",
+   "courses": [
+    "CCS"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 73.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ACC32",
+   "name": "Transfer pricing",
+   "course": "CCS",
+   "courses": [
+    "CCS"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 74.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ACC33",
+   "name": "Performance measures: ROI, residual income, EVA",
+   "course": "CCS",
+   "courses": [
+    "CCS",
+    "CF"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 75.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ACC34",
+   "name": "Balanced scorecard and management control systems",
+   "course": "CCS",
+   "courses": [
+    "CCS",
+    "SM"
+   ],
+   "domain": "Accounting",
+   "term": 2.0,
+   "order": 76.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN01",
+   "name": "Financial system: markets, institutions, instruments",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 77.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN02",
+   "name": "Interest rates: simple, compound, nominal vs effective",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 78.0,
+   "hours": 0.75,
+   "value": 4.0
+  },
+  {
+   "id": "FIN03",
+   "name": "Time value of money: PV and FV",
+   "course": "FM",
+   "courses": [
+    "FM",
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 79.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN04",
+   "name": "Annuities and perpetuities",
+   "course": "FM",
+   "courses": [
+    "FM",
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 80.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN05",
+   "name": "Loan amortisation and EMIs",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 81.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "FIN06",
+   "name": "Bond pricing and yield to maturity",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 82.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN07",
+   "name": "Term structure and the yield curve",
+   "course": "FM",
+   "courses": [
+    "FM",
+    "MEP"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 83.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN08",
+   "name": "Duration and convexity",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 84.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN09",
+   "name": "Stock valuation: dividend discount model",
+   "course": "FM",
+   "courses": [
+    "FM",
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 85.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN10",
+   "name": "Measuring return and risk",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 2.0,
+   "order": 86.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN11",
+   "name": "Diversification and portfolio theory",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 2.0,
+   "order": 87.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN12",
+   "name": "Efficient frontier and optimal portfolio",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 2.0,
+   "order": 88.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN13",
+   "name": "CAPM and beta",
+   "course": "FM",
+   "courses": [
+    "FM",
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 2.0,
+   "order": 89.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN14",
+   "name": "Market efficiency",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 2.0,
+   "order": 90.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN15",
+   "name": "Forwards and futures",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 2.0,
+   "order": 91.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN16",
+   "name": "Options: payoffs and strategies",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 2.0,
+   "order": 92.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN17",
+   "name": "Option pricing: binomial and Black-Scholes intuition",
+   "course": "FM",
+   "courses": [
+    "FM"
+   ],
+   "domain": "Finance",
+   "term": 2.0,
+   "order": 93.0,
+   "hours": 2.5,
+   "value": 3.0
+  },
+  {
+   "id": "FIN18",
+   "name": "FX markets and parity conditions",
+   "course": "FM",
+   "courses": [
+    "FM",
+    "MEP"
+   ],
+   "domain": "Finance",
+   "term": 2.0,
+   "order": 94.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "FIN19",
+   "name": "Goal of the firm and agency problems",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 95.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "FIN20",
+   "name": "Capital budgeting: the NPV rule",
+   "course": "CF",
+   "courses": [
+    "CF",
+    "FM",
+    "ME"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 96.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN21",
+   "name": "IRR, payback and other criteria",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 97.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN22",
+   "name": "Estimating project cash flows (incremental FCF)",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 98.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN23",
+   "name": "Project risk: sensitivity, scenario, simulation",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 99.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN24",
+   "name": "Real options",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 100.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "FIN25",
+   "name": "Cost of equity and cost of debt",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 101.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN26",
+   "name": "WACC",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 102.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN27",
+   "name": "Capital structure: MM propositions",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 103.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN28",
+   "name": "Trade-off and pecking-order theories",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 104.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN29",
+   "name": "Dividend policy and buybacks",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 105.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN30",
+   "name": "DCF valuation of a firm",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 106.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN31",
+   "name": "Relative valuation: multiples",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 107.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "FIN32",
+   "name": "Working capital management",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 108.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN33",
+   "name": "Financial planning and forecasting statements",
+   "course": "CF",
+   "courses": [
+    "CF"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 109.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN34",
+   "name": "Mergers and acquisitions: synergies and valuation",
+   "course": "CF",
+   "courses": [
+    "CF",
+    "SM"
+   ],
+   "domain": "Finance",
+   "term": 3.0,
+   "order": 110.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "FIN35",
+   "name": "Corporate governance",
+   "course": "CF",
+   "courses": [
+    "CF",
+    "SM",
+    "LAB"
+   ],
+   "domain": "Finance",
+   "term": 1.0,
+   "order": 111.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "ECO01",
+   "name": "Demand and supply basics",
+   "course": "ME",
+   "courses": [
+    "ME"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 112.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ECO02",
+   "name": "Market equilibrium and comparative statics",
+   "course": "ME",
+   "courses": [
+    "ME"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 113.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO03",
+   "name": "Elasticities: price, income, cross",
+   "course": "ME",
+   "courses": [
+    "ME",
+    "MKT-II"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 114.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ECO04",
+   "name": "Consumer surplus and welfare",
+   "course": "ME",
+   "courses": [
+    "ME"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 115.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "ECO05",
+   "name": "Consumer choice: utility and indifference curves",
+   "course": "ME",
+   "courses": [
+    "ME"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 116.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ECO06",
+   "name": "Production functions and returns to scale",
+   "course": "ME",
+   "courses": [
+    "ME"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 117.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ECO07",
+   "name": "Cost curves and economies of scale",
+   "course": "ME",
+   "courses": [
+    "ME",
+    "OM-I"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 118.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ECO08",
+   "name": "Perfect competition",
+   "course": "ME",
+   "courses": [
+    "ME"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 119.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO09",
+   "name": "Monopoly and market power",
+   "course": "ME",
+   "courses": [
+    "ME"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 120.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ECO10",
+   "name": "Price discrimination and dynamic pricing",
+   "course": "ME",
+   "courses": [
+    "ME",
+    "MKT-II"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 121.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ECO11",
+   "name": "Game theory: strategic form and Nash equilibrium",
+   "course": "ME",
+   "courses": [
+    "ME",
+    "SM"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 122.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "ECO12",
+   "name": "Sequential games, commitment and credibility",
+   "course": "ME",
+   "courses": [
+    "ME",
+    "SM"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 123.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO13",
+   "name": "Oligopoly: Cournot, Bertrand, Stackelberg",
+   "course": "ME",
+   "courses": [
+    "ME"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 124.0,
+   "hours": 2.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO14",
+   "name": "Monopolistic competition and product differentiation",
+   "course": "ME",
+   "courses": [
+    "ME",
+    "MKT-I"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 125.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "ECO15",
+   "name": "Information asymmetry: adverse selection, signalling",
+   "course": "ME",
+   "courses": [
+    "ME"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 126.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO16",
+   "name": "Moral hazard and principal-agent incentives",
+   "course": "ME",
+   "courses": [
+    "ME",
+    "HRM-II",
+    "CF"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 127.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO17",
+   "name": "Externalities and public goods",
+   "course": "ME",
+   "courses": [
+    "ME",
+    "BES",
+    "GSP"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 128.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO18",
+   "name": "Network effects and platform economics",
+   "course": "ME",
+   "courses": [
+    "ME",
+    "IEB",
+    "SM"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 129.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ECO19",
+   "name": "Behavioural economics: biases and heuristics",
+   "course": "ME",
+   "courses": [
+    "ME",
+    "MKT-I",
+    "ID"
+   ],
+   "domain": "Economics",
+   "term": 1.0,
+   "order": 130.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO20",
+   "name": "National income accounting and GDP",
+   "course": "MEP",
+   "courses": [
+    "MEP"
+   ],
+   "domain": "Economics",
+   "term": 2.0,
+   "order": 131.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO21",
+   "name": "Inflation and price indices",
+   "course": "MEP",
+   "courses": [
+    "MEP",
+    "FM"
+   ],
+   "domain": "Economics",
+   "term": 2.0,
+   "order": 132.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ECO22",
+   "name": "Money, banking and money creation",
+   "course": "MEP",
+   "courses": [
+    "MEP"
+   ],
+   "domain": "Economics",
+   "term": 2.0,
+   "order": 133.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO23",
+   "name": "Monetary policy: RBI, repo rate, transmission",
+   "course": "MEP",
+   "courses": [
+    "MEP",
+    "FM"
+   ],
+   "domain": "Economics",
+   "term": 2.0,
+   "order": 134.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ECO24",
+   "name": "Fiscal policy, deficits and public debt",
+   "course": "MEP",
+   "courses": [
+    "MEP",
+    "GSP"
+   ],
+   "domain": "Economics",
+   "term": 2.0,
+   "order": 135.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO25",
+   "name": "IS-LM and aggregate demand",
+   "course": "MEP",
+   "courses": [
+    "MEP"
+   ],
+   "domain": "Economics",
+   "term": 2.0,
+   "order": 136.0,
+   "hours": 2.5,
+   "value": 3.0
+  },
+  {
+   "id": "ECO26",
+   "name": "Aggregate supply, Phillips curve, business cycles",
+   "course": "MEP",
+   "courses": [
+    "MEP"
+   ],
+   "domain": "Economics",
+   "term": 2.0,
+   "order": 137.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ECO27",
+   "name": "Open economy: balance of payments and exchange rates",
+   "course": "MEP",
+   "courses": [
+    "MEP",
+    "FM"
+   ],
+   "domain": "Economics",
+   "term": 2.0,
+   "order": 138.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ECO28",
+   "name": "Long-run growth and its drivers",
+   "course": "MEP",
+   "courses": [
+    "MEP"
+   ],
+   "domain": "Economics",
+   "term": 2.0,
+   "order": 139.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ECO29",
+   "name": "Indian economy: structure and reforms",
+   "course": "MEP",
+   "courses": [
+    "MEP",
+    "GSP"
+   ],
+   "domain": "Economics",
+   "term": 2.0,
+   "order": 140.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "MKT01",
+   "name": "Marketing concept and customer value",
+   "course": "MKT-I",
+   "courses": [
+    "MKT-I"
+   ],
+   "domain": "Marketing",
+   "term": 1.0,
+   "order": 141.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "MKT02",
+   "name": "Consumer behaviour and customer needs",
+   "course": "MKT-I",
+   "courses": [
+    "MKT-I"
+   ],
+   "domain": "Marketing",
+   "term": 1.0,
+   "order": 142.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "MKT03",
+   "name": "Buying decision process and B2B buying",
+   "course": "MKT-I",
+   "courses": [
+    "MKT-I"
+   ],
+   "domain": "Marketing",
+   "term": 1.0,
+   "order": 143.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "MKT04",
+   "name": "Defining a marketing research problem",
+   "course": "MKT-I",
+   "courses": [
+    "MKT-I",
+    "BRM"
+   ],
+   "domain": "Marketing",
+   "term": 1.0,
+   "order": 144.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "MKT05",
+   "name": "Market sizing and demand estimation",
+   "course": "MKT-I",
+   "courses": [
+    "MKT-I"
+   ],
+   "domain": "Marketing",
+   "term": 1.0,
+   "order": 145.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "MKT06",
+   "name": "Segmentation",
+   "course": "MKT-I",
+   "courses": [
+    "MKT-I"
+   ],
+   "domain": "Marketing",
+   "term": 1.0,
+   "order": 146.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "MKT07",
+   "name": "Targeting and segment attractiveness",
+   "course": "MKT-I",
+   "courses": [
+    "MKT-I"
+   ],
+   "domain": "Marketing",
+   "term": 1.0,
+   "order": 147.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "MKT08",
+   "name": "Positioning and perceptual maps",
+   "course": "MKT-I",
+   "courses": [
+    "MKT-I"
+   ],
+   "domain": "Marketing",
+   "term": 1.0,
+   "order": 148.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "MKT09",
+   "name": "Competitor analysis for marketers",
+   "course": "MKT-I",
+   "courses": [
+    "MKT-I"
+   ],
+   "domain": "Marketing",
+   "term": 1.0,
+   "order": 149.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "MKT10",
+   "name": "Product decisions and product life cycle",
+   "course": "MKT-I",
+   "courses": [
+    "MKT-I"
+   ],
+   "domain": "Marketing",
+   "term": 1.0,
+   "order": 150.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "MKT11",
+   "name": "New product development and diffusion (Bass model)",
+   "course": "MKT-II",
+   "courses": [
+    "MKT-II"
+   ],
+   "domain": "Marketing",
+   "term": 2.0,
+   "order": 151.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "MKT12",
+   "name": "Brand equity and brand management",
+   "course": "MKT-II",
+   "courses": [
+    "MKT-II"
+   ],
+   "domain": "Marketing",
+   "term": 2.0,
+   "order": 152.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "MKT13",
+   "name": "Pricing strategy: cost, value and competition based",
+   "course": "MKT-II",
+   "courses": [
+    "MKT-II"
+   ],
+   "domain": "Marketing",
+   "term": 2.0,
+   "order": 153.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "MKT14",
+   "name": "Pricing tactics: bundling, psychological pricing",
+   "course": "MKT-II",
+   "courses": [
+    "MKT-II"
+   ],
+   "domain": "Marketing",
+   "term": 2.0,
+   "order": 154.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "MKT15",
+   "name": "Distribution channels and channel design",
+   "course": "MKT-II",
+   "courses": [
+    "MKT-II"
+   ],
+   "domain": "Marketing",
+   "term": 2.0,
+   "order": 155.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "MKT16",
+   "name": "Channel conflict and retail management",
+   "course": "MKT-II",
+   "courses": [
+    "MKT-II"
+   ],
+   "domain": "Marketing",
+   "term": 2.0,
+   "order": 156.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "MKT17",
+   "name": "Integrated marketing communications",
+   "course": "MKT-II",
+   "courses": [
+    "MKT-II"
+   ],
+   "domain": "Marketing",
+   "term": 2.0,
+   "order": 157.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "MKT18",
+   "name": "Advertising budgets and media planning",
+   "course": "MKT-II",
+   "courses": [
+    "MKT-II"
+   ],
+   "domain": "Marketing",
+   "term": 2.0,
+   "order": 158.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "MKT19",
+   "name": "Sales management and salesforce design",
+   "course": "MKT-II",
+   "courses": [
+    "MKT-II"
+   ],
+   "domain": "Marketing",
+   "term": 2.0,
+   "order": 159.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "MKT20",
+   "name": "Digital marketing and funnel metrics",
+   "course": "MKT-III",
+   "courses": [
+    "MKT-III",
+    "IEB"
+   ],
+   "domain": "Marketing",
+   "term": 3.0,
+   "order": 160.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "MKT21",
+   "name": "Customer lifetime value",
+   "course": "MKT-III",
+   "courses": [
+    "MKT-III",
+    "IEB"
+   ],
+   "domain": "Marketing",
+   "term": 3.0,
+   "order": 161.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "MKT22",
+   "name": "CRM, loyalty and retention",
+   "course": "MKT-III",
+   "courses": [
+    "MKT-III"
+   ],
+   "domain": "Marketing",
+   "term": 3.0,
+   "order": 162.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "MKT23",
+   "name": "Marketing mix modelling and marketing ROI",
+   "course": "MKT-III",
+   "courses": [
+    "MKT-III"
+   ],
+   "domain": "Marketing",
+   "term": 3.0,
+   "order": 163.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "MKT24",
+   "name": "Services marketing",
+   "course": "MKT-III",
+   "courses": [
+    "MKT-III"
+   ],
+   "domain": "Marketing",
+   "term": 3.0,
+   "order": 164.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "MKT25",
+   "name": "Go-to-market strategy and the marketing plan",
+   "course": "MKT-III",
+   "courses": [
+    "MKT-III"
+   ],
+   "domain": "Marketing",
+   "term": 3.0,
+   "order": 165.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "OPS01",
+   "name": "Process analysis: flow, capacity, bottleneck",
+   "course": "OM-I",
+   "courses": [
+    "OM-I"
+   ],
+   "domain": "Operations",
+   "term": 1.0,
+   "order": 166.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "OPS02",
+   "name": "Little's law",
+   "course": "OM-I",
+   "courses": [
+    "OM-I"
+   ],
+   "domain": "Operations",
+   "term": 1.0,
+   "order": 167.0,
+   "hours": 0.75,
+   "value": 5.0
+  },
+  {
+   "id": "OPS03",
+   "name": "Process flow charts and process design",
+   "course": "OM-I",
+   "courses": [
+    "OM-I"
+   ],
+   "domain": "Operations",
+   "term": 1.0,
+   "order": 168.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "OPS04",
+   "name": "Capacity planning and utilisation",
+   "course": "OM-I",
+   "courses": [
+    "OM-I"
+   ],
+   "domain": "Operations",
+   "term": 1.0,
+   "order": 169.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OPS05",
+   "name": "Variability and queueing basics",
+   "course": "OM-I",
+   "courses": [
+    "OM-I"
+   ],
+   "domain": "Operations",
+   "term": 1.0,
+   "order": 170.0,
+   "hours": 2.5,
+   "value": 4.0
+  },
+  {
+   "id": "OPS06",
+   "name": "Managing waiting lines in services",
+   "course": "OM-III",
+   "courses": [
+    "OM-III",
+    "SOM"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 171.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "OPS07",
+   "name": "Forecasting methods",
+   "course": "OM-I",
+   "courses": [
+    "OM-I"
+   ],
+   "domain": "Operations",
+   "term": 1.0,
+   "order": 172.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "OPS08",
+   "name": "Forecast accuracy: MAD, MAPE, bias",
+   "course": "OM-I",
+   "courses": [
+    "OM-I"
+   ],
+   "domain": "Operations",
+   "term": 1.0,
+   "order": 173.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "OPS09",
+   "name": "Inventory basics and inventory costs",
+   "course": "OM-II",
+   "courses": [
+    "OM-II"
+   ],
+   "domain": "Operations",
+   "term": 2.0,
+   "order": 174.0,
+   "hours": 0.75,
+   "value": 4.0
+  },
+  {
+   "id": "OPS10",
+   "name": "EOQ model",
+   "course": "OM-II",
+   "courses": [
+    "OM-II"
+   ],
+   "domain": "Operations",
+   "term": 2.0,
+   "order": 175.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "OPS11",
+   "name": "Reorder point and safety stock",
+   "course": "OM-II",
+   "courses": [
+    "OM-II"
+   ],
+   "domain": "Operations",
+   "term": 2.0,
+   "order": 176.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "OPS12",
+   "name": "Newsvendor model",
+   "course": "OM-II",
+   "courses": [
+    "OM-II"
+   ],
+   "domain": "Operations",
+   "term": 2.0,
+   "order": 177.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "OPS13",
+   "name": "ABC analysis and inventory policies",
+   "course": "OM-II",
+   "courses": [
+    "OM-II"
+   ],
+   "domain": "Operations",
+   "term": 2.0,
+   "order": 178.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "OPS14",
+   "name": "Aggregate planning",
+   "course": "OM-II",
+   "courses": [
+    "OM-II"
+   ],
+   "domain": "Operations",
+   "term": 2.0,
+   "order": 179.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "OPS15",
+   "name": "Material requirements planning (MRP)",
+   "course": "OM-II",
+   "courses": [
+    "OM-II"
+   ],
+   "domain": "Operations",
+   "term": 2.0,
+   "order": 180.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "OPS16",
+   "name": "Scheduling and sequencing",
+   "course": "OM-II",
+   "courses": [
+    "OM-II"
+   ],
+   "domain": "Operations",
+   "term": 2.0,
+   "order": 181.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "OPS17",
+   "name": "Project management: CPM and PERT",
+   "course": "OM-II",
+   "courses": [
+    "OM-II"
+   ],
+   "domain": "Operations",
+   "term": 2.0,
+   "order": 182.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OPS18",
+   "name": "Quality management and TQM",
+   "course": "OM-III",
+   "courses": [
+    "OM-III"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 183.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "OPS19",
+   "name": "Statistical process control",
+   "course": "OM-III",
+   "courses": [
+    "OM-III"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 184.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OPS20",
+   "name": "Six Sigma and process capability",
+   "course": "OM-III",
+   "courses": [
+    "OM-III"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 185.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "OPS21",
+   "name": "Lean and the Toyota Production System",
+   "course": "OM-III",
+   "courses": [
+    "OM-III"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 186.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "OPS22",
+   "name": "Supply chain basics and the bullwhip effect",
+   "course": "OM-III",
+   "courses": [
+    "OM-III"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 187.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "OPS23",
+   "name": "Supply chain coordination and contracts",
+   "course": "OM-III",
+   "courses": [
+    "OM-III"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 188.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "OPS24",
+   "name": "Logistics: facility location and transportation",
+   "course": "OM-III",
+   "courses": [
+    "OM-III"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 189.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "OPS25",
+   "name": "Sourcing and procurement",
+   "course": "OM-III",
+   "courses": [
+    "OM-III"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 190.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "OPS26",
+   "name": "Service operations and service design",
+   "course": "SOM",
+   "courses": [
+    "SOM",
+    "OM-III"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 191.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "OPS27",
+   "name": "Operations strategy and trade-offs",
+   "course": "OM-III",
+   "courses": [
+    "OM-III",
+    "SM"
+   ],
+   "domain": "Operations",
+   "term": 3.0,
+   "order": 192.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OBH01",
+   "name": "Personality and individual differences",
+   "course": "ID",
+   "courses": [
+    "ID"
+   ],
+   "domain": "OB & HR",
+   "term": 1.0,
+   "order": 193.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "OBH02",
+   "name": "Perception and attribution",
+   "course": "ID",
+   "courses": [
+    "ID"
+   ],
+   "domain": "OB & HR",
+   "term": 1.0,
+   "order": 194.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "OBH03",
+   "name": "Self-awareness and emotional intelligence",
+   "course": "ID",
+   "courses": [
+    "ID"
+   ],
+   "domain": "OB & HR",
+   "term": 1.0,
+   "order": 195.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "OBH04",
+   "name": "Motivation theories: needs, two-factor, expectancy",
+   "course": "ID",
+   "courses": [
+    "ID",
+    "HRM-I"
+   ],
+   "domain": "OB & HR",
+   "term": 1.0,
+   "order": 196.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "OBH05",
+   "name": "Group dynamics and team development",
+   "course": "IGP",
+   "courses": [
+    "IGP"
+   ],
+   "domain": "OB & HR",
+   "term": 2.0,
+   "order": 197.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OBH06",
+   "name": "Interpersonal communication and feedback",
+   "course": "IGP",
+   "courses": [
+    "IGP"
+   ],
+   "domain": "OB & HR",
+   "term": 2.0,
+   "order": 198.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "OBH07",
+   "name": "Conflict management",
+   "course": "IGP",
+   "courses": [
+    "IGP"
+   ],
+   "domain": "OB & HR",
+   "term": 2.0,
+   "order": 199.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OBH08",
+   "name": "Negotiation basics: BATNA, ZOPA",
+   "course": "IGP",
+   "courses": [
+    "IGP"
+   ],
+   "domain": "OB & HR",
+   "term": 2.0,
+   "order": 200.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "OBH09",
+   "name": "Leadership theories",
+   "course": "ODY",
+   "courses": [
+    "ODY"
+   ],
+   "domain": "OB & HR",
+   "term": 3.0,
+   "order": 201.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "OBH10",
+   "name": "Power and influence",
+   "course": "ODY",
+   "courses": [
+    "ODY"
+   ],
+   "domain": "OB & HR",
+   "term": 3.0,
+   "order": 202.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OBH11",
+   "name": "Organisational structure and design",
+   "course": "ODY",
+   "courses": [
+    "ODY",
+    "SM"
+   ],
+   "domain": "OB & HR",
+   "term": 3.0,
+   "order": 203.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OBH12",
+   "name": "Organisational culture",
+   "course": "ODY",
+   "courses": [
+    "ODY"
+   ],
+   "domain": "OB & HR",
+   "term": 3.0,
+   "order": 204.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OBH13",
+   "name": "Change management",
+   "course": "ODY",
+   "courses": [
+    "ODY"
+   ],
+   "domain": "OB & HR",
+   "term": 3.0,
+   "order": 205.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OBH14",
+   "name": "HR planning and job analysis",
+   "course": "HRM-I",
+   "courses": [
+    "HRM-I"
+   ],
+   "domain": "OB & HR",
+   "term": 1.0,
+   "order": 206.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "OBH15",
+   "name": "Recruitment and selection",
+   "course": "HRM-I",
+   "courses": [
+    "HRM-I"
+   ],
+   "domain": "OB & HR",
+   "term": 1.0,
+   "order": 207.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "OBH16",
+   "name": "Performance management and appraisal",
+   "course": "HRM-I",
+   "courses": [
+    "HRM-I"
+   ],
+   "domain": "OB & HR",
+   "term": 1.0,
+   "order": 208.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OBH17",
+   "name": "Compensation and incentive design",
+   "course": "HRM-II",
+   "courses": [
+    "HRM-II"
+   ],
+   "domain": "OB & HR",
+   "term": 2.0,
+   "order": 209.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "OBH18",
+   "name": "Training and development",
+   "course": "HRM-II",
+   "courses": [
+    "HRM-II"
+   ],
+   "domain": "OB & HR",
+   "term": 2.0,
+   "order": 210.0,
+   "hours": 0.75,
+   "value": 2.0
+  },
+  {
+   "id": "OBH19",
+   "name": "Industrial relations and labour law in India",
+   "course": "HRM-II",
+   "courses": [
+    "HRM-II",
+    "LAB"
+   ],
+   "domain": "OB & HR",
+   "term": 1.0,
+   "order": 211.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "OBH20",
+   "name": "Strategic HRM and talent management",
+   "course": "SHRM",
+   "courses": [
+    "SHRM",
+    "TCM"
+   ],
+   "domain": "OB & HR",
+   "term": 3.0,
+   "order": 212.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "STR01",
+   "name": "Strategy basics: vision, mission, goals",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 213.0,
+   "hours": 0.75,
+   "value": 4.0
+  },
+  {
+   "id": "STR02",
+   "name": "PESTEL and macro-environment analysis",
+   "course": "SM",
+   "courses": [
+    "SM",
+    "BES"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 214.0,
+   "hours": 0.75,
+   "value": 4.0
+  },
+  {
+   "id": "STR03",
+   "name": "Porter's five forces",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 215.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "STR04",
+   "name": "Industry life cycle and strategic groups",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 216.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "STR05",
+   "name": "Value chain analysis",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 217.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "STR06",
+   "name": "Resource-based view and VRIO",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 218.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "STR07",
+   "name": "Competitive advantage: cost leadership vs differentiation",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 219.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "STR08",
+   "name": "Competitive dynamics: strategic moves and responses",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 220.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "STR09",
+   "name": "Platform and ecosystem strategy",
+   "course": "SM",
+   "courses": [
+    "SM",
+    "IEB"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 221.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "STR10",
+   "name": "Corporate strategy: diversification and scope",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 222.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "STR11",
+   "name": "Vertical integration and outsourcing",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 223.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "STR12",
+   "name": "Alliances and M&A strategy",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 224.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "STR13",
+   "name": "International strategy and entry modes",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 225.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "STR14",
+   "name": "Innovation and disruptive technologies",
+   "course": "SM",
+   "courses": [
+    "SM"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 226.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "STR15",
+   "name": "Strategy implementation and execution",
+   "course": "SM",
+   "courses": [
+    "SM",
+    "ODY"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 227.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "STR16",
+   "name": "Integrative business case analysis",
+   "course": "SM",
+   "courses": [
+    "SM",
+    "WAC-II"
+   ],
+   "domain": "Strategy",
+   "term": 3.0,
+   "order": 228.0,
+   "hours": 2.5,
+   "value": 5.0
+  },
+  {
+   "id": "RES01",
+   "name": "Research design: exploratory, descriptive, causal",
+   "course": "BRM",
+   "courses": [
+    "BRM"
+   ],
+   "domain": "Research Methods",
+   "term": 3.0,
+   "order": 229.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "RES02",
+   "name": "Measurement, scales, reliability and validity",
+   "course": "BRM",
+   "courses": [
+    "BRM"
+   ],
+   "domain": "Research Methods",
+   "term": 3.0,
+   "order": 230.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "RES03",
+   "name": "Questionnaire and survey design",
+   "course": "BRM",
+   "courses": [
+    "BRM",
+    "MKT-III"
+   ],
+   "domain": "Research Methods",
+   "term": 3.0,
+   "order": 231.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "RES04",
+   "name": "Sampling methods and sample size",
+   "course": "BRM",
+   "courses": [
+    "BRM"
+   ],
+   "domain": "Research Methods",
+   "term": 3.0,
+   "order": 232.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "RES05",
+   "name": "Experiments and A/B testing",
+   "course": "BRM",
+   "courses": [
+    "BRM",
+    "IEB"
+   ],
+   "domain": "Research Methods",
+   "term": 3.0,
+   "order": 233.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "RES06",
+   "name": "Factor analysis",
+   "course": "BRM",
+   "courses": [
+    "BRM"
+   ],
+   "domain": "Research Methods",
+   "term": 3.0,
+   "order": 234.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "RES07",
+   "name": "Cluster analysis",
+   "course": "BRM",
+   "courses": [
+    "BRM",
+    "MKT-I"
+   ],
+   "domain": "Research Methods",
+   "term": 1.0,
+   "order": 235.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "RES08",
+   "name": "Conjoint analysis",
+   "course": "BRM",
+   "courses": [
+    "BRM",
+    "MKT-II"
+   ],
+   "domain": "Research Methods",
+   "term": 2.0,
+   "order": 236.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "RES09",
+   "name": "Qualitative research: interviews and focus groups",
+   "course": "BRM",
+   "courses": [
+    "BRM"
+   ],
+   "domain": "Research Methods",
+   "term": 3.0,
+   "order": 237.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "RES10",
+   "name": "Causal inference: endogeneity, diff-in-diff",
+   "course": "BRM",
+   "courses": [
+    "BRM"
+   ],
+   "domain": "Research Methods",
+   "term": 3.0,
+   "order": 238.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "LAW01",
+   "name": "Indian legal system and sources of law",
+   "course": "LAB",
+   "courses": [
+    "LAB"
+   ],
+   "domain": "Law",
+   "term": 1.0,
+   "order": 239.0,
+   "hours": 0.75,
+   "value": 2.0
+  },
+  {
+   "id": "LAW02",
+   "name": "Contract law: formation, consideration, breach",
+   "course": "LAB",
+   "courses": [
+    "LAB"
+   ],
+   "domain": "Law",
+   "term": 1.0,
+   "order": 240.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "LAW03",
+   "name": "Agency, sale of goods, negotiable instruments",
+   "course": "LAB",
+   "courses": [
+    "LAB"
+   ],
+   "domain": "Law",
+   "term": 1.0,
+   "order": 241.0,
+   "hours": 1.5,
+   "value": 2.0
+  },
+  {
+   "id": "LAW04",
+   "name": "Company law: incorporation and directors' duties",
+   "course": "LAB",
+   "courses": [
+    "LAB"
+   ],
+   "domain": "Law",
+   "term": 1.0,
+   "order": 242.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "LAW05",
+   "name": "Intellectual property basics",
+   "course": "LAB",
+   "courses": [
+    "LAB"
+   ],
+   "domain": "Law",
+   "term": 1.0,
+   "order": 243.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "LAW06",
+   "name": "Competition law and consumer protection",
+   "course": "LAB",
+   "courses": [
+    "LAB"
+   ],
+   "domain": "Law",
+   "term": 1.0,
+   "order": 244.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "LAW07",
+   "name": "Insolvency and Bankruptcy Code",
+   "course": "LAB",
+   "courses": [
+    "LAB",
+    "CF"
+   ],
+   "domain": "Law",
+   "term": 1.0,
+   "order": 245.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "ITD01",
+   "name": "Information systems and business value",
+   "course": "TBIT",
+   "courses": [
+    "TBIT"
+   ],
+   "domain": "IT & Digital",
+   "term": 2.0,
+   "order": 246.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "ITD02",
+   "name": "Enterprise systems: ERP, CRM, SCM",
+   "course": "TBIT",
+   "courses": [
+    "TBIT",
+    "OM-II"
+   ],
+   "domain": "IT & Digital",
+   "term": 2.0,
+   "order": 247.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ITD03",
+   "name": "Data, analytics and business intelligence",
+   "course": "TBIT",
+   "courses": [
+    "TBIT"
+   ],
+   "domain": "IT & Digital",
+   "term": 2.0,
+   "order": 248.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ITD04",
+   "name": "Machine learning for managers",
+   "course": "TBIT",
+   "courses": [
+    "TBIT"
+   ],
+   "domain": "IT & Digital",
+   "term": 2.0,
+   "order": 249.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ITD05",
+   "name": "Digital transformation and IT strategy",
+   "course": "TBIT",
+   "courses": [
+    "TBIT",
+    "SM"
+   ],
+   "domain": "IT & Digital",
+   "term": 2.0,
+   "order": 250.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ITD06",
+   "name": "Internet business models and unit economics",
+   "course": "IEB",
+   "courses": [
+    "IEB"
+   ],
+   "domain": "IT & Digital",
+   "term": 3.0,
+   "order": 251.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "ITD07",
+   "name": "E-commerce and marketplaces",
+   "course": "IEB",
+   "courses": [
+    "IEB"
+   ],
+   "domain": "IT & Digital",
+   "term": 3.0,
+   "order": 252.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ITD08",
+   "name": "Cybersecurity, privacy and data governance",
+   "course": "TBIT",
+   "courses": [
+    "TBIT"
+   ],
+   "domain": "IT & Digital",
+   "term": 2.0,
+   "order": 253.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "ENV01",
+   "name": "Business ethics frameworks",
+   "course": "PCE",
+   "courses": [
+    "PCE"
+   ],
+   "domain": "Ethics, Society & Env",
+   "term": 2.0,
+   "order": 254.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ENV02",
+   "name": "Stakeholder theory and CSR",
+   "course": "PCE",
+   "courses": [
+    "PCE",
+    "BES"
+   ],
+   "domain": "Ethics, Society & Env",
+   "term": 2.0,
+   "order": 255.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ENV03",
+   "name": "Sustainability and ESG metrics",
+   "course": "BES",
+   "courses": [
+    "BES",
+    "FM"
+   ],
+   "domain": "Ethics, Society & Env",
+   "term": 3.0,
+   "order": 256.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "ENV04",
+   "name": "Climate change and carbon markets",
+   "course": "BES",
+   "courses": [
+    "BES"
+   ],
+   "domain": "Ethics, Society & Env",
+   "term": 3.0,
+   "order": 257.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ENV05",
+   "name": "Social and cultural environment of Indian business",
+   "course": "SCEB",
+   "courses": [
+    "SCEB"
+   ],
+   "domain": "Ethics, Society & Env",
+   "term": 2.0,
+   "order": 258.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ENV06",
+   "name": "Public policy process and regulation",
+   "course": "GSP",
+   "courses": [
+    "GSP"
+   ],
+   "domain": "Ethics, Society & Env",
+   "term": 3.0,
+   "order": 259.0,
+   "hours": 1.5,
+   "value": 3.0
+  },
+  {
+   "id": "ENV07",
+   "name": "Business-government relations",
+   "course": "GSP",
+   "courses": [
+    "GSP"
+   ],
+   "domain": "Ethics, Society & Env",
+   "term": 3.0,
+   "order": 260.0,
+   "hours": 0.75,
+   "value": 3.0
+  },
+  {
+   "id": "COM01",
+   "name": "Structuring communication: the pyramid principle",
+   "course": "MGRCMN",
+   "courses": [
+    "MGRCMN",
+    "WAC-I"
+   ],
+   "domain": "Communication",
+   "term": 1.0,
+   "order": 261.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "COM02",
+   "name": "Business writing: memos, emails, reports",
+   "course": "WAC-I",
+   "courses": [
+    "WAC-I"
+   ],
+   "domain": "Communication",
+   "term": 2.0,
+   "order": 262.0,
+   "hours": 1.5,
+   "value": 4.0
+  },
+  {
+   "id": "COM03",
+   "name": "Writing a case analysis",
+   "course": "WAC-II",
+   "courses": [
+    "WAC-II"
+   ],
+   "domain": "Communication",
+   "term": 3.0,
+   "order": 263.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "COM04",
+   "name": "Presentations and storytelling with data",
+   "course": "MGRCMN",
+   "courses": [
+    "MGRCMN",
+    "WIP"
+   ],
+   "domain": "Communication",
+   "term": 1.0,
+   "order": 264.0,
+   "hours": 1.5,
+   "value": 5.0
+  },
+  {
+   "id": "COM05",
+   "name": "Interview and group discussion preparation",
+   "course": "WIP",
+   "courses": [
+    "WIP"
+   ],
+   "domain": "Communication",
+   "term": 2.0,
+   "order": 265.0,
+   "hours": 0.75,
+   "value": 4.0
+  }
+ ],
+ "links": [
+  {
+   "src": "QNT01",
+   "dst": "QNT02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT03",
+   "dst": "QNT04",
+   "type": "SOFT",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT01",
+   "dst": "QNT05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT05",
+   "dst": "QNT06",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT06",
+   "dst": "QNT07",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT05",
+   "dst": "QNT08",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT03",
+   "dst": "QNT08",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT08",
+   "dst": "QNT09",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT08",
+   "dst": "QNT10",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT08",
+   "dst": "QNT11",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT02",
+   "dst": "QNT11",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT11",
+   "dst": "QNT12",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT08",
+   "dst": "QNT13",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT13",
+   "dst": "QNT14",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT06",
+   "dst": "QNT14",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT14",
+   "dst": "QNT15",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT07",
+   "dst": "QNT15",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT13",
+   "dst": "QNT16",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT12",
+   "dst": "QNT17",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT10",
+   "dst": "QNT17",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "CMP02",
+   "dst": "QNT17",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT12",
+   "dst": "QNT18",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT18",
+   "dst": "QNT19",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT19",
+   "dst": "QNT20",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT20",
+   "dst": "QNT21",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT21",
+   "dst": "QNT22",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT21",
+   "dst": "QNT23",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT10",
+   "dst": "QNT23",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT21",
+   "dst": "QNT24",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT22",
+   "dst": "QNT25",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT09",
+   "dst": "QNT26",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT21",
+   "dst": "QNT26",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT26",
+   "dst": "QNT27",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT27",
+   "dst": "QNT28",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT27",
+   "dst": "QNT29",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT27",
+   "dst": "QNT30",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT10",
+   "dst": "QNT30",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT03",
+   "dst": "QNT31",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT01",
+   "dst": "QNT32",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT32",
+   "dst": "QNT33",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT33",
+   "dst": "QNT34",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT32",
+   "dst": "QNT35",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT32",
+   "dst": "QNT36",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT32",
+   "dst": "QNT37",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT13",
+   "dst": "QNT38",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "CMP01",
+   "dst": "CMP02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "CMP01",
+   "dst": "CMP03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT03",
+   "dst": "CMP03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "CMP02",
+   "dst": "CMP04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT32",
+   "dst": "CMP04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "CMP01",
+   "dst": "CMP05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC01",
+   "dst": "ACC02",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "ACC01",
+   "dst": "ACC03",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "ACC03",
+   "dst": "ACC04",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "ACC01",
+   "dst": "ACC05",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "ACC02",
+   "dst": "ACC06",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "ACC03",
+   "dst": "ACC06",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "ACC04",
+   "dst": "ACC07",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "ACC04",
+   "dst": "ACC08",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC05",
+   "dst": "ACC08",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC04",
+   "dst": "ACC09",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC05",
+   "dst": "ACC09",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC09",
+   "dst": "ACC10",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC05",
+   "dst": "ACC11",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC11",
+   "dst": "ACC12",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC09",
+   "dst": "ACC12",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN03",
+   "dst": "ACC12",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC04",
+   "dst": "ACC13",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC05",
+   "dst": "ACC13",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC04",
+   "dst": "ACC14",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC11",
+   "dst": "ACC14",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC09",
+   "dst": "ACC15",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC13",
+   "dst": "ACC16",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC10",
+   "dst": "ACC16",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC04",
+   "dst": "ACC17",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC05",
+   "dst": "ACC17",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC17",
+   "dst": "ACC18",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC17",
+   "dst": "ACC19",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC15",
+   "dst": "ACC19",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC07",
+   "dst": "ACC19",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC15",
+   "dst": "ACC20",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC17",
+   "dst": "ACC20",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC17",
+   "dst": "ACC21",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC04",
+   "dst": "ACC22",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC22",
+   "dst": "ACC23",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC22",
+   "dst": "ACC24",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC08",
+   "dst": "ACC24",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC24",
+   "dst": "ACC25",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC25",
+   "dst": "ACC26",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC25",
+   "dst": "ACC27",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC23",
+   "dst": "ACC27",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC22",
+   "dst": "ACC28",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC23",
+   "dst": "ACC29",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC15",
+   "dst": "ACC29",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC29",
+   "dst": "ACC30",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC29",
+   "dst": "ACC31",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC31",
+   "dst": "ACC32",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC28",
+   "dst": "ACC32",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC31",
+   "dst": "ACC33",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC17",
+   "dst": "ACC33",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN26",
+   "dst": "ACC33",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC33",
+   "dst": "ACC34",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT01",
+   "dst": "FIN02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN02",
+   "dst": "FIN03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN03",
+   "dst": "FIN04",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "FIN04",
+   "dst": "FIN05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN04",
+   "dst": "FIN06",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "FIN06",
+   "dst": "FIN07",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "FIN06",
+   "dst": "FIN08",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "QNT02",
+   "dst": "FIN08",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN04",
+   "dst": "FIN09",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "FIN01",
+   "dst": "FIN09",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT08",
+   "dst": "FIN10",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN03",
+   "dst": "FIN10",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "FIN10",
+   "dst": "FIN11",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "QNT09",
+   "dst": "FIN11",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN11",
+   "dst": "FIN12",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "QNT02",
+   "dst": "FIN12",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN12",
+   "dst": "FIN13",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "QNT26",
+   "dst": "FIN13",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN13",
+   "dst": "FIN14",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "FIN03",
+   "dst": "FIN15",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "FIN01",
+   "dst": "FIN15",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN15",
+   "dst": "FIN16",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "FIN16",
+   "dst": "FIN17",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "QNT10",
+   "dst": "FIN17",
+   "type": "OR",
+   "group": "FIN17-OR1",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT12",
+   "dst": "FIN17",
+   "type": "OR",
+   "group": "FIN17-OR1",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN15",
+   "dst": "FIN18",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO27",
+   "dst": "FIN18",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN01",
+   "dst": "FIN19",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN04",
+   "dst": "FIN20",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "ACC15",
+   "dst": "FIN20",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN20",
+   "dst": "FIN21",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN20",
+   "dst": "FIN22",
+   "type": "AND",
+   "group": "",
+   "source": "syllabus;textbook"
+  },
+  {
+   "src": "ACC28",
+   "dst": "FIN22",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN22",
+   "dst": "FIN23",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT17",
+   "dst": "FIN23",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN23",
+   "dst": "FIN24",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN16",
+   "dst": "FIN24",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT14",
+   "dst": "FIN24",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN13",
+   "dst": "FIN25",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN06",
+   "dst": "FIN25",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN25",
+   "dst": "FIN26",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN26",
+   "dst": "FIN27",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN27",
+   "dst": "FIN28",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN27",
+   "dst": "FIN29",
+   "type": "SOFT",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN09",
+   "dst": "FIN29",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN26",
+   "dst": "FIN30",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN22",
+   "dst": "FIN30",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC17",
+   "dst": "FIN30",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN09",
+   "dst": "FIN31",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC17",
+   "dst": "FIN31",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC13",
+   "dst": "FIN31",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC21",
+   "dst": "FIN32",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN03",
+   "dst": "FIN32",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC17",
+   "dst": "FIN33",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC29",
+   "dst": "FIN33",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "CMP02",
+   "dst": "FIN33",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN30",
+   "dst": "FIN34",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN31",
+   "dst": "FIN34",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN19",
+   "dst": "FIN35",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "LAW04",
+   "dst": "FIN35",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO01",
+   "dst": "ECO02",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO01",
+   "dst": "ECO03",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO02",
+   "dst": "ECO04",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO01",
+   "dst": "ECO05",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "QNT02",
+   "dst": "ECO05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT02",
+   "dst": "ECO06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO06",
+   "dst": "ECO07",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC22",
+   "dst": "ECO07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO07",
+   "dst": "ECO08",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO02",
+   "dst": "ECO08",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO08",
+   "dst": "ECO09",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO03",
+   "dst": "ECO09",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO09",
+   "dst": "ECO10",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO11",
+   "dst": "ECO12",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO09",
+   "dst": "ECO13",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO12",
+   "dst": "ECO13",
+   "type": "SOFT",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO09",
+   "dst": "ECO14",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO11",
+   "dst": "ECO15",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO15",
+   "dst": "ECO16",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO04",
+   "dst": "ECO17",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO09",
+   "dst": "ECO18",
+   "type": "SOFT",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO05",
+   "dst": "ECO19",
+   "type": "SOFT",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO20",
+   "dst": "ECO21",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO20",
+   "dst": "ECO22",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN01",
+   "dst": "ECO22",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO22",
+   "dst": "ECO23",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO21",
+   "dst": "ECO23",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN02",
+   "dst": "ECO23",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO20",
+   "dst": "ECO24",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO23",
+   "dst": "ECO25",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO24",
+   "dst": "ECO25",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO25",
+   "dst": "ECO26",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO23",
+   "dst": "ECO27",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO20",
+   "dst": "ECO28",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO06",
+   "dst": "ECO28",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO24",
+   "dst": "ECO29",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO28",
+   "dst": "ECO29",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT01",
+   "dst": "MKT02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO19",
+   "dst": "MKT02",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT02",
+   "dst": "MKT03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT01",
+   "dst": "MKT04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT04",
+   "dst": "MKT05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT03",
+   "dst": "MKT05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT02",
+   "dst": "MKT06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT06",
+   "dst": "MKT07",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT05",
+   "dst": "MKT07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT07",
+   "dst": "MKT08",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT08",
+   "dst": "MKT09",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT08",
+   "dst": "MKT10",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT10",
+   "dst": "MKT11",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT08",
+   "dst": "MKT12",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC23",
+   "dst": "MKT13",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO03",
+   "dst": "MKT13",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT08",
+   "dst": "MKT13",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT13",
+   "dst": "MKT14",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO10",
+   "dst": "MKT14",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT07",
+   "dst": "MKT15",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT15",
+   "dst": "MKT16",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT08",
+   "dst": "MKT17",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT17",
+   "dst": "MKT18",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC23",
+   "dst": "MKT18",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT15",
+   "dst": "MKT19",
+   "type": "SOFT",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT17",
+   "dst": "MKT20",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "FIN04",
+   "dst": "MKT21",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT06",
+   "dst": "MKT21",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT21",
+   "dst": "MKT22",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT27",
+   "dst": "MKT23",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT17",
+   "dst": "MKT23",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT08",
+   "dst": "MKT24",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "MKT13",
+   "dst": "MKT25",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT15",
+   "dst": "MKT25",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT17",
+   "dst": "MKT25",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS01",
+   "dst": "OPS02",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "OPS01",
+   "dst": "OPS03",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "OPS01",
+   "dst": "OPS04",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "OPS02",
+   "dst": "OPS05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT11",
+   "dst": "OPS05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS05",
+   "dst": "OPS06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT31",
+   "dst": "OPS07",
+   "type": "OR",
+   "group": "OPS07-OR0",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT26",
+   "dst": "OPS07",
+   "type": "OR",
+   "group": "OPS07-OR0",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS07",
+   "dst": "OPS08",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC22",
+   "dst": "OPS09",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS09",
+   "dst": "OPS10",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT02",
+   "dst": "OPS10",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS10",
+   "dst": "OPS11",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT12",
+   "dst": "OPS11",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS09",
+   "dst": "OPS12",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT12",
+   "dst": "OPS12",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC28",
+   "dst": "OPS12",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS09",
+   "dst": "OPS13",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS04",
+   "dst": "OPS14",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT32",
+   "dst": "OPS14",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS14",
+   "dst": "OPS15",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS01",
+   "dst": "OPS16",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT37",
+   "dst": "OPS17",
+   "type": "OR",
+   "group": "OPS17-OR0",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS01",
+   "dst": "OPS17",
+   "type": "OR",
+   "group": "OPS17-OR0",
+   "source": "textbook"
+  },
+  {
+   "src": "OPS01",
+   "dst": "OPS18",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS18",
+   "dst": "OPS19",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT20",
+   "dst": "OPS19",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS19",
+   "dst": "OPS20",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS01",
+   "dst": "OPS21",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS09",
+   "dst": "OPS21",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS11",
+   "dst": "OPS22",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS07",
+   "dst": "OPS22",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS22",
+   "dst": "OPS23",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS12",
+   "dst": "OPS23",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS22",
+   "dst": "OPS24",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT36",
+   "dst": "OPS24",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC28",
+   "dst": "OPS25",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS22",
+   "dst": "OPS25",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS05",
+   "dst": "OPS26",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS21",
+   "dst": "OPS27",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS04",
+   "dst": "OPS27",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH01",
+   "dst": "OBH02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH01",
+   "dst": "OBH03",
+   "type": "SOFT",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "OBH01",
+   "dst": "OBH04",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "OBH02",
+   "dst": "OBH05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH03",
+   "dst": "OBH06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH05",
+   "dst": "OBH07",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "OBH06",
+   "dst": "OBH07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH07",
+   "dst": "OBH08",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ECO11",
+   "dst": "OBH08",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH04",
+   "dst": "OBH09",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH05",
+   "dst": "OBH09",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH09",
+   "dst": "OBH10",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH05",
+   "dst": "OBH11",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH11",
+   "dst": "OBH12",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH12",
+   "dst": "OBH13",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "OBH10",
+   "dst": "OBH13",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH14",
+   "dst": "OBH15",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "OBH04",
+   "dst": "OBH16",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "OBH14",
+   "dst": "OBH16",
+   "type": "AND",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "OBH16",
+   "dst": "OBH17",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO16",
+   "dst": "OBH17",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH16",
+   "dst": "OBH18",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH14",
+   "dst": "OBH19",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "LAW01",
+   "dst": "OBH19",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH17",
+   "dst": "OBH20",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH15",
+   "dst": "OBH20",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH12",
+   "dst": "OBH20",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR01",
+   "dst": "STR02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO20",
+   "dst": "STR02",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR01",
+   "dst": "STR03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO09",
+   "dst": "STR03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR03",
+   "dst": "STR04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR01",
+   "dst": "STR05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR05",
+   "dst": "STR06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR03",
+   "dst": "STR07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR06",
+   "dst": "STR07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR07",
+   "dst": "STR08",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO12",
+   "dst": "STR08",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR07",
+   "dst": "STR09",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO18",
+   "dst": "STR09",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR07",
+   "dst": "STR10",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR10",
+   "dst": "STR11",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS25",
+   "dst": "STR11",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO16",
+   "dst": "STR11",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR10",
+   "dst": "STR12",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN34",
+   "dst": "STR12",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR10",
+   "dst": "STR13",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO27",
+   "dst": "STR13",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR07",
+   "dst": "STR14",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT11",
+   "dst": "STR14",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR10",
+   "dst": "STR15",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH11",
+   "dst": "STR15",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC34",
+   "dst": "STR15",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR07",
+   "dst": "STR16",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT25",
+   "dst": "STR16",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN30",
+   "dst": "STR16",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OPS27",
+   "dst": "STR16",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "COM03",
+   "dst": "STR16",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT04",
+   "dst": "RES01",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "RES01",
+   "dst": "RES02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "RES02",
+   "dst": "RES03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "RES01",
+   "dst": "RES04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT20",
+   "dst": "RES04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "RES01",
+   "dst": "RES05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT22",
+   "dst": "RES05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT09",
+   "dst": "RES06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "RES02",
+   "dst": "RES06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT09",
+   "dst": "RES07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT06",
+   "dst": "RES07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT29",
+   "dst": "RES08",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "RES03",
+   "dst": "RES08",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "RES01",
+   "dst": "RES09",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT27",
+   "dst": "RES10",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "RES05",
+   "dst": "RES10",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "LAW01",
+   "dst": "LAW02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "LAW02",
+   "dst": "LAW03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "LAW02",
+   "dst": "LAW04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "LAW01",
+   "dst": "LAW05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "LAW01",
+   "dst": "LAW06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO09",
+   "dst": "LAW06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "LAW04",
+   "dst": "LAW07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ITD01",
+   "dst": "ITD02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ITD01",
+   "dst": "ITD03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "CMP05",
+   "dst": "ITD03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ITD03",
+   "dst": "ITD04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT30",
+   "dst": "ITD04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ITD02",
+   "dst": "ITD05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR05",
+   "dst": "ITD05",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ITD01",
+   "dst": "ITD06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ACC23",
+   "dst": "ITD06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "MKT21",
+   "dst": "ITD06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ITD06",
+   "dst": "ITD07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "STR09",
+   "dst": "ITD07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ITD03",
+   "dst": "ITD08",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ENV01",
+   "dst": "ENV02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN19",
+   "dst": "ENV02",
+   "type": "SOFT",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ENV02",
+   "dst": "ENV03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO17",
+   "dst": "ENV03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ENV03",
+   "dst": "ENV04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ECO24",
+   "dst": "ENV06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "LAW01",
+   "dst": "ENV06",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "ENV06",
+   "dst": "ENV07",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "COM01",
+   "dst": "COM02",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "COM02",
+   "dst": "COM03",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "COM01",
+   "dst": "COM04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "QNT04",
+   "dst": "COM04",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "COM04",
+   "dst": "COM05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "OBH06",
+   "dst": "COM05",
+   "type": "AND",
+   "group": "",
+   "source": "estimate"
+  },
+  {
+   "src": "FIN06",
+   "dst": "FIN09",
+   "type": "SOFT",
+   "group": "",
+   "source": "textbook;syllabus"
+  },
+  {
+   "src": "FIN17",
+   "dst": "FIN24",
+   "type": "SOFT",
+   "group": "",
+   "source": "textbook"
+  },
+  {
+   "src": "ACC05",
+   "dst": "ACC04",
+   "type": "SOFT",
+   "group": "",
+   "source": "syllabus"
+  },
+  {
+   "src": "OPS12",
+   "dst": "OPS11",
+   "type": "SOFT",
+   "group": "",
+   "source": "textbook"
+  }
+ ],
+ "overlaps": [
+  {
+   "a": "MKT01",
+   "b": "MKT21",
+   "sim": 0.4
+  },
+  {
+   "a": "ACC25",
+   "b": "ACC27",
+   "sim": 0.4
+  },
+  {
+   "a": "ACC21",
+   "b": "FIN32",
+   "sim": 0.4
+  },
+  {
+   "a": "QNT27",
+   "b": "QNT30",
+   "sim": 0.33
+  },
+  {
+   "a": "OPS22",
+   "b": "OPS23",
+   "sim": 0.33
+  },
+  {
+   "a": "OPS01",
+   "b": "OPS03",
+   "sim": 0.33
+  },
+  {
+   "a": "MKT10",
+   "b": "STR04",
+   "sim": 0.29
+  },
+  {
+   "a": "ECO24",
+   "b": "ENV06",
+   "sim": 0.29
+  },
+  {
+   "a": "COM03",
+   "b": "STR16",
+   "sim": 0.25
+  },
+  {
+   "a": "QNT26",
+   "b": "QNT30",
+   "sim": 0.25
+  },
+  {
+   "a": "QNT26",
+   "b": "QNT27",
+   "sim": 0.25
+  },
+  {
+   "a": "QNT23",
+   "b": "QNT24",
+   "sim": 0.25
+  },
+  {
+   "a": "OPS09",
+   "b": "OPS13",
+   "sim": 0.25
+  },
+  {
+   "a": "OPS04",
+   "b": "OPS14",
+   "sim": 0.25
+  },
+  {
+   "a": "OBH11",
+   "b": "OBH12",
+   "sim": 0.25
+  },
+  {
+   "a": "FIN16",
+   "b": "FIN24",
+   "sim": 0.25
+  },
+  {
+   "a": "STR09",
+   "b": "STR12",
+   "sim": 0.25
+  },
+  {
+   "a": "CMP04",
+   "b": "QNT02",
+   "sim": 0.25
+  },
+  {
+   "a": "ECO01",
+   "b": "ECO25",
+   "sim": 0.25
+  },
+  {
+   "a": "FIN34",
+   "b": "STR12",
+   "sim": 0.3
+  }
+ ],
+ "presets": [
+  {
+   "name": "fresh",
+   "description": "Fresh learner: the whole first-year core, no prior knowledge",
+   "python_result": {
+    "roadmap_ids": [
+     "QNT03",
+     "QNT31",
+     "QNT04",
+     "QNT01",
+     "QNT32",
+     "QNT37",
+     "QNT36",
+     "QNT33",
+     "QNT34",
+     "QNT35",
+     "QNT05",
+     "QNT08",
+     "QNT09",
+     "QNT02",
+     "QNT11",
+     "QNT12",
+     "QNT18",
+     "QNT19",
+     "QNT20",
+     "QNT21",
+     "QNT26",
+     "QNT27",
+     "QNT28",
+     "QNT13",
+     "QNT16",
+     "QNT10",
+     "QNT23",
+     "QNT22",
+     "QNT25",
+     "QNT24",
+     "QNT38",
+     "QNT30",
+     "QNT29",
+     "QNT06",
+     "QNT14",
+     "CMP01",
+     "CMP02",
+     "QNT17",
+     "CMP03",
+     "CMP04",
+     "CMP05",
+     "QNT07",
+     "QNT15",
+     "FIN02",
+     "FIN03",
+     "FIN10",
+     "FIN11",
+     "FIN12",
+     "ACC01",
+     "ACC02",
+     "ACC03",
+     "ACC06",
+     "ACC05",
+     "ACC04",
+     "ACC09",
+     "ACC10",
+     "ACC11",
+     "ACC12",
+     "ACC07",
+     "ACC08",
+     "ACC13",
+     "ACC16",
+     "ACC17",
+     "ACC18",
+     "ACC14",
+     "ACC15",
+     "ACC19",
+     "ACC20",
+     "ACC21",
+     "ACC22",
+     "ACC24",
+     "ACC25",
+     "ACC26",
+     "ACC23",
+     "ACC29",
+     "ACC30",
+     "ACC31",
+     "ACC27",
+     "ACC28",
+     "ACC32",
+     "FIN32",
+     "FIN33",
+     "OPS09",
+     "OPS10",
+     "OPS13",
+     "OPS12",
+     "OPS11",
+     "OPS07",
+     "OPS22",
+     "OPS25",
+     "OPS24",
+     "OPS23",
+     "OPS08",
+     "OPS01",
+     "OPS21",
+     "OPS17",
+     "OPS16",
+     "OPS02",
+     "OPS05",
+     "OPS26",
+     "OPS03",
+     "OPS04",
+     "OPS27",
+     "OPS18",
+     "OPS19",
+     "OPS20",
+     "OPS06",
+     "OPS14",
+     "OPS15",
+     "FIN01",
+     "FIN19",
+     "ECO20",
+     "ECO22",
+     "ECO21",
+     "ECO23",
+     "ECO27",
+     "ECO24",
+     "ECO25",
+     "ECO26",
+     "ECO06",
+     "ECO28",
+     "ECO29",
+     "ECO01",
+     "ECO03",
+     "ECO02",
+     "ECO04",
+     "ECO17",
+     "ECO07",
+     "ECO08",
+     "ECO09",
+     "ECO10",
+     "ECO05",
+     "ECO19",
+     "ECO18",
+     "ECO11",
+     "ECO12",
+     "ECO13",
+     "ECO14",
+     "ECO15",
+     "ECO16",
+     "LAW01",
+     "LAW02",
+     "LAW03",
+     "LAW06",
+     "LAW05",
+     "LAW04",
+     "LAW07",
+     "ENV06",
+     "ENV07",
+     "ENV05",
+     "FIN35",
+     "FIN15",
+     "FIN16",
+     "FIN17",
+     "FIN18",
+     "FIN04",
+     "FIN20",
+     "FIN22",
+     "FIN23",
+     "FIN24",
+     "FIN21",
+     "FIN05",
+     "FIN06",
+     "FIN07",
+     "FIN08",
+     "FIN09",
+     "FIN31",
+     "FIN13",
+     "FIN25",
+     "FIN26",
+     "FIN30",
+     "FIN34",
+     "FIN27",
+     "FIN29",
+     "FIN28",
+     "FIN14",
+     "ACC33",
+     "ACC34",
+     "MKT01",
+     "MKT02",
+     "MKT06",
+     "MKT21",
+     "MKT22",
+     "MKT03",
+     "MKT04",
+     "MKT05",
+     "MKT07",
+     "MKT08",
+     "MKT09",
+     "MKT10",
+     "MKT11",
+     "MKT12",
+     "MKT15",
+     "MKT16",
+     "MKT17",
+     "MKT20",
+     "MKT24",
+     "MKT23",
+     "MKT19",
+     "MKT18",
+     "MKT13",
+     "MKT25",
+     "MKT14",
+     "RES07",
+     "RES01",
+     "RES02",
+     "RES06",
+     "RES05",
+     "RES10",
+     "RES04",
+     "RES03",
+     "RES08",
+     "RES09",
+     "OBH14",
+     "OBH15",
+     "OBH01",
+     "OBH04",
+     "OBH16",
+     "OBH17",
+     "OBH18",
+     "OBH19",
+     "OBH03",
+     "OBH02",
+     "OBH05",
+     "OBH11",
+     "OBH12",
+     "OBH20",
+     "OBH09",
+     "OBH10",
+     "OBH13",
+     "OBH06",
+     "OBH07",
+     "OBH08",
+     "ENV01",
+     "ENV02",
+     "ENV03",
+     "ENV04",
+     "COM01",
+     "COM04",
+     "COM05",
+     "COM02",
+     "COM03",
+     "STR01",
+     "STR03",
+     "STR04",
+     "STR05",
+     "STR06",
+     "STR07",
+     "STR16",
+     "STR02",
+     "STR10",
+     "STR15",
+     "STR14",
+     "STR13",
+     "STR12",
+     "STR11",
+     "STR09",
+     "STR08",
+     "ITD01",
+     "ITD02",
+     "ITD05",
+     "ITD03",
+     "ITD04",
+     "ITD08",
+     "ITD06",
+     "ITD07"
+    ],
+    "total": 415.37875,
+    "B0": 673.87125,
+    "B1": 502.27750000000003,
+    "days": 72
+   }
+  },
+  {
+   "name": "engineer",
+   "description": "Engineer: maths, probability and spreadsheets known; statistics, regression, LP and production basics at half time",
+   "known": [
+    "QNT01",
+    "QNT02",
+    "QNT05",
+    "QNT06",
+    "QNT08",
+    "QNT10",
+    "QNT11",
+    "QNT12",
+    "CMP01"
+   ],
+   "multipliers": {
+    "QNT03": 0.5,
+    "QNT04": 0.5,
+    "QNT07": 0.5,
+    "QNT09": 0.5,
+    "QNT18": 0.5,
+    "QNT19": 0.5,
+    "QNT20": 0.5,
+    "QNT21": 0.5,
+    "QNT22": 0.5,
+    "QNT26": 0.5,
+    "QNT32": 0.5,
+    "QNT33": 0.5,
+    "CMP02": 0.5,
+    "CMP05": 0.5,
+    "ECO06": 0.5
+   },
+   "python_result": {
+    "roadmap_ids": [
+     "STR01",
+     "STR05",
+     "STR06",
+     "ITD01",
+     "ITD02",
+     "ITD05",
+     "OPS01",
+     "OPS17",
+     "OPS16",
+     "OPS02",
+     "OPS05",
+     "OPS26",
+     "OPS06",
+     "OPS18",
+     "OPS03",
+     "OPS04",
+     "QNT03",
+     "QNT31",
+     "CMP03",
+     "CMP02",
+     "QNT17",
+     "QNT32",
+     "CMP04",
+     "QNT04",
+     "QNT18",
+     "QNT19",
+     "QNT20",
+     "OPS19",
+     "OPS20",
+     "OPS14",
+     "OPS15",
+     "QNT33",
+     "QNT34",
+     "QNT35",
+     "QNT36",
+     "QNT37",
+     "QNT21",
+     "QNT24",
+     "QNT23",
+     "QNT07",
+     "QNT13",
+     "QNT14",
+     "QNT15",
+     "QNT16",
+     "QNT38",
+     "QNT22",
+     "QNT25",
+     "QNT09",
+     "QNT26",
+     "QNT27",
+     "QNT30",
+     "QNT29",
+     "QNT28",
+     "CMP05",
+     "ITD03",
+     "ITD04",
+     "ITD08",
+     "MKT01",
+     "MKT04",
+     "MKT02",
+     "MKT06",
+     "RES07",
+     "RES01",
+     "RES05",
+     "RES10",
+     "RES02",
+     "RES03",
+     "RES08",
+     "RES09",
+     "RES06",
+     "RES04",
+     "MKT03",
+     "MKT05",
+     "MKT07",
+     "MKT08",
+     "MKT17",
+     "MKT23",
+     "MKT24",
+     "MKT20",
+     "MKT09",
+     "MKT10",
+     "MKT11",
+     "MKT12",
+     "MKT15",
+     "MKT19",
+     "MKT16",
+     "ECO01",
+     "ECO05",
+     "ECO19",
+     "ECO20",
+     "ECO21",
+     "ECO06",
+     "ECO28",
+     "ECO24",
+     "ECO29",
+     "ECO02",
+     "ECO04",
+     "ECO17",
+     "STR02",
+     "LAW01",
+     "LAW02",
+     "LAW03",
+     "LAW04",
+     "LAW07",
+     "LAW05",
+     "ENV06",
+     "ENV07",
+     "ENV01",
+     "ENV02",
+     "ENV03",
+     "ENV04",
+     "ENV05",
+     "OBH01",
+     "OBH04",
+     "OBH02",
+     "OBH05",
+     "OBH11",
+     "OBH12",
+     "OBH14",
+     "OBH16",
+     "OBH18",
+     "OBH19",
+     "OBH03",
+     "OBH06",
+     "OBH07",
+     "OBH08",
+     "OBH09",
+     "OBH10",
+     "OBH13",
+     "COM01",
+     "COM04",
+     "COM05",
+     "COM02",
+     "COM03",
+     "ACC01",
+     "ACC05",
+     "ACC11",
+     "ACC02",
+     "ACC03",
+     "ACC04",
+     "ACC14",
+     "ACC13",
+     "ACC06",
+     "ACC07",
+     "ACC08",
+     "ACC09",
+     "ACC10",
+     "ACC16",
+     "ACC17",
+     "ACC18",
+     "ACC15",
+     "ACC19",
+     "ACC20",
+     "ACC21",
+     "ACC22",
+     "ACC24",
+     "ACC25",
+     "ACC26",
+     "ACC23",
+     "ACC29",
+     "ACC30",
+     "ACC31",
+     "ACC27",
+     "ACC28",
+     "ACC32",
+     "FIN33",
+     "MKT18",
+     "OPS09",
+     "OPS10",
+     "OPS07",
+     "OPS08",
+     "OPS13",
+     "OPS12",
+     "OPS11",
+     "OPS22",
+     "OPS25",
+     "OPS24",
+     "OPS23",
+     "OPS21",
+     "OPS27",
+     "FIN02",
+     "FIN03",
+     "FIN32",
+     "FIN10",
+     "FIN11",
+     "FIN12",
+     "FIN13",
+     "FIN14",
+     "FIN04",
+     "FIN20",
+     "FIN22",
+     "FIN23",
+     "FIN21",
+     "FIN05",
+     "FIN06",
+     "FIN25",
+     "FIN01",
+     "FIN15",
+     "FIN16",
+     "FIN17",
+     "FIN24",
+     "FIN07",
+     "FIN08",
+     "FIN09",
+     "FIN31",
+     "FIN19",
+     "FIN35",
+     "FIN26",
+     "FIN27",
+     "FIN28",
+     "FIN29",
+     "FIN30",
+     "FIN34",
+     "ECO22",
+     "ECO23",
+     "ECO25",
+     "ECO26",
+     "ECO27",
+     "FIN18",
+     "ACC33",
+     "ACC34",
+     "ACC12",
+     "ECO07",
+     "ECO08",
+     "ECO11",
+     "ECO15",
+     "ECO03",
+     "ECO09",
+     "ECO10",
+     "ECO12",
+     "ECO13",
+     "ECO14",
+     "ECO18",
+     "ECO16",
+     "LAW06",
+     "MKT13",
+     "MKT25",
+     "MKT14",
+     "MKT21",
+     "MKT22",
+     "STR03",
+     "STR07",
+     "STR16",
+     "STR08",
+     "STR09",
+     "STR10",
+     "STR11",
+     "STR04",
+     "STR15",
+     "STR14",
+     "STR13",
+     "STR12",
+     "ITD06",
+     "ITD07",
+     "OBH17",
+     "OBH15",
+     "OBH20"
+    ],
+    "total": 385.81624999999997,
+    "B0": 622.8937500000001,
+    "B1": 451.28531250000003,
+    "days": 68
+   }
+  },
+  {
+   "name": "commerce",
+   "description": "Commerce graduate: basic accounting, TVM and demand-supply known; rest of FRA, costing basics, finance and law basics at half time",
+   "known": [
+    "ACC01",
+    "ACC02",
+    "ACC03",
+    "ACC04",
+    "ACC05",
+    "ACC06",
+    "ACC08",
+    "ACC09",
+    "ACC22",
+    "FIN02",
+    "FIN03",
+    "FIN04",
+    "ECO01",
+    "ECO02"
+   ],
+   "multipliers": {
+    "ACC07": 0.5,
+    "ACC10": 0.5,
+    "ACC11": 0.5,
+    "ACC12": 0.5,
+    "ACC13": 0.5,
+    "ACC14": 0.5,
+    "ACC15": 0.5,
+    "ACC16": 0.5,
+    "ACC17": 0.5,
+    "ACC18": 0.5,
+    "ACC23": 0.5,
+    "ACC24": 0.5,
+    "ACC25": 0.5,
+    "ACC29": 0.5,
+    "FIN01": 0.5,
+    "FIN05": 0.5,
+    "FIN06": 0.5,
+    "FIN09": 0.5,
+    "ECO03": 0.5,
+    "ECO20": 0.5,
+    "ECO21": 0.5,
+    "LAW01": 0.5,
+    "LAW02": 0.5,
+    "LAW04": 0.5,
+    "QNT03": 0.5
+   },
+   "python_result": {
+    "roadmap_ids": [
+     "ACC11",
+     "ACC12",
+     "ACC13",
+     "ACC10",
+     "ACC16",
+     "ACC17",
+     "ACC21",
+     "ACC14",
+     "ACC15",
+     "ACC20",
+     "ACC07",
+     "ACC19",
+     "ACC18",
+     "ACC24",
+     "ACC25",
+     "ACC26",
+     "ACC23",
+     "ACC27",
+     "ACC28",
+     "ACC29",
+     "ACC30",
+     "ACC31",
+     "ACC32",
+     "FIN32",
+     "CMP01",
+     "CMP05",
+     "QNT01",
+     "QNT32",
+     "QNT33",
+     "QNT34",
+     "QNT35",
+     "QNT36",
+     "QNT37",
+     "QNT03",
+     "QNT04",
+     "CMP03",
+     "CMP02",
+     "CMP04",
+     "QNT02",
+     "QNT05",
+     "QNT08",
+     "QNT11",
+     "QNT12",
+     "QNT18",
+     "QNT19",
+     "QNT20",
+     "QNT21",
+     "QNT22",
+     "QNT25",
+     "QNT10",
+     "QNT17",
+     "QNT13",
+     "QNT16",
+     "QNT23",
+     "QNT24",
+     "QNT09",
+     "QNT26",
+     "QNT27",
+     "QNT30",
+     "QNT38",
+     "QNT06",
+     "QNT14",
+     "QNT07",
+     "QNT15",
+     "QNT28",
+     "QNT29",
+     "QNT31",
+     "OPS07",
+     "OPS09",
+     "OPS10",
+     "OPS13",
+     "OPS12",
+     "OPS11",
+     "OPS22",
+     "OPS23",
+     "OPS24",
+     "OPS25",
+     "OPS08",
+     "OPS01",
+     "OPS21",
+     "OPS17",
+     "OPS16",
+     "OPS02",
+     "OPS05",
+     "OPS26",
+     "OPS03",
+     "OPS04",
+     "OPS27",
+     "OPS18",
+     "OPS19",
+     "OPS20",
+     "OPS06",
+     "OPS14",
+     "OPS15",
+     "FIN01",
+     "FIN19",
+     "FIN33",
+     "ECO20",
+     "ECO22",
+     "ECO21",
+     "ECO23",
+     "ECO27",
+     "ECO24",
+     "ECO25",
+     "ECO26",
+     "ECO06",
+     "ECO28",
+     "ECO29",
+     "ECO03",
+     "ECO11",
+     "ECO15",
+     "ECO16",
+     "ECO07",
+     "ECO08",
+     "ECO09",
+     "ECO18",
+     "ECO12",
+     "ECO13",
+     "ECO14",
+     "ECO05",
+     "ECO19",
+     "ECO04",
+     "ECO17",
+     "ECO10",
+     "LAW01",
+     "LAW06",
+     "LAW05",
+     "LAW02",
+     "LAW03",
+     "LAW04",
+     "LAW07",
+     "ENV06",
+     "ENV07",
+     "ENV01",
+     "ENV02",
+     "ENV03",
+     "ENV04",
+     "ENV05",
+     "MKT01",
+     "MKT02",
+     "MKT03",
+     "MKT06",
+     "MKT21",
+     "MKT22",
+     "MKT04",
+     "MKT05",
+     "MKT07",
+     "MKT08",
+     "MKT12",
+     "MKT13",
+     "MKT14",
+     "MKT15",
+     "MKT16",
+     "MKT17",
+     "MKT25",
+     "MKT24",
+     "MKT23",
+     "MKT09",
+     "MKT10",
+     "MKT11",
+     "MKT19",
+     "MKT18",
+     "MKT20",
+     "OBH14",
+     "OBH19",
+     "OBH01",
+     "OBH04",
+     "OBH16",
+     "OBH17",
+     "OBH18",
+     "OBH03",
+     "OBH02",
+     "OBH05",
+     "OBH09",
+     "OBH10",
+     "OBH11",
+     "OBH12",
+     "OBH13",
+     "OBH15",
+     "OBH20",
+     "OBH06",
+     "OBH07",
+     "OBH08",
+     "FIN05",
+     "FIN15",
+     "FIN16",
+     "FIN17",
+     "FIN18",
+     "FIN35",
+     "FIN20",
+     "FIN22",
+     "FIN23",
+     "FIN24",
+     "FIN21",
+     "FIN10",
+     "FIN11",
+     "FIN12",
+     "FIN13",
+     "FIN14",
+     "FIN06",
+     "FIN07",
+     "FIN08",
+     "FIN09",
+     "FIN31",
+     "FIN25",
+     "FIN26",
+     "FIN27",
+     "FIN28",
+     "FIN29",
+     "FIN30",
+     "FIN34",
+     "ACC33",
+     "ACC34",
+     "COM01",
+     "COM04",
+     "COM05",
+     "COM02",
+     "COM03",
+     "RES01",
+     "RES02",
+     "RES03",
+     "RES08",
+     "RES07",
+     "RES06",
+     "RES04",
+     "RES05",
+     "RES10",
+     "RES09",
+     "STR01",
+     "STR03",
+     "STR04",
+     "STR05",
+     "STR06",
+     "STR07",
+     "STR16",
+     "STR10",
+     "STR12",
+     "STR02",
+     "STR15",
+     "STR14",
+     "STR13",
+     "STR08",
+     "STR09",
+     "STR11",
+     "ITD01",
+     "ITD02",
+     "ITD05",
+     "ITD03",
+     "ITD04",
+     "ITD08",
+     "ITD06",
+     "ITD07"
+    ],
+    "total": 367.36,
+    "B0": 594.77625,
+    "B1": 443.2884375,
+    "days": 64
+   }
+  },
+  {
+   "name": "skip_marketing",
+   "description": "Skip Marketing: drop the Marketing domain; closure adds back what other courses need",
+   "skip_domains": [
+    "Marketing"
+   ],
+   "python_result": {
+    "roadmap_ids": [
+     "ACC01",
+     "ACC02",
+     "ACC03",
+     "ACC06",
+     "ACC05",
+     "ACC04",
+     "ACC17",
+     "ACC21",
+     "ACC18",
+     "ACC13",
+     "ACC07",
+     "ACC08",
+     "ACC09",
+     "ACC15",
+     "ACC19",
+     "ACC20",
+     "ACC10",
+     "ACC16",
+     "ACC22",
+     "ACC24",
+     "ACC25",
+     "ACC26",
+     "ACC23",
+     "ACC29",
+     "ACC30",
+     "ACC31",
+     "ACC27",
+     "ACC28",
+     "ACC32",
+     "QNT03",
+     "QNT31",
+     "QNT04",
+     "QNT01",
+     "QNT32",
+     "QNT37",
+     "QNT36",
+     "QNT33",
+     "QNT34",
+     "QNT35",
+     "QNT05",
+     "QNT06",
+     "QNT07",
+     "QNT08",
+     "QNT13",
+     "QNT14",
+     "QNT15",
+     "QNT16",
+     "QNT38",
+     "QNT09",
+     "QNT02",
+     "QNT11",
+     "QNT12",
+     "QNT18",
+     "QNT19",
+     "QNT20",
+     "QNT21",
+     "QNT26",
+     "QNT27",
+     "QNT28",
+     "QNT10",
+     "QNT30",
+     "QNT29",
+     "QNT23",
+     "QNT22",
+     "QNT25",
+     "QNT24",
+     "CMP01",
+     "CMP02",
+     "QNT17",
+     "CMP03",
+     "CMP04",
+     "CMP05",
+     "FIN02",
+     "FIN03",
+     "FIN10",
+     "FIN11",
+     "FIN12",
+     "FIN13",
+     "FIN14",
+     "FIN33",
+     "FIN32",
+     "FIN04",
+     "FIN20",
+     "FIN22",
+     "FIN23",
+     "FIN21",
+     "FIN05",
+     "FIN06",
+     "FIN25",
+     "FIN26",
+     "FIN30",
+     "ACC11",
+     "ACC12",
+     "ACC14",
+     "ACC33",
+     "ACC34",
+     "FIN08",
+     "FIN07",
+     "FIN01",
+     "FIN09",
+     "FIN31",
+     "FIN34",
+     "FIN27",
+     "FIN28",
+     "FIN29",
+     "FIN19",
+     "FIN35",
+     "FIN15",
+     "FIN16",
+     "FIN17",
+     "FIN24",
+     "ECO01",
+     "ECO05",
+     "ECO19",
+     "ECO03",
+     "ECO02",
+     "ECO04",
+     "ECO17",
+     "ECO06",
+     "ECO07",
+     "ECO08",
+     "ECO09",
+     "ECO18",
+     "ECO14",
+     "ECO10",
+     "ECO11",
+     "ECO12",
+     "ECO13",
+     "ECO20",
+     "ECO22",
+     "ECO21",
+     "ECO23",
+     "ECO27",
+     "ECO28",
+     "ECO15",
+     "ECO16",
+     "ECO24",
+     "ECO25",
+     "ECO26",
+     "ECO29",
+     "FIN18",
+     "LAW01",
+     "LAW02",
+     "LAW03",
+     "LAW06",
+     "LAW05",
+     "LAW04",
+     "LAW07",
+     "ENV06",
+     "ENV07",
+     "ENV05",
+     "OBH01",
+     "OBH03",
+     "OBH06",
+     "OBH02",
+     "OBH05",
+     "OBH07",
+     "OBH08",
+     "OBH14",
+     "OBH19",
+     "OBH04",
+     "OBH16",
+     "OBH17",
+     "OBH18",
+     "OBH09",
+     "OBH10",
+     "OBH11",
+     "OBH12",
+     "OBH13",
+     "OBH15",
+     "OBH20",
+     "MKT01",
+     "MKT02",
+     "MKT06",
+     "MKT21",
+     "MKT04",
+     "MKT05",
+     "MKT07",
+     "MKT08",
+     "MKT10",
+     "MKT11",
+     "MKT15",
+     "MKT13",
+     "MKT17",
+     "MKT25",
+     "COM01",
+     "COM02",
+     "COM03",
+     "COM04",
+     "COM05",
+     "OPS01",
+     "OPS18",
+     "OPS19",
+     "OPS20",
+     "OPS03",
+     "OPS04",
+     "OPS14",
+     "OPS15",
+     "OPS16",
+     "OPS17",
+     "OPS09",
+     "OPS10",
+     "OPS02",
+     "OPS05",
+     "OPS06",
+     "OPS21",
+     "OPS27",
+     "OPS07",
+     "OPS08",
+     "OPS26",
+     "OPS13",
+     "OPS12",
+     "OPS11",
+     "OPS22",
+     "OPS23",
+     "OPS24",
+     "OPS25",
+     "ENV01",
+     "ENV02",
+     "ENV03",
+     "ENV04",
+     "STR01",
+     "STR03",
+     "STR04",
+     "STR05",
+     "STR06",
+     "STR07",
+     "STR16",
+     "STR02",
+     "STR10",
+     "STR11",
+     "STR12",
+     "STR13",
+     "STR14",
+     "STR15",
+     "STR08",
+     "STR09",
+     "ITD01",
+     "ITD02",
+     "ITD05",
+     "ITD03",
+     "ITD04",
+     "ITD08",
+     "ITD06",
+     "ITD07",
+     "RES01",
+     "RES02",
+     "RES03",
+     "RES08",
+     "RES07",
+     "RES06",
+     "RES04",
+     "RES05",
+     "RES10",
+     "RES09"
+    ],
+    "total": 401.494375,
+    "B0": 646.2262499999999,
+    "B1": 484.200625,
+    "days": 69
+   }
+  },
+  {
+   "name": "summers_3_weeks",
+   "description": "Summers in 3 weeks: about 60 hours (3 h/day) before interviews; maximise value",
+   "budget": 60,
+   "params": {
+    "day_hours": 3.0
+   },
+   "python_result": {
+    "roadmap_ids": [
+     "QNT03",
+     "QNT31",
+     "QNT04",
+     "QNT01",
+     "QNT32",
+     "QNT37",
+     "QNT36",
+     "QNT33",
+     "QNT34",
+     "QNT35",
+     "QNT05",
+     "QNT08",
+     "QNT09",
+     "QNT02",
+     "QNT11",
+     "QNT12",
+     "QNT18",
+     "QNT19",
+     "QNT20",
+     "QNT21",
+     "QNT26",
+     "QNT27",
+     "QNT28",
+     "QNT13",
+     "QNT16",
+     "QNT10",
+     "QNT23",
+     "QNT22",
+     "QNT25",
+     "QNT24",
+     "QNT38",
+     "QNT30",
+     "QNT29",
+     "QNT06",
+     "QNT14",
+     "CMP01",
+     "CMP02",
+     "QNT17",
+     "CMP03",
+     "CMP04",
+     "CMP05",
+     "QNT07",
+     "QNT15",
+     "FIN02",
+     "FIN03",
+     "FIN10",
+     "FIN11",
+     "FIN12",
+     "ACC01",
+     "ACC02",
+     "ACC03",
+     "ACC06",
+     "ACC05",
+     "ACC04",
+     "ACC09",
+     "ACC10",
+     "ACC11",
+     "ACC12",
+     "ACC07",
+     "ACC08",
+     "ACC13",
+     "ACC16",
+     "ACC17",
+     "ACC18",
+     "ACC14",
+     "ACC15",
+     "ACC19",
+     "ACC20",
+     "ACC21",
+     "ACC22",
+     "ACC24",
+     "ACC25",
+     "ACC26",
+     "ACC23",
+     "ACC29",
+     "ACC30",
+     "ACC31",
+     "ACC27",
+     "ACC28",
+     "ACC32",
+     "FIN32",
+     "FIN33",
+     "OPS09",
+     "OPS10",
+     "OPS13",
+     "OPS12",
+     "OPS11",
+     "OPS07",
+     "OPS22",
+     "OPS25",
+     "OPS24",
+     "OPS23",
+     "OPS08",
+     "OPS01",
+     "OPS21",
+     "OPS17",
+     "OPS16",
+     "OPS02",
+     "OPS05",
+     "OPS26",
+     "OPS03",
+     "OPS04",
+     "OPS27",
+     "OPS18",
+     "OPS19",
+     "OPS20",
+     "OPS06",
+     "OPS14",
+     "OPS15",
+     "FIN01",
+     "FIN19",
+     "ECO20",
+     "ECO22",
+     "ECO21",
+     "ECO23",
+     "ECO27",
+     "ECO24",
+     "ECO25",
+     "ECO26",
+     "ECO06",
+     "ECO28",
+     "ECO29",
+     "ECO01",
+     "ECO03",
+     "ECO02",
+     "ECO04",
+     "ECO17",
+     "ECO07",
+     "ECO08",
+     "ECO09",
+     "ECO10",
+     "ECO05",
+     "ECO19",
+     "ECO18",
+     "ECO11",
+     "ECO12",
+     "ECO13",
+     "ECO14",
+     "ECO15",
+     "ECO16",
+     "LAW01",
+     "LAW02",
+     "LAW03",
+     "LAW06",
+     "LAW05",
+     "LAW04",
+     "LAW07",
+     "ENV06",
+     "ENV07",
+     "ENV05",
+     "FIN35",
+     "FIN15",
+     "FIN16",
+     "FIN17",
+     "FIN18",
+     "FIN04",
+     "FIN20",
+     "FIN22",
+     "FIN23",
+     "FIN24",
+     "FIN21",
+     "FIN05",
+     "FIN06",
+     "FIN07",
+     "FIN08",
+     "FIN09",
+     "FIN31",
+     "FIN13",
+     "FIN25",
+     "FIN26",
+     "FIN30",
+     "FIN34",
+     "FIN27",
+     "FIN29",
+     "FIN28",
+     "FIN14",
+     "ACC33",
+     "ACC34",
+     "MKT01",
+     "MKT02",
+     "MKT06",
+     "MKT21",
+     "MKT22",
+     "MKT03",
+     "MKT04",
+     "MKT05",
+     "MKT07",
+     "MKT08",
+     "MKT09",
+     "MKT10",
+     "MKT11",
+     "MKT12",
+     "MKT15",
+     "MKT16",
+     "MKT17",
+     "MKT20",
+     "MKT24",
+     "MKT23",
+     "MKT19",
+     "MKT18",
+     "MKT13",
+     "MKT25",
+     "MKT14",
+     "RES07",
+     "RES01",
+     "RES02",
+     "RES06",
+     "RES05",
+     "RES10",
+     "RES04",
+     "RES03",
+     "RES08",
+     "RES09",
+     "OBH14",
+     "OBH15",
+     "OBH01",
+     "OBH04",
+     "OBH16",
+     "OBH17",
+     "OBH18",
+     "OBH19",
+     "OBH03",
+     "OBH02",
+     "OBH05",
+     "OBH11",
+     "OBH12",
+     "OBH20",
+     "OBH09",
+     "OBH10",
+     "OBH13",
+     "OBH06",
+     "OBH07",
+     "OBH08",
+     "ENV01",
+     "ENV02",
+     "ENV03",
+     "ENV04",
+     "COM01",
+     "COM04",
+     "COM05",
+     "COM02",
+     "COM03",
+     "STR01",
+     "STR03",
+     "STR04",
+     "STR05",
+     "STR06",
+     "STR07",
+     "STR16",
+     "STR02",
+     "STR10",
+     "STR15",
+     "STR14",
+     "STR13",
+     "STR12",
+     "STR11",
+     "STR09",
+     "STR08",
+     "ITD01",
+     "ITD02",
+     "ITD05",
+     "ITD03",
+     "ITD04",
+     "ITD08",
+     "ITD06",
+     "ITD07"
+    ],
+    "total": 415.37875,
+    "B0": 673.87125,
+    "B1": 502.27750000000003,
+    "days": 217
+   }
+  }
+ ]
+}

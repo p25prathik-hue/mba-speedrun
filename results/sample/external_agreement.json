@@ -1,0 +1,60 @@
+{
+ "mapping_mode": "suggested",
+ "links": 38,
+ "links_with_external_evidence": 29,
+ "per_source": {
+  "MIT511": {
+   "agree": 3,
+   "same_unit": 1,
+   "disagree": 1
+  },
+  "MIT501": {
+   "agree": 2,
+   "same_unit": 0,
+   "disagree": 0
+  },
+  "BMA14": {
+   "agree": 14,
+   "same_unit": 3,
+   "disagree": 1
+  },
+  "HDR17": {
+   "agree": 6,
+   "same_unit": 1,
+   "disagree": 0
+  },
+  "MIT401": {
+   "agree": 2,
+   "same_unit": 1,
+   "disagree": 1
+  }
+ },
+ "overall_agreement_rate": 0.9,
+ "disagreements": [
+  {
+   "src": "A3",
+   "dst": "A4",
+   "type": "AND",
+   "source": "MIT511",
+   "pos_src": 4.0,
+   "pos_dst": 3.0
+  },
+  {
+   "src": "F6",
+   "dst": "F10",
+   "type": "SOFT",
+   "source": "MIT401",
+   "pos_src": 7.0,
+   "pos_dst": 6.0
+  },
+  {
+   "src": "A8",
+   "dst": "F3",
+   "type": "SOFT",
+   "source": "BMA14",
+   "pos_src": 29.0,
+   "pos_dst": 4.0
+  }
+ ],
+ "note": "Ordering evidence only. Review topic_unit_map_suggested.csv before quoting these numbers."
+}

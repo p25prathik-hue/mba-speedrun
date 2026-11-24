@@ -1,0 +1,12 @@
+[
+ {"name": "fresh", "description": "Fresh learner: everything in the pilot, no prior knowledge"},
+ {"name": "engineer", "description": "Engineer: probability/regression known; TVM partly known",
+  "known": ["Q1", "Q2"], "multipliers": {"F1": 0.7}},
+ {"name": "commerce", "description": "Commerce graduate: basic financial accounting known, rest of accounting at half time",
+  "known": ["A1", "A2", "A3"],
+  "multipliers": {"A4": 0.5, "A5": 0.5, "A6": 0.5, "A7": 0.5, "A8": 0.5, "M1": 0.5, "M2": 0.5, "M3": 0.5}},
+ {"name": "finance_only", "description": "Finance only: skip accounting and statistics unless Finance needs them (closure decides)",
+  "target_domains": ["FIN"]},
+ {"name": "crunch_25h", "description": "Crunch: 25 hours before interviews; maximise placement relevance",
+  "budget": 25}
+]

@@ -1,0 +1,296 @@
+# MBA Speedrun micro-topic web (IIMA PGP core, first year)
+# Format: id | name | courses (primary first, ';' separated) | term first taught | size S/M/L | value 1-5 | prerequisites
+# Prerequisites: comma-separated ids. (A|B) = OR group (either one unlocks). ~ID = soft prerequisite (helpful, not required).
+# Size: S = 45 min, M = 90 min, L = 150 min of base self-study time.
+
+## Quantitative methods (QM-1a probability & decisions, QM-1b statistics, QM-2 regression & optimisation, Managerial Computing)
+QNT01 | Algebra and functions refresher | QM-1a | 1 | S | 2 |
+QNT02 | Calculus basics: derivatives and optimisation | QM-1a;ME | 1 | M | 3 | QNT01
+QNT03 | Descriptive statistics: centre and spread | QM-1b | 1 | S | 4 |
+QNT04 | Data visualisation and distribution shapes | QM-1b;MGRCMP | 1 | S | 3 | QNT03
+QNT05 | Probability basics: events, axioms, counting | QM-1a | 1 | M | 4 | QNT01
+QNT06 | Conditional probability and independence | QM-1a | 1 | M | 4 | QNT05
+QNT07 | Bayes' theorem | QM-1a | 1 | M | 4 | QNT06
+QNT08 | Random variables, expectation and variance | QM-1a | 1 | M | 5 | QNT05, QNT03
+QNT09 | Covariance and correlation | QM-1a;QM-1b;FM | 1 | S | 5 | QNT08
+QNT10 | Discrete distributions: binomial and Poisson | QM-1a | 1 | M | 4 | QNT08
+QNT11 | Continuous distributions: uniform and exponential | QM-1a | 1 | M | 3 | QNT08, ~QNT02
+QNT12 | Normal distribution | QM-1a | 1 | M | 5 | QNT11
+QNT13 | Expected-value decisions and payoff tables | QM-1a | 1 | M | 4 | QNT08
+QNT14 | Decision trees | QM-1a;CF | 1 | M | 5 | QNT13, QNT06
+QNT15 | Value of information (EVPI, EVSI) | QM-1a | 1 | M | 3 | QNT14, QNT07
+QNT16 | Risk attitude and utility functions | QM-1a;FM | 1 | M | 3 | QNT13
+QNT17 | Monte Carlo simulation | QM-1a;MGRCMP;CF | 1 | M | 4 | QNT12, QNT10, CMP02
+QNT18 | Sampling and sampling distributions | QM-1b | 1 | M | 4 | QNT12
+QNT19 | Central limit theorem | QM-1b | 1 | S | 4 | QNT18
+QNT20 | Confidence intervals | QM-1b | 1 | M | 5 | QNT19
+QNT21 | Hypothesis testing: logic, p-values, type I/II errors | QM-1b;BRM | 1 | L | 5 | QNT20
+QNT22 | t-tests: one and two samples | QM-1b;BRM | 1 | M | 4 | QNT21
+QNT23 | Tests for proportions | QM-1b | 1 | S | 3 | QNT21, QNT10
+QNT24 | Chi-square tests | QM-1b;BRM | 1 | M | 3 | QNT21
+QNT25 | ANOVA | QM-1b;BRM | 1 | M | 3 | QNT22
+QNT26 | Simple linear regression | QM-2;BRM;FM | 2 | L | 5 | QNT09, QNT21
+QNT27 | Multiple regression | QM-2;BRM;MKT-III | 2 | L | 5 | QNT26
+QNT28 | Regression diagnostics: multicollinearity, heteroscedasticity | QM-2 | 2 | M | 3 | QNT27
+QNT29 | Dummy variables and interaction terms | QM-2;BRM | 2 | M | 4 | QNT27
+QNT30 | Logistic regression | QM-2;BRM;TBIT | 2 | M | 4 | QNT27, QNT10
+QNT31 | Time series: components and smoothing | QM-2;OM-I | 2 | M | 4 | QNT03
+QNT32 | Linear programming formulation | QM-2;OM-II;MGRCMP | 2 | L | 5 | QNT01
+QNT33 | Graphical LP and simplex intuition | QM-2 | 2 | M | 3 | QNT32
+QNT34 | LP sensitivity analysis and shadow prices | QM-2 | 2 | M | 5 | QNT33
+QNT35 | Integer and binary programming | QM-2 | 2 | M | 4 | QNT32
+QNT36 | Transportation and assignment models | QM-2;OM-III | 2 | M | 4 | QNT32
+QNT37 | Network models: shortest path, max flow | QM-2 | 2 | M | 3 | QNT32
+QNT38 | Multi-criteria decisions (AHP, scoring) | QM-2 | 2 | S | 2 | QNT13
+CMP01 | Spreadsheet fundamentals: formulas, references, lookups | MGRCMP | 1 | M | 4 |
+CMP02 | Spreadsheet modelling and what-if analysis | MGRCMP | 1 | M | 5 | CMP01
+CMP03 | Pivot tables and data summarisation | MGRCMP | 1 | S | 4 | CMP01, QNT03
+CMP04 | Solver for optimisation | MGRCMP;QM-2 | 1 | S | 4 | CMP02, QNT32
+CMP05 | Databases and SQL basics | MGRCMP;TBIT | 1 | M | 3 | CMP01
+
+## Accounting (Financial Reporting and Analysis, Costing and Control Systems)
+ACC01 | Accounting equation and double entry | FRA | 1 | M | 5 |
+ACC02 | Journal, ledger and trial balance | FRA | 1 | M | 3 | ACC01
+ACC03 | Accrual vs cash basis and matching | FRA | 1 | M | 5 | ACC01
+ACC04 | Income statement (P&L) structure | FRA | 1 | M | 5 | ACC03
+ACC05 | Balance sheet structure | FRA | 1 | M | 5 | ACC01
+ACC06 | Adjusting and closing entries | FRA | 1 | S | 2 | ACC02, ACC03
+ACC07 | Revenue recognition (Ind AS 115) | FRA | 1 | M | 4 | ACC04
+ACC08 | Inventory valuation: FIFO, weighted average | FRA | 1 | M | 4 | ACC04, ACC05
+ACC09 | Fixed assets and depreciation | FRA | 1 | M | 4 | ACC04, ACC05
+ACC10 | Intangibles, goodwill and impairment | FRA | 1 | M | 3 | ACC09
+ACC11 | Liabilities, provisions and contingencies | FRA | 1 | S | 3 | ACC05
+ACC12 | Lease accounting (Ind AS 116) | FRA | 1 | M | 2 | ACC11, ACC09, FIN03
+ACC13 | Shareholders' equity and EPS | FRA | 1 | S | 3 | ACC04, ACC05
+ACC14 | Deferred tax | FRA | 1 | M | 2 | ACC04, ACC11
+ACC15 | Cash flow statement | FRA;CF | 1 | L | 5 | ACC04, ACC05, ACC09
+ACC16 | Consolidation and group accounts basics | FRA | 1 | M | 2 | ACC13, ACC10
+ACC17 | Ratio analysis: profitability, liquidity, solvency | FRA;CF | 1 | L | 5 | ACC04, ACC05
+ACC18 | DuPont analysis | FRA;CF | 1 | S | 5 | ACC17
+ACC19 | Earnings quality and red flags | FRA | 1 | M | 4 | ACC17, ACC15, ACC07
+ACC20 | Reading an annual report and notes | FRA | 1 | M | 4 | ACC15, ACC17
+ACC21 | Working capital and cash conversion cycle | FRA;CF;OM-II | 1 | M | 5 | ACC17
+ACC22 | Cost concepts and behaviour: fixed, variable, sunk, opportunity | CCS;ME;OM-II | 1 | M | 5 | ACC04
+ACC23 | Cost-volume-profit and break-even | CCS;MKT-II | 2 | M | 5 | ACC22
+ACC24 | Job and process costing | CCS | 2 | M | 2 | ACC22, ACC08
+ACC25 | Overhead allocation and absorption costing | CCS | 2 | M | 3 | ACC24
+ACC26 | Activity-based costing | CCS | 2 | M | 4 | ACC25
+ACC27 | Variable vs absorption costing | CCS | 2 | S | 3 | ACC25, ACC23
+ACC28 | Relevant costing: make-or-buy, special orders | CCS;OM-III;SM | 2 | M | 5 | ACC22
+ACC29 | Budgeting and the master budget | CCS | 2 | M | 4 | ACC23, ACC15
+ACC30 | Standard costing and variance analysis | CCS | 2 | L | 4 | ACC29
+ACC31 | Responsibility centres and segment reporting | CCS | 2 | M | 3 | ACC29
+ACC32 | Transfer pricing | CCS | 2 | M | 3 | ACC31, ACC28
+ACC33 | Performance measures: ROI, residual income, EVA | CCS;CF | 2 | M | 4 | ACC31, ACC17, FIN26
+ACC34 | Balanced scorecard and management control systems | CCS;SM | 2 | M | 4 | ACC33
+
+## Finance (Financial Markets, Corporate Finance)
+FIN01 | Financial system: markets, institutions, instruments | FM | 1 | M | 4 |
+FIN02 | Interest rates: simple, compound, nominal vs effective | FM | 1 | S | 4 | QNT01
+FIN03 | Time value of money: PV and FV | FM;CF | 1 | M | 5 | FIN02
+FIN04 | Annuities and perpetuities | FM;CF | 1 | M | 5 | FIN03
+FIN05 | Loan amortisation and EMIs | FM | 1 | S | 3 | FIN04
+FIN06 | Bond pricing and yield to maturity | FM | 1 | M | 5 | FIN04
+FIN07 | Term structure and the yield curve | FM;MEP | 1 | M | 4 | FIN06
+FIN08 | Duration and convexity | FM | 1 | M | 4 | FIN06, ~QNT02
+FIN09 | Stock valuation: dividend discount model | FM;CF | 1 | M | 5 | FIN04, FIN01
+FIN10 | Measuring return and risk | FM | 2 | M | 5 | QNT08, FIN03
+FIN11 | Diversification and portfolio theory | FM | 2 | L | 5 | FIN10, QNT09
+FIN12 | Efficient frontier and optimal portfolio | FM | 2 | M | 4 | FIN11, ~QNT02
+FIN13 | CAPM and beta | FM;CF | 2 | L | 5 | FIN12, QNT26
+FIN14 | Market efficiency | FM | 2 | M | 4 | FIN13
+FIN15 | Forwards and futures | FM | 2 | M | 4 | FIN03, FIN01
+FIN16 | Options: payoffs and strategies | FM | 2 | M | 4 | FIN15
+FIN17 | Option pricing: binomial and Black-Scholes intuition | FM | 2 | L | 3 | FIN16, (QNT10|QNT12)
+FIN18 | FX markets and parity conditions | FM;MEP | 2 | M | 3 | FIN15, ECO27, ECO21
+FIN19 | Goal of the firm and agency problems | CF | 3 | S | 3 | FIN01
+FIN20 | Capital budgeting: the NPV rule | CF;FM;ME | 3 | L | 5 | FIN04, ACC15
+FIN21 | IRR, payback and other criteria | CF | 3 | M | 5 | FIN20
+FIN22 | Estimating project cash flows (incremental FCF) | CF | 3 | L | 5 | FIN20, ACC15, ACC28
+FIN23 | Project risk: sensitivity, scenario, simulation | CF | 3 | M | 4 | FIN22, QNT17
+FIN24 | Real options | CF | 3 | M | 3 | FIN23, FIN16, QNT14
+FIN25 | Cost of equity and cost of debt | CF | 3 | M | 5 | FIN13, FIN06
+FIN26 | WACC | CF | 3 | M | 5 | FIN25
+FIN27 | Capital structure: MM propositions | CF | 3 | L | 5 | FIN26
+FIN28 | Trade-off and pecking-order theories | CF | 3 | M | 4 | FIN27
+FIN29 | Dividend policy and buybacks | CF | 3 | M | 4 | FIN27, FIN09
+FIN30 | DCF valuation of a firm | CF | 3 | L | 5 | FIN26, FIN22, ACC17
+FIN31 | Relative valuation: multiples | CF | 3 | M | 5 | FIN09, ACC17, ACC13
+FIN32 | Working capital management | CF | 3 | M | 4 | ACC21, FIN03
+FIN33 | Financial planning and forecasting statements | CF | 3 | M | 4 | ACC17, ACC29, CMP02
+FIN34 | Mergers and acquisitions: synergies and valuation | CF;SM | 3 | M | 4 | FIN30, FIN31
+FIN35 | Corporate governance | CF;SM;LAB | 3 | S | 3 | FIN19, ~LAW04
+
+## Economics (Microeconomics, Macroeconomics and Policy)
+ECO01 | Demand and supply basics | ME | 1 | M | 5 |
+ECO02 | Market equilibrium and comparative statics | ME | 1 | M | 4 | ECO01
+ECO03 | Elasticities: price, income, cross | ME;MKT-II | 1 | M | 5 | ECO01
+ECO04 | Consumer surplus and welfare | ME | 1 | S | 3 | ECO02
+ECO05 | Consumer choice: utility and indifference curves | ME | 1 | M | 3 | ECO01, QNT02
+ECO06 | Production functions and returns to scale | ME | 1 | M | 3 | QNT02
+ECO07 | Cost curves and economies of scale | ME;OM-I | 1 | M | 5 | ECO06, ACC22
+ECO08 | Perfect competition | ME | 1 | M | 4 | ECO07, ECO02
+ECO09 | Monopoly and market power | ME | 1 | M | 5 | ECO08, ECO03
+ECO10 | Price discrimination and dynamic pricing | ME;MKT-II | 1 | M | 5 | ECO09
+ECO11 | Game theory: strategic form and Nash equilibrium | ME;SM | 1 | L | 5 |
+ECO12 | Sequential games, commitment and credibility | ME;SM | 1 | M | 4 | ECO11
+ECO13 | Oligopoly: Cournot, Bertrand, Stackelberg | ME | 1 | L | 4 | ECO09, ECO12
+ECO14 | Monopolistic competition and product differentiation | ME;MKT-I | 1 | S | 3 | ECO09
+ECO15 | Information asymmetry: adverse selection, signalling | ME | 1 | M | 4 | ECO11
+ECO16 | Moral hazard and principal-agent incentives | ME;HRM-II;CF | 1 | M | 4 | ECO15
+ECO17 | Externalities and public goods | ME;BES;GSP | 1 | M | 4 | ECO04
+ECO18 | Network effects and platform economics | ME;IEB;SM | 1 | M | 5 | ECO09
+ECO19 | Behavioural economics: biases and heuristics | ME;MKT-I;ID | 1 | M | 4 | ~ECO05
+ECO20 | National income accounting and GDP | MEP | 2 | M | 4 |
+ECO21 | Inflation and price indices | MEP;FM | 2 | M | 5 | ECO20
+ECO22 | Money, banking and money creation | MEP | 2 | M | 4 | ECO20, FIN01
+ECO23 | Monetary policy: RBI, repo rate, transmission | MEP;FM | 2 | M | 5 | ECO22, ECO21, FIN02
+ECO24 | Fiscal policy, deficits and public debt | MEP;GSP | 2 | M | 4 | ECO20
+ECO25 | IS-LM and aggregate demand | MEP | 2 | L | 3 | ECO23, ECO24
+ECO26 | Aggregate supply, Phillips curve, business cycles | MEP | 2 | M | 3 | ECO25, ECO21
+ECO27 | Open economy: balance of payments and exchange rates | MEP;FM | 2 | M | 4 | ECO20, ECO23
+ECO28 | Long-run growth and its drivers | MEP | 2 | M | 3 | ECO20, ECO06
+ECO29 | Indian economy: structure and reforms | MEP;GSP | 2 | M | 4 | ECO24, ECO28
+
+## Marketing (Marketing I, II, III)
+MKT01 | Marketing concept and customer value | MKT-I | 1 | S | 3 |
+MKT02 | Consumer behaviour and customer needs | MKT-I | 1 | M | 4 | MKT01, ~ECO19
+MKT03 | Buying decision process and B2B buying | MKT-I | 1 | M | 3 | MKT02
+MKT04 | Defining a marketing research problem | MKT-I;BRM | 1 | S | 3 | MKT01
+MKT05 | Market sizing and demand estimation | MKT-I | 1 | M | 5 | MKT04, QNT03
+MKT06 | Segmentation | MKT-I | 1 | M | 5 | MKT02
+MKT07 | Targeting and segment attractiveness | MKT-I | 1 | M | 5 | MKT06, MKT05
+MKT08 | Positioning and perceptual maps | MKT-I | 1 | M | 5 | MKT07
+MKT09 | Competitor analysis for marketers | MKT-I | 1 | S | 3 | MKT08
+MKT10 | Product decisions and product life cycle | MKT-I | 1 | M | 4 | MKT08
+MKT11 | New product development and diffusion (Bass model) | MKT-II | 2 | M | 4 | MKT10
+MKT12 | Brand equity and brand management | MKT-II | 2 | M | 5 | MKT08
+MKT13 | Pricing strategy: cost, value and competition based | MKT-II | 2 | M | 5 | ACC23, ECO03, MKT08
+MKT14 | Pricing tactics: bundling, psychological pricing | MKT-II | 2 | S | 3 | MKT13, ECO10
+MKT15 | Distribution channels and channel design | MKT-II | 2 | M | 4 | MKT07
+MKT16 | Channel conflict and retail management | MKT-II | 2 | M | 3 | MKT15
+MKT17 | Integrated marketing communications | MKT-II | 2 | M | 4 | MKT08, MKT02
+MKT18 | Advertising budgets and media planning | MKT-II | 2 | M | 3 | MKT17, ACC23
+MKT19 | Sales management and salesforce design | MKT-II | 2 | M | 3 | MKT15
+MKT20 | Digital marketing and funnel metrics | MKT-III;IEB | 3 | M | 5 | MKT17
+MKT21 | Customer lifetime value | MKT-III;IEB | 3 | M | 5 | FIN04, MKT06
+MKT22 | CRM, loyalty and retention | MKT-III | 3 | S | 3 | MKT21
+MKT23 | Marketing mix modelling and marketing ROI | MKT-III | 3 | M | 4 | QNT27, MKT17
+MKT24 | Services marketing | MKT-III | 3 | S | 3 | MKT08
+MKT25 | Go-to-market strategy and the marketing plan | MKT-III | 3 | L | 5 | MKT13, MKT15, MKT17
+
+## Operations (OM I, II, III; Service Operations)
+OPS01 | Process analysis: flow, capacity, bottleneck | OM-I | 1 | L | 5 |
+OPS02 | Little's law | OM-I | 1 | S | 5 | OPS01
+OPS03 | Process flow charts and process design | OM-I | 1 | S | 3 | OPS01
+OPS04 | Capacity planning and utilisation | OM-I | 1 | M | 4 | OPS01
+OPS05 | Variability and queueing basics | OM-I | 1 | L | 4 | OPS02, QNT11
+OPS06 | Managing waiting lines in services | OM-III;SOM | 3 | S | 3 | OPS05
+OPS07 | Forecasting methods | OM-I | 1 | M | 5 | (QNT31|QNT26)
+OPS08 | Forecast accuracy: MAD, MAPE, bias | OM-I | 1 | S | 3 | OPS07
+OPS09 | Inventory basics and inventory costs | OM-II | 2 | S | 4 | ACC22
+OPS10 | EOQ model | OM-II | 2 | M | 5 | OPS09, QNT02
+OPS11 | Reorder point and safety stock | OM-II | 2 | M | 5 | OPS10, QNT12
+OPS12 | Newsvendor model | OM-II | 2 | M | 5 | OPS09, QNT12, ACC28
+OPS13 | ABC analysis and inventory policies | OM-II | 2 | S | 3 | OPS09
+OPS14 | Aggregate planning | OM-II | 2 | M | 3 | OPS04, QNT32
+OPS15 | Material requirements planning (MRP) | OM-II | 2 | M | 3 | OPS14
+OPS16 | Scheduling and sequencing | OM-II | 2 | M | 3 | OPS01
+OPS17 | Project management: CPM and PERT | OM-II | 2 | M | 4 | (QNT37|OPS01)
+OPS18 | Quality management and TQM | OM-III | 3 | M | 3 | OPS01
+OPS19 | Statistical process control | OM-III | 3 | M | 4 | OPS18, QNT20
+OPS20 | Six Sigma and process capability | OM-III | 3 | M | 3 | OPS19
+OPS21 | Lean and the Toyota Production System | OM-III | 3 | M | 5 | OPS01, OPS09
+OPS22 | Supply chain basics and the bullwhip effect | OM-III | 3 | M | 5 | OPS11, OPS07
+OPS23 | Supply chain coordination and contracts | OM-III | 3 | M | 3 | OPS22, OPS12
+OPS24 | Logistics: facility location and transportation | OM-III | 3 | M | 3 | OPS22, QNT36
+OPS25 | Sourcing and procurement | OM-III | 3 | S | 3 | ACC28, OPS22
+OPS26 | Service operations and service design | SOM;OM-III | 3 | S | 3 | OPS05
+OPS27 | Operations strategy and trade-offs | OM-III;SM | 3 | M | 4 | OPS21, OPS04
+
+## Organisational behaviour and HR (Individual Dynamics, IGP, Org Dynamics, HRM I and II, SHRM/TCM)
+OBH01 | Personality and individual differences | ID | 1 | M | 3 |
+OBH02 | Perception and attribution | ID | 1 | S | 3 | OBH01
+OBH03 | Self-awareness and emotional intelligence | ID | 1 | S | 3 | OBH01
+OBH04 | Motivation theories: needs, two-factor, expectancy | ID;HRM-I | 1 | M | 5 | OBH01
+OBH05 | Group dynamics and team development | IGP | 2 | M | 4 | OBH02
+OBH06 | Interpersonal communication and feedback | IGP | 2 | S | 3 | OBH03
+OBH07 | Conflict management | IGP | 2 | M | 4 | OBH05, OBH06
+OBH08 | Negotiation basics: BATNA, ZOPA | IGP | 2 | M | 5 | OBH07, ~ECO11
+OBH09 | Leadership theories | ODY | 3 | M | 5 | OBH04, OBH05
+OBH10 | Power and influence | ODY | 3 | M | 4 | OBH09
+OBH11 | Organisational structure and design | ODY;SM | 3 | M | 4 | OBH05
+OBH12 | Organisational culture | ODY | 3 | M | 4 | OBH11
+OBH13 | Change management | ODY | 3 | M | 4 | OBH12, OBH10
+OBH14 | HR planning and job analysis | HRM-I | 1 | S | 3 |
+OBH15 | Recruitment and selection | HRM-I | 1 | M | 3 | OBH14
+OBH16 | Performance management and appraisal | HRM-I | 1 | M | 4 | OBH04, OBH14
+OBH17 | Compensation and incentive design | HRM-II | 2 | M | 4 | OBH16, ECO16
+OBH18 | Training and development | HRM-II | 2 | S | 2 | OBH16
+OBH19 | Industrial relations and labour law in India | HRM-II;LAB | 2 | M | 3 | OBH14, ~LAW01
+OBH20 | Strategic HRM and talent management | SHRM;TCM | 3 | M | 3 | OBH17, OBH15, OBH12
+
+## Strategy (Strategic Management)
+STR01 | Strategy basics: vision, mission, goals | SM | 3 | S | 4 |
+STR02 | PESTEL and macro-environment analysis | SM;BES | 3 | S | 4 | STR01, ~ECO20
+STR03 | Porter's five forces | SM | 3 | M | 5 | STR01, ECO09
+STR04 | Industry life cycle and strategic groups | SM | 3 | S | 3 | STR03
+STR05 | Value chain analysis | SM | 3 | M | 5 | STR01
+STR06 | Resource-based view and VRIO | SM | 3 | M | 5 | STR05
+STR07 | Competitive advantage: cost leadership vs differentiation | SM | 3 | M | 5 | STR03, STR06, ECO07
+STR08 | Competitive dynamics: strategic moves and responses | SM | 3 | M | 4 | STR07, ECO12
+STR09 | Platform and ecosystem strategy | SM;IEB | 3 | M | 5 | STR07, ECO18
+STR10 | Corporate strategy: diversification and scope | SM | 3 | M | 4 | STR07
+STR11 | Vertical integration and outsourcing | SM | 3 | M | 4 | STR10, OPS25, ~ECO16
+STR12 | Alliances and M&A strategy | SM | 3 | M | 4 | STR10, FIN34
+STR13 | International strategy and entry modes | SM | 3 | M | 4 | STR10, ~ECO27
+STR14 | Innovation and disruptive technologies | SM | 3 | M | 4 | STR07, MKT11
+STR15 | Strategy implementation and execution | SM;ODY | 3 | M | 4 | STR10, OBH11, ACC34
+STR16 | Integrative business case analysis | SM;WAC-II | 3 | L | 5 | STR07, ACC17, MKT25, FIN30, OPS27, COM03
+
+## Business research methods
+RES01 | Research design: exploratory, descriptive, causal | BRM | 3 | M | 4 | MKT04
+RES02 | Measurement, scales, reliability and validity | BRM | 3 | M | 3 | RES01
+RES03 | Questionnaire and survey design | BRM;MKT-III | 3 | M | 4 | RES02
+RES04 | Sampling methods and sample size | BRM | 3 | M | 4 | RES01, QNT20
+RES05 | Experiments and A/B testing | BRM;IEB | 3 | M | 5 | RES01, QNT22
+RES06 | Factor analysis | BRM | 3 | M | 3 | QNT09, RES02
+RES07 | Cluster analysis | BRM;MKT-I | 3 | M | 4 | QNT09, MKT06
+RES08 | Conjoint analysis | BRM;MKT-II | 3 | M | 4 | QNT29, RES03
+RES09 | Qualitative research: interviews and focus groups | BRM | 3 | S | 3 | RES01
+RES10 | Causal inference: endogeneity, diff-in-diff | BRM | 3 | M | 3 | QNT27, RES05
+
+## Law (Legal Aspects of Business)
+LAW01 | Indian legal system and sources of law | LAB | 1 | S | 2 |
+LAW02 | Contract law: formation, consideration, breach | LAB | 1 | M | 4 | LAW01
+LAW03 | Agency, sale of goods, negotiable instruments | LAB | 1 | M | 2 | LAW02
+LAW04 | Company law: incorporation and directors' duties | LAB | 1 | M | 3 | LAW02
+LAW05 | Intellectual property basics | LAB | 1 | S | 3 | LAW01
+LAW06 | Competition law and consumer protection | LAB | 1 | S | 3 | LAW01, ECO09
+LAW07 | Insolvency and Bankruptcy Code | LAB;CF | 1 | S | 3 | LAW04
+
+## IT and digital business (TBIT, Internet-Enabled Businesses)
+ITD01 | Information systems and business value | TBIT | 2 | S | 3 |
+ITD02 | Enterprise systems: ERP, CRM, SCM | TBIT;OM-II | 2 | M | 3 | ITD01
+ITD03 | Data, analytics and business intelligence | TBIT | 2 | M | 4 | ITD01, CMP05
+ITD04 | Machine learning for managers | TBIT | 2 | M | 4 | ITD03, QNT30
+ITD05 | Digital transformation and IT strategy | TBIT;SM | 2 | M | 4 | ITD02, ~STR05
+ITD06 | Internet business models and unit economics | IEB | 3 | M | 5 | ITD01, ACC23, MKT21
+ITD07 | E-commerce and marketplaces | IEB | 3 | M | 4 | ITD06, STR09
+ITD08 | Cybersecurity, privacy and data governance | TBIT | 2 | S | 3 | ITD03
+
+## Ethics, society and environment (PCE, SCEB, BES, GSP)
+ENV01 | Business ethics frameworks | PCE | 2 | M | 4 |
+ENV02 | Stakeholder theory and CSR | PCE;BES | 2 | M | 4 | ENV01, ~FIN19
+ENV03 | Sustainability and ESG metrics | BES;FM | 3 | M | 4 | ENV02, ECO17
+ENV04 | Climate change and carbon markets | BES | 3 | M | 3 | ENV03
+ENV05 | Social and cultural environment of Indian business | SCEB | 2 | M | 3 |
+ENV06 | Public policy process and regulation | GSP | 3 | M | 3 | ECO24, LAW01
+ENV07 | Business-government relations | GSP | 3 | S | 3 | ENV06
+
+## Communication (Managerial Communication, WAC I and II, WIP)
+COM01 | Structuring communication: the pyramid principle | MGRCMN;WAC-I | 1 | M | 5 |
+COM02 | Business writing: memos, emails, reports | WAC-I | 2 | M | 4 | COM01
+COM03 | Writing a case analysis | WAC-II | 3 | M | 5 | COM02
+COM04 | Presentations and storytelling with data | MGRCMN;WIP | 1 | M | 5 | COM01, QNT04
+COM05 | Interview and group discussion preparation | WIP | 2 | S | 4 | COM04, OBH06

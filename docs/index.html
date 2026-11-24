@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MBA Speedrun · Personalised learning roadmaps</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="brand">MBA Speedrun <span>· OML project</span></div>
+  <nav><a href="index.html" class="active">Home</a><a href="planner.html">Roadmap planner</a><a href="explorer.html">Topic web</a><a href="topic-web.html">Detailed explorer</a><a href="concepts.html">Class concepts</a></nav>
+</header>
+<main>
+  <h1>MBA Speedrun: personalised learning roadmaps as a Sequential Ordering Problem</h1>
+  <p class="lede">Almost every IIMA student hits a catch-up crunch before end-terms or summer-placement prep. The core is taught as parallel courses for a cohort of ~400; a student catching up alone learns one topic at a time.
+  This tool orders PGP core micro-topics so that every prerequisite comes first, subject switches and forgetting are kept low, and the result is split into days, using the logistics toolkit from <i>Optimisation Methods in Logistics</i>.</p>
+
+  <div class="kpis" style="margin:14px 0 6px">
+    <div class="kpi"><div class="v">Student = machine</div><div class="l">topics are jobs, p<sub>i</sub> is processing time</div><div class="s">Session 6, slide 1</div></div>
+    <div class="kpi"><div class="v">c<sub>ij</sub> = setup</div><div class="l">switching and synergy between topics</div><div class="s">asymmetric "distance"</div></div>
+    <div class="kpi"><div class="v">Q<sub>i</sub> = hours to go</div><div class="l">load-variable formulation kills subtours</div><div class="s">Session 9, slide 22</div></div>
+    <div class="kpi"><div class="v">Days = bins</div><div class="l">exact split by shortest path</div><div class="s">Sessions 7 and 8</div></div>
+  </div>
+
+  <h2>Use it</h2>
+  <div class="row">
+    <a href="planner.html"><button class="primary" type="button">Open the roadmap planner</button></a>
+    <a href="explorer.html"><button type="button">Explore the prerequisite web</button></a>
+    <a href="concepts.html"><button type="button">See which class concept is used where</button></a>
+    <a href="report.pdf"><button type="button">Read the report (PDF)</button></a>
+  </div>
+
+  <h2>What you get</h2>
+  <table class="cmp">
+    <tr><th>Mode</th><th>Question it answers</th><th>Method (class reference)</th></tr>
+    <tr><td>Full roadmap</td><td>In what order should I study my scope, and how many days will it take?</td><td>Precedence-feasible NN / cheapest insertion + or-opt / 2-opt (S1, S3, S10); day split by shortest path (S7) vs bin-packing bound (S8)</td></tr>
+    <tr><td>Skip / prior knowledge</td><td>I already know FRA basics / want to skip a course: what can I really drop?</td><td>Prerequisite closure (reachability labels, S7); OR-groups choose the cheapest route</td></tr>
+    <tr><td>Crunch</td><td>Interviews in 25 hours: which topics give the most value per hour?</td><td>Profit-maximising tour heuristic (S9); capital-budgeting knapsack with x<sub>j</sub> ≤ x<sub>k</sub> (S5)</td></tr>
+  </table>
+
+  <h2>The data</h2>
+  <p class="small">266 micro-topics across all 37 first-year IIMA courses, 387 prerequisite links (358 required, 6 either-or, 23 recommended), about 382 hours of base study.
+  119 links are backed by the order of chapters or sessions in core textbooks and MIT syllabi, and 88% of the links that could be checked agree with that order. The other links, all hours and all values are the project's estimates.</p>
+
+  <h2>Honest limits</h2>
+  <ul class="small">
+    <li>Topic hours, values and the switching/synergy/forgetting parameters are <b>estimates</b>. The report's sensitivity chapter checks whether the conclusions survive ±25% changes (on the pilot they do).</li>
+    <li>Personalisation (skipping what you know) and treating shared concepts once are the biggest savings. On top of that, a domain-by-domain roadmap saves about 15–17% over going course by course, mostly by avoiding forgetting. That figure depends on the forgetting estimates, but stays positive under ±25% changes to every input.</li>
+    <li>The browser runs heuristics, not exact branch and bound, which is practical only up to about 20 topics. For large scopes it uses the two strongest constructions plus local search.</li>
+  </ul>
+
+  <h2>Extend it</h2>
+  <p class="small">Code, data and a walkthrough notebook per class concept are on GitHub. Ideas for the next group: real hours from a PGP2 survey, exam-weight values from the Acads committee, group study (several machines = several vehicles, a VRP), and time windows for exam dates.</p>
+</main>
+<footer>MBA Speedrun · Optimisation Methods in Logistics, IIM Ahmedabad · code MIT, data CC BY 4.0 · <a href="https://github.com/p25prathik-hue/mba-speedrun">source on GitHub</a></footer>
+</body>
+</html>

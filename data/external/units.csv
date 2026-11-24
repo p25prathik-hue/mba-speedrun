@@ -1,0 +1,109 @@
+source_id,position,unit,keywords
+BMA14,2,Present values,present value;time value;discount;annuity;perpetuity;compounding
+BMA14,3,Valuing bonds,bond;yield;ytm;term structure;duration
+BMA14,4,Valuing stocks,stock valuation;dividend discount;ddm;p/e;equity valuation
+BMA14,5,NPV and other investment criteria,npv;irr;payback;investment criteria;capital budgeting
+BMA14,6,Investment decisions with the NPV rule,cash flow;incremental;free cash flow;project cash flows
+BMA14,7,"Risk, diversification and portfolio selection",risk;return;diversification;portfolio;variance
+BMA14,8,Capital asset pricing model,capm;beta;security market line;market risk premium
+BMA14,9,Risk and the cost of capital,cost of capital;wacc;cost of equity;company cost of capital
+BMA14,10,Project analysis,sensitivity analysis;scenario;break-even;simulation;decision tree
+BMA14,12,Efficient markets and behavioural finance,efficient market;emh;behavioural finance
+BMA14,15,Payout policy,dividend policy;payout;buyback
+BMA14,16,Debt policy (MM),modigliani;miller;mm;capital structure;leverage
+BMA14,17,How much should a firm borrow,tax shield;financial distress;trade-off;pecking order
+BMA14,18,Financing and valuation,apv;adjusted present value;wacc valuation;flow to equity
+BMA14,19,Agency problems and corporate governance,agency;governance;board;principal-agent
+BMA14,21,Understanding options,option;call;put;payoff;put-call parity
+BMA14,22,Valuing options,black-scholes;binomial;option valuation
+BMA14,23,Real options,real option;option to expand;option to abandon
+BMA14,27,Managing risk,hedging;derivatives;futures;forwards;swaps
+BMA14,28,International financial management,exchange rate;forex;currency;interest rate parity
+BMA14,29,Financial analysis,ratio;financial analysis;dupont;roe;liquidity ratio
+BMA14,30,Financial planning,financial planning;pro forma;forecasting statements;growth
+BMA14,31,Working capital management,working capital;cash conversion;receivables;payables;inventory management
+BMA14,32,Mergers,merger;acquisition;m&a;synergy
+HDR17,2,Cost terms and purposes,cost terms;cost behaviour;fixed cost;variable cost;cost object
+HDR17,3,Cost-volume-profit analysis,cvp;break-even;contribution margin;operating leverage
+HDR17,4,Job costing,job costing;overhead;allocation;normal costing
+HDR17,5,Activity-based costing,activity-based;abc;cost driver
+HDR17,6,Master budget,master budget;budget;responsibility accounting
+HDR17,7,Flexible budgets and direct-cost variances,flexible budget;variance;standard cost
+HDR17,8,Overhead cost variances,overhead variance
+HDR17,9,Inventory costing and capacity,absorption costing;variable costing;capacity
+MIT401,2,Present value,present value;npv;annuity;perpetuity;compounding
+MIT401,3,Fixed-income securities,bond;fixed income;term structure;duration
+MIT401,4,Common stocks,stock;dcf;eps;p/e
+MIT401,5,Forwards and futures,forward;futures;arbitrage;hedge
+MIT401,6,Options,option;binomial;black-scholes
+MIT401,7,Introduction to risk and return,risk;return;historical returns
+MIT401,9,Portfolio theory,portfolio;diversification;systematic risk
+MIT401,10,CAPM,capm;beta
+MIT401,11,Capital budgeting,capital budgeting;npv rule;cash flow;discount rate
+MIT401,14,Market efficiency,efficient market;emh
+MIT511,1,Financial statements overview,financial statements;accounting framework
+MIT511,2,Balance sheet,balance sheet;assets;liabilities;equity;accounting equation
+MIT511,3,Income statement and accrual accounting,income statement;accrual;revenue;expense
+MIT511,4,Accrual accounting process,journal;t-account;adjusting entries;closing entries;double entry
+MIT501,3,Income statement and accrual accounting,income statement;accrual
+MIT501,5,The accounting process,journal;accounting process;adjusting
+MIT501,6,Revenue recognition,revenue recognition
+CT5,2,Process view of the organisation,process;flow rate;flow time;little's law;inventory
+CT5,3,Understanding the supply process,capacity;bottleneck;utilisation;process analysis
+CT5,12,Project management,project management;critical path;cpm;pert
+CT5,13,Forecasting,forecast;forecasting;moving average;exponential smoothing
+CT5,14,Newsvendor model,newsvendor;uncertain demand;critical ratio
+CT5,16,Service levels and lead times,service level;lead time;safety stock;order-up-to
+ASW14,2,Descriptive statistics: tabular and graphical,
+ASW14,3,Descriptive statistics: numerical measures,
+ASW14,4,Introduction to probability,
+ASW14,5,Discrete probability distributions,
+ASW14,6,Continuous probability distributions,
+ASW14,7,Sampling and sampling distributions,
+ASW14,8,Interval estimation,
+ASW14,9,Hypothesis tests,
+ASW14,10,Inference with two populations,
+ASW14,12,Goodness of fit and independence,
+ASW14,14,Simple linear regression,
+ASW14,15,Multiple regression,
+KK16,1,Defining marketing,
+KK16,2,Marketing planning and management,
+KK16,6,Segments and target customers,
+KK16,7,Value proposition and positioning,
+KK16,8,Products,
+KK16,9,Services,
+KK16,10,Brands,
+KK16,11,Pricing and sales promotions,
+KK16,12,Marketing communications,
+KK16,13,Integrated campaigns in the digital age,
+KK16,14,Personal selling and direct marketing,
+KK16,15,Distribution channels,
+KK16,16,Retailing,
+KK16,17,Growth in competitive markets,
+KK16,18,New market offerings,
+PR9,2,Supply and demand,
+PR9,3,Consumer behaviour,
+PR9,4,Individual and market demand (incl. network externalities),
+PR9,6,Production,
+PR9,7,Cost of production,
+PR9,8,Profit maximisation and competitive supply,
+PR9,10,Monopoly and monopsony,
+PR9,11,Pricing with market power,
+PR9,12,Monopolistic competition and oligopoly,
+PR9,13,Game theory,
+PR9,17,Asymmetric information,
+PR9,18,Externalities and public goods,
+PR9,19,Behavioural economics,
+RJ18,4,Emotions and moods,
+RJ18,5,Personality and values,
+RJ18,8,Motivation: applications,
+RJ18,9,Foundations of group behaviour,
+RJ18,14,Conflict and negotiation,
+RJ18,16,Organisational culture,
+RJ18,17,HR policies and practices,
+RJ18,18,Organisational change,
+MANK11,2,Data of macroeconomics,
+MANK11,10,Growth empirics and policy,
+MANK11,11,Introduction to economic fluctuations,
+MANK11,12,Aggregate demand I: IS-LM,
+MANK11,14,Open economy: Mundell-Fleming,

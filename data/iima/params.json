@@ -1,0 +1,12 @@
+{
+  "w_switch": 0.5,
+  "s_synergy": 0.15,
+  "rho_revision": 0.02,
+  "L_revision_free": 12.0,
+  "revision_cap_share": 0.5,
+  "soft_penalty": 1.0,
+  "start_warmup": 0.5,
+  "day_hours": 6.0,
+  "day_warmup": 0.25,
+  "_note": "All parameters are ESTIMATES (hours). See docs/assumptions.md."
+}

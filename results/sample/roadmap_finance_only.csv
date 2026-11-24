@@ -1,0 +1,16 @@
+day,topic_id,topic,course,domain,hours
+1,M1,Cost terms and cost behaviour,Management Accounting (pilot),MA,2.0
+1,M7,Relevant costs and make-or-buy,Management Accounting (pilot),MA,2.0
+2,Q1,"Probability, expected value and variance",Statistics (pilot),QM,2.5
+3,A1,Accounting equation and the balance sheet,Financial Reporting (pilot),ACC,3.0
+4,F11,Working capital management,Corporate Finance (pilot),FIN,2.0
+4,F1,"Time value of money: PV, annuities, perpetuities",Corporate Finance (pilot),FIN,3.0
+5,F4,"NPV, IRR and payback",Corporate Finance (pilot),FIN,2.5
+5,F5,Incremental free cash flows for projects,Corporate Finance (pilot),FIN,3.0
+6,F6,"Risk, return and diversification",Corporate Finance (pilot),FIN,3.0
+6,F10,"Options: payoffs, put-call parity",Corporate Finance (pilot),FIN,2.5
+7,F2,Bond valuation and yield to maturity,Corporate Finance (pilot),FIN,2.5
+7,F3,"Stock valuation: dividend discount, P/E",Corporate Finance (pilot),FIN,2.5
+8,F7,CAPM and beta,Corporate Finance (pilot),FIN,2.5
+9,F8,Cost of capital (WACC),Corporate Finance (pilot),FIN,2.5
+9,F9,"Capital structure: MM, tax shields",Corporate Finance (pilot),FIN,3.0

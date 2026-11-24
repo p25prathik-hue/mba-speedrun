@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MBA Speedrun · Roadmap planner</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="brand">MBA Speedrun <span>· OML project</span></div>
+  <nav><a href="index.html">Home</a><a href="planner.html" class="active">Roadmap planner</a><a href="explorer.html">Topic web</a><a href="topic-web.html">Detailed explorer</a><a href="concepts.html">Class concepts</a></nav>
+</header>
+<main>
+  <h1>Build your catch-up roadmap</h1>
+  <p class="lede">Choose what you already know and what you can skip, set your hours per day, and get a day-by-day order that respects every prerequisite and keeps switching and forgetting low.
+    <span id="dataBadge" class="badge est">data: estimates</span></p>
+
+  <div class="grid">
+    <section class="card noprint" aria-label="Your inputs">
+      <h3 style="margin-top:0">Start from a preset</h3>
+      <div id="presets" class="row"></div>
+
+      <h3>Mode</h3>
+      <div class="row">
+        <div class="seg" role="tablist">
+          <button id="modeFull" class="on" type="button">Full roadmap</button>
+          <button id="modeCrunch" type="button">Crunch</button>
+        </div>
+        <span id="budgetWrap" style="display:none"><label class="small">Budget (hours) <input id="budget" type="number" min="1" step="1" value="25"></label></span>
+      </div>
+
+      <h3>Hours per day</h3>
+      <div class="row"><input id="hours" type="number" min="1" max="16" step="0.5" value="6"> <span class="small muted">Includes a short warm-up at the start of each day.</span></div>
+
+      <h3>Your scope</h3>
+      <p class="small muted" style="margin:0 0 6px">Untick to skip. "Some" = you know part of it (half the time). "Know it" = treated as done. If a skipped topic is required later, the planner adds it back and tells you why.</p>
+      <div id="courses"></div>
+
+      <div class="row" style="margin-top:14px">
+        <button id="run" class="primary" type="button">Plan my roadmap</button>
+        <button id="reset" type="button">Reset</button>
+      </div>
+    </section>
+
+    <section aria-label="Your roadmap">
+      <div class="kpis" id="kpis"></div>
+      <div class="notes" id="notes"></div>
+      <div id="compare" class="card" style="margin-top:10px;display:none"></div>
+      <div class="row noprint" style="margin-top:12px">
+        <button id="csv" type="button">Download CSV</button>
+        <button onclick="window.print()" type="button">Print</button>
+        <span class="small muted" id="runinfo"></span>
+      </div>
+      <div id="crunchBox"></div>
+      <div class="days" id="days"></div>
+      <div class="how">
+        <b>How this works.</b> Your browser runs the project's heuristics (a JavaScript port of <code>src/speedrun</code>, checked against the Python version by <code>tests/test_js_parity.py</code>):
+        precedence-feasible nearest neighbour and cheapest insertion (Session 1), improved by or-opt and 2-opt (Session 3) with random restarts (Session 10), for about 1.5 seconds.
+        Days come from an exact shortest-path split of that order (Session 7) and are compared with the bin-packing lower bound ⌈Σ hours / H⌉ (Session 8).
+        Crunch mode uses the profit-maximising tour heuristic (Session 9). Exact branch and bound is not run in the browser.
+        Preset cards show the Python result for comparison. <b>All hours and costs are estimates</b>; see the report's sensitivity chapter.
+      </div>
+    </section>
+  </div>
+</main>
+<footer>MBA Speedrun · Optimisation Methods in Logistics, IIM Ahmedabad · code MIT, data CC BY 4.0 · <a href="https://github.com/p25prathik-hue/mba-speedrun">source on GitHub</a></footer>
+
+<script src="data/web.js"></script>
+<script src="planner-core.js"></script>
+<script>
+(function(){
+  const WEB = window.SPEEDRUN_WEB, core = window.SpeedrunCore, W = core.indexWeb(WEB);
+  const T = W.T;
+  const PALETTE = ["var(--d0)","var(--d1)","var(--d2)","var(--d3)","var(--d4)","var(--d5)","var(--d6)","var(--d7)"];
+  const domains = [...new Set(WEB.topics.map(t=>t.domain))].sort();
+  const colorOf = d => PALETTE[domains.indexOf(d) % PALETTE.length];
+  const state = { mode:"full", topic:{} };  // topic id -> "new" | "some" | "know" | "skip"
+  const $ = id => document.getElementById(id);
+  document.getElementById("dataBadge").textContent = `data: ${WEB.topics.length} topics, ${WEB.links.length} links · hours are estimates`;
+
+  // courses list
+  const courses = {};
+  WEB.topics.forEach(t => (courses[t.course] = courses[t.course] || []).push(t));
+  Object.values(courses).forEach(l => l.sort((a,b)=>a.order-b.order));
+  const courseNames = Object.keys(courses).sort((a,b)=> (courses[a][0].term-courses[b][0].term) || a.localeCompare(b));
+  function renderCourses(){
+    const box = $("courses"); box.innerHTML = "";
+    courseNames.forEach(cn => {
+      const d = document.createElement("details"); d.className="course";
+      const n = courses[cn].length, h = courses[cn].reduce((s,t)=>s+t.hours,0);
+      d.innerHTML = `<summary><span><span class="chip" style="background:${colorOf(courses[cn][0].domain)}"></span><span class="cname">${cn}</span> <span class="pill">T${courses[cn][0].term} · ${n} topics · ${h.toFixed(1)} h</span></span>
+        <select data-course="${cn}" aria-label="Whole course"><option value="">set all…</option><option value="new">Study all</option><option value="some">Some for all</option><option value="know">Know it all</option><option value="skip">Skip course</option></select></summary>`;
+      courses[cn].forEach(t => {
+        const st = state.topic[t.id] || "new";
+        const row = document.createElement("div"); row.className = "topic" + (st==="skip"||st==="know" ? " off":"");
+        row.innerHTML = `<input type="checkbox" ${st!=="skip"?"checked":""} data-id="${t.id}" aria-label="include ${t.name}">
+          <span class="t">${t.name} <span class="h">${t.hours} h</span></span>
+          <select data-conf="${t.id}" aria-label="confidence"><option value="new"${st==="new"?" selected":""}>New</option><option value="some"${st==="some"?" selected":""}>Some</option><option value="know"${st==="know"?" selected":""}>Know it</option></select>`;
+        d.appendChild(row);
+      });
+      box.appendChild(d);
+    });
+    box.querySelectorAll("input[type=checkbox]").forEach(cb => cb.onchange = () => { state.topic[cb.dataset.id] = cb.checked ? "new" : "skip"; renderCourses(); });
+    box.querySelectorAll("select[data-conf]").forEach(s => s.onchange = () => { state.topic[s.dataset.conf] = s.value; renderCourses(); });
+    box.querySelectorAll("select[data-course]").forEach(s => { s.onclick = e => e.stopPropagation(); s.onchange = () => { courses[s.dataset.course].forEach(t => state.topic[t.id] = s.value); renderCourses(); }; });
+  }
+
+  // presets
+  function applyPreset(p){
+    state.topic = {}; state.preset = p;
+    (p.known||[]).forEach(t => state.topic[t]="know");
+    (p.skip||[]).forEach(t => state.topic[t]="skip");
+    Object.entries(p.multipliers||{}).forEach(([t,m]) => { if (m < 1) state.topic[t] = "some"; });
+    if (p.target_domains && p.target_domains.length) WEB.topics.forEach(t => { if (!p.target_domains.includes(t.domain)) state.topic[t.id]="skip"; });
+    (p.known_domains||[]).forEach(d => WEB.topics.forEach(t => { if (t.domain===d) state.topic[t.id]="know"; }));
+    (p.skip_domains||[]).forEach(d => WEB.topics.forEach(t => { if (t.domain===d) state.topic[t.id]="skip"; }));
+    if (p.params && p.params.day_hours) $("hours").value = p.params.day_hours; else $("hours").value = WEB.params.day_hours || 6;
+    if (p.budget) { setMode("crunch"); $("budget").value = p.budget; } else setMode("full");
+    document.querySelectorAll("button.preset").forEach(b => b.classList.toggle("on", b.dataset.name===p.name));
+    renderCourses(); runAsync();
+  }
+  const pbox = $("presets");
+  (WEB.presets||[]).forEach(p => { const b = document.createElement("button"); b.className="preset"; b.type="button"; b.textContent = p.name.replace(/_/g," "); b.title = p.description||""; b.dataset.name=p.name; b.onclick=()=>applyPreset(p); pbox.appendChild(b); });
+
+  function setMode(m){ state.mode=m; $("modeFull").classList.toggle("on", m==="full"); $("modeCrunch").classList.toggle("on", m==="crunch"); $("budgetWrap").style.display = m==="crunch" ? "" : "none"; }
+  $("modeFull").onclick = () => setMode("full"); $("modeCrunch").onclick = () => setMode("crunch");
+
+  function profileFromState(){
+    const prof = { name:"custom", known:[], skip:[], multipliers:{} };
+    Object.entries(state.topic).forEach(([t,s]) => { if (s==="know") prof.known.push(t); else if (s==="skip") prof.skip.push(t); else if (s==="some") prof.multipliers[t]=0.5; });
+    // presets with partial multipliers other than 0.5 keep their own values
+    if (state.preset && state.preset.multipliers) Object.entries(state.preset.multipliers).forEach(([t,m]) => { if (state.topic[t]==="some") prof.multipliers[t]=m; });
+    return prof;
+  }
+
+  let last = null;
+  function run(){
+    const prof = profileFromState(), H = +$("hours").value || 6;
+    const inst = core.buildInstance(W, prof, { day_hours: H });
+    const ev = core.Evaluator(inst);
+    $("notes").innerHTML = inst.warnings.length ? "<b>Prerequisites added back:</b><br>" + inst.warnings.map(w=>"• "+w.replace(/\b([A-Z]+\d+)\b/g, m => T[m] ? `${T[m].name} (${m})` : m)).join("<br>") : "";
+    if (!ev.n) { $("kpis").innerHTML = ""; $("days").innerHTML = "<p class='muted'>Nothing to study. Untick fewer topics.</p>"; return; }
+    const t0 = performance.now();
+    const b0 = core.curriculumOrder(ev), b1 = core.subjectBySubject(ev);
+    const res = core.solve(ev, { timeLimitMs: 1500, seed: 7 });
+    let seq = res.seq, crunch = null;
+    if (state.mode === "crunch") {
+      crunch = core.profitMaxTour(ev, +$("budget").value || 25);
+      seq = crunch.seq;
+    }
+    const split = core.splitDays(ev, seq, H);
+    const bd = state.mode==="crunch" ? { total: crunch.hours } : ev.breakdown(seq);
+    const c0 = ev.cost(b0), c1 = ev.cost(b1);
+    const ms = Math.round(performance.now()-t0);
+    last = { ev, split, seq, crunch };
+    const kp = [];
+    if (state.mode === "crunch") {
+      kp.push([crunch.ids.length + " / " + ev.n, "topics chosen", "value " + crunch.value + " of " + crunch.totalValue]);
+      kp.push([crunch.hours.toFixed(1)+" h", "hours used", "budget " + $("budget").value + " h"]);
+      kp.push([split.nDays, "days", "at " + H + " h/day"]);
+      kp.push([(100*crunch.value/crunch.totalValue).toFixed(0)+"%", "of total value", "profit-maximising tour (S9)"]);
+    } else {
+      kp.push([bd.total.toFixed(1)+" h", "total hours", `study ${bd.study.toFixed(1)} · switching ${bd.transitions.toFixed(1)} · revision ${(bd.revision+bd.soft_penalty).toFixed(1)}`]);
+      kp.push([split.nDays, "days", `lower bound ${split.lbDays} at ${H} h/day`]);
+      kp.push([(c0-bd.total).toFixed(1)+" h", "saved vs timetable order", `${(100*(c0-bd.total)/c0).toFixed(1)}% of ${c0.toFixed(1)} h (B0)`]);
+      kp.push([(c1-bd.total).toFixed(1)+" h", "saved vs subject-by-subject", `${(100*(c1-bd.total)/c1).toFixed(1)}% of ${c1.toFixed(1)} h (B1)`]);
+    }
+    $("kpis").innerHTML = kp.map(k=>`<div class="kpi"><div class="v">${k[0]}</div><div class="l">${k[1]}</div><div class="s">${k[2]}</div></div>`).join("");
+    $("runinfo").textContent = `${ev.n} topics · solved in ${ms} ms in your browser · ${res.log.length} starts`;
+    // python comparison for presets
+    const pr = state.preset && state.preset.python_result;
+    const cmp = $("compare");
+    if (pr && state.mode==="full" && JSON.stringify(profileFromState().skip.sort())===JSON.stringify((state.preset.skip||[]).slice().sort())) {
+      cmp.style.display = "";
+      cmp.innerHTML = `<b>Preset check.</b> Python (more restarts, same model): ${pr.total.toFixed(2)} h, ${pr.days} days. Browser: ${bd.total.toFixed(2)} h, ${split.nDays} days. <span class="muted">Small differences come from random restarts.</span>`;
+    } else cmp.style.display = "none";
+    // crunch box
+    if (crunch) {
+      $("crunchBox").innerHTML = `<div class="card" style="margin-top:10px"><b>Left out</b> <span class="muted small">(hand these to a senior's session or peer notes: the "common carrier" of Session 9)</span><br>` +
+        (crunch.leftOut.length ? crunch.leftOut.map(t => `<span class="pill" style="margin:3px 4px 0 0;display:inline-block">${T[t].name}</span>`).join("") : "nothing: everything fits") + `</div>`;
+    } else $("crunchBox").innerHTML = "";
+    // days
+    const p = {}; ev.ids.forEach((t,k)=>p[t]=ev.p[k]);
+    $("days").innerHTML = split.days.map((d,i)=>`<div class="day"><div class="dh">Day ${i+1}<span>${d.hours.toFixed(1)} h</span></div>
+      <div class="bar"><i style="width:${Math.min(100,100*d.hours/H)}%"></i></div><ol>` +
+      d.topics.map(t=>`<li><span class="chip" style="background:${colorOf(T[t].domain)}"></span>${T[t].name} <span class="c">${T[t].course} · ${p[t].toFixed(1)} h</span></li>`).join("") + "</ol></div>").join("");
+  }
+  function runAsync(){ $("runinfo").textContent = "Planning… (the full web takes a few seconds)"; $("run").disabled = true;
+    setTimeout(() => { try { run(); } finally { $("run").disabled = false; } }, 30); }
+  $("run").onclick = runAsync;
+  $("reset").onclick = () => { state.topic = {}; state.preset=null; document.querySelectorAll("button.preset").forEach(b=>b.classList.remove("on")); setMode("full"); renderCourses(); runAsync(); };
+  $("csv").onclick = () => {
+    if (!last) return;
+    const rows = [["day","topic_id","topic","course","domain","hours"]];
+    last.split.days.forEach((d,i)=>d.topics.forEach(t=>rows.push([i+1,t,T[t].name,T[t].course,T[t].domain,last.ev.p[last.ev.idx[t]].toFixed(2)])));
+    const blob = new Blob([rows.map(r=>r.map(x=>`"${String(x).replace(/"/g,'""')}"`).join(",")).join("\n")], {type:"text/csv"});
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "speedrun_roadmap.csv"; a.click();
+  };
+  renderCourses(); runAsync();
+})();
+</script>
+</body>
+</html>

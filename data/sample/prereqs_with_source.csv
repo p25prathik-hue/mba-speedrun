@@ -1,0 +1,39 @@
+src,dst,type,group,source,evidence,external_evidence
+A1,A2,AND,,syllabus,MIT511: L2 balance sheet precedes L3 income statement,MIT511
+A1,A3,AND,,syllabus,MIT511: L2 precedes L4-L5 accrual process,MIT511
+A2,A3,AND,,syllabus,MIT511: L3 precedes L4-L5,MIT511;MIT501
+A3,A4,AND,,syllabus,MIT501 calendar: accounting process (s5) precedes revenue recognition (s6),MIT501
+A2,A5,AND,,estimate,,
+A1,A6,AND,,syllabus,,MIT511(same unit)
+A3,A7,AND,,estimate,,
+A6,A7,SOFT,,estimate,depreciation add-back,
+A2,A8,AND,,estimate,,
+A7,A8,SOFT,,textbook,,BMA14
+M1,M2,AND,,textbook,HDR17: ch2 precedes ch3,HDR17
+M1,M3,AND,,textbook,HDR17: ch2 precedes ch4,HDR17
+M3,M4,AND,,textbook,HDR17: ch4 precedes ch5,HDR17
+M1,M5,AND,,textbook,HDR17: ch2 precedes ch6,HDR17
+M2,M5,SOFT,,textbook,HDR17: ch3 precedes ch6,HDR17
+M5,M6,AND,,textbook,HDR17: ch6 precedes ch7,HDR17
+M1,M7,AND,,estimate,,
+A2,M1,SOFT,,estimate,cross-course,
+Q1,Q2,AND,,textbook,,BMA14(same unit);HDR17(same unit)
+F1,F2,AND,,syllabus;textbook,BMA14 ch2->ch3; MIT401 PV precedes fixed income,BMA14
+F1,F3,AND,,syllabus;textbook,BMA14 ch2->ch4; MIT401 PV precedes common stocks,BMA14
+F1,F4,AND,,textbook,BMA14 ch2->ch5,BMA14
+F4,F5,AND,,syllabus;textbook,BMA14 ch5->ch6,BMA14;MIT401
+A7,F5,OR,G1,syllabus;textbook,incremental cash-flow logic via the cash flow statement...,BMA14(same unit);MIT401(same unit)
+M7,F5,OR,G1,estimate,...or via relevant costing,
+A6,F5,SOFT,,estimate,depreciation tax shield,
+Q1,F6,AND,,textbook,cross-course,BMA14(same unit)
+F6,F7,AND,,syllabus;textbook,BMA14 ch7->ch8; MIT401 portfolio theory precedes CAPM,BMA14;MIT401
+Q2,F7,SOFT,,textbook,beta by regression,BMA14
+F7,F8,AND,,textbook,BMA14 ch8->ch9,BMA14
+F2,F8,AND,,textbook,BMA14 ch3->ch9 (cost of debt),BMA14
+F8,F9,AND,,textbook,BMA14 ch9->ch16-18,BMA14
+F3,F9,SOFT,,textbook,BMA14 ch4->ch16,BMA14
+F1,F10,AND,,textbook,BMA14 ch2->ch21,BMA14
+F6,F10,SOFT,,textbook,BMA14 ch7->ch21 (MIT401 teaches options before risk: disagreement),BMA14
+A1,F11,AND,,estimate,cross-course,
+A8,F11,SOFT,,textbook,,BMA14
+A8,F3,SOFT,,estimate,EPS and P/E,

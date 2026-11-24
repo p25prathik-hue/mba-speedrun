@@ -1,0 +1,57 @@
+id,deck,slides,concept,class_notation,where_in_project,strength,note
+C01,Session 1,2-5,"Little's law T = I/R; inventory turns; holding cost and obsolescence",T = I/R,"Interpretation of the revision (forgetting) cost: a prerequisite learnt long before it is used is knowledge inventory that goes 'obsolete'",supporting,"Used as an interpretation, not as a model; adding a Little's-law metric would be forced"
+C02,Session 1,7-8,"Course modules: TSP, VRP, location, network design, scheduling; Baker & Trietsch reference",-,"Positions the project: TSP (sequence) + VRP/bin packing (days) + scheduling (single machine)",supporting,"Scheduling module has no deck yet; cite it if those sessions happen before submission"
+C03,Session 1,10-13,"TSP definition; Hamiltonian cycle; TSP is NP-hard",-,"Section 'Why it is hard': SOP generalises ATSP so it is NP-hard",core,
+C04,Session 1,15,"Notation N = {1..n}, c_ij, metric (triangle inequality), symmetric, z(E), z*",N; c_ij; z*,"Report notation. Our c_ij is asymmetric and can be negative, so it is neither metric nor symmetric",core,"Explains why worst-case bounds do not carry over"
+C05,Session 1,16-19,"Symmetric TSP formulation: degree constraints, subtour elimination (O(2^n) constraints)","x_ij; sum x = 2; sum over i,j in S of x_ij <= |S|-1","Starting point; we use the asymmetric version (S6) with the compact form (S9)",core,
+C06,Session 1,20-21,"Exact algorithms: DP, branch and bound (Little et al. 1963), branch and cut",-,"Pilot MILP solved by CBC (branch and cut)",core,
+C07,Session 1,22,"Construction vs improvement heuristics",-,"Structure of the heuristic pipeline: construct, then improve",core,
+C08,Session 1,25,"Worst-case error bound z^H / z* <= h",z^H; z*,"We report the empirical gap z^H/z* - 1 against exact pilot solutions; the theoretical bounds need a metric instance",supporting,
+C09,Session 1,26-31,"Nearest neighbour heuristic and its log n bound",-,"Precedence-feasible NN: choose the cheapest next topic whose prerequisites are done",core,
+C10,Session 1,32-39,"Nearest insertion / cheapest insertion, Delta_ijk = c_ik + c_kj - c_ij",Delta_ijk,"Precedence-feasible CI: insert k only between its last prerequisite and first dependent",core,
+C11,Session 1,40-44,"Farthest insertion",-,"Variant: insert the topic with the largest best-insertion cost first",supporting,
+C12,Session 1,45-49,"Convex hull heuristic",-,-,not used,"Needs points in a plane; topics have no geometry"
+C13,Session 1 / Session 3,S1 50-59; S3 1-10,"Spanning trees; Kruskal; Prim labelling algorithm",u_j; v(j); P; T,-,not used,"The prerequisite web is directed; no spanning-tree step is needed"
+C14,Session 3,11-19,"MST heuristic and MST bound z(T*) <= z*; factor-2 bound",z(T*),"Replaced by the assignment-relaxation bound (S6), which is valid for asymmetric costs",not used,"Needs symmetric, non-negative costs"
+C15,Session 3,20-30,"Christofides 3/2 heuristic; matchings",-,-,not used,"Needs a symmetric metric"
+C16,Session 3,31-36,"2-opt exchange",-,"Improvement move; in an asymmetric instance the reversed segment is re-costed and checked for precedence",core,"Expect few feasible 2-opt moves because reversal breaks prerequisite chains"
+C17,Session 3,37-38,"3-opt; computational burden O(n^2) vs O(n^3)",-,"We use the orientation-preserving subset of 3-opt (segment move = or-opt)",supporting,
+C18,Session 3,39-41,"Or-opt: move p = 3, 2, 1 consecutive nodes",-,"Main improvement move; a segment moves only within its precedence window",core,
+C19,Session 3,42-55,"TSP records, optimality gaps, Concorde",gap %,"Gap reporting style; scale comparison",supporting,"Concorde is symmetric-only, so not used"
+C20,Session 5,1-4,"0-1 programming; logical constraints (x1 + x2 <= 1); why rounding fails",-,"Binary arc variables; OR-prerequisite logic",core,
+C21,Session 5,6,"Assignment-type constraints (each person to one project)",sum_j x_ij = 1,"Degree constraints (I) and (II)",supporting,
+C22,Session 5,7,"Capital budgeting with logic: x5 <= x4 (prerequisite), x3 + x4 >= 1 (either-or)",x_i,"Crunch-mode IP: x_j <= x_k for AND prerequisites; x_j <= sum_{k in G} x_k for OR groups",core,"The professor's own prerequisite example"
+C23,Session 5,8-10,"Time-indexed project selection x_ij = start project i in year j",x_ij,"Alternative day-indexed model (topic i on day d)",supporting,
+C24,Session 5,11-12,"Linking binary and continuous variables: x_ij <= C_j y_ij (big-M)",y_ij,"Big-M in OR-precedence, load (Q) constraints and the capped revision cost min(rho*gap, kappa*p_k)",core,
+C25,Session 5,13-14,"Pairwise co-assignment y_ij >= x_ik + x_jk - 1 (disk drives)",y_ij,"Day-assignment IP: same-day synergy / domain-count variables",supporting,
+C26,Session 5,16,"LP vs IP: Z*_LP <= Z*_IP for minimisation",Z*_LP; Z*_IP,"Root LP bound and integrality gap reported for the pilot",core,
+C27,Session 5,17-18,"Enumeration and combinatorial explosion 2^n; implicit enumeration",-,"Why it is hard: number of valid orders of the web",core,
+C28,Session 5,19-27,"Branch and bound: bounding, fathoming, incumbent Z_INC, B&B tree",Z_INC,"Pilot MILP: root bound, nodes, incumbent",core,
+C29,Session 5,28,"Node selection: best-first vs depth-first",-,"Solver settings discussion",supporting,
+C30,Session 6,1,"TSP applications including machine scheduling when setup time depends on the previous job",-,"Our framing: student = machine, topics = jobs, c_ij = sequence-dependent setup",core,"The professor lists our exact application"
+C31,Session 6,3,"Asymmetric TSP: (I) sum_j x_ij = 1, (II) sum_i x_ij = 1, (III) cut constraints; relaxing (III) gives an assignment problem and a lower bound",x_ij; (I); (II); (III),"MILP degree constraints; assignment-relaxation lower bound",core,
+C32,Session 6,4-7,"Branching on a subtour: exclude one of its arcs per child node",x_14 = 0 etc.,"Teaching notebook: hand-coded B&B on a 9-topic instance",supporting,
+C33,Session 7,1-2,"Shortest path; sub-path optimality; applications incl. production lot sizing",a_ij,"Optimal split of a fixed sequence into days is a shortest path over positions (same structure as lot sizing)",core,
+C34,Session 7,3-9,"Dijkstra labels (permanent P, temporary T)",u_i; P; T,"Day split on an acyclic graph; prerequisite closure = reachable labels",core,
+C35,Session 7,10-16,"Bellman-Ford u_j^m, hop constraint",u_j^m,"'Can I finish in D days?' = shortest path with at most D hops; longest prerequisite chain in hours",core,
+C36,Session 7,17-18,"Negative cycles and their detection (iteration n)",-,"DAG check: a prerequisite cycle is a negative cycle under weights -1; cross-checks the topological sort",supporting,
+C37,Session 7,19-23,"Complexity: polynomial vs exponential; P vs NP-hard; Dijkstra O(n^2), BF O(n^3)",o(n^2),"Complexity table per module; why we need heuristics",core,
+C38,Session 7-8,S7 24-31; S8 1-4,"VRP definition and formulation: degree, capacity-cut",d_i; C; K,"Daily plan viewed as a VRP: day = vehicle, H = capacity",supporting,
+C39,Session 8,7-8,"Knapsack; integer to binary transformation",-,"Crunch mode: pick topics to maximise value within hours",core,
+C40,Session 8,9,"Role of heuristics: a good initial incumbent speeds up B&B",-,"Heuristic tour passed to CBC as a warm start",core,
+C41,Session 8,10-11,"Bin packing heuristic (pack one bin at a time)",a_i; b,"Greedy day filling: the class heuristic without its sort step, because the order is fixed",core,
+C42,Session 8,12,"Bin packing IP: min sum y_j, sum_i a_i x_ij <= b y_j",x_ij; y_j,"Optional day-assignment IP (at most 2 domains a day)",core,
+C43,Session 8,13,"Myopia of sequential knapsack",-,"Why greedy day filling can waste time; motivates the exact shortest-path split",supporting,
+C44,Session 8,14-16,"FFD; lower bound ceil(sum a_i / b)",ceil(sum a_i/b),"Days lower bound reported next to the plan; FFD itself would break precedence",core,
+C45,Session 8,17-19,"Least-utilised bin with a fixed number of bins",-,"'Balanced' plan mode: fix the days, even out daily load",supporting,
+C46,Session 8-9,S8 20-27; S9 1-7,"Clarke-Wright savings s_ij = c_i0 + c_0j - c_ij; TSP + bin packing are two dimensions; special cases",s_ij,"(a) Precedence-feasible savings construction heuristic (best start on the 266-topic web for 3 of 4 profiles); (b) roadmap = sequence (TSP) + days (bin packing); H >= total -> pure SOP, c_ij = 0 -> pure bin packing",core,
+C47,Session 9,8-10,"Sweep heuristic (cluster first, route second)",-,"Baseline B1: finish one subject before the next = cluster by domain, then sequence",core,"This is the 'clustering' side of the clustering vs integration trade-off"
+C48,Session 9,11,"Improvement heuristics incl. moving nodes between routes",-,"Inter-day move after splitting",supporting,
+C49,Session 9,12-16,"Common carrier; removal saving delta_i = c_ij + c_ik - c_jk",delta_i,"Which topics to hand to a 'common carrier' (senior's session, peer notes) or skip",core,
+C50,Session 9,17-21,"Profit-maximising tour heuristic: max sum r_i x_i - f(x), sum d_i x_i <= C, bang-for-buck (r_i - delta_i)/d_i",r_i; d_i; C; delta_i,"Crunch mode (exam or summers in X hours) with prerequisite closure",core,"Replaces 'orienteering' in the plan"
+C51,Session 9,22,"Compact IP with load variables Q_i >= Q_j + d_i x_ij - C(1 - x_ij)",Q_i; d_i; C,"Our subtour elimination (MTZ in class notation): Q_i = study hours still to go before topic i; precedence Q_k >= Q_j + t_k; forgetting penalty from Q gaps",core,"Replaces positional MTZ u_i"
+C52,Session 9,23-25,"Subtour breaking and capacity inequalities; LP bound 60.9% -> 98.6%",sum x_ij <= |S| - ceil(D(S)/C),"Precedence arc fixing and valid inequalities; LP bound before vs after",core,
+C53,Session 10,1-9,"Facility location: cost vs service; p-median, UFLP, p-center, set cover, MCLP; virtual facilities",-,"Optional curriculum module: which course should 'host' a concept shared across courses",supporting,"Only if time permits; not on the critical path"
+C54,Session 10,10-33,"UFLP/FCPLP formulation, knapsack transform, greedy drop heuristic, LP by inspection",x_j; y_ij; f_j; c_ij,"Same optional module: teach once (one facility) vs repeat in several courses",supporting,
+C55,Session 10,34-35,"Hub location; access/backbone decomposition",-,-,not used,
+C56,Session 10,36-39,"Neighbourhood search; neighbourhood size; random restart; 1-opt exchange",-,"Local search design: or-opt/2-opt neighbourhoods, random restarts",core,

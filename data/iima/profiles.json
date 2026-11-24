@@ -1,0 +1,16 @@
+[
+ {"name": "fresh", "description": "Fresh learner: the whole first-year core, no prior knowledge"},
+ {"name": "engineer", "description": "Engineer: maths, probability and spreadsheets known; statistics, regression, LP and production basics at half time",
+  "known": ["QNT01", "QNT02", "QNT05", "QNT06", "QNT08", "QNT10", "QNT11", "QNT12", "CMP01"],
+  "multipliers": {"QNT03": 0.5, "QNT04": 0.5, "QNT07": 0.5, "QNT09": 0.5, "QNT18": 0.5, "QNT19": 0.5, "QNT20": 0.5,
+                  "QNT21": 0.5, "QNT22": 0.5, "QNT26": 0.5, "QNT32": 0.5, "QNT33": 0.5, "CMP02": 0.5, "CMP05": 0.5, "ECO06": 0.5}},
+ {"name": "commerce", "description": "Commerce graduate: basic accounting, TVM and demand-supply known; rest of FRA, costing basics, finance and law basics at half time",
+  "known": ["ACC01", "ACC02", "ACC03", "ACC04", "ACC05", "ACC06", "ACC08", "ACC09", "ACC22", "FIN02", "FIN03", "FIN04", "ECO01", "ECO02"],
+  "multipliers": {"ACC07": 0.5, "ACC10": 0.5, "ACC11": 0.5, "ACC12": 0.5, "ACC13": 0.5, "ACC14": 0.5, "ACC15": 0.5, "ACC16": 0.5,
+                  "ACC17": 0.5, "ACC18": 0.5, "ACC23": 0.5, "ACC24": 0.5, "ACC25": 0.5, "ACC29": 0.5, "FIN01": 0.5, "FIN05": 0.5,
+                  "FIN06": 0.5, "FIN09": 0.5, "ECO03": 0.5, "ECO20": 0.5, "ECO21": 0.5, "LAW01": 0.5, "LAW02": 0.5, "LAW04": 0.5, "QNT03": 0.5}},
+ {"name": "skip_marketing", "description": "Skip Marketing: drop the Marketing domain; closure adds back what other courses need",
+  "skip_domains": ["Marketing"]},
+ {"name": "summers_3_weeks", "description": "Summers in 3 weeks: about 60 hours (3 h/day) before interviews; maximise value",
+  "budget": 60, "params": {"day_hours": 3.0}}
+]

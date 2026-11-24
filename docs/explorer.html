@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MBA Speedrun · Topic web</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  #wrap{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:auto;height:72vh}
+  svg text{font:11px system-ui,sans-serif;fill:#1d2327;pointer-events:none}
+  .node rect{stroke:#1d2327;stroke-width:.6;cursor:pointer}
+  .node.dim{opacity:.18} .edge.dim{opacity:.06}
+  .node.sel rect{stroke-width:2.4}
+  .edge{fill:none;stroke:#7b858c;stroke-width:1}
+  .edge.AND{stroke-dasharray:none} .edge.OR{stroke-dasharray:6 3} .edge.SOFT{stroke-dasharray:1.5 3}
+  .edge.hl{stroke:#0f5c5c;stroke-width:2.2;opacity:1}
+  #info{min-height:70px}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="brand">MBA Speedrun <span>· OML project</span></div>
+  <nav><a href="index.html">Home</a><a href="planner.html">Roadmap planner</a><a href="explorer.html" class="active">Topic web</a><a href="topic-web.html">Detailed explorer</a><a href="concepts.html">Class concepts</a></nav>
+</header>
+<main>
+  <h1>The prerequisite web</h1>
+  <p class="lede">Columns are prerequisite depth (a topic sits one column right of its deepest prerequisite). Click a topic to see what it needs (left) and what it unlocks (right).
+  Solid = required (AND), dashed = one of a group (OR), dotted = recommended (SOFT). <span class="badge est" id="badge"></span></p>
+  <div class="row noprint" style="margin-bottom:8px">
+    <input id="q" placeholder="Search topics…" style="padding:6px 10px;border:1px solid var(--line);border-radius:6px;min-width:240px">
+    <select id="dom"><option value="">All domains</option></select>
+    <button id="clear" type="button">Clear selection</button>
+  </div>
+  <div id="info" class="card small muted">Select a topic.</div>
+  <div id="wrap" style="margin-top:10px"><svg id="svg"></svg></div>
+</main>
+<footer>Topic-to-course mapping, hours and links are estimates unless the link's source says otherwise. Data: <code>data/topics.csv</code>, <code>data/prereqs.csv</code> · <a href="https://github.com/p25prathik-hue/mba-speedrun">source on GitHub</a></footer>
+<script src="data/web.js"></script>
+<script>
+(function(){
+  const WEB = window.SPEEDRUN_WEB, T = {}; WEB.topics.forEach(t=>T[t.id]=t);
+  document.getElementById("badge").textContent = `${WEB.topics.length} topics · ${WEB.links.length} links`;
+  const PAL = ["#0072B2","#D55E00","#009E73","#CC79A7","#E69F00","#56B4E9","#7f7f7f","#332288"];
+  const domains = [...new Set(WEB.topics.map(t=>t.domain))].sort();
+  const col = d => PAL[domains.indexOf(d)%PAL.length];
+  const sel = document.getElementById("dom"); domains.forEach(d=>{const o=document.createElement("option"); o.value=o.textContent=d; sel.appendChild(o);});
+  const links = WEB.links.filter(l=>T[l.src]&&T[l.dst]);
+  const pred = {}, succ = {};
+  links.forEach(l=>{(pred[l.dst]=pred[l.dst]||[]).push(l); (succ[l.src]=succ[l.src]||[]).push(l);});
+  // depth via longest path over AND/OR
+  const depth = {}; const visiting = new Set();
+  function dep(v){ if (v in depth) return depth[v]; if (visiting.has(v)) return 0; visiting.add(v);
+    let d = 0; (pred[v]||[]).forEach(l=>{ if (l.type!=="SOFT") d = Math.max(d, dep(l.src)+1); }); visiting.delete(v); return depth[v]=d; }
+  WEB.topics.forEach(t=>dep(t.id));
+  const cols = {}; WEB.topics.forEach(t=>(cols[depth[t.id]]=cols[depth[t.id]]||[]).push(t));
+  const BW=170, BH=26, GX=60, GY=8, pos={};
+  Object.entries(cols).forEach(([d,l])=>{ l.sort((a,b)=>a.domain.localeCompare(b.domain)||a.term-b.term||a.order-b.order); l.forEach((t,i)=>pos[t.id]={x:20+d*(BW+GX), y:20+i*(BH+GY)}); });
+  const W = 40+Object.keys(cols).length*(BW+GX), H = 40+Math.max(...Object.values(cols).map(l=>l.length))*(BH+GY);
+  const svg = document.getElementById("svg"); svg.setAttribute("width",W); svg.setAttribute("height",H);
+  const NS="http://www.w3.org/2000/svg";
+  const eg = document.createElementNS(NS,"g"), ng = document.createElementNS(NS,"g"); svg.appendChild(eg); svg.appendChild(ng);
+  const edgeEls = links.map(l=>{ const a=pos[l.src], b=pos[l.dst], p=document.createElementNS(NS,"path");
+    const x1=a.x+BW, y1=a.y+BH/2, x2=b.x, y2=b.y+BH/2, mx=(x1+x2)/2;
+    p.setAttribute("d", x2>x1 ? `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}` : `M${a.x+BW/2},${a.y+BH} C${a.x+BW/2},${y2+40} ${b.x+BW/2},${y2+40} ${b.x+BW/2},${b.y+BH}`);
+    p.setAttribute("class","edge "+l.type); eg.appendChild(p); return {l,p}; });
+  const nodeEls = {};
+  WEB.topics.forEach(t=>{ const g=document.createElementNS(NS,"g"); g.setAttribute("class","node"); const p=pos[t.id];
+    const r=document.createElementNS(NS,"rect"); r.setAttribute("x",p.x); r.setAttribute("y",p.y); r.setAttribute("width",BW); r.setAttribute("height",BH); r.setAttribute("rx",5); r.setAttribute("fill",col(t.domain)+"33");
+    const s=document.createElementNS(NS,"rect"); s.setAttribute("x",p.x); s.setAttribute("y",p.y); s.setAttribute("width",5); s.setAttribute("height",BH); s.setAttribute("fill",col(t.domain)); s.setAttribute("stroke","none");
+    const tx=document.createElementNS(NS,"text"); tx.setAttribute("x",p.x+10); tx.setAttribute("y",p.y+17); tx.textContent = (t.name.length>27? t.name.slice(0,26)+"…" : t.name);
+    const ti=document.createElementNS(NS,"title"); ti.textContent=`${t.id}: ${t.name} (${t.course}, ${t.hours} h)`;
+    g.append(r,s,tx,ti); g.onclick=()=>select(t.id); ng.appendChild(g); nodeEls[t.id]=g; });
+  function walk(start, dir){
+    const seen = new Set(), st = [start];
+    while (st.length) {
+      const v = st.pop(), arr = (dir === "up" ? pred[v] : succ[v]) || [];
+      for (const l of arr) { const w = dir === "up" ? l.src : l.dst; if (!seen.has(w)) { seen.add(w); st.push(w); } }
+    }
+    return seen;
+  }
+  function select(id){
+    const up = walk(id,"up"), down = walk(id,"down"), keep = new Set([id,...up,...down]);
+    Object.entries(nodeEls).forEach(([k,g])=>{ g.classList.toggle("dim", !keep.has(k)); g.classList.toggle("sel", k===id); });
+    edgeEls.forEach(({l,p})=>{ const on = keep.has(l.src)&&keep.has(l.dst); p.classList.toggle("dim", !on); p.classList.toggle("hl", on && (l.dst===id||l.src===id)); });
+    const t=T[id], hrsUp=[...up].reduce((s,k)=>s+T[k].hours,0);
+    const fmt = arr => arr.map(l=>`${T[l.src===id?l.dst:l.src].name} <span class="pill">${l.type}${l.source?" · "+l.source:""}</span>`).join("<br>") || "<span class='muted'>none</span>";
+    document.getElementById("info").innerHTML = `<b>${t.name}</b> <span class="pill">${t.course} · T${t.term} · ${t.hours} h</span><div class="row" style="align-items:flex-start;margin-top:6px">
+      <div style="flex:1"><b>Needs directly</b><br>${fmt(pred[id]||[])}</div><div style="flex:1"><b>Unlocks directly</b><br>${fmt(succ[id]||[])}</div>
+      <div style="flex:1"><b>All prerequisites</b>: ${up.size} topics, ${hrsUp.toFixed(1)} h<br><b>Everything it unlocks</b>: ${down.size} topics</div></div>`;
+  }
+  document.getElementById("clear").onclick=()=>{ Object.values(nodeEls).forEach(g=>g.classList.remove("dim","sel")); edgeEls.forEach(({p})=>p.classList.remove("dim","hl")); document.getElementById("info").textContent="Select a topic."; };
+  function filt(){ const q=document.getElementById("q").value.toLowerCase(), d=sel.value;
+    Object.entries(nodeEls).forEach(([k,g])=>g.classList.toggle("dim", (q && !T[k].name.toLowerCase().includes(q)) || (d && T[k].domain!==d))); }
+  document.getElementById("q").oninput=filt; sel.onchange=filt;
+})();
+</script>
+</body>
+</html>

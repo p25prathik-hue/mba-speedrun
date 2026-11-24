@@ -1,0 +1,154 @@
+{
+ "mapping_mode": "confirmed",
+ "links": 383,
+ "links_with_external_evidence": 119,
+ "per_source": {
+  "ASW14": {
+   "agree": 11,
+   "same_unit": 7,
+   "disagree": 1
+  },
+  "MIT511": {
+   "agree": 3,
+   "same_unit": 3,
+   "disagree": 0
+  },
+  "MIT501": {
+   "agree": 2,
+   "same_unit": 2,
+   "disagree": 0
+  },
+  "BMA14": {
+   "agree": 21,
+   "same_unit": 8,
+   "disagree": 2
+  },
+  "HDR17": {
+   "agree": 7,
+   "same_unit": 1,
+   "disagree": 0
+  },
+  "MIT401": {
+   "agree": 9,
+   "same_unit": 6,
+   "disagree": 0
+  },
+  "PR9": {
+   "agree": 13,
+   "same_unit": 4,
+   "disagree": 2
+  },
+  "MANK11": {
+   "agree": 1,
+   "same_unit": 1,
+   "disagree": 1
+  },
+  "KK16": {
+   "agree": 11,
+   "same_unit": 3,
+   "disagree": 4
+  },
+  "CT5": {
+   "agree": 2,
+   "same_unit": 2,
+   "disagree": 0
+  },
+  "RJ18": {
+   "agree": 4,
+   "same_unit": 3,
+   "disagree": 1
+  }
+ },
+ "overall_agreement_rate": 0.884,
+ "disagreements": [
+  {
+   "src": "QNT03",
+   "dst": "QNT04",
+   "type": "AND",
+   "source": "ASW14",
+   "pos_src": 3.0,
+   "pos_dst": 2.0
+  },
+  {
+   "src": "FIN15",
+   "dst": "FIN16",
+   "type": "AND",
+   "source": "BMA14",
+   "pos_src": 27.0,
+   "pos_dst": 21.0
+  },
+  {
+   "src": "FIN27",
+   "dst": "FIN29",
+   "type": "AND",
+   "source": "BMA14",
+   "pos_src": 16.0,
+   "pos_dst": 15.0
+  },
+  {
+   "src": "ECO12",
+   "dst": "ECO13",
+   "type": "AND",
+   "source": "PR9",
+   "pos_src": 13.0,
+   "pos_dst": 12.0
+  },
+  {
+   "src": "ECO09",
+   "dst": "ECO18",
+   "type": "AND",
+   "source": "PR9",
+   "pos_src": 10.0,
+   "pos_dst": 4.0
+  },
+  {
+   "src": "ECO25",
+   "dst": "ECO26",
+   "type": "AND",
+   "source": "MANK11",
+   "pos_src": 12.0,
+   "pos_dst": 11.0
+  },
+  {
+   "src": "MKT15",
+   "dst": "MKT19",
+   "type": "AND",
+   "source": "KK16",
+   "pos_src": 15.0,
+   "pos_dst": 14.0
+  },
+  {
+   "src": "MKT13",
+   "dst": "MKT25",
+   "type": "AND",
+   "source": "KK16",
+   "pos_src": 11.0,
+   "pos_dst": 2.0
+  },
+  {
+   "src": "MKT15",
+   "dst": "MKT25",
+   "type": "AND",
+   "source": "KK16",
+   "pos_src": 15.0,
+   "pos_dst": 2.0
+  },
+  {
+   "src": "MKT17",
+   "dst": "MKT25",
+   "type": "AND",
+   "source": "KK16",
+   "pos_src": 12.0,
+   "pos_dst": 2.0
+  },
+  {
+   "src": "OBH01",
+   "dst": "OBH03",
+   "type": "AND",
+   "source": "RJ18",
+   "pos_src": 5.0,
+   "pos_dst": 4.0
+  }
+ ],
+ "note": "Ordering evidence only. Review topic_unit_map_suggested.csv before quoting these numbers."
+}

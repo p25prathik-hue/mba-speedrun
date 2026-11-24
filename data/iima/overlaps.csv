@@ -1,0 +1,21 @@
+a,b,sim,note
+MKT01,MKT21,0.4,kit name screen; reviewed: customer value -> CLV
+ACC25,ACC27,0.4,kit name screen; reviewed: absorption costing chain
+ACC21,FIN32,0.4,kit name screen; reviewed: working capital in FRA and CF
+QNT27,QNT30,0.33,kit name screen; reviewed: regression family
+OPS22,OPS23,0.33,kit name screen; reviewed: supply chain pair
+OPS01,OPS03,0.33,kit name screen; reviewed: process analysis pair
+MKT10,STR04,0.29,kit name screen; reviewed: product vs industry life cycle
+ECO24,ENV06,0.29,kit name screen; reviewed: fiscal policy and policy process
+STR16,COM03,0.25,kit name screen; reviewed: case analysis
+QNT26,QNT30,0.25,kit name screen; reviewed: regression family
+QNT26,QNT27,0.25,kit name screen; reviewed: regression family
+QNT23,QNT24,0.25,kit name screen; reviewed: categorical tests
+OPS09,OPS13,0.25,kit name screen; reviewed: inventory pair
+OPS04,OPS14,0.25,kit name screen; reviewed: capacity and aggregate planning
+OBH11,OBH12,0.25,kit name screen; reviewed: organisation design and culture
+FIN16,FIN24,0.25,kit name screen; reviewed: financial and real options
+STR09,STR12,0.25,kit name screen; reviewed: ecosystems and alliances
+QNT02,CMP04,0.25,kit name screen; reviewed: optimisation by calculus and Solver
+ECO01,ECO25,0.25,kit name screen; reviewed: micro and aggregate demand
+STR12,FIN34,0.3,our estimate: M&A strategy and M&A valuation

@@ -1,0 +1,148 @@
+topic_id,topic,source_id,position,note
+FIN03,Time value of money: PV and FV,BMA14,2,reviewed by hand; order evidence only
+FIN04,Annuities and perpetuities,BMA14,2,reviewed by hand; order evidence only
+FIN06,Bond pricing and yield to maturity,BMA14,3,reviewed by hand; order evidence only
+FIN09,Stock valuation: dividend discount model,BMA14,4,reviewed by hand; order evidence only
+FIN20,Capital budgeting: the NPV rule,BMA14,5,reviewed by hand; order evidence only
+FIN21,"IRR, payback and other criteria",BMA14,5,reviewed by hand; order evidence only
+FIN22,Estimating project cash flows (incremental FCF),BMA14,6,reviewed by hand; order evidence only
+FIN10,Measuring return and risk,BMA14,7,reviewed by hand; order evidence only
+FIN11,Diversification and portfolio theory,BMA14,7,reviewed by hand; order evidence only
+FIN12,Efficient frontier and optimal portfolio,BMA14,7,reviewed by hand; order evidence only
+FIN13,CAPM and beta,BMA14,8,reviewed by hand; order evidence only
+FIN25,Cost of equity and cost of debt,BMA14,9,reviewed by hand; order evidence only
+FIN26,WACC,BMA14,9,reviewed by hand; order evidence only
+FIN23,"Project risk: sensitivity, scenario, simulation",BMA14,10,reviewed by hand; order evidence only
+FIN14,Market efficiency,BMA14,12,reviewed by hand; order evidence only
+FIN29,Dividend policy and buybacks,BMA14,15,reviewed by hand; order evidence only
+FIN27,Capital structure: MM propositions,BMA14,16,reviewed by hand; order evidence only
+FIN28,Trade-off and pecking-order theories,BMA14,17,reviewed by hand; order evidence only
+FIN19,Goal of the firm and agency problems,BMA14,19,reviewed by hand; order evidence only
+FIN35,Corporate governance,BMA14,19,reviewed by hand; order evidence only
+FIN16,Options: payoffs and strategies,BMA14,21,reviewed by hand; order evidence only
+FIN17,Option pricing: binomial and Black-Scholes intuition,BMA14,22,reviewed by hand; order evidence only
+FIN24,Real options,BMA14,23,reviewed by hand; order evidence only
+FIN15,Forwards and futures,BMA14,27,reviewed by hand; order evidence only
+FIN18,FX markets and parity conditions,BMA14,28,reviewed by hand; order evidence only
+ACC17,"Ratio analysis: profitability, liquidity, solvency",BMA14,29,reviewed by hand; order evidence only
+ACC18,DuPont analysis,BMA14,29,reviewed by hand; order evidence only
+FIN33,Financial planning and forecasting statements,BMA14,30,reviewed by hand; order evidence only
+FIN32,Working capital management,BMA14,31,reviewed by hand; order evidence only
+ACC21,Working capital and cash conversion cycle,BMA14,31,reviewed by hand; order evidence only
+FIN34,Mergers and acquisitions: synergies and valuation,BMA14,32,reviewed by hand; order evidence only
+FIN03,Time value of money: PV and FV,MIT401,2,reviewed by hand; order evidence only
+FIN04,Annuities and perpetuities,MIT401,2,reviewed by hand; order evidence only
+FIN06,Bond pricing and yield to maturity,MIT401,3,reviewed by hand; order evidence only
+FIN07,Term structure and the yield curve,MIT401,3,reviewed by hand; order evidence only
+FIN08,Duration and convexity,MIT401,3,reviewed by hand; order evidence only
+FIN09,Stock valuation: dividend discount model,MIT401,4,reviewed by hand; order evidence only
+FIN15,Forwards and futures,MIT401,5,reviewed by hand; order evidence only
+FIN16,Options: payoffs and strategies,MIT401,6,reviewed by hand; order evidence only
+FIN17,Option pricing: binomial and Black-Scholes intuition,MIT401,6,reviewed by hand; order evidence only
+FIN10,Measuring return and risk,MIT401,7,reviewed by hand; order evidence only
+FIN11,Diversification and portfolio theory,MIT401,9,reviewed by hand; order evidence only
+FIN12,Efficient frontier and optimal portfolio,MIT401,9,reviewed by hand; order evidence only
+FIN13,CAPM and beta,MIT401,10,reviewed by hand; order evidence only
+FIN20,Capital budgeting: the NPV rule,MIT401,11,reviewed by hand; order evidence only
+FIN22,Estimating project cash flows (incremental FCF),MIT401,11,reviewed by hand; order evidence only
+FIN14,Market efficiency,MIT401,14,reviewed by hand; order evidence only
+ACC22,"Cost concepts and behaviour: fixed, variable, sunk, opportunity",HDR17,2,reviewed by hand; order evidence only
+ACC23,Cost-volume-profit and break-even,HDR17,3,reviewed by hand; order evidence only
+ACC24,Job and process costing,HDR17,4,reviewed by hand; order evidence only
+ACC25,Overhead allocation and absorption costing,HDR17,4,reviewed by hand; order evidence only
+ACC26,Activity-based costing,HDR17,5,reviewed by hand; order evidence only
+ACC29,Budgeting and the master budget,HDR17,6,reviewed by hand; order evidence only
+ACC30,Standard costing and variance analysis,HDR17,7,reviewed by hand; order evidence only
+ACC27,Variable vs absorption costing,HDR17,9,reviewed by hand; order evidence only
+ACC01,Accounting equation and double entry,MIT511,2,reviewed by hand; order evidence only
+ACC05,Balance sheet structure,MIT511,2,reviewed by hand; order evidence only
+ACC03,Accrual vs cash basis and matching,MIT511,3,reviewed by hand; order evidence only
+ACC04,Income statement (P&L) structure,MIT511,3,reviewed by hand; order evidence only
+ACC02,"Journal, ledger and trial balance",MIT511,4,reviewed by hand; order evidence only
+ACC06,Adjusting and closing entries,MIT511,4,reviewed by hand; order evidence only
+ACC03,Accrual vs cash basis and matching,MIT501,3,reviewed by hand; order evidence only
+ACC04,Income statement (P&L) structure,MIT501,3,reviewed by hand; order evidence only
+ACC02,"Journal, ledger and trial balance",MIT501,5,reviewed by hand; order evidence only
+ACC06,Adjusting and closing entries,MIT501,5,reviewed by hand; order evidence only
+ACC07,Revenue recognition (Ind AS 115),MIT501,6,reviewed by hand; order evidence only
+OPS01,"Process analysis: flow, capacity, bottleneck",CT5,2,reviewed by hand; order evidence only
+OPS02,Little's law,CT5,2,reviewed by hand; order evidence only
+OPS03,Process flow charts and process design,CT5,2,reviewed by hand; order evidence only
+OPS04,Capacity planning and utilisation,CT5,3,reviewed by hand; order evidence only
+OPS17,Project management: CPM and PERT,CT5,12,reviewed by hand; order evidence only
+OPS07,Forecasting methods,CT5,13,reviewed by hand; order evidence only
+OPS12,Newsvendor model,CT5,14,reviewed by hand; order evidence only
+OPS11,Reorder point and safety stock,CT5,16,reviewed by hand; order evidence only
+QNT04,Data visualisation and distribution shapes,ASW14,2,reviewed by hand; order evidence only
+QNT03,Descriptive statistics: centre and spread,ASW14,3,reviewed by hand; order evidence only
+QNT05,"Probability basics: events, axioms, counting",ASW14,4,reviewed by hand; order evidence only
+QNT06,Conditional probability and independence,ASW14,4,reviewed by hand; order evidence only
+QNT07,Bayes' theorem,ASW14,4,reviewed by hand; order evidence only
+QNT08,"Random variables, expectation and variance",ASW14,5,reviewed by hand; order evidence only
+QNT10,Discrete distributions: binomial and Poisson,ASW14,5,reviewed by hand; order evidence only
+QNT11,Continuous distributions: uniform and exponential,ASW14,6,reviewed by hand; order evidence only
+QNT12,Normal distribution,ASW14,6,reviewed by hand; order evidence only
+QNT18,Sampling and sampling distributions,ASW14,7,reviewed by hand; order evidence only
+QNT19,Central limit theorem,ASW14,7,reviewed by hand; order evidence only
+QNT20,Confidence intervals,ASW14,8,reviewed by hand; order evidence only
+QNT21,"Hypothesis testing: logic, p-values, type I/II errors",ASW14,9,reviewed by hand; order evidence only
+QNT23,Tests for proportions,ASW14,9,reviewed by hand; order evidence only
+QNT22,t-tests: one and two samples,ASW14,10,reviewed by hand; order evidence only
+QNT24,Chi-square tests,ASW14,12,reviewed by hand; order evidence only
+QNT26,Simple linear regression,ASW14,14,reviewed by hand; order evidence only
+QNT27,Multiple regression,ASW14,15,reviewed by hand; order evidence only
+QNT29,Dummy variables and interaction terms,ASW14,15,reviewed by hand; order evidence only
+MKT01,Marketing concept and customer value,KK16,1,reviewed by hand; order evidence only
+MKT25,Go-to-market strategy and the marketing plan,KK16,2,reviewed by hand; order evidence only
+MKT06,Segmentation,KK16,6,reviewed by hand; order evidence only
+MKT07,Targeting and segment attractiveness,KK16,6,reviewed by hand; order evidence only
+MKT08,Positioning and perceptual maps,KK16,7,reviewed by hand; order evidence only
+MKT10,Product decisions and product life cycle,KK16,8,reviewed by hand; order evidence only
+MKT24,Services marketing,KK16,9,reviewed by hand; order evidence only
+MKT12,Brand equity and brand management,KK16,10,reviewed by hand; order evidence only
+MKT13,"Pricing strategy: cost, value and competition based",KK16,11,reviewed by hand; order evidence only
+MKT14,"Pricing tactics: bundling, psychological pricing",KK16,11,reviewed by hand; order evidence only
+MKT17,Integrated marketing communications,KK16,12,reviewed by hand; order evidence only
+MKT18,Advertising budgets and media planning,KK16,12,reviewed by hand; order evidence only
+MKT20,Digital marketing and funnel metrics,KK16,13,reviewed by hand; order evidence only
+MKT19,Sales management and salesforce design,KK16,14,reviewed by hand; order evidence only
+MKT15,Distribution channels and channel design,KK16,15,reviewed by hand; order evidence only
+MKT16,Channel conflict and retail management,KK16,16,reviewed by hand; order evidence only
+MKT09,Competitor analysis for marketers,KK16,17,reviewed by hand; order evidence only
+MKT11,New product development and diffusion (Bass model),KK16,18,reviewed by hand; order evidence only
+ECO01,Demand and supply basics,PR9,2,reviewed by hand; order evidence only
+ECO02,Market equilibrium and comparative statics,PR9,2,reviewed by hand; order evidence only
+ECO03,"Elasticities: price, income, cross",PR9,2,reviewed by hand; order evidence only
+ECO05,Consumer choice: utility and indifference curves,PR9,3,reviewed by hand; order evidence only
+ECO04,Consumer surplus and welfare,PR9,4,reviewed by hand; order evidence only
+ECO18,Network effects and platform economics,PR9,4,reviewed by hand; order evidence only
+ECO06,Production functions and returns to scale,PR9,6,reviewed by hand; order evidence only
+ECO07,Cost curves and economies of scale,PR9,7,reviewed by hand; order evidence only
+ECO08,Perfect competition,PR9,8,reviewed by hand; order evidence only
+ECO09,Monopoly and market power,PR9,10,reviewed by hand; order evidence only
+ECO10,Price discrimination and dynamic pricing,PR9,11,reviewed by hand; order evidence only
+ECO13,"Oligopoly: Cournot, Bertrand, Stackelberg",PR9,12,reviewed by hand; order evidence only
+ECO14,Monopolistic competition and product differentiation,PR9,12,reviewed by hand; order evidence only
+ECO11,Game theory: strategic form and Nash equilibrium,PR9,13,reviewed by hand; order evidence only
+ECO12,"Sequential games, commitment and credibility",PR9,13,reviewed by hand; order evidence only
+ECO15,"Information asymmetry: adverse selection, signalling",PR9,17,reviewed by hand; order evidence only
+ECO16,Moral hazard and principal-agent incentives,PR9,17,reviewed by hand; order evidence only
+ECO17,Externalities and public goods,PR9,18,reviewed by hand; order evidence only
+ECO19,Behavioural economics: biases and heuristics,PR9,19,reviewed by hand; order evidence only
+OBH03,Self-awareness and emotional intelligence,RJ18,4,reviewed by hand; order evidence only
+OBH01,Personality and individual differences,RJ18,5,reviewed by hand; order evidence only
+OBH04,"Motivation theories: needs, two-factor, expectancy",RJ18,8,reviewed by hand; order evidence only
+OBH05,Group dynamics and team development,RJ18,9,reviewed by hand; order evidence only
+OBH07,Conflict management,RJ18,14,reviewed by hand; order evidence only
+OBH08,"Negotiation basics: BATNA, ZOPA",RJ18,14,reviewed by hand; order evidence only
+OBH12,Organisational culture,RJ18,16,reviewed by hand; order evidence only
+OBH14,HR planning and job analysis,RJ18,17,reviewed by hand; order evidence only
+OBH15,Recruitment and selection,RJ18,17,reviewed by hand; order evidence only
+OBH16,Performance management and appraisal,RJ18,17,reviewed by hand; order evidence only
+OBH13,Change management,RJ18,18,reviewed by hand; order evidence only
+ECO20,National income accounting and GDP,MANK11,2,reviewed by hand; order evidence only
+ECO21,Inflation and price indices,MANK11,2,reviewed by hand; order evidence only
+ECO28,Long-run growth and its drivers,MANK11,10,reviewed by hand; order evidence only
+ECO26,"Aggregate supply, Phillips curve, business cycles",MANK11,11,reviewed by hand; order evidence only
+ECO25,IS-LM and aggregate demand,MANK11,12,reviewed by hand; order evidence only
+ECO27,Open economy: balance of payments and exchange rates,MANK11,14,reviewed by hand; order evidence only

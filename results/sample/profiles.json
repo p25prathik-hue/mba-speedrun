@@ -1,0 +1,1494 @@
+[
+ {
+  "profile": "fresh",
+  "description": "Fresh learner: everything in the pilot, no prior knowledge",
+  "n_topics": 28,
+  "study_hours": 71.5,
+  "auto_added": [],
+  "warnings": [],
+  "naive_B0": 73.16,
+  "B0": {
+   "total": 73.16250000000001,
+   "study": 71.5,
+   "transitions": -2.5375,
+   "revision": 4.200000000000001,
+   "soft_penalty": 0.0,
+   "domain_switches": 6.0,
+   "feasible": true
+  },
+  "B1": {
+   "total": 70.0525,
+   "study": 71.5,
+   "transitions": -5.3875,
+   "revision": 3.9399999999999995,
+   "soft_penalty": 0.0,
+   "domain_switches": 3.0,
+   "feasible": true
+  },
+  "roadmap": {
+   "total": 67.845,
+   "study": 71.5,
+   "transitions": -4.925,
+   "revision": 1.27,
+   "soft_penalty": 0.0,
+   "domain_switches": 4.0,
+   "feasible": true
+  },
+  "roadmap_ids": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "F11",
+   "F1",
+   "F4",
+   "F5",
+   "F3",
+   "F2",
+   "Q1",
+   "Q2",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "M1",
+   "M2",
+   "M5",
+   "M6",
+   "M7",
+   "M3",
+   "M4"
+  ],
+  "B0_ids": [
+   "A1",
+   "A2",
+   "Q1",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "Q2",
+   "A7",
+   "A8",
+   "M1",
+   "M2",
+   "M3",
+   "M4",
+   "M5",
+   "M6",
+   "M7",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11"
+  ],
+  "B1_ids": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "Q1",
+   "Q2",
+   "M1",
+   "M2",
+   "M3",
+   "M4",
+   "M5",
+   "M6",
+   "M7",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11"
+  ],
+  "curriculum_inversions_repaired": 0,
+  "heuristic_secs": 0.22,
+  "starts": [
+   {
+    "start": "NN",
+    "construct": 72.77249999999997,
+    "improved": 67.84499999999997,
+    "secs": 0.02
+   },
+   {
+    "start": "CI",
+    "construct": 74.43249999999996,
+    "improved": 69.56499999999997,
+    "secs": 0.02
+   },
+   {
+    "start": "FI",
+    "construct": 74.02624999999998,
+    "improved": 68.07999999999997,
+    "secs": 0.01
+   },
+   {
+    "start": "SAV",
+    "construct": 72.05124999999997,
+    "improved": 68.13624999999996,
+    "secs": 0.02
+   },
+   {
+    "start": "B0",
+    "construct": 73.1625,
+    "improved": 67.91249999999997,
+    "secs": 0.02
+   },
+   {
+    "start": "B1",
+    "construct": 70.05249999999998,
+    "improved": 67.91249999999997,
+    "secs": 0.02
+   },
+   {
+    "start": "rand0",
+    "construct": 90.52,
+    "improved": 67.91249999999997
+   },
+   {
+    "start": "rand1",
+    "construct": 88.74750000000002,
+    "improved": 68.07999999999997
+   },
+   {
+    "start": "rand2",
+    "construct": 85.63500000000002,
+    "improved": 67.91249999999997
+   },
+   {
+    "start": "rand3",
+    "construct": 88.11000000000001,
+    "improved": 68.07999999999997
+   },
+   {
+    "start": "rand4",
+    "construct": 80.98874999999998,
+    "improved": 67.91249999999997
+   }
+  ],
+  "critical_path_hours": 13.5,
+  "scope_gain": -0.0,
+  "sequencing_gain_vs_B0": 5.32,
+  "sequencing_gain_vs_B1": 2.21,
+  "days": {
+   "feasible": true,
+   "days": [
+    {
+     "topics": [
+      "A1",
+      "A2"
+     ],
+     "hours": 5.38
+    },
+    {
+     "topics": [
+      "A3",
+      "A4"
+     ],
+     "hours": 4.95
+    },
+    {
+     "topics": [
+      "A5",
+      "A6"
+     ],
+     "hours": 4.1
+    },
+    {
+     "topics": [
+      "A7",
+      "A8"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "F11",
+      "F1"
+     ],
+     "hours": 5.14
+    },
+    {
+     "topics": [
+      "F4",
+      "F5"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "F3",
+      "F2"
+     ],
+     "hours": 5.06
+    },
+    {
+     "topics": [
+      "Q1",
+      "Q2"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "F6",
+      "F7"
+     ],
+     "hours": 5.38
+    },
+    {
+     "topics": [
+      "F8",
+      "F9"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "F10",
+      "M1"
+     ],
+     "hours": 5.25
+    },
+    {
+     "topics": [
+      "M2",
+      "M5"
+     ],
+     "hours": 4.88
+    },
+    {
+     "topics": [
+      "M6",
+      "M7"
+     ],
+     "hours": 5.1
+    },
+    {
+     "topics": [
+      "M3",
+      "M4"
+     ],
+     "hours": 4.45
+    }
+   ],
+   "n_days": 14,
+   "lb_days": 12,
+   "total_hours": 71.39,
+   "H": 6.0
+  }
+ },
+ {
+  "profile": "engineer",
+  "description": "Engineer: probability/regression known; TVM partly known",
+  "n_topics": 26,
+  "study_hours": 65.1,
+  "auto_added": [],
+  "warnings": [],
+  "naive_B0": 73.16,
+  "B0": {
+   "total": 62.140499999999996,
+   "study": 65.1,
+   "transitions": -5.4375,
+   "revision": 2.4779999999999998,
+   "soft_penalty": 0.0,
+   "domain_switches": 2.0,
+   "feasible": true
+  },
+  "B1": {
+   "total": 62.140499999999996,
+   "study": 65.1,
+   "transitions": -5.4375,
+   "revision": 2.4779999999999998,
+   "soft_penalty": 0.0,
+   "domain_switches": 2.0,
+   "feasible": true
+  },
+  "roadmap": {
+   "total": 60.363499999999995,
+   "study": 65.1,
+   "transitions": -5.572499999999999,
+   "revision": 0.8360000000000001,
+   "soft_penalty": 0.0,
+   "domain_switches": 2.0,
+   "feasible": true
+  },
+  "roadmap_ids": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "F11",
+   "F1",
+   "F4",
+   "F5",
+   "F6",
+   "F10",
+   "F3",
+   "F2",
+   "F7",
+   "F8",
+   "F9",
+   "M1",
+   "M2",
+   "M5",
+   "M6",
+   "M7",
+   "M3",
+   "M4"
+  ],
+  "B0_ids": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "M1",
+   "M2",
+   "M3",
+   "M4",
+   "M5",
+   "M6",
+   "M7",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11"
+  ],
+  "B1_ids": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "M1",
+   "M2",
+   "M3",
+   "M4",
+   "M5",
+   "M6",
+   "M7",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11"
+  ],
+  "curriculum_inversions_repaired": 0,
+  "heuristic_secs": 0.11,
+  "starts": [
+   {
+    "start": "NN",
+    "construct": 65.28374999999997,
+    "improved": 60.36349999999997,
+    "secs": 0.01
+   },
+   {
+    "start": "CI",
+    "construct": 66.70749999999998,
+    "improved": 63.130749999999985,
+    "secs": 0.01
+   },
+   {
+    "start": "FI",
+    "construct": 64.4,
+    "improved": 63.130749999999985,
+    "secs": 0.0
+   },
+   {
+    "start": "SAV",
+    "construct": 64.89574999999996,
+    "improved": 60.74149999999998,
+    "secs": 0.01
+   },
+   {
+    "start": "B0",
+    "construct": 62.14049999999998,
+    "improved": 61.04024999999998,
+    "secs": 0.01
+   },
+   {
+    "start": "B1",
+    "construct": 62.14049999999998,
+    "improved": 61.04024999999998,
+    "secs": 0.01
+   },
+   {
+    "start": "rand0",
+    "construct": 84.11074999999998,
+    "improved": 60.74149999999998
+   },
+   {
+    "start": "rand1",
+    "construct": 84.90574999999997,
+    "improved": 60.74149999999998
+   },
+   {
+    "start": "rand2",
+    "construct": 81.00924999999998,
+    "improved": 62.89499999999998
+   },
+   {
+    "start": "rand3",
+    "construct": 72.19100000000005,
+    "improved": 61.052749999999975
+   },
+   {
+    "start": "rand4",
+    "construct": 77.60325,
+    "improved": 61.04024999999998
+   }
+  ],
+  "critical_path_hours": 11.5,
+  "scope_gain": 11.02,
+  "sequencing_gain_vs_B0": 1.78,
+  "sequencing_gain_vs_B1": 1.78,
+  "days": {
+   "feasible": true,
+   "days": [
+    {
+     "topics": [
+      "A1",
+      "A2"
+     ],
+     "hours": 5.38
+    },
+    {
+     "topics": [
+      "A3",
+      "A4"
+     ],
+     "hours": 4.95
+    },
+    {
+     "topics": [
+      "A5",
+      "A6"
+     ],
+     "hours": 4.1
+    },
+    {
+     "topics": [
+      "A7",
+      "A8"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "F11",
+      "F1"
+     ],
+     "hours": 4.27
+    },
+    {
+     "topics": [
+      "F4",
+      "F5"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "F6",
+      "F10"
+     ],
+     "hours": 5.38
+    },
+    {
+     "topics": [
+      "F3",
+      "F2"
+     ],
+     "hours": 5.06
+    },
+    {
+     "topics": [
+      "F7",
+      "F8"
+     ],
+     "hours": 4.88
+    },
+    {
+     "topics": [
+      "F9",
+      "M1"
+     ],
+     "hours": 5.75
+    },
+    {
+     "topics": [
+      "M2",
+      "M5"
+     ],
+     "hours": 4.88
+    },
+    {
+     "topics": [
+      "M6",
+      "M7"
+     ],
+     "hours": 5.1
+    },
+    {
+     "topics": [
+      "M3",
+      "M4"
+     ],
+     "hours": 4.45
+    }
+   ],
+   "n_days": 13,
+   "lb_days": 11,
+   "total_hours": 65.3,
+   "H": 6.0
+  }
+ },
+ {
+  "profile": "commerce",
+  "description": "Commerce graduate: basic financial accounting known, rest of accounting at half time",
+  "n_topics": 25,
+  "study_hours": 53.5,
+  "auto_added": [],
+  "warnings": [],
+  "naive_B0": 73.16,
+  "B0": {
+   "total": 54.488749999999996,
+   "study": 53.5,
+   "transitions": -1.1312499999999999,
+   "revision": 2.12,
+   "soft_penalty": 0.0,
+   "domain_switches": 6.0,
+   "feasible": true
+  },
+  "B1": {
+   "total": 52.37875,
+   "study": 53.5,
+   "transitions": -3.3812499999999996,
+   "revision": 2.2600000000000002,
+   "soft_penalty": 0.0,
+   "domain_switches": 3.0,
+   "feasible": true
+  },
+  "roadmap": {
+   "total": 50.346250000000005,
+   "study": 53.5,
+   "transitions": -3.4937499999999995,
+   "revision": 0.34,
+   "soft_penalty": 0.0,
+   "domain_switches": 3.0,
+   "feasible": true
+  },
+  "roadmap_ids": [
+   "M1",
+   "M7",
+   "M2",
+   "M5",
+   "M6",
+   "M3",
+   "M4",
+   "Q1",
+   "Q2",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "F11",
+   "F6",
+   "F7",
+   "F1",
+   "F4",
+   "F5",
+   "F10",
+   "F3",
+   "F2",
+   "F8",
+   "F9"
+  ],
+  "B0_ids": [
+   "A4",
+   "Q1",
+   "A5",
+   "A6",
+   "A7",
+   "Q2",
+   "A8",
+   "M1",
+   "M2",
+   "M3",
+   "M4",
+   "M5",
+   "M6",
+   "M7",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11"
+  ],
+  "B1_ids": [
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "Q1",
+   "Q2",
+   "M1",
+   "M2",
+   "M3",
+   "M4",
+   "M5",
+   "M6",
+   "M7",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11"
+  ],
+  "curriculum_inversions_repaired": 0,
+  "heuristic_secs": 0.14,
+  "starts": [
+   {
+    "start": "NN",
+    "construct": 54.585,
+    "improved": 51.665,
+    "secs": 0.01
+   },
+   {
+    "start": "CI",
+    "construct": 56.445,
+    "improved": 50.34624999999999,
+    "secs": 0.02
+   },
+   {
+    "start": "FI",
+    "construct": 57.58374999999999,
+    "improved": 50.93249999999999,
+    "secs": 0.01
+   },
+   {
+    "start": "SAV",
+    "construct": 52.11374999999999,
+    "improved": 50.34624999999999,
+    "secs": 0.01
+   },
+   {
+    "start": "B0",
+    "construct": 54.48875,
+    "improved": 50.34624999999999,
+    "secs": 0.01
+   },
+   {
+    "start": "B1",
+    "construct": 52.37874999999999,
+    "improved": 50.34624999999999,
+    "secs": 0.02
+   },
+   {
+    "start": "rand0",
+    "construct": 66.05624999999999,
+    "improved": 51.046249999999986
+   },
+   {
+    "start": "rand1",
+    "construct": 67.82812499999999,
+    "improved": 50.34624999999999
+   },
+   {
+    "start": "rand2",
+    "construct": 60.81,
+    "improved": 50.34624999999999
+   },
+   {
+    "start": "rand3",
+    "construct": 61.23624999999999,
+    "improved": 50.34624999999999
+   },
+   {
+    "start": "rand4",
+    "construct": 66.93375,
+    "improved": 50.34624999999999
+   }
+  ],
+  "critical_path_hours": 13.5,
+  "scope_gain": 18.67,
+  "sequencing_gain_vs_B0": 4.14,
+  "sequencing_gain_vs_B1": 2.03,
+  "days": {
+   "feasible": true,
+   "days": [
+    {
+     "topics": [
+      "M1",
+      "M7",
+      "M2"
+     ],
+     "hours": 4.15
+    },
+    {
+     "topics": [
+      "M5",
+      "M6"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "M3",
+      "M4"
+     ],
+     "hours": 3.2
+    },
+    {
+     "topics": [
+      "Q1",
+      "Q2"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+     ],
+     "hours": 5.65
+    },
+    {
+     "topics": [
+      "F11"
+     ],
+     "hours": 2.25
+    },
+    {
+     "topics": [
+      "F6",
+      "F7"
+     ],
+     "hours": 5.38
+    },
+    {
+     "topics": [
+      "F1",
+      "F4"
+     ],
+     "hours": 5.38
+    },
+    {
+     "topics": [
+      "F5",
+      "F10"
+     ],
+     "hours": 5.66
+    },
+    {
+     "topics": [
+      "F3",
+      "F2"
+     ],
+     "hours": 5.06
+    },
+    {
+     "topics": [
+      "F8",
+      "F9"
+     ],
+     "hours": 5.3
+    }
+   ],
+   "n_days": 11,
+   "lb_days": 9,
+   "total_hours": 52.63,
+   "H": 6.0
+  }
+ },
+ {
+  "profile": "finance_only",
+  "description": "Finance only: skip accounting and statistics unless Finance needs them (closure decides)",
+  "n_topics": 15,
+  "study_hours": 38.5,
+  "auto_added": [
+   "A1",
+   "M1",
+   "M7",
+   "Q1"
+  ],
+  "warnings": [
+   "auto-included A1 (required for F11; A1 was outside the chosen scope)",
+   "OR-group G1 for F5: added cheapest route via M7 (4.0 h: M1, M7)",
+   "auto-included Q1 (required for F6; Q1 was outside the chosen scope)"
+  ],
+  "naive_B0": 73.16,
+  "B0": {
+   "total": 38.027499999999996,
+   "study": 38.5,
+   "transitions": -1.2624999999999997,
+   "revision": 0.79,
+   "soft_penalty": 0.0,
+   "domain_switches": 3.0,
+   "feasible": true
+  },
+  "B1": {
+   "total": 38.027499999999996,
+   "study": 38.5,
+   "transitions": -1.2624999999999997,
+   "revision": 0.79,
+   "soft_penalty": 0.0,
+   "domain_switches": 3.0,
+   "feasible": true
+  },
+  "roadmap": {
+   "total": 37.2425,
+   "study": 38.5,
+   "transitions": -1.3375,
+   "revision": 0.08,
+   "soft_penalty": 0.0,
+   "domain_switches": 3.0,
+   "feasible": true
+  },
+  "roadmap_ids": [
+   "M1",
+   "M7",
+   "Q1",
+   "A1",
+   "F11",
+   "F1",
+   "F4",
+   "F5",
+   "F6",
+   "F10",
+   "F2",
+   "F3",
+   "F7",
+   "F8",
+   "F9"
+  ],
+  "B0_ids": [
+   "A1",
+   "Q1",
+   "M1",
+   "M7",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11"
+  ],
+  "B1_ids": [
+   "A1",
+   "Q1",
+   "M1",
+   "M7",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11"
+  ],
+  "curriculum_inversions_repaired": 0,
+  "heuristic_secs": 0.03,
+  "starts": [
+   {
+    "start": "NN",
+    "construct": 38.98875,
+    "improved": 37.24250000000001,
+    "secs": 0.0
+   },
+   {
+    "start": "CI",
+    "construct": 38.4525,
+    "improved": 37.24250000000001,
+    "secs": 0.0
+   },
+   {
+    "start": "FI",
+    "construct": 39.72500000000001,
+    "improved": 37.475,
+    "secs": 0.0
+   },
+   {
+    "start": "SAV",
+    "construct": 38.84875,
+    "improved": 37.24250000000001,
+    "secs": 0.0
+   },
+   {
+    "start": "B0",
+    "construct": 38.027499999999996,
+    "improved": 37.24250000000001,
+    "secs": 0.0
+   },
+   {
+    "start": "B1",
+    "construct": 38.027499999999996,
+    "improved": 37.24250000000001,
+    "secs": 0.0
+   },
+   {
+    "start": "rand0",
+    "construct": 40.606249999999996,
+    "improved": 37.39875
+   },
+   {
+    "start": "rand1",
+    "construct": 41.94375000000001,
+    "improved": 37.372499999999995
+   },
+   {
+    "start": "rand2",
+    "construct": 41.7425,
+    "improved": 37.427499999999995
+   },
+   {
+    "start": "rand3",
+    "construct": 41.07000000000001,
+    "improved": 37.24250000000001
+   },
+   {
+    "start": "rand4",
+    "construct": 41.70124999999999,
+    "improved": 37.39875
+   }
+  ],
+  "critical_path_hours": 13.5,
+  "scope_gain": 35.13,
+  "sequencing_gain_vs_B0": 0.78,
+  "sequencing_gain_vs_B1": 0.78,
+  "exact": {
+   "objective_eval": 37.24250000000001,
+   "optimal": true,
+   "secs": 1.69,
+   "nodes": 48,
+   "gap_heuristic": 0.0
+  },
+  "days": {
+   "feasible": true,
+   "days": [
+    {
+     "topics": [
+      "M1",
+      "M7"
+     ],
+     "hours": 3.95
+    },
+    {
+     "topics": [
+      "Q1"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "A1"
+     ],
+     "hours": 3.25
+    },
+    {
+     "topics": [
+      "F11",
+      "F1"
+     ],
+     "hours": 5.14
+    },
+    {
+     "topics": [
+      "F4",
+      "F5"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "F6",
+      "F10"
+     ],
+     "hours": 5.38
+    },
+    {
+     "topics": [
+      "F2",
+      "F3"
+     ],
+     "hours": 5.06
+    },
+    {
+     "topics": [
+      "F7"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "F8",
+      "F9"
+     ],
+     "hours": 5.3
+    }
+   ],
+   "n_days": 9,
+   "lb_days": 7,
+   "total_hours": 38.88,
+   "H": 6.0
+  }
+ },
+ {
+  "profile": "crunch_25h",
+  "description": "Crunch: 25 hours before interviews; maximise placement relevance",
+  "n_topics": 28,
+  "study_hours": 71.5,
+  "auto_added": [],
+  "warnings": [],
+  "naive_B0": 73.16,
+  "B0": {
+   "total": 73.16250000000001,
+   "study": 71.5,
+   "transitions": -2.5375,
+   "revision": 4.200000000000001,
+   "soft_penalty": 0.0,
+   "domain_switches": 6.0,
+   "feasible": true
+  },
+  "B1": {
+   "total": 70.0525,
+   "study": 71.5,
+   "transitions": -5.3875,
+   "revision": 3.9399999999999995,
+   "soft_penalty": 0.0,
+   "domain_switches": 3.0,
+   "feasible": true
+  },
+  "roadmap": {
+   "total": 67.845,
+   "study": 71.5,
+   "transitions": -4.925,
+   "revision": 1.27,
+   "soft_penalty": 0.0,
+   "domain_switches": 4.0,
+   "feasible": true
+  },
+  "roadmap_ids": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "F11",
+   "F1",
+   "F4",
+   "F5",
+   "F3",
+   "F2",
+   "Q1",
+   "Q2",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "M1",
+   "M2",
+   "M5",
+   "M6",
+   "M7",
+   "M3",
+   "M4"
+  ],
+  "B0_ids": [
+   "A1",
+   "A2",
+   "Q1",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "Q2",
+   "A7",
+   "A8",
+   "M1",
+   "M2",
+   "M3",
+   "M4",
+   "M5",
+   "M6",
+   "M7",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11"
+  ],
+  "B1_ids": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "Q1",
+   "Q2",
+   "M1",
+   "M2",
+   "M3",
+   "M4",
+   "M5",
+   "M6",
+   "M7",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11"
+  ],
+  "curriculum_inversions_repaired": 0,
+  "heuristic_secs": 0.14,
+  "starts": [
+   {
+    "start": "NN",
+    "construct": 72.77249999999997,
+    "improved": 67.84499999999997,
+    "secs": 0.01
+   },
+   {
+    "start": "CI",
+    "construct": 74.43249999999996,
+    "improved": 69.56499999999997,
+    "secs": 0.01
+   },
+   {
+    "start": "FI",
+    "construct": 74.02624999999998,
+    "improved": 68.07999999999997,
+    "secs": 0.01
+   },
+   {
+    "start": "SAV",
+    "construct": 72.05124999999997,
+    "improved": 68.13624999999996,
+    "secs": 0.01
+   },
+   {
+    "start": "B0",
+    "construct": 73.1625,
+    "improved": 67.91249999999997,
+    "secs": 0.01
+   },
+   {
+    "start": "B1",
+    "construct": 70.05249999999998,
+    "improved": 67.91249999999997,
+    "secs": 0.01
+   },
+   {
+    "start": "rand0",
+    "construct": 90.52,
+    "improved": 67.91249999999997
+   },
+   {
+    "start": "rand1",
+    "construct": 88.74750000000002,
+    "improved": 68.07999999999997
+   },
+   {
+    "start": "rand2",
+    "construct": 85.63500000000002,
+    "improved": 67.91249999999997
+   },
+   {
+    "start": "rand3",
+    "construct": 88.11000000000001,
+    "improved": 68.07999999999997
+   },
+   {
+    "start": "rand4",
+    "construct": 80.98874999999998,
+    "improved": 67.91249999999997
+   }
+  ],
+  "critical_path_hours": 13.5,
+  "scope_gain": -0.0,
+  "sequencing_gain_vs_B0": 5.32,
+  "sequencing_gain_vs_B1": 2.21,
+  "days": {
+   "feasible": true,
+   "days": [
+    {
+     "topics": [
+      "A1",
+      "A2"
+     ],
+     "hours": 5.38
+    },
+    {
+     "topics": [
+      "A3",
+      "A4"
+     ],
+     "hours": 4.95
+    },
+    {
+     "topics": [
+      "A5",
+      "A6"
+     ],
+     "hours": 4.1
+    },
+    {
+     "topics": [
+      "A7",
+      "A8"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "F11",
+      "F1"
+     ],
+     "hours": 5.14
+    },
+    {
+     "topics": [
+      "F4",
+      "F5"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "F3",
+      "F2"
+     ],
+     "hours": 5.06
+    },
+    {
+     "topics": [
+      "Q1",
+      "Q2"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "F6",
+      "F7"
+     ],
+     "hours": 5.38
+    },
+    {
+     "topics": [
+      "F8",
+      "F9"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "F10",
+      "M1"
+     ],
+     "hours": 5.25
+    },
+    {
+     "topics": [
+      "M2",
+      "M5"
+     ],
+     "hours": 4.88
+    },
+    {
+     "topics": [
+      "M6",
+      "M7"
+     ],
+     "hours": 5.1
+    },
+    {
+     "topics": [
+      "M3",
+      "M4"
+     ],
+     "hours": 4.45
+    }
+   ],
+   "n_days": 14,
+   "lb_days": 12,
+   "total_hours": 71.39,
+   "H": 6.0
+  },
+  "crunch": {
+   "budget": 25,
+   "value": 39.0,
+   "hours": 24.28,
+   "ids": [
+    "A1",
+    "A2",
+    "A8",
+    "F11",
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "M1",
+    "M7"
+   ],
+   "left_out": [
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "Q1",
+    "Q2",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "F10"
+   ],
+   "knapsack_value": 39.0,
+   "total_value": 88.0,
+   "days": {
+    "feasible": true,
+    "days": [
+     {
+      "topics": [
+       "A1",
+       "A2"
+      ],
+      "hours": 5.38
+     },
+     {
+      "topics": [
+       "A8",
+       "F11"
+      ],
+      "hours": 5.45
+     },
+     {
+      "topics": [
+       "F1",
+       "F2"
+      ],
+      "hours": 5.38
+     },
+     {
+      "topics": [
+       "F3",
+       "F4"
+      ],
+      "hours": 5.06
+     },
+     {
+      "topics": [
+       "M1",
+       "M7"
+      ],
+      "hours": 3.95
+     }
+    ],
+    "n_days": 5,
+    "lb_days": 12,
+    "total_hours": 25.22,
+    "H": 6.0
+   }
+  }
+ }
+]

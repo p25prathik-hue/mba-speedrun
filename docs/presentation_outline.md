@@ -1,0 +1,14 @@
+# Presentation outline (last session, 6–7 minutes, about 8 slides)
+
+Groups may be picked **at random**, so keep this ready. Each slide has one point, the class link, and an IIMA example.
+
+1. **The crunch** (45 s). "End-terms in 4 days, half of CF unclear." The core is parallel courses for ~400 students; catching up alone is serial. *Question:* in what order should one student learn what?
+2. **It is a TSP, says Session 6** (60 s). S6 slide 1: "machine scheduling when setup time depends on the previous job". Student = machine, topics = jobs, switching/synergy = c_ij, prerequisites = precedence, days = bins (S8 slide 27: TSP + bin packing). *Visual:* the topic-web figure.
+3. **Why it is hard** (45 s). NP-hard (S1 slide 11); 23% of links cross domains, and 5 prerequisites are taught after the topic that needs them (EVA in T2 needs WACC from T3); OR routes; forgetting depends on time; costs are asymmetric and negative, so no worst-case bounds apply.
+4. **The model in the professor's notation** (60 s). (I), (II) from S6 slide 3; Q_i ≥ Q_j + d_i x_ij − C(1 − x_ij) from S9 slide 22, with Q_i = hours still to go, which also gives forgetting = Q_k − p_k − Q_j; prerequisite x5 ≤ x4 from S5 slide 7.
+5. **Methods and how good they are** (60 s). NN / CI / savings → or-opt / 2-opt → random restart (S1, S3, S8, S10). On the 28-topic pilot, B&B proves optimality up to ~20 topics, and the heuristics matched the best known solution on every test instance. Step 1: 88% of checkable links agree with textbook / MIT syllabus order. Bounds: assignment (S6) and LP with precedence cuts (S9 slide 25 style). *Visual:* the scale figure.
+6. **Results on the 266-topic web** (60 s). The roadmap saves 87 h (17%) over subject-by-subject for a fresh learner, mostly by avoiding forgetting. It clusters by *domain*, not by course (show the swimlane figure). Personalisation saves another 51–79 h. Shared concepts are worth ~142 h. "Skip Marketing" keeps 14 of 25 topics (closure). Clarke–Wright savings is the best start. Crunch, 60 h: 52 topics, and the left-out list goes to the "common carrier" (S9).
+7. **Is it an artefact of the estimates?** (45 s). Null test gives 0; ±25% one at a time and Monte Carlo on the full web (see the report's Section 8 numbers); the gain stays positive and the nominal plan's regret is small. Lesson: the full web exposed unbounded forgetting, which we fixed with a cap κ. Honest limit: we can't test a wrong cost *form* (e.g. interleaving benefits).
+8. **Live demo + ask** (60 s). Open the GitHub Pages planner, click "skip marketing" (watch the closure add topics back), then "summers 3 weeks". Ask the Acads committee to: close the 3 timing gaps; publish topic hours in course outlines (or let us run a PGP2 survey); next project: a UFLP for where shared concepts should be taught (S10).
+
+Backup slides: the full formulation; the bound ladder; how the planner was checked against Python (parity test).

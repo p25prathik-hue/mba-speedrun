@@ -1,0 +1,267 @@
+id,name,domain,primary_course,all_courses,term,size,base_minutes,value_1to5,depth,n_prereqs_total,path_minutes_incl_prereqs
+QNT01,Algebra and functions refresher,Quant & Analytics,QM-1a,QM-1a,1,S,45,2,0,0,45
+QNT02,Calculus basics: derivatives and optimisation,Quant & Analytics,QM-1a,QM-1a;ME,1,M,90,3,1,1,135
+QNT03,Descriptive statistics: centre and spread,Quant & Analytics,QM-1b,QM-1b,1,S,45,4,0,0,45
+QNT04,Data visualisation and distribution shapes,Quant & Analytics,QM-1b,QM-1b;MGRCMP,1,S,45,3,1,1,90
+QNT05,"Probability basics: events, axioms, counting",Quant & Analytics,QM-1a,QM-1a,1,M,90,4,1,1,135
+QNT06,Conditional probability and independence,Quant & Analytics,QM-1a,QM-1a,1,M,90,4,2,2,225
+QNT07,Bayes' theorem,Quant & Analytics,QM-1a,QM-1a,1,M,90,4,3,3,315
+QNT08,"Random variables, expectation and variance",Quant & Analytics,QM-1a,QM-1a,1,M,90,5,2,3,270
+QNT09,Covariance and correlation,Quant & Analytics,QM-1a,QM-1a;QM-1b;FM,1,S,45,5,3,4,315
+QNT10,Discrete distributions: binomial and Poisson,Quant & Analytics,QM-1a,QM-1a,1,M,90,4,3,4,360
+QNT11,Continuous distributions: uniform and exponential,Quant & Analytics,QM-1a,QM-1a,1,M,90,3,3,4,360
+QNT12,Normal distribution,Quant & Analytics,QM-1a,QM-1a,1,M,90,5,4,5,450
+QNT13,Expected-value decisions and payoff tables,Quant & Analytics,QM-1a,QM-1a,1,M,90,4,3,4,360
+QNT14,Decision trees,Quant & Analytics,QM-1a,QM-1a;CF,1,M,90,5,4,6,540
+QNT15,"Value of information (EVPI, EVSI)",Quant & Analytics,QM-1a,QM-1a,1,M,90,3,5,8,720
+QNT16,Risk attitude and utility functions,Quant & Analytics,QM-1a,QM-1a;FM,1,M,90,3,4,5,450
+QNT17,Monte Carlo simulation,Quant & Analytics,QM-1a,QM-1a;MGRCMP;CF,1,M,90,4,5,9,810
+QNT18,Sampling and sampling distributions,Quant & Analytics,QM-1b,QM-1b,1,M,90,4,5,6,540
+QNT19,Central limit theorem,Quant & Analytics,QM-1b,QM-1b,1,S,45,4,6,7,585
+QNT20,Confidence intervals,Quant & Analytics,QM-1b,QM-1b,1,M,90,5,7,8,675
+QNT21,"Hypothesis testing: logic, p-values, type I/II errors",Quant & Analytics,QM-1b,QM-1b;BRM,1,L,150,5,8,9,825
+QNT22,t-tests: one and two samples,Quant & Analytics,QM-1b,QM-1b;BRM,1,M,90,4,9,10,915
+QNT23,Tests for proportions,Quant & Analytics,QM-1b,QM-1b,1,S,45,3,9,11,960
+QNT24,Chi-square tests,Quant & Analytics,QM-1b,QM-1b;BRM,1,M,90,3,9,10,915
+QNT25,ANOVA,Quant & Analytics,QM-1b,QM-1b;BRM,1,M,90,3,10,11,1005
+QNT26,Simple linear regression,Quant & Analytics,QM-2,QM-2;BRM;FM,2,L,150,5,9,11,1020
+QNT27,Multiple regression,Quant & Analytics,QM-2,QM-2;BRM;MKT-III,2,L,150,5,10,12,1170
+QNT28,"Regression diagnostics: multicollinearity, heteroscedasticity",Quant & Analytics,QM-2,QM-2,2,M,90,3,11,13,1260
+QNT29,Dummy variables and interaction terms,Quant & Analytics,QM-2,QM-2;BRM,2,M,90,4,11,13,1260
+QNT30,Logistic regression,Quant & Analytics,QM-2,QM-2;BRM;TBIT,2,M,90,4,11,14,1350
+QNT31,Time series: components and smoothing,Quant & Analytics,QM-2,QM-2;OM-I,1,M,90,4,1,1,135
+QNT32,Linear programming formulation,Quant & Analytics,QM-2,QM-2;OM-II;MGRCMP,1,L,150,5,1,1,195
+QNT33,Graphical LP and simplex intuition,Quant & Analytics,QM-2,QM-2,2,M,90,3,2,2,285
+QNT34,LP sensitivity analysis and shadow prices,Quant & Analytics,QM-2,QM-2,2,M,90,5,3,3,375
+QNT35,Integer and binary programming,Quant & Analytics,QM-2,QM-2,2,M,90,4,2,2,285
+QNT36,Transportation and assignment models,Quant & Analytics,QM-2,QM-2;OM-III,2,M,90,4,2,2,285
+QNT37,"Network models: shortest path, max flow",Quant & Analytics,QM-2,QM-2,2,M,90,3,2,2,285
+QNT38,"Multi-criteria decisions (AHP, scoring)",Quant & Analytics,QM-2,QM-2,2,S,45,2,4,5,405
+CMP01,"Spreadsheet fundamentals: formulas, references, lookups",Quant & Analytics,MGRCMP,MGRCMP,1,M,90,4,0,0,90
+CMP02,Spreadsheet modelling and what-if analysis,Quant & Analytics,MGRCMP,MGRCMP,1,M,90,5,1,1,180
+CMP03,Pivot tables and data summarisation,Quant & Analytics,MGRCMP,MGRCMP,1,S,45,4,1,2,180
+CMP04,Solver for optimisation,Quant & Analytics,MGRCMP,MGRCMP;QM-2,1,S,45,4,2,4,420
+CMP05,Databases and SQL basics,Quant & Analytics,MGRCMP,MGRCMP;TBIT,1,M,90,3,1,1,180
+ACC01,Accounting equation and double entry,Accounting,FRA,FRA,1,M,90,5,0,0,90
+ACC02,"Journal, ledger and trial balance",Accounting,FRA,FRA,1,M,90,3,1,1,180
+ACC03,Accrual vs cash basis and matching,Accounting,FRA,FRA,1,M,90,5,1,1,180
+ACC04,Income statement (P&L) structure,Accounting,FRA,FRA,1,M,90,5,2,2,270
+ACC05,Balance sheet structure,Accounting,FRA,FRA,1,M,90,5,1,1,180
+ACC06,Adjusting and closing entries,Accounting,FRA,FRA,1,S,45,2,2,3,315
+ACC07,Revenue recognition (Ind AS 115),Accounting,FRA,FRA,1,M,90,4,3,3,360
+ACC08,"Inventory valuation: FIFO, weighted average",Accounting,FRA,FRA,1,M,90,4,3,4,450
+ACC09,Fixed assets and depreciation,Accounting,FRA,FRA,1,M,90,4,3,4,450
+ACC10,"Intangibles, goodwill and impairment",Accounting,FRA,FRA,1,M,90,3,4,5,540
+ACC11,"Liabilities, provisions and contingencies",Accounting,FRA,FRA,1,S,45,3,2,2,225
+ACC12,Lease accounting (Ind AS 116),Accounting,FRA,FRA,1,M,90,2,4,9,765
+ACC13,Shareholders' equity and EPS,Accounting,FRA,FRA,1,S,45,3,3,4,405
+ACC14,Deferred tax,Accounting,FRA,FRA,1,M,90,2,3,5,495
+ACC15,Cash flow statement,Accounting,FRA,FRA;CF,1,L,150,5,4,5,600
+ACC16,Consolidation and group accounts basics,Accounting,FRA,FRA,1,M,90,2,5,7,675
+ACC17,"Ratio analysis: profitability, liquidity, solvency",Accounting,FRA,FRA;CF,1,L,150,5,3,4,510
+ACC18,DuPont analysis,Accounting,FRA,FRA;CF,1,S,45,5,4,5,555
+ACC19,Earnings quality and red flags,Accounting,FRA,FRA,1,M,90,4,5,8,930
+ACC20,Reading an annual report and notes,Accounting,FRA,FRA,1,M,90,4,5,7,840
+ACC21,Working capital and cash conversion cycle,Accounting,FRA,FRA;CF;OM-II,1,M,90,5,4,5,600
+ACC22,"Cost concepts and behaviour: fixed, variable, sunk, opportunity",Accounting,CCS,CCS;ME;OM-II,1,M,90,5,3,3,360
+ACC23,Cost-volume-profit and break-even,Accounting,CCS,CCS;MKT-II,2,M,90,5,4,4,450
+ACC24,Job and process costing,Accounting,CCS,CCS,2,M,90,2,4,6,630
+ACC25,Overhead allocation and absorption costing,Accounting,CCS,CCS,2,M,90,3,5,7,720
+ACC26,Activity-based costing,Accounting,CCS,CCS,2,M,90,4,6,8,810
+ACC27,Variable vs absorption costing,Accounting,CCS,CCS,2,S,45,3,6,9,855
+ACC28,"Relevant costing: make-or-buy, special orders",Accounting,CCS,CCS;OM-III;SM,2,M,90,5,4,4,450
+ACC29,Budgeting and the master budget,Accounting,CCS,CCS,2,M,90,4,5,8,870
+ACC30,Standard costing and variance analysis,Accounting,CCS,CCS,2,L,150,4,6,9,1020
+ACC31,Responsibility centres and segment reporting,Accounting,CCS,CCS,2,M,90,3,6,9,960
+ACC32,Transfer pricing,Accounting,CCS,CCS,2,M,90,3,7,11,1140
+ACC33,"Performance measures: ROI, residual income, EVA",Accounting,CCS,CCS;CF,2,M,90,4,13,33,3195
+ACC34,Balanced scorecard and management control systems,Accounting,CCS,CCS;SM,2,M,90,4,14,34,3285
+FIN01,"Financial system: markets, institutions, instruments",Finance,FM,FM,1,M,90,4,0,0,90
+FIN02,"Interest rates: simple, compound, nominal vs effective",Finance,FM,FM,1,S,45,4,1,1,90
+FIN03,Time value of money: PV and FV,Finance,FM,FM;CF,1,M,90,5,2,2,180
+FIN04,Annuities and perpetuities,Finance,FM,FM;CF,1,M,90,5,3,3,270
+FIN05,Loan amortisation and EMIs,Finance,FM,FM,1,S,45,3,4,4,315
+FIN06,Bond pricing and yield to maturity,Finance,FM,FM,1,M,90,5,4,4,360
+FIN07,Term structure and the yield curve,Finance,FM,FM;MEP,1,M,90,4,5,5,450
+FIN08,Duration and convexity,Finance,FM,FM,1,M,90,4,5,5,450
+FIN09,Stock valuation: dividend discount model,Finance,FM,FM;CF,1,M,90,5,4,5,450
+FIN10,Measuring return and risk,Finance,FM,FM,2,M,90,5,3,6,495
+FIN11,Diversification and portfolio theory,Finance,FM,FM,2,L,150,5,4,8,690
+FIN12,Efficient frontier and optimal portfolio,Finance,FM,FM,2,M,90,4,5,9,780
+FIN13,CAPM and beta,Finance,FM,FM;CF,2,L,150,5,10,17,1635
+FIN14,Market efficiency,Finance,FM,FM,2,M,90,4,11,18,1725
+FIN15,Forwards and futures,Finance,FM,FM,2,M,90,4,3,4,360
+FIN16,Options: payoffs and strategies,Finance,FM,FM,2,M,90,4,4,5,450
+FIN17,Option pricing: binomial and Black-Scholes intuition,Finance,FM,FM,2,L,150,3,5,10,915
+FIN18,FX markets and parity conditions,Finance,FM,FM;MEP,2,M,90,3,4,10,900
+FIN19,Goal of the firm and agency problems,Finance,CF,CF,3,S,45,3,1,1,135
+FIN20,Capital budgeting: the NPV rule,Finance,CF,CF;FM;ME,1,L,150,5,5,10,1020
+FIN21,"IRR, payback and other criteria",Finance,CF,CF,3,M,90,5,6,11,1110
+FIN22,Estimating project cash flows (incremental FCF),Finance,CF,CF,3,L,150,5,6,13,1350
+FIN23,"Project risk: sensitivity, scenario, simulation",Finance,CF,CF,3,M,90,4,7,23,2205
+FIN24,Real options,Finance,CF,CF,3,M,90,3,8,30,2835
+FIN25,Cost of equity and cost of debt,Finance,CF,CF,3,M,90,5,11,20,1905
+FIN26,WACC,Finance,CF,CF,3,M,90,5,12,21,1995
+FIN27,Capital structure: MM propositions,Finance,CF,CF,3,L,150,5,13,22,2145
+FIN28,Trade-off and pecking-order theories,Finance,CF,CF,3,M,90,4,14,23,2235
+FIN29,Dividend policy and buybacks,Finance,CF,CF,3,M,90,4,14,25,2415
+FIN30,DCF valuation of a firm,Finance,CF,CF,3,L,150,5,13,33,3375
+FIN31,Relative valuation: multiples,Finance,CF,CF,3,M,90,5,5,12,1095
+FIN32,Working capital management,Finance,CF,CF,3,M,90,4,5,9,870
+FIN33,Financial planning and forecasting statements,Finance,CF,CF,3,M,90,4,6,12,1290
+FIN34,Mergers and acquisitions: synergies and valuation,Finance,CF,CF;SM,3,M,90,4,14,38,3780
+FIN35,Corporate governance,Finance,CF,CF;SM;LAB,1,S,45,3,2,2,180
+ECO01,Demand and supply basics,Economics,ME,ME,1,M,90,5,0,0,90
+ECO02,Market equilibrium and comparative statics,Economics,ME,ME,1,M,90,4,1,1,180
+ECO03,"Elasticities: price, income, cross",Economics,ME,ME;MKT-II,1,M,90,5,1,1,180
+ECO04,Consumer surplus and welfare,Economics,ME,ME,1,S,45,3,2,2,225
+ECO05,Consumer choice: utility and indifference curves,Economics,ME,ME,1,M,90,3,2,3,315
+ECO06,Production functions and returns to scale,Economics,ME,ME,1,M,90,3,2,2,225
+ECO07,Cost curves and economies of scale,Economics,ME,ME;OM-I,1,M,90,5,4,7,675
+ECO08,Perfect competition,Economics,ME,ME,1,M,90,4,5,10,945
+ECO09,Monopoly and market power,Economics,ME,ME,1,M,90,5,6,12,1125
+ECO10,Price discrimination and dynamic pricing,Economics,ME,ME;MKT-II,1,M,90,5,7,13,1215
+ECO11,Game theory: strategic form and Nash equilibrium,Economics,ME,ME;SM,1,L,150,5,0,0,150
+ECO12,"Sequential games, commitment and credibility",Economics,ME,ME;SM,1,M,90,4,1,1,240
+ECO13,"Oligopoly: Cournot, Bertrand, Stackelberg",Economics,ME,ME,1,L,150,4,7,15,1515
+ECO14,Monopolistic competition and product differentiation,Economics,ME,ME;MKT-I,1,S,45,3,7,13,1170
+ECO15,"Information asymmetry: adverse selection, signalling",Economics,ME,ME,1,M,90,4,1,1,240
+ECO16,Moral hazard and principal-agent incentives,Economics,ME,ME;HRM-II;CF,1,M,90,4,2,2,330
+ECO17,Externalities and public goods,Economics,ME,ME;BES;GSP,1,M,90,4,3,3,315
+ECO18,Network effects and platform economics,Economics,ME,ME;IEB;SM,1,M,90,5,7,13,1215
+ECO19,Behavioural economics: biases and heuristics,Economics,ME,ME;MKT-I;ID,1,M,90,4,0,0,90
+ECO20,National income accounting and GDP,Economics,MEP,MEP,2,M,90,4,0,0,90
+ECO21,Inflation and price indices,Economics,MEP,MEP;FM,2,M,90,5,1,1,180
+ECO22,"Money, banking and money creation",Economics,MEP,MEP,2,M,90,4,1,2,270
+ECO23,"Monetary policy: RBI, repo rate, transmission",Economics,MEP,MEP;FM,2,M,90,5,2,6,540
+ECO24,"Fiscal policy, deficits and public debt",Economics,MEP,MEP;GSP,2,M,90,4,1,1,180
+ECO25,IS-LM and aggregate demand,Economics,MEP,MEP,2,L,150,3,3,8,780
+ECO26,"Aggregate supply, Phillips curve, business cycles",Economics,MEP,MEP,2,M,90,3,4,9,870
+ECO27,Open economy: balance of payments and exchange rates,Economics,MEP,MEP;FM,2,M,90,4,3,7,630
+ECO28,Long-run growth and its drivers,Economics,MEP,MEP,2,M,90,3,3,4,405
+ECO29,Indian economy: structure and reforms,Economics,MEP,MEP;GSP,2,M,90,4,4,6,585
+MKT01,Marketing concept and customer value,Marketing,MKT-I,MKT-I,1,S,45,3,0,0,45
+MKT02,Consumer behaviour and customer needs,Marketing,MKT-I,MKT-I,1,M,90,4,1,1,135
+MKT03,Buying decision process and B2B buying,Marketing,MKT-I,MKT-I,1,M,90,3,2,2,225
+MKT04,Defining a marketing research problem,Marketing,MKT-I,MKT-I;BRM,1,S,45,3,1,1,90
+MKT05,Market sizing and demand estimation,Marketing,MKT-I,MKT-I,1,M,90,5,2,3,225
+MKT06,Segmentation,Marketing,MKT-I,MKT-I,1,M,90,5,2,2,225
+MKT07,Targeting and segment attractiveness,Marketing,MKT-I,MKT-I,1,M,90,5,3,6,495
+MKT08,Positioning and perceptual maps,Marketing,MKT-I,MKT-I,1,M,90,5,4,7,585
+MKT09,Competitor analysis for marketers,Marketing,MKT-I,MKT-I,1,S,45,3,5,8,630
+MKT10,Product decisions and product life cycle,Marketing,MKT-I,MKT-I,1,M,90,4,5,8,675
+MKT11,New product development and diffusion (Bass model),Marketing,MKT-II,MKT-II,2,M,90,4,6,9,765
+MKT12,Brand equity and brand management,Marketing,MKT-II,MKT-II,2,M,90,5,5,8,675
+MKT13,"Pricing strategy: cost, value and competition based",Marketing,MKT-II,MKT-II,2,M,90,5,5,15,1305
+MKT14,"Pricing tactics: bundling, psychological pricing",Marketing,MKT-II,MKT-II,2,S,45,3,8,24,2025
+MKT15,Distribution channels and channel design,Marketing,MKT-II,MKT-II,2,M,90,4,4,7,585
+MKT16,Channel conflict and retail management,Marketing,MKT-II,MKT-II,2,M,90,3,5,8,675
+MKT17,Integrated marketing communications,Marketing,MKT-II,MKT-II,2,M,90,4,5,8,675
+MKT18,Advertising budgets and media planning,Marketing,MKT-II,MKT-II,2,M,90,3,6,14,1215
+MKT19,Sales management and salesforce design,Marketing,MKT-II,MKT-II,2,M,90,3,5,8,675
+MKT20,Digital marketing and funnel metrics,Marketing,MKT-III,MKT-III;IEB,3,M,90,5,6,9,765
+MKT21,Customer lifetime value,Marketing,MKT-III,MKT-III;IEB,3,M,90,5,4,7,585
+MKT22,"CRM, loyalty and retention",Marketing,MKT-III,MKT-III,3,S,45,3,5,8,630
+MKT23,Marketing mix modelling and marketing ROI,Marketing,MKT-III,MKT-III,3,M,90,4,11,21,1890
+MKT24,Services marketing,Marketing,MKT-III,MKT-III,3,S,45,3,5,8,630
+MKT25,Go-to-market strategy and the marketing plan,Marketing,MKT-III,MKT-III,3,L,150,5,6,18,1635
+OPS01,"Process analysis: flow, capacity, bottleneck",Operations,OM-I,OM-I,1,L,150,5,0,0,150
+OPS02,Little's law,Operations,OM-I,OM-I,1,S,45,5,1,1,195
+OPS03,Process flow charts and process design,Operations,OM-I,OM-I,1,S,45,3,1,1,195
+OPS04,Capacity planning and utilisation,Operations,OM-I,OM-I,1,M,90,4,1,1,240
+OPS05,Variability and queueing basics,Operations,OM-I,OM-I,1,L,150,4,4,7,705
+OPS06,Managing waiting lines in services,Operations,OM-III,OM-III;SOM,3,S,45,3,5,8,750
+OPS07,Forecasting methods,Operations,OM-I,OM-I,1,M,90,5,10,2,225
+OPS08,"Forecast accuracy: MAD, MAPE, bias",Operations,OM-I,OM-I,1,S,45,3,11,3,270
+OPS09,Inventory basics and inventory costs,Operations,OM-II,OM-II,2,S,45,4,4,4,405
+OPS10,EOQ model,Operations,OM-II,OM-II,2,M,90,5,5,7,630
+OPS11,Reorder point and safety stock,Operations,OM-II,OM-II,2,M,90,5,6,13,1125
+OPS12,Newsvendor model,Operations,OM-II,OM-II,2,M,90,5,5,12,1035
+OPS13,ABC analysis and inventory policies,Operations,OM-II,OM-II,2,S,45,3,5,5,450
+OPS14,Aggregate planning,Operations,OM-II,OM-II,2,M,90,3,2,4,525
+OPS15,Material requirements planning (MRP),Operations,OM-II,OM-II,2,M,90,3,3,5,615
+OPS16,Scheduling and sequencing,Operations,OM-II,OM-II,2,M,90,3,1,1,240
+OPS17,Project management: CPM and PERT,Operations,OM-II,OM-II,2,M,90,4,3,1,240
+OPS18,Quality management and TQM,Operations,OM-III,OM-III,3,M,90,3,1,1,240
+OPS19,Statistical process control,Operations,OM-III,OM-III,3,M,90,4,8,11,1005
+OPS20,Six Sigma and process capability,Operations,OM-III,OM-III,3,M,90,3,9,12,1095
+OPS21,Lean and the Toyota Production System,Operations,OM-III,OM-III,3,M,90,5,5,6,645
+OPS22,Supply chain basics and the bullwhip effect,Operations,OM-III,OM-III,3,M,90,5,11,16,1395
+OPS23,Supply chain coordination and contracts,Operations,OM-III,OM-III,3,M,90,3,12,19,1665
+OPS24,Logistics: facility location and transportation,Operations,OM-III,OM-III,3,M,90,3,12,19,1725
+OPS25,Sourcing and procurement,Operations,OM-III,OM-III,3,S,45,3,12,18,1530
+OPS26,Service operations and service design,Operations,SOM,SOM;OM-III,3,S,45,3,5,8,750
+OPS27,Operations strategy and trade-offs,Operations,OM-III,OM-III;SM,3,M,90,4,6,8,825
+OBH01,Personality and individual differences,OB & HR,ID,ID,1,M,90,3,0,0,90
+OBH02,Perception and attribution,OB & HR,ID,ID,1,S,45,3,1,1,135
+OBH03,Self-awareness and emotional intelligence,OB & HR,ID,ID,1,S,45,3,1,1,135
+OBH04,"Motivation theories: needs, two-factor, expectancy",OB & HR,ID,ID;HRM-I,1,M,90,5,1,1,180
+OBH05,Group dynamics and team development,OB & HR,IGP,IGP,2,M,90,4,2,2,225
+OBH06,Interpersonal communication and feedback,OB & HR,IGP,IGP,2,S,45,3,2,2,180
+OBH07,Conflict management,OB & HR,IGP,IGP,2,M,90,4,3,5,405
+OBH08,"Negotiation basics: BATNA, ZOPA",OB & HR,IGP,IGP,2,M,90,5,4,6,495
+OBH09,Leadership theories,OB & HR,ODY,ODY,3,M,90,5,3,4,405
+OBH10,Power and influence,OB & HR,ODY,ODY,3,M,90,4,4,5,495
+OBH11,Organisational structure and design,OB & HR,ODY,ODY;SM,3,M,90,4,3,3,315
+OBH12,Organisational culture,OB & HR,ODY,ODY,3,M,90,4,4,4,405
+OBH13,Change management,OB & HR,ODY,ODY,3,M,90,4,5,8,765
+OBH14,HR planning and job analysis,OB & HR,HRM-I,HRM-I,1,S,45,3,0,0,45
+OBH15,Recruitment and selection,OB & HR,HRM-I,HRM-I,1,M,90,3,1,1,135
+OBH16,Performance management and appraisal,OB & HR,HRM-I,HRM-I,1,M,90,4,2,3,315
+OBH17,Compensation and incentive design,OB & HR,HRM-II,HRM-II,2,M,90,4,3,7,735
+OBH18,Training and development,OB & HR,HRM-II,HRM-II,2,S,45,2,3,4,360
+OBH19,Industrial relations and labour law in India,OB & HR,HRM-II,HRM-II;LAB,1,M,90,3,1,1,135
+OBH20,Strategic HRM and talent management,OB & HR,SHRM,SHRM;TCM,3,M,90,3,5,13,1230
+STR01,"Strategy basics: vision, mission, goals",Strategy,SM,SM,3,S,45,4,0,0,45
+STR02,PESTEL and macro-environment analysis,Strategy,SM,SM;BES,3,S,45,4,1,1,90
+STR03,Porter's five forces,Strategy,SM,SM,3,M,90,5,7,14,1260
+STR04,Industry life cycle and strategic groups,Strategy,SM,SM,3,S,45,3,8,15,1305
+STR05,Value chain analysis,Strategy,SM,SM,3,M,90,5,1,1,135
+STR06,Resource-based view and VRIO,Strategy,SM,SM,3,M,90,5,2,2,225
+STR07,Competitive advantage: cost leadership vs differentiation,Strategy,SM,SM,3,M,90,5,8,17,1530
+STR08,Competitive dynamics: strategic moves and responses,Strategy,SM,SM,3,M,90,4,9,20,1860
+STR09,Platform and ecosystem strategy,Strategy,SM,SM;IEB,3,M,90,5,9,19,1710
+STR10,Corporate strategy: diversification and scope,Strategy,SM,SM,3,M,90,4,9,18,1620
+STR11,Vertical integration and outsourcing,Strategy,SM,SM,3,M,90,4,13,32,2745
+STR12,Alliances and M&A strategy,Strategy,SM,SM,3,M,90,4,15,53,5085
+STR13,International strategy and entry modes,Strategy,SM,SM,3,M,90,4,10,19,1710
+STR14,Innovation and disruptive technologies,Strategy,SM,SM,3,M,90,4,9,28,2385
+STR15,Strategy implementation and execution,Strategy,SM,SM;ODY,3,M,90,4,15,53,4905
+STR16,Integrative business case analysis,Strategy,SM,SM;WAC-II,3,L,150,5,14,67,6435
+RES01,"Research design: exploratory, descriptive, causal",Research Methods,BRM,BRM,3,M,90,4,2,2,180
+RES02,"Measurement, scales, reliability and validity",Research Methods,BRM,BRM,3,M,90,3,3,3,270
+RES03,Questionnaire and survey design,Research Methods,BRM,BRM;MKT-III,3,M,90,4,4,4,360
+RES04,Sampling methods and sample size,Research Methods,BRM,BRM,3,M,90,4,8,12,945
+RES05,Experiments and A/B testing,Research Methods,BRM,BRM;IEB,3,M,90,5,10,14,1185
+RES06,Factor analysis,Research Methods,BRM,BRM,3,M,90,3,4,9,675
+RES07,Cluster analysis,Research Methods,BRM,BRM;MKT-I,1,M,90,4,4,8,630
+RES08,Conjoint analysis,Research Methods,BRM,BRM;MKT-II,2,M,90,4,12,19,1710
+RES09,Qualitative research: interviews and focus groups,Research Methods,BRM,BRM,3,S,45,3,3,3,225
+RES10,"Causal inference: endogeneity, diff-in-diff",Research Methods,BRM,BRM,3,M,90,3,11,18,1620
+LAW01,Indian legal system and sources of law,Law,LAB,LAB,1,S,45,2,0,0,45
+LAW02,"Contract law: formation, consideration, breach",Law,LAB,LAB,1,M,90,4,1,1,135
+LAW03,"Agency, sale of goods, negotiable instruments",Law,LAB,LAB,1,M,90,2,2,2,225
+LAW04,Company law: incorporation and directors' duties,Law,LAB,LAB,1,M,90,3,2,2,225
+LAW05,Intellectual property basics,Law,LAB,LAB,1,S,45,3,1,1,90
+LAW06,Competition law and consumer protection,Law,LAB,LAB,1,S,45,3,7,14,1215
+LAW07,Insolvency and Bankruptcy Code,Law,LAB,LAB;CF,1,S,45,3,3,3,270
+ITD01,Information systems and business value,IT & Digital,TBIT,TBIT,2,S,45,3,0,0,45
+ITD02,"Enterprise systems: ERP, CRM, SCM",IT & Digital,TBIT,TBIT;OM-II,2,M,90,3,1,1,135
+ITD03,"Data, analytics and business intelligence",IT & Digital,TBIT,TBIT,2,M,90,4,2,3,315
+ITD04,Machine learning for managers,IT & Digital,TBIT,TBIT,2,M,90,4,12,19,1755
+ITD05,Digital transformation and IT strategy,IT & Digital,TBIT,TBIT;SM,2,M,90,4,2,2,225
+ITD06,Internet business models and unit economics,IT & Digital,IEB,IEB,3,M,90,5,5,14,1170
+ITD07,E-commerce and marketplaces,IT & Digital,IEB,IEB,3,M,90,4,10,30,2565
+ITD08,"Cybersecurity, privacy and data governance",IT & Digital,TBIT,TBIT,2,S,45,3,3,4,360
+ENV01,Business ethics frameworks,"Ethics, Society & Env",PCE,PCE,2,M,90,4,0,0,90
+ENV02,Stakeholder theory and CSR,"Ethics, Society & Env",PCE,PCE;BES,2,M,90,4,1,1,180
+ENV03,Sustainability and ESG metrics,"Ethics, Society & Env",BES,BES;FM,3,M,90,4,4,6,585
+ENV04,Climate change and carbon markets,"Ethics, Society & Env",BES,BES,3,M,90,3,5,7,675
+ENV05,Social and cultural environment of Indian business,"Ethics, Society & Env",SCEB,SCEB,2,M,90,3,0,0,90
+ENV06,Public policy process and regulation,"Ethics, Society & Env",GSP,GSP,3,M,90,3,2,3,315
+ENV07,Business-government relations,"Ethics, Society & Env",GSP,GSP,3,S,45,3,3,4,360
+COM01,Structuring communication: the pyramid principle,Communication,MGRCMN,MGRCMN;WAC-I,1,M,90,5,0,0,90
+COM02,"Business writing: memos, emails, reports",Communication,WAC-I,WAC-I,2,M,90,4,1,1,180
+COM03,Writing a case analysis,Communication,WAC-II,WAC-II,3,M,90,5,2,2,270
+COM04,Presentations and storytelling with data,Communication,MGRCMN,MGRCMN;WIP,1,M,90,5,2,3,270
+COM05,Interview and group discussion preparation,Communication,WIP,WIP,2,S,45,4,3,7,495

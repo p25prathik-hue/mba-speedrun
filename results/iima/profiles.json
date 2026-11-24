@@ -1,0 +1,8764 @@
+[
+ {
+  "profile": "fresh",
+  "description": "Fresh learner: the whole first-year core, no prior knowledge",
+  "n_topics": 266,
+  "study_hours": 381.75,
+  "auto_added": [],
+  "warnings": [],
+  "naive_B0": 673.87,
+  "B0": {
+   "total": 673.87125,
+   "study": 381.75,
+   "transitions": 115.60624999999999,
+   "revision": 171.51500000000001,
+   "soft_penalty": 5.0,
+   "domain_switches": 240.0,
+   "feasible": true
+  },
+  "B1": {
+   "total": 502.27750000000003,
+   "study": 381.75,
+   "transitions": -2.6124999999999985,
+   "revision": 115.14000000000001,
+   "soft_penalty": 8.0,
+   "domain_switches": 60.0,
+   "feasible": true
+  },
+  "roadmap": {
+   "total": 415.37875,
+   "study": 381.75,
+   "transitions": -28.55625,
+   "revision": 62.18499999999999,
+   "soft_penalty": 0.0,
+   "domain_switches": 17.0,
+   "feasible": true
+  },
+  "roadmap_ids": [
+   "QNT03",
+   "QNT31",
+   "QNT04",
+   "QNT01",
+   "QNT32",
+   "QNT37",
+   "QNT36",
+   "QNT33",
+   "QNT34",
+   "QNT35",
+   "QNT05",
+   "QNT08",
+   "QNT09",
+   "QNT02",
+   "QNT11",
+   "QNT12",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "QNT26",
+   "QNT27",
+   "QNT28",
+   "QNT13",
+   "QNT16",
+   "QNT10",
+   "QNT23",
+   "QNT22",
+   "QNT25",
+   "QNT24",
+   "QNT38",
+   "QNT30",
+   "QNT29",
+   "QNT06",
+   "QNT14",
+   "CMP01",
+   "CMP02",
+   "QNT17",
+   "CMP03",
+   "CMP04",
+   "CMP05",
+   "QNT07",
+   "QNT15",
+   "FIN02",
+   "FIN03",
+   "FIN10",
+   "FIN11",
+   "FIN12",
+   "ACC01",
+   "ACC02",
+   "ACC03",
+   "ACC06",
+   "ACC05",
+   "ACC04",
+   "ACC09",
+   "ACC10",
+   "ACC11",
+   "ACC12",
+   "ACC07",
+   "ACC08",
+   "ACC13",
+   "ACC16",
+   "ACC17",
+   "ACC18",
+   "ACC14",
+   "ACC15",
+   "ACC19",
+   "ACC20",
+   "ACC21",
+   "ACC22",
+   "ACC24",
+   "ACC25",
+   "ACC26",
+   "ACC23",
+   "ACC29",
+   "ACC30",
+   "ACC31",
+   "ACC27",
+   "ACC28",
+   "ACC32",
+   "FIN32",
+   "FIN33",
+   "OPS09",
+   "OPS10",
+   "OPS13",
+   "OPS12",
+   "OPS11",
+   "OPS07",
+   "OPS22",
+   "OPS25",
+   "OPS24",
+   "OPS23",
+   "OPS08",
+   "OPS01",
+   "OPS21",
+   "OPS17",
+   "OPS16",
+   "OPS02",
+   "OPS05",
+   "OPS26",
+   "OPS03",
+   "OPS04",
+   "OPS27",
+   "OPS18",
+   "OPS19",
+   "OPS20",
+   "OPS06",
+   "OPS14",
+   "OPS15",
+   "FIN01",
+   "FIN19",
+   "ECO20",
+   "ECO22",
+   "ECO21",
+   "ECO23",
+   "ECO27",
+   "ECO24",
+   "ECO25",
+   "ECO26",
+   "ECO06",
+   "ECO28",
+   "ECO29",
+   "ECO01",
+   "ECO03",
+   "ECO02",
+   "ECO04",
+   "ECO17",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "ECO10",
+   "ECO05",
+   "ECO19",
+   "ECO18",
+   "ECO11",
+   "ECO12",
+   "ECO13",
+   "ECO14",
+   "ECO15",
+   "ECO16",
+   "LAW01",
+   "LAW02",
+   "LAW03",
+   "LAW06",
+   "LAW05",
+   "LAW04",
+   "LAW07",
+   "ENV06",
+   "ENV07",
+   "ENV05",
+   "FIN35",
+   "FIN15",
+   "FIN16",
+   "FIN17",
+   "FIN18",
+   "FIN04",
+   "FIN20",
+   "FIN22",
+   "FIN23",
+   "FIN24",
+   "FIN21",
+   "FIN05",
+   "FIN06",
+   "FIN07",
+   "FIN08",
+   "FIN09",
+   "FIN31",
+   "FIN13",
+   "FIN25",
+   "FIN26",
+   "FIN30",
+   "FIN34",
+   "FIN27",
+   "FIN29",
+   "FIN28",
+   "FIN14",
+   "ACC33",
+   "ACC34",
+   "MKT01",
+   "MKT02",
+   "MKT06",
+   "MKT21",
+   "MKT22",
+   "MKT03",
+   "MKT04",
+   "MKT05",
+   "MKT07",
+   "MKT08",
+   "MKT09",
+   "MKT10",
+   "MKT11",
+   "MKT12",
+   "MKT15",
+   "MKT16",
+   "MKT17",
+   "MKT20",
+   "MKT24",
+   "MKT23",
+   "MKT19",
+   "MKT18",
+   "MKT13",
+   "MKT25",
+   "MKT14",
+   "RES07",
+   "RES01",
+   "RES02",
+   "RES06",
+   "RES05",
+   "RES10",
+   "RES04",
+   "RES03",
+   "RES08",
+   "RES09",
+   "OBH14",
+   "OBH15",
+   "OBH01",
+   "OBH04",
+   "OBH16",
+   "OBH17",
+   "OBH18",
+   "OBH19",
+   "OBH03",
+   "OBH02",
+   "OBH05",
+   "OBH11",
+   "OBH12",
+   "OBH20",
+   "OBH09",
+   "OBH10",
+   "OBH13",
+   "OBH06",
+   "OBH07",
+   "OBH08",
+   "ENV01",
+   "ENV02",
+   "ENV03",
+   "ENV04",
+   "COM01",
+   "COM04",
+   "COM05",
+   "COM02",
+   "COM03",
+   "STR01",
+   "STR03",
+   "STR04",
+   "STR05",
+   "STR06",
+   "STR07",
+   "STR16",
+   "STR02",
+   "STR10",
+   "STR15",
+   "STR14",
+   "STR13",
+   "STR12",
+   "STR11",
+   "STR09",
+   "STR08",
+   "ITD01",
+   "ITD02",
+   "ITD05",
+   "ITD03",
+   "ITD04",
+   "ITD08",
+   "ITD06",
+   "ITD07"
+  ],
+  "B0_ids": [
+   "ACC01",
+   "ECO01",
+   "QNT01",
+   "MKT01",
+   "QNT03",
+   "FIN01",
+   "ACC02",
+   "LAW01",
+   "OPS01",
+   "ECO02",
+   "CMP01",
+   "QNT02",
+   "ACC03",
+   "OBH01",
+   "ECO03",
+   "MKT02",
+   "QNT04",
+   "FIN02",
+   "ACC04",
+   "OBH14",
+   "QNT05",
+   "ECO04",
+   "ACC05",
+   "LAW02",
+   "OPS02",
+   "QNT06",
+   "ECO05",
+   "COM01",
+   "MKT03",
+   "QNT31",
+   "ACC06",
+   "FIN03",
+   "ECO06",
+   "CMP02",
+   "QNT07",
+   "ACC07",
+   "MKT04",
+   "ACC08",
+   "LAW03",
+   "OPS03",
+   "QNT08",
+   "OBH02",
+   "FIN04",
+   "ACC09",
+   "QNT09",
+   "MKT05",
+   "ACC10",
+   "ACC22",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "FIN05",
+   "ACC11",
+   "OBH15",
+   "OBH19",
+   "LAW04",
+   "ECO10",
+   "CMP03",
+   "OPS04",
+   "QNT10",
+   "ACC12",
+   "MKT06",
+   "RES07",
+   "ECO11",
+   "QNT11",
+   "ACC13",
+   "ECO12",
+   "FIN06",
+   "OBH03",
+   "QNT12",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "ACC14",
+   "LAW05",
+   "OPS05",
+   "MKT07",
+   "QNT22",
+   "ECO13",
+   "ACC15",
+   "FIN20",
+   "QNT13",
+   "ECO14",
+   "FIN07",
+   "ACC16",
+   "COM04",
+   "MKT08",
+   "QNT23",
+   "QNT32",
+   "CMP04",
+   "ECO15",
+   "QNT14",
+   "ACC17",
+   "LAW06",
+   "ECO16",
+   "FIN08",
+   "ACC18",
+   "QNT15",
+   "MKT09",
+   "QNT24",
+   "ECO17",
+   "OBH04",
+   "OBH16",
+   "ACC19",
+   "CMP05",
+   "QNT16",
+   "ECO18",
+   "ACC20",
+   "LAW07",
+   "FIN09",
+   "MKT10",
+   "QNT25",
+   "QNT17",
+   "ECO19",
+   "ACC21",
+   "ACC23",
+   "QNT26",
+   "OPS07",
+   "OPS08",
+   "ECO20",
+   "FIN10",
+   "MKT11",
+   "OPS09",
+   "ITD01",
+   "ACC24",
+   "OBH05",
+   "QNT27",
+   "ECO21",
+   "FIN11",
+   "MKT12",
+   "OPS10",
+   "ACC25",
+   "QNT28",
+   "OBH17",
+   "ECO22",
+   "ENV01",
+   "ITD02",
+   "FIN12",
+   "MKT13",
+   "OPS11",
+   "ACC26",
+   "QNT29",
+   "ECO23",
+   "ACC27",
+   "OBH06",
+   "FIN13",
+   "MKT14",
+   "QNT30",
+   "ITD03",
+   "ECO24",
+   "ACC28",
+   "OPS12",
+   "FIN14",
+   "MKT15",
+   "OPS13",
+   "QNT33",
+   "ENV05",
+   "COM02",
+   "COM05",
+   "ACC29",
+   "ECO25",
+   "ITD04",
+   "QNT34",
+   "FIN15",
+   "MKT16",
+   "OPS14",
+   "ACC30",
+   "OBH07",
+   "ECO26",
+   "QNT35",
+   "ACC31",
+   "FIN16",
+   "MKT17",
+   "OPS15",
+   "OBH18",
+   "ECO27",
+   "ENV02",
+   "ITD05",
+   "QNT36",
+   "ACC32",
+   "FIN17",
+   "MKT18",
+   "OPS16",
+   "ECO28",
+   "QNT37",
+   "OBH08",
+   "ITD08",
+   "FIN18",
+   "MKT19",
+   "OPS17",
+   "ECO29",
+   "QNT38",
+   "STR01",
+   "FIN19",
+   "FIN35",
+   "OPS06",
+   "RES01",
+   "MKT20",
+   "STR02",
+   "FIN21",
+   "OBH09",
+   "OPS18",
+   "STR03",
+   "FIN22",
+   "RES02",
+   "STR04",
+   "FIN23",
+   "ENV03",
+   "ENV06",
+   "MKT21",
+   "ITD06",
+   "OPS19",
+   "STR05",
+   "FIN24",
+   "OBH10",
+   "RES03",
+   "RES08",
+   "STR06",
+   "OPS20",
+   "FIN25",
+   "STR07",
+   "MKT22",
+   "FIN26",
+   "ACC33",
+   "ACC34",
+   "RES04",
+   "OPS21",
+   "STR08",
+   "FIN27",
+   "OBH11",
+   "OPS26",
+   "COM03",
+   "STR09",
+   "OPS22",
+   "RES05",
+   "FIN28",
+   "MKT23",
+   "STR10",
+   "FIN29",
+   "OPS23",
+   "RES06",
+   "FIN30",
+   "OBH12",
+   "OBH20",
+   "ENV04",
+   "ENV07",
+   "ITD07",
+   "MKT24",
+   "OPS24",
+   "FIN31",
+   "STR13",
+   "RES09",
+   "FIN32",
+   "STR14",
+   "OPS25",
+   "STR11",
+   "FIN33",
+   "OBH13",
+   "STR15",
+   "MKT25",
+   "RES10",
+   "OPS27",
+   "FIN34",
+   "STR12",
+   "STR16"
+  ],
+  "B1_ids": [
+   "FIN01",
+   "ACC01",
+   "ACC02",
+   "ACC03",
+   "ACC04",
+   "ACC22",
+   "ACC05",
+   "ACC06",
+   "ACC07",
+   "ACC08",
+   "ACC09",
+   "ACC10",
+   "ACC11",
+   "ACC13",
+   "ACC14",
+   "ACC15",
+   "ACC16",
+   "ACC17",
+   "ACC18",
+   "ACC19",
+   "ACC20",
+   "ACC21",
+   "OBH14",
+   "OBH15",
+   "OBH19",
+   "OBH01",
+   "OBH02",
+   "OBH03",
+   "OBH04",
+   "OBH16",
+   "LAW01",
+   "LAW02",
+   "LAW03",
+   "LAW04",
+   "LAW05",
+   "LAW07",
+   "ECO01",
+   "ECO02",
+   "ECO03",
+   "ECO04",
+   "ECO11",
+   "ECO12",
+   "ECO15",
+   "ECO16",
+   "ECO17",
+   "ECO18",
+   "ECO19",
+   "COM01",
+   "CMP01",
+   "CMP02",
+   "CMP05",
+   "MKT01",
+   "MKT02",
+   "MKT03",
+   "MKT04",
+   "MKT06",
+   "OPS01",
+   "OPS02",
+   "OPS03",
+   "OPS04",
+   "QNT01",
+   "FIN02",
+   "FIN03",
+   "FIN04",
+   "FIN20",
+   "FIN05",
+   "FIN06",
+   "FIN07",
+   "FIN08",
+   "FIN09",
+   "ACC12",
+   "QNT02",
+   "ECO05",
+   "ECO06",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "LAW06",
+   "ECO10",
+   "ECO13",
+   "ECO14",
+   "QNT05",
+   "QNT06",
+   "QNT07",
+   "QNT03",
+   "CMP03",
+   "MKT05",
+   "MKT07",
+   "MKT08",
+   "MKT09",
+   "MKT10",
+   "QNT08",
+   "QNT09",
+   "RES07",
+   "QNT10",
+   "QNT11",
+   "OPS05",
+   "QNT12",
+   "QNT13",
+   "QNT14",
+   "QNT15",
+   "QNT16",
+   "QNT17",
+   "QNT04",
+   "COM04",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "QNT22",
+   "QNT23",
+   "QNT24",
+   "QNT25",
+   "QNT31",
+   "QNT32",
+   "CMP04",
+   "ACC23",
+   "ACC24",
+   "ACC25",
+   "ACC26",
+   "ACC27",
+   "ACC28",
+   "ACC29",
+   "ACC30",
+   "ACC31",
+   "ACC32",
+   "FIN10",
+   "FIN11",
+   "FIN12",
+   "FIN15",
+   "FIN16",
+   "FIN17",
+   "OBH17",
+   "OBH18",
+   "OBH05",
+   "OBH06",
+   "OBH07",
+   "OBH08",
+   "ECO20",
+   "ECO21",
+   "ECO22",
+   "ECO23",
+   "ECO24",
+   "ECO25",
+   "ECO26",
+   "ECO27",
+   "FIN18",
+   "ECO28",
+   "ECO29",
+   "MKT11",
+   "MKT12",
+   "MKT13",
+   "MKT14",
+   "MKT15",
+   "MKT16",
+   "MKT17",
+   "MKT18",
+   "MKT19",
+   "OPS09",
+   "OPS10",
+   "OPS11",
+   "OPS12",
+   "OPS13",
+   "OPS14",
+   "OPS15",
+   "OPS16",
+   "ENV01",
+   "ENV02",
+   "QNT26",
+   "OPS07",
+   "OPS08",
+   "FIN13",
+   "FIN14",
+   "QNT27",
+   "QNT28",
+   "QNT29",
+   "QNT30",
+   "QNT33",
+   "QNT34",
+   "QNT35",
+   "QNT36",
+   "QNT37",
+   "OPS17",
+   "QNT38",
+   "ENV05",
+   "ITD01",
+   "ITD02",
+   "ITD03",
+   "ITD04",
+   "ITD05",
+   "ITD08",
+   "COM02",
+   "COM05",
+   "ENV03",
+   "ENV04",
+   "RES01",
+   "RES02",
+   "RES03",
+   "RES08",
+   "RES04",
+   "RES05",
+   "RES06",
+   "RES09",
+   "RES10",
+   "FIN19",
+   "FIN35",
+   "FIN21",
+   "FIN22",
+   "FIN23",
+   "FIN24",
+   "FIN25",
+   "FIN26",
+   "ACC33",
+   "ACC34",
+   "FIN27",
+   "FIN28",
+   "FIN29",
+   "FIN30",
+   "FIN31",
+   "FIN32",
+   "FIN33",
+   "FIN34",
+   "ENV06",
+   "ENV07",
+   "MKT20",
+   "MKT21",
+   "ITD06",
+   "MKT22",
+   "MKT23",
+   "MKT24",
+   "MKT25",
+   "OBH09",
+   "OBH10",
+   "OBH11",
+   "OBH12",
+   "OBH13",
+   "OPS06",
+   "OPS18",
+   "OPS19",
+   "OPS20",
+   "OPS21",
+   "OPS22",
+   "OPS23",
+   "OPS24",
+   "OPS25",
+   "OPS27",
+   "OBH20",
+   "STR01",
+   "STR02",
+   "STR03",
+   "STR04",
+   "STR05",
+   "STR06",
+   "STR07",
+   "STR08",
+   "STR09",
+   "ITD07",
+   "STR10",
+   "STR11",
+   "STR12",
+   "STR13",
+   "STR14",
+   "STR15",
+   "OPS26",
+   "COM03",
+   "STR16"
+  ],
+  "curriculum_inversions_repaired": 16,
+  "heuristic_secs": 42.75,
+  "starts": [
+   {
+    "start": "NN",
+    "construct": 474.0618749999981,
+    "improved": 428.1399999999976,
+    "secs": 4.66
+   },
+   {
+    "start": "CI",
+    "construct": 453.7193749999983,
+    "improved": 420.4862499999978,
+    "secs": 3.63
+   },
+   {
+    "start": "FI",
+    "construct": 458.0012499999982,
+    "improved": 422.1637499999978,
+    "secs": 4.75
+   },
+   {
+    "start": "SAV",
+    "construct": 430.4037499999982,
+    "improved": 415.37874999999775,
+    "secs": 3.81
+   },
+   {
+    "start": "B0",
+    "construct": 673.8712499999997,
+    "improved": 445.9424999999978,
+    "secs": 6.78
+   },
+   {
+    "start": "B1",
+    "construct": 502.2774999999979,
+    "improved": 430.48624999999794,
+    "secs": 2.45
+   },
+   {
+    "start": "rand0",
+    "construct": 655.5724999999998,
+    "improved": 438.1593749999977
+   },
+   {
+    "start": "rand1",
+    "construct": 635.90625,
+    "improved": 431.9581249999977
+   },
+   {
+    "start": "rand2",
+    "construct": 636.4193749999997,
+    "improved": 432.8012499999979
+   },
+   {
+    "start": "rand3",
+    "construct": 668.4425000000006,
+    "improved": 436.1593749999978
+   },
+   {
+    "start": "rand4",
+    "construct": 638.77125,
+    "improved": 428.25374999999786
+   }
+  ],
+  "critical_path_hours": 26.5,
+  "scope_gain": -0.0,
+  "sequencing_gain_vs_B0": 258.49,
+  "sequencing_gain_vs_B1": 86.9,
+  "days": {
+   "feasible": true,
+   "days": [
+    {
+     "topics": [
+      "QNT03",
+      "QNT31",
+      "QNT04",
+      "QNT01",
+      "QNT32"
+     ],
+     "hours": 5.9
+    },
+    {
+     "topics": [
+      "QNT37",
+      "QNT36",
+      "QNT33",
+      "QNT34"
+     ],
+     "hours": 5.86
+    },
+    {
+     "topics": [
+      "QNT35",
+      "QNT05",
+      "QNT08",
+      "QNT09"
+     ],
+     "hours": 5.16
+    },
+    {
+     "topics": [
+      "QNT02",
+      "QNT11",
+      "QNT12",
+      "QNT18"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "QNT19",
+      "QNT20",
+      "QNT21"
+     ],
+     "hours": 4.4
+    },
+    {
+     "topics": [
+      "QNT26",
+      "QNT27"
+     ],
+     "hours": 4.88
+    },
+    {
+     "topics": [
+      "QNT28",
+      "QNT13",
+      "QNT16",
+      "QNT10"
+     ],
+     "hours": 5.97
+    },
+    {
+     "topics": [
+      "QNT23",
+      "QNT22",
+      "QNT25",
+      "QNT24",
+      "QNT38"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "QNT30",
+      "QNT29",
+      "QNT06",
+      "QNT14"
+     ],
+     "hours": 5.91
+    },
+    {
+     "topics": [
+      "CMP01",
+      "CMP02",
+      "QNT17"
+     ],
+     "hours": 4.3
+    },
+    {
+     "topics": [
+      "CMP03",
+      "CMP04",
+      "CMP05",
+      "QNT07",
+      "QNT15"
+     ],
+     "hours": 5.86
+    },
+    {
+     "topics": [
+      "FIN02",
+      "FIN03"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "FIN10",
+      "FIN11",
+      "FIN12"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "ACC01",
+      "ACC02",
+      "ACC03",
+      "ACC06"
+     ],
+     "hours": 5.05
+    },
+    {
+     "topics": [
+      "ACC05",
+      "ACC04",
+      "ACC09",
+      "ACC10"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "ACC11",
+      "ACC12",
+      "ACC07",
+      "ACC08"
+     ],
+     "hours": 5.11
+    },
+    {
+     "topics": [
+      "ACC13",
+      "ACC16",
+      "ACC17",
+      "ACC18"
+     ],
+     "hours": 5.23
+    },
+    {
+     "topics": [
+      "ACC14",
+      "ACC15",
+      "ACC19"
+     ],
+     "hours": 5.34
+    },
+    {
+     "topics": [
+      "ACC20",
+      "ACC21"
+     ],
+     "hours": 3.14
+    },
+    {
+     "topics": [
+      "ACC22",
+      "ACC24",
+      "ACC25",
+      "ACC26"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "ACC23",
+      "ACC29",
+      "ACC30"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "ACC31",
+      "ACC27",
+      "ACC28",
+      "ACC32"
+     ],
+     "hours": 5.13
+    },
+    {
+     "topics": [
+      "FIN32",
+      "FIN33"
+     ],
+     "hours": 3.14
+    },
+    {
+     "topics": [
+      "OPS09",
+      "OPS10",
+      "OPS13",
+      "OPS12",
+      "OPS11"
+     ],
+     "hours": 5.66
+    },
+    {
+     "topics": [
+      "OPS07",
+      "OPS22",
+      "OPS25",
+      "OPS24"
+     ],
+     "hours": 5.05
+    },
+    {
+     "topics": [
+      "OPS23",
+      "OPS08",
+      "OPS01"
+     ],
+     "hours": 4.91
+    },
+    {
+     "topics": [
+      "OPS21",
+      "OPS17",
+      "OPS16"
+     ],
+     "hours": 4.64
+    },
+    {
+     "topics": [
+      "OPS02",
+      "OPS05",
+      "OPS26",
+      "OPS03",
+      "OPS04"
+     ],
+     "hours": 5.9
+    },
+    {
+     "topics": [
+      "OPS27",
+      "OPS18",
+      "OPS19",
+      "OPS20"
+     ],
+     "hours": 5.74
+    },
+    {
+     "topics": [
+      "OPS06",
+      "OPS14",
+      "OPS15"
+     ],
+     "hours": 3.77
+    },
+    {
+     "topics": [
+      "FIN01",
+      "FIN19",
+      "ECO20",
+      "ECO22"
+     ],
+     "hours": 5.66
+    },
+    {
+     "topics": [
+      "ECO21",
+      "ECO23",
+      "ECO27",
+      "ECO24"
+     ],
+     "hours": 5.74
+    },
+    {
+     "topics": [
+      "ECO25",
+      "ECO26",
+      "ECO06"
+     ],
+     "hours": 5.53
+    },
+    {
+     "topics": [
+      "ECO28",
+      "ECO29",
+      "ECO01",
+      "ECO03"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "ECO02",
+      "ECO04",
+      "ECO17",
+      "ECO07"
+     ],
+     "hours": 5.11
+    },
+    {
+     "topics": [
+      "ECO08",
+      "ECO09",
+      "ECO10",
+      "ECO05"
+     ],
+     "hours": 5.74
+    },
+    {
+     "topics": [
+      "ECO19",
+      "ECO18",
+      "ECO11"
+     ],
+     "hours": 5.54
+    },
+    {
+     "topics": [
+      "ECO12",
+      "ECO13",
+      "ECO14",
+      "ECO15"
+     ],
+     "hours": 5.96
+    },
+    {
+     "topics": [
+      "ECO16",
+      "LAW01",
+      "LAW02",
+      "LAW03"
+     ],
+     "hours": 5.55
+    },
+    {
+     "topics": [
+      "LAW06",
+      "LAW05",
+      "LAW04",
+      "LAW07",
+      "ENV06"
+     ],
+     "hours": 5.72
+    },
+    {
+     "topics": [
+      "ENV07",
+      "ENV05",
+      "FIN35",
+      "FIN15"
+     ],
+     "hours": 5.25
+    },
+    {
+     "topics": [
+      "FIN16",
+      "FIN17",
+      "FIN18"
+     ],
+     "hours": 5.26
+    },
+    {
+     "topics": [
+      "FIN04",
+      "FIN20",
+      "FIN22"
+     ],
+     "hours": 6.0
+    },
+    {
+     "topics": [
+      "FIN23",
+      "FIN24",
+      "FIN21",
+      "FIN05"
+     ],
+     "hours": 5.22
+    },
+    {
+     "topics": [
+      "FIN06",
+      "FIN07",
+      "FIN08",
+      "FIN09"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "FIN31",
+      "FIN13",
+      "FIN25"
+     ],
+     "hours": 5.53
+    },
+    {
+     "topics": [
+      "FIN26",
+      "FIN30",
+      "FIN34"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "FIN27",
+      "FIN29",
+      "FIN28"
+     ],
+     "hours": 5.41
+    },
+    {
+     "topics": [
+      "FIN14",
+      "ACC33",
+      "ACC34"
+     ],
+     "hours": 5.03
+    },
+    {
+     "topics": [
+      "MKT01",
+      "MKT02",
+      "MKT06",
+      "MKT21",
+      "MKT22"
+     ],
+     "hours": 5.46
+    },
+    {
+     "topics": [
+      "MKT03",
+      "MKT04",
+      "MKT05",
+      "MKT07"
+     ],
+     "hours": 4.99
+    },
+    {
+     "topics": [
+      "MKT08",
+      "MKT09",
+      "MKT10",
+      "MKT11"
+     ],
+     "hours": 5.05
+    },
+    {
+     "topics": [
+      "MKT12",
+      "MKT15",
+      "MKT16",
+      "MKT17"
+     ],
+     "hours": 5.86
+    },
+    {
+     "topics": [
+      "MKT20",
+      "MKT24",
+      "MKT23",
+      "MKT19"
+     ],
+     "hours": 5.36
+    },
+    {
+     "topics": [
+      "MKT18",
+      "MKT13",
+      "MKT25"
+     ],
+     "hours": 5.32
+    },
+    {
+     "topics": [
+      "MKT14",
+      "RES07",
+      "RES01"
+     ],
+     "hours": 4.44
+    },
+    {
+     "topics": [
+      "RES02",
+      "RES06",
+      "RES05",
+      "RES10"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "RES04",
+      "RES03",
+      "RES08",
+      "RES09"
+     ],
+     "hours": 5.11
+    },
+    {
+     "topics": [
+      "OBH14",
+      "OBH15",
+      "OBH01",
+      "OBH04"
+     ],
+     "hours": 5.05
+    },
+    {
+     "topics": [
+      "OBH16",
+      "OBH17",
+      "OBH18",
+      "OBH19"
+     ],
+     "hours": 5.11
+    },
+    {
+     "topics": [
+      "OBH03",
+      "OBH02",
+      "OBH05",
+      "OBH11",
+      "OBH12"
+     ],
+     "hours": 5.52
+    },
+    {
+     "topics": [
+      "OBH20",
+      "OBH09",
+      "OBH10",
+      "OBH13"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "OBH06",
+      "OBH07",
+      "OBH08"
+     ],
+     "hours": 3.55
+    },
+    {
+     "topics": [
+      "ENV01",
+      "ENV02",
+      "ENV03",
+      "ENV04"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "COM01",
+      "COM04",
+      "COM05"
+     ],
+     "hours": 3.66
+    },
+    {
+     "topics": [
+      "COM02",
+      "COM03"
+     ],
+     "hours": 3.02
+    },
+    {
+     "topics": [
+      "STR01",
+      "STR03",
+      "STR04",
+      "STR05"
+     ],
+     "hours": 4.3
+    },
+    {
+     "topics": [
+      "STR06",
+      "STR07",
+      "STR16",
+      "STR02"
+     ],
+     "hours": 5.87
+    },
+    {
+     "topics": [
+      "STR10",
+      "STR15",
+      "STR14",
+      "STR13"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "STR12",
+      "STR11",
+      "STR09",
+      "STR08"
+     ],
+     "hours": 5.97
+    },
+    {
+     "topics": [
+      "ITD01",
+      "ITD02",
+      "ITD05",
+      "ITD03"
+     ],
+     "hours": 4.99
+    },
+    {
+     "topics": [
+      "ITD04",
+      "ITD08",
+      "ITD06",
+      "ITD07"
+     ],
+     "hours": 5.25
+    }
+   ],
+   "n_days": 72,
+   "lb_days": 64,
+   "total_hours": 372.91,
+   "H": 6.0
+  }
+ },
+ {
+  "profile": "engineer",
+  "description": "Engineer: maths, probability and spreadsheets known; statistics, regression, LP and production basics at half time",
+  "n_topics": 257,
+  "study_hours": 357.75,
+  "auto_added": [],
+  "warnings": [],
+  "naive_B0": 673.87,
+  "B0": {
+   "total": 622.8937500000001,
+   "study": 357.75,
+   "transitions": 115.54375000000002,
+   "revision": 144.6,
+   "soft_penalty": 5.0,
+   "domain_switches": 238.0,
+   "feasible": true
+  },
+  "B1": {
+   "total": 451.28531250000003,
+   "study": 357.75,
+   "transitions": -3.7671874999999986,
+   "revision": 92.30250000000001,
+   "soft_penalty": 5.0,
+   "domain_switches": 55.0,
+   "feasible": true
+  },
+  "roadmap": {
+   "total": 385.81624999999997,
+   "study": 357.75,
+   "transitions": -18.581249999999997,
+   "revision": 43.6475,
+   "soft_penalty": 3.0,
+   "domain_switches": 29.0,
+   "feasible": true
+  },
+  "roadmap_ids": [
+   "STR01",
+   "STR05",
+   "STR06",
+   "ITD01",
+   "ITD02",
+   "ITD05",
+   "OPS01",
+   "OPS17",
+   "OPS16",
+   "OPS02",
+   "OPS05",
+   "OPS26",
+   "OPS06",
+   "OPS18",
+   "OPS03",
+   "OPS04",
+   "QNT03",
+   "QNT31",
+   "CMP03",
+   "CMP02",
+   "QNT17",
+   "QNT32",
+   "CMP04",
+   "QNT04",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "OPS19",
+   "OPS20",
+   "OPS14",
+   "OPS15",
+   "QNT33",
+   "QNT34",
+   "QNT35",
+   "QNT36",
+   "QNT37",
+   "QNT21",
+   "QNT24",
+   "QNT23",
+   "QNT07",
+   "QNT13",
+   "QNT14",
+   "QNT15",
+   "QNT16",
+   "QNT38",
+   "QNT22",
+   "QNT25",
+   "QNT09",
+   "QNT26",
+   "QNT27",
+   "QNT30",
+   "QNT29",
+   "QNT28",
+   "CMP05",
+   "ITD03",
+   "ITD04",
+   "ITD08",
+   "MKT01",
+   "MKT04",
+   "MKT02",
+   "MKT06",
+   "RES07",
+   "RES01",
+   "RES05",
+   "RES10",
+   "RES02",
+   "RES03",
+   "RES08",
+   "RES09",
+   "RES06",
+   "RES04",
+   "MKT03",
+   "MKT05",
+   "MKT07",
+   "MKT08",
+   "MKT17",
+   "MKT23",
+   "MKT24",
+   "MKT20",
+   "MKT09",
+   "MKT10",
+   "MKT11",
+   "MKT12",
+   "MKT15",
+   "MKT19",
+   "MKT16",
+   "ECO01",
+   "ECO05",
+   "ECO19",
+   "ECO20",
+   "ECO21",
+   "ECO06",
+   "ECO28",
+   "ECO24",
+   "ECO29",
+   "ECO02",
+   "ECO04",
+   "ECO17",
+   "STR02",
+   "LAW01",
+   "LAW02",
+   "LAW03",
+   "LAW04",
+   "LAW07",
+   "LAW05",
+   "ENV06",
+   "ENV07",
+   "ENV01",
+   "ENV02",
+   "ENV03",
+   "ENV04",
+   "ENV05",
+   "OBH01",
+   "OBH04",
+   "OBH02",
+   "OBH05",
+   "OBH11",
+   "OBH12",
+   "OBH14",
+   "OBH16",
+   "OBH18",
+   "OBH19",
+   "OBH03",
+   "OBH06",
+   "OBH07",
+   "OBH08",
+   "OBH09",
+   "OBH10",
+   "OBH13",
+   "COM01",
+   "COM04",
+   "COM05",
+   "COM02",
+   "COM03",
+   "ACC01",
+   "ACC05",
+   "ACC11",
+   "ACC02",
+   "ACC03",
+   "ACC04",
+   "ACC14",
+   "ACC13",
+   "ACC06",
+   "ACC07",
+   "ACC08",
+   "ACC09",
+   "ACC10",
+   "ACC16",
+   "ACC17",
+   "ACC18",
+   "ACC15",
+   "ACC19",
+   "ACC20",
+   "ACC21",
+   "ACC22",
+   "ACC24",
+   "ACC25",
+   "ACC26",
+   "ACC23",
+   "ACC29",
+   "ACC30",
+   "ACC31",
+   "ACC27",
+   "ACC28",
+   "ACC32",
+   "FIN33",
+   "MKT18",
+   "OPS09",
+   "OPS10",
+   "OPS07",
+   "OPS08",
+   "OPS13",
+   "OPS12",
+   "OPS11",
+   "OPS22",
+   "OPS25",
+   "OPS24",
+   "OPS23",
+   "OPS21",
+   "OPS27",
+   "FIN02",
+   "FIN03",
+   "FIN32",
+   "FIN10",
+   "FIN11",
+   "FIN12",
+   "FIN13",
+   "FIN14",
+   "FIN04",
+   "FIN20",
+   "FIN22",
+   "FIN23",
+   "FIN21",
+   "FIN05",
+   "FIN06",
+   "FIN25",
+   "FIN01",
+   "FIN15",
+   "FIN16",
+   "FIN17",
+   "FIN24",
+   "FIN07",
+   "FIN08",
+   "FIN09",
+   "FIN31",
+   "FIN19",
+   "FIN35",
+   "FIN26",
+   "FIN27",
+   "FIN28",
+   "FIN29",
+   "FIN30",
+   "FIN34",
+   "ECO22",
+   "ECO23",
+   "ECO25",
+   "ECO26",
+   "ECO27",
+   "FIN18",
+   "ACC33",
+   "ACC34",
+   "ACC12",
+   "ECO07",
+   "ECO08",
+   "ECO11",
+   "ECO15",
+   "ECO03",
+   "ECO09",
+   "ECO10",
+   "ECO12",
+   "ECO13",
+   "ECO14",
+   "ECO18",
+   "ECO16",
+   "LAW06",
+   "MKT13",
+   "MKT25",
+   "MKT14",
+   "MKT21",
+   "MKT22",
+   "STR03",
+   "STR07",
+   "STR16",
+   "STR08",
+   "STR09",
+   "STR10",
+   "STR11",
+   "STR04",
+   "STR15",
+   "STR14",
+   "STR13",
+   "STR12",
+   "ITD06",
+   "ITD07",
+   "OBH17",
+   "OBH15",
+   "OBH20"
+  ],
+  "B0_ids": [
+   "ACC01",
+   "ECO01",
+   "MKT01",
+   "QNT03",
+   "FIN01",
+   "ACC02",
+   "LAW01",
+   "OPS01",
+   "QNT07",
+   "ECO02",
+   "ACC03",
+   "OBH01",
+   "CMP02",
+   "ECO03",
+   "MKT02",
+   "QNT04",
+   "FIN02",
+   "ACC04",
+   "OBH14",
+   "ECO04",
+   "ACC05",
+   "LAW02",
+   "OPS02",
+   "QNT09",
+   "ECO05",
+   "COM01",
+   "MKT03",
+   "QNT18",
+   "QNT31",
+   "ACC06",
+   "FIN03",
+   "ECO06",
+   "ACC07",
+   "MKT04",
+   "QNT19",
+   "ACC08",
+   "LAW03",
+   "OPS03",
+   "QNT13",
+   "OBH02",
+   "CMP03",
+   "FIN04",
+   "ACC09",
+   "MKT05",
+   "QNT20",
+   "ACC10",
+   "ACC22",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "FIN05",
+   "ACC11",
+   "OBH15",
+   "OBH19",
+   "LAW04",
+   "ECO10",
+   "OPS04",
+   "QNT14",
+   "ACC12",
+   "MKT06",
+   "RES07",
+   "QNT21",
+   "ECO11",
+   "ACC13",
+   "ECO12",
+   "FIN06",
+   "OBH03",
+   "ACC14",
+   "LAW05",
+   "OPS05",
+   "QNT15",
+   "MKT07",
+   "QNT22",
+   "ECO13",
+   "ACC15",
+   "FIN20",
+   "ECO14",
+   "FIN07",
+   "ACC16",
+   "COM04",
+   "MKT08",
+   "QNT23",
+   "QNT32",
+   "CMP04",
+   "ECO15",
+   "ACC17",
+   "LAW06",
+   "QNT16",
+   "ECO16",
+   "FIN08",
+   "ACC18",
+   "MKT09",
+   "QNT24",
+   "ECO17",
+   "OBH04",
+   "OBH16",
+   "CMP05",
+   "ACC19",
+   "ECO18",
+   "ACC20",
+   "LAW07",
+   "QNT17",
+   "FIN09",
+   "MKT10",
+   "QNT25",
+   "ECO19",
+   "ACC21",
+   "ACC23",
+   "QNT26",
+   "OPS07",
+   "OPS08",
+   "ECO20",
+   "FIN10",
+   "MKT11",
+   "OPS09",
+   "ITD01",
+   "ACC24",
+   "OBH05",
+   "QNT27",
+   "ECO21",
+   "FIN11",
+   "MKT12",
+   "OPS10",
+   "ACC25",
+   "QNT28",
+   "OBH17",
+   "ECO22",
+   "ENV01",
+   "ITD02",
+   "FIN12",
+   "MKT13",
+   "OPS11",
+   "ACC26",
+   "QNT29",
+   "ECO23",
+   "ACC27",
+   "OBH06",
+   "FIN13",
+   "MKT14",
+   "QNT30",
+   "ITD03",
+   "ECO24",
+   "ACC28",
+   "OPS12",
+   "FIN14",
+   "MKT15",
+   "OPS13",
+   "QNT33",
+   "ENV05",
+   "COM02",
+   "COM05",
+   "ACC29",
+   "ECO25",
+   "ITD04",
+   "QNT34",
+   "FIN15",
+   "MKT16",
+   "OPS14",
+   "ACC30",
+   "OBH07",
+   "ECO26",
+   "QNT35",
+   "ACC31",
+   "FIN16",
+   "MKT17",
+   "OPS15",
+   "OBH18",
+   "ECO27",
+   "ENV02",
+   "ITD05",
+   "QNT36",
+   "ACC32",
+   "FIN17",
+   "MKT18",
+   "OPS16",
+   "ECO28",
+   "QNT37",
+   "OBH08",
+   "ITD08",
+   "FIN18",
+   "MKT19",
+   "OPS17",
+   "ECO29",
+   "QNT38",
+   "STR01",
+   "FIN19",
+   "FIN35",
+   "OPS06",
+   "RES01",
+   "MKT20",
+   "STR02",
+   "FIN21",
+   "OBH09",
+   "OPS18",
+   "STR03",
+   "FIN22",
+   "RES02",
+   "STR04",
+   "FIN23",
+   "ENV03",
+   "ENV06",
+   "MKT21",
+   "ITD06",
+   "OPS19",
+   "STR05",
+   "FIN24",
+   "OBH10",
+   "RES03",
+   "RES08",
+   "STR06",
+   "OPS20",
+   "FIN25",
+   "STR07",
+   "MKT22",
+   "FIN26",
+   "ACC33",
+   "ACC34",
+   "RES04",
+   "OPS21",
+   "STR08",
+   "FIN27",
+   "OBH11",
+   "OPS26",
+   "COM03",
+   "STR09",
+   "OPS22",
+   "RES05",
+   "FIN28",
+   "MKT23",
+   "STR10",
+   "FIN29",
+   "OPS23",
+   "RES06",
+   "FIN30",
+   "OBH12",
+   "OBH20",
+   "ENV04",
+   "ENV07",
+   "ITD07",
+   "MKT24",
+   "OPS24",
+   "FIN31",
+   "STR13",
+   "RES09",
+   "FIN32",
+   "STR14",
+   "OPS25",
+   "STR11",
+   "FIN33",
+   "OBH13",
+   "STR15",
+   "MKT25",
+   "RES10",
+   "OPS27",
+   "FIN34",
+   "STR12",
+   "STR16"
+  ],
+  "B1_ids": [
+   "FIN01",
+   "FIN02",
+   "FIN03",
+   "FIN04",
+   "FIN05",
+   "FIN06",
+   "FIN07",
+   "FIN08",
+   "FIN09",
+   "ACC01",
+   "ACC02",
+   "ACC03",
+   "ACC04",
+   "ACC22",
+   "ACC05",
+   "ACC06",
+   "ACC07",
+   "ACC08",
+   "ACC09",
+   "ACC10",
+   "ACC11",
+   "ACC12",
+   "ACC13",
+   "ACC14",
+   "ACC15",
+   "FIN20",
+   "ACC16",
+   "ACC17",
+   "ACC18",
+   "ACC19",
+   "ACC20",
+   "ACC21",
+   "OBH14",
+   "OBH15",
+   "OBH19",
+   "OBH01",
+   "OBH02",
+   "OBH03",
+   "OBH04",
+   "OBH16",
+   "LAW01",
+   "LAW02",
+   "LAW03",
+   "LAW04",
+   "LAW05",
+   "LAW07",
+   "ECO01",
+   "ECO02",
+   "ECO03",
+   "ECO04",
+   "ECO05",
+   "ECO06",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "LAW06",
+   "ECO10",
+   "ECO11",
+   "ECO12",
+   "ECO13",
+   "ECO14",
+   "ECO15",
+   "ECO16",
+   "ECO17",
+   "ECO18",
+   "ECO19",
+   "COM01",
+   "CMP02",
+   "CMP05",
+   "MKT01",
+   "MKT02",
+   "MKT03",
+   "MKT04",
+   "MKT06",
+   "OPS01",
+   "OPS02",
+   "OPS03",
+   "OPS04",
+   "OPS05",
+   "QNT07",
+   "QNT09",
+   "RES07",
+   "QNT13",
+   "QNT14",
+   "QNT15",
+   "QNT16",
+   "QNT17",
+   "QNT03",
+   "CMP03",
+   "MKT05",
+   "MKT07",
+   "MKT08",
+   "MKT09",
+   "MKT10",
+   "QNT04",
+   "COM04",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "QNT22",
+   "QNT23",
+   "QNT24",
+   "QNT25",
+   "QNT31",
+   "QNT32",
+   "CMP04",
+   "ACC23",
+   "ACC24",
+   "ACC25",
+   "ACC26",
+   "ACC27",
+   "ACC28",
+   "ACC29",
+   "ACC30",
+   "ACC31",
+   "ACC32",
+   "FIN10",
+   "FIN11",
+   "FIN12",
+   "FIN15",
+   "FIN16",
+   "FIN17",
+   "OBH17",
+   "OBH18",
+   "OBH05",
+   "OBH06",
+   "OBH07",
+   "OBH08",
+   "ECO20",
+   "ECO21",
+   "ECO22",
+   "ECO23",
+   "ECO24",
+   "ECO25",
+   "ECO26",
+   "ECO27",
+   "FIN18",
+   "ECO28",
+   "ECO29",
+   "MKT11",
+   "MKT12",
+   "MKT13",
+   "MKT14",
+   "MKT15",
+   "MKT16",
+   "MKT17",
+   "MKT18",
+   "MKT19",
+   "OPS09",
+   "OPS10",
+   "OPS11",
+   "OPS12",
+   "OPS13",
+   "OPS14",
+   "OPS15",
+   "OPS16",
+   "ENV01",
+   "ENV02",
+   "QNT26",
+   "OPS07",
+   "OPS08",
+   "FIN13",
+   "FIN14",
+   "QNT27",
+   "QNT28",
+   "QNT29",
+   "QNT30",
+   "QNT33",
+   "QNT34",
+   "QNT35",
+   "QNT36",
+   "QNT37",
+   "OPS17",
+   "QNT38",
+   "ENV05",
+   "ITD01",
+   "ITD02",
+   "ITD03",
+   "ITD04",
+   "ITD05",
+   "ITD08",
+   "COM02",
+   "COM05",
+   "ENV03",
+   "ENV04",
+   "RES01",
+   "RES02",
+   "RES03",
+   "RES08",
+   "RES04",
+   "RES05",
+   "RES06",
+   "RES09",
+   "RES10",
+   "FIN19",
+   "FIN35",
+   "FIN21",
+   "FIN22",
+   "FIN23",
+   "FIN24",
+   "FIN25",
+   "FIN26",
+   "ACC33",
+   "ACC34",
+   "FIN27",
+   "FIN28",
+   "FIN29",
+   "FIN30",
+   "FIN31",
+   "FIN32",
+   "FIN33",
+   "FIN34",
+   "ENV06",
+   "ENV07",
+   "MKT20",
+   "MKT21",
+   "ITD06",
+   "MKT22",
+   "MKT23",
+   "MKT24",
+   "MKT25",
+   "OBH09",
+   "OBH10",
+   "OBH11",
+   "OBH12",
+   "OBH13",
+   "OPS06",
+   "OPS18",
+   "OPS19",
+   "OPS20",
+   "OPS21",
+   "OPS22",
+   "OPS23",
+   "OPS24",
+   "OPS25",
+   "OPS27",
+   "OBH20",
+   "STR01",
+   "STR02",
+   "STR03",
+   "STR04",
+   "STR05",
+   "STR06",
+   "STR07",
+   "STR08",
+   "STR09",
+   "ITD07",
+   "STR10",
+   "STR11",
+   "STR12",
+   "STR13",
+   "STR14",
+   "STR15",
+   "OPS26",
+   "COM03",
+   "STR16"
+  ],
+  "curriculum_inversions_repaired": 15,
+  "heuristic_secs": 32.0,
+  "starts": [
+   {
+    "start": "NN",
+    "construct": 430.9646874999983,
+    "improved": 393.1446874999979,
+    "secs": 2.42
+   },
+   {
+    "start": "CI",
+    "construct": 417.7699999999985,
+    "improved": 386.829999999998,
+    "secs": 2.02
+   },
+   {
+    "start": "FI",
+    "construct": 418.4924999999986,
+    "improved": 385.8162499999979,
+    "secs": 2.93
+   },
+   {
+    "start": "SAV",
+    "construct": 405.2596874999984,
+    "improved": 389.83499999999805,
+    "secs": 2.39
+   },
+   {
+    "start": "B0",
+    "construct": 622.8937499999998,
+    "improved": 406.41437499999824,
+    "secs": 2.19
+   },
+   {
+    "start": "B1",
+    "construct": 451.2853124999981,
+    "improved": 389.27687499999803,
+    "secs": 2.23
+   },
+   {
+    "start": "rand0",
+    "construct": 602.0665624999996,
+    "improved": 404.374374999998
+   },
+   {
+    "start": "rand1",
+    "construct": 606.9765624999997,
+    "improved": 400.0637499999983
+   },
+   {
+    "start": "rand2",
+    "construct": 620.2500000000003,
+    "improved": 399.6356249999981
+   },
+   {
+    "start": "rand3",
+    "construct": 601.8468749999998,
+    "improved": 390.121249999998
+   },
+   {
+    "start": "rand4",
+    "construct": 590.7781249999996,
+    "improved": 395.930312499998
+   }
+  ],
+  "critical_path_hours": 19.0,
+  "scope_gain": 50.98,
+  "sequencing_gain_vs_B0": 237.08,
+  "sequencing_gain_vs_B1": 65.47,
+  "days": {
+   "feasible": true,
+   "days": [
+    {
+     "topics": [
+      "STR01",
+      "STR05",
+      "STR06"
+     ],
+     "hours": 3.55
+    },
+    {
+     "topics": [
+      "ITD01",
+      "ITD02",
+      "ITD05"
+     ],
+     "hours": 3.55
+    },
+    {
+     "topics": [
+      "OPS01",
+      "OPS17",
+      "OPS16"
+     ],
+     "hours": 5.41
+    },
+    {
+     "topics": [
+      "OPS02",
+      "OPS05",
+      "OPS26",
+      "OPS06",
+      "OPS18"
+     ],
+     "hours": 5.96
+    },
+    {
+     "topics": [
+      "OPS03",
+      "OPS04",
+      "QNT03",
+      "QNT31",
+      "CMP03",
+      "CMP02"
+     ],
+     "hours": 5.98
+    },
+    {
+     "topics": [
+      "QNT17",
+      "QNT32",
+      "CMP04",
+      "QNT04",
+      "QNT18",
+      "QNT19",
+      "QNT20"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "OPS19",
+      "OPS20",
+      "OPS14",
+      "OPS15"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "QNT33",
+      "QNT34",
+      "QNT35",
+      "QNT36"
+     ],
+     "hours": 5.05
+    },
+    {
+     "topics": [
+      "QNT37",
+      "QNT21",
+      "QNT24",
+      "QNT23",
+      "QNT07"
+     ],
+     "hours": 5.72
+    },
+    {
+     "topics": [
+      "QNT13",
+      "QNT14",
+      "QNT15",
+      "QNT16"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "QNT38",
+      "QNT22",
+      "QNT25",
+      "QNT09",
+      "QNT26"
+     ],
+     "hours": 4.46
+    },
+    {
+     "topics": [
+      "QNT27",
+      "QNT30",
+      "QNT29"
+     ],
+     "hours": 5.41
+    },
+    {
+     "topics": [
+      "QNT28",
+      "CMP05",
+      "ITD03",
+      "ITD04"
+     ],
+     "hours": 5.55
+    },
+    {
+     "topics": [
+      "ITD08",
+      "MKT01",
+      "MKT04",
+      "MKT02",
+      "MKT06"
+     ],
+     "hours": 5.61
+    },
+    {
+     "topics": [
+      "RES07",
+      "RES01",
+      "RES05",
+      "RES10"
+     ],
+     "hours": 5.74
+    },
+    {
+     "topics": [
+      "RES02",
+      "RES03",
+      "RES08"
+     ],
+     "hours": 4.3
+    },
+    {
+     "topics": [
+      "RES09",
+      "RES06",
+      "RES04"
+     ],
+     "hours": 3.89
+    },
+    {
+     "topics": [
+      "MKT03",
+      "MKT05",
+      "MKT07",
+      "MKT08"
+     ],
+     "hours": 5.74
+    },
+    {
+     "topics": [
+      "MKT17",
+      "MKT23",
+      "MKT24",
+      "MKT20",
+      "MKT09"
+     ],
+     "hours": 5.91
+    },
+    {
+     "topics": [
+      "MKT10",
+      "MKT11",
+      "MKT12",
+      "MKT15"
+     ],
+     "hours": 5.86
+    },
+    {
+     "topics": [
+      "MKT19",
+      "MKT16",
+      "ECO01"
+     ],
+     "hours": 5.19
+    },
+    {
+     "topics": [
+      "ECO05",
+      "ECO19",
+      "ECO20",
+      "ECO21"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "ECO06",
+      "ECO28",
+      "ECO24",
+      "ECO29"
+     ],
+     "hours": 4.99
+    },
+    {
+     "topics": [
+      "ECO02",
+      "ECO04",
+      "ECO17",
+      "STR02"
+     ],
+     "hours": 4.91
+    },
+    {
+     "topics": [
+      "LAW01",
+      "LAW02",
+      "LAW03",
+      "LAW04",
+      "LAW07"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "LAW05",
+      "ENV06",
+      "ENV07",
+      "ENV01"
+     ],
+     "hours": 5.14
+    },
+    {
+     "topics": [
+      "ENV02",
+      "ENV03",
+      "ENV04",
+      "ENV05"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "OBH01",
+      "OBH04",
+      "OBH02",
+      "OBH05"
+     ],
+     "hours": 5.02
+    },
+    {
+     "topics": [
+      "OBH11",
+      "OBH12",
+      "OBH14",
+      "OBH16",
+      "OBH18"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "OBH19",
+      "OBH03",
+      "OBH06",
+      "OBH07",
+      "OBH08"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "OBH09",
+      "OBH10",
+      "OBH13"
+     ],
+     "hours": 4.3
+    },
+    {
+     "topics": [
+      "COM01",
+      "COM04",
+      "COM05",
+      "COM02"
+     ],
+     "hours": 5.16
+    },
+    {
+     "topics": [
+      "COM03",
+      "ACC01",
+      "ACC05",
+      "ACC11"
+     ],
+     "hours": 5.66
+    },
+    {
+     "topics": [
+      "ACC02",
+      "ACC03",
+      "ACC04",
+      "ACC14"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "ACC13",
+      "ACC06",
+      "ACC07",
+      "ACC08",
+      "ACC09"
+     ],
+     "hours": 5.88
+    },
+    {
+     "topics": [
+      "ACC10",
+      "ACC16",
+      "ACC17",
+      "ACC18"
+     ],
+     "hours": 5.98
+    },
+    {
+     "topics": [
+      "ACC15",
+      "ACC19"
+     ],
+     "hours": 4.03
+    },
+    {
+     "topics": [
+      "ACC20",
+      "ACC21",
+      "ACC22"
+     ],
+     "hours": 4.64
+    },
+    {
+     "topics": [
+      "ACC24",
+      "ACC25",
+      "ACC26",
+      "ACC23"
+     ],
+     "hours": 5.74
+    },
+    {
+     "topics": [
+      "ACC29",
+      "ACC30",
+      "ACC31"
+     ],
+     "hours": 5.26
+    },
+    {
+     "topics": [
+      "ACC27",
+      "ACC28",
+      "ACC32",
+      "FIN33"
+     ],
+     "hours": 5.66
+    },
+    {
+     "topics": [
+      "MKT18",
+      "OPS09",
+      "OPS10",
+      "OPS07"
+     ],
+     "hours": 5.78
+    },
+    {
+     "topics": [
+      "OPS08",
+      "OPS13",
+      "OPS12",
+      "OPS11",
+      "OPS22"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "OPS25",
+      "OPS24",
+      "OPS23",
+      "OPS21"
+     ],
+     "hours": 5.22
+    },
+    {
+     "topics": [
+      "OPS27",
+      "FIN02",
+      "FIN03",
+      "FIN32"
+     ],
+     "hours": 5.55
+    },
+    {
+     "topics": [
+      "FIN10",
+      "FIN11"
+     ],
+     "hours": 3.88
+    },
+    {
+     "topics": [
+      "FIN12",
+      "FIN13",
+      "FIN14"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "FIN04",
+      "FIN20",
+      "FIN22"
+     ],
+     "hours": 6.0
+    },
+    {
+     "topics": [
+      "FIN23",
+      "FIN21",
+      "FIN05",
+      "FIN06"
+     ],
+     "hours": 5.33
+    },
+    {
+     "topics": [
+      "FIN25",
+      "FIN01",
+      "FIN15",
+      "FIN16"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "FIN17",
+      "FIN24",
+      "FIN07"
+     ],
+     "hours": 5.53
+    },
+    {
+     "topics": [
+      "FIN08",
+      "FIN09",
+      "FIN31",
+      "FIN19",
+      "FIN35"
+     ],
+     "hours": 5.77
+    },
+    {
+     "topics": [
+      "FIN26",
+      "FIN27",
+      "FIN28"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "FIN29",
+      "FIN30",
+      "FIN34"
+     ],
+     "hours": 5.34
+    },
+    {
+     "topics": [
+      "ECO22",
+      "ECO23",
+      "ECO25"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "ECO26",
+      "ECO27",
+      "FIN18"
+     ],
+     "hours": 4.91
+    },
+    {
+     "topics": [
+      "ACC33",
+      "ACC34",
+      "ACC12"
+     ],
+     "hours": 4.53
+    },
+    {
+     "topics": [
+      "ECO07",
+      "ECO08",
+      "ECO11"
+     ],
+     "hours": 5.43
+    },
+    {
+     "topics": [
+      "ECO15",
+      "ECO03",
+      "ECO09",
+      "ECO10"
+     ],
+     "hours": 5.74
+    },
+    {
+     "topics": [
+      "ECO12",
+      "ECO13"
+     ],
+     "hours": 3.88
+    },
+    {
+     "topics": [
+      "ECO14",
+      "ECO18",
+      "ECO16"
+     ],
+     "hours": 3.89
+    },
+    {
+     "topics": [
+      "LAW06",
+      "MKT13",
+      "MKT25"
+     ],
+     "hours": 5.12
+    },
+    {
+     "topics": [
+      "MKT14",
+      "MKT21",
+      "MKT22"
+     ],
+     "hours": 3.14
+    },
+    {
+     "topics": [
+      "STR03",
+      "STR07",
+      "STR16"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "STR08",
+      "STR09",
+      "STR10",
+      "STR11"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "STR04",
+      "STR15",
+      "STR14",
+      "STR13"
+     ],
+     "hours": 5.22
+    },
+    {
+     "topics": [
+      "STR12",
+      "ITD06",
+      "ITD07"
+     ],
+     "hours": 5.03
+    },
+    {
+     "topics": [
+      "OBH17",
+      "OBH15",
+      "OBH20"
+     ],
+     "hours": 4.53
+    }
+   ],
+   "n_days": 68,
+   "lb_days": 60,
+   "total_hours": 354.39,
+   "H": 6.0
+  }
+ },
+ {
+  "profile": "commerce",
+  "description": "Commerce graduate: basic accounting, TVM and demand-supply known; rest of FRA, costing basics, finance and law basics at half time",
+  "n_topics": 252,
+  "study_hours": 344.75,
+  "auto_added": [],
+  "warnings": [],
+  "naive_B0": 673.87,
+  "B0": {
+   "total": 594.77625,
+   "study": 344.75,
+   "transitions": 111.28125,
+   "revision": 134.745,
+   "soft_penalty": 4.0,
+   "domain_switches": 230.0,
+   "feasible": true
+  },
+  "B1": {
+   "total": 443.2884375,
+   "study": 344.75,
+   "transitions": -0.12656249999999947,
+   "revision": 91.66499999999999,
+   "soft_penalty": 7.0,
+   "domain_switches": 59.0,
+   "feasible": true
+  },
+  "roadmap": {
+   "total": 367.36,
+   "study": 344.75,
+   "transitions": -26.574999999999996,
+   "revision": 49.185,
+   "soft_penalty": 0.0,
+   "domain_switches": 15.0,
+   "feasible": true
+  },
+  "roadmap_ids": [
+   "ACC11",
+   "ACC12",
+   "ACC13",
+   "ACC10",
+   "ACC16",
+   "ACC17",
+   "ACC21",
+   "ACC14",
+   "ACC15",
+   "ACC20",
+   "ACC07",
+   "ACC19",
+   "ACC18",
+   "ACC24",
+   "ACC25",
+   "ACC26",
+   "ACC23",
+   "ACC27",
+   "ACC28",
+   "ACC29",
+   "ACC30",
+   "ACC31",
+   "ACC32",
+   "FIN32",
+   "CMP01",
+   "CMP05",
+   "QNT01",
+   "QNT32",
+   "QNT33",
+   "QNT34",
+   "QNT35",
+   "QNT36",
+   "QNT37",
+   "QNT03",
+   "QNT04",
+   "CMP03",
+   "CMP02",
+   "CMP04",
+   "QNT02",
+   "QNT05",
+   "QNT08",
+   "QNT11",
+   "QNT12",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "QNT22",
+   "QNT25",
+   "QNT10",
+   "QNT17",
+   "QNT13",
+   "QNT16",
+   "QNT23",
+   "QNT24",
+   "QNT09",
+   "QNT26",
+   "QNT27",
+   "QNT30",
+   "QNT38",
+   "QNT06",
+   "QNT14",
+   "QNT07",
+   "QNT15",
+   "QNT28",
+   "QNT29",
+   "QNT31",
+   "OPS07",
+   "OPS09",
+   "OPS10",
+   "OPS13",
+   "OPS12",
+   "OPS11",
+   "OPS22",
+   "OPS23",
+   "OPS24",
+   "OPS25",
+   "OPS08",
+   "OPS01",
+   "OPS21",
+   "OPS17",
+   "OPS16",
+   "OPS02",
+   "OPS05",
+   "OPS26",
+   "OPS03",
+   "OPS04",
+   "OPS27",
+   "OPS18",
+   "OPS19",
+   "OPS20",
+   "OPS06",
+   "OPS14",
+   "OPS15",
+   "FIN01",
+   "FIN19",
+   "FIN33",
+   "ECO20",
+   "ECO22",
+   "ECO21",
+   "ECO23",
+   "ECO27",
+   "ECO24",
+   "ECO25",
+   "ECO26",
+   "ECO06",
+   "ECO28",
+   "ECO29",
+   "ECO03",
+   "ECO11",
+   "ECO15",
+   "ECO16",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "ECO18",
+   "ECO12",
+   "ECO13",
+   "ECO14",
+   "ECO05",
+   "ECO19",
+   "ECO04",
+   "ECO17",
+   "ECO10",
+   "LAW01",
+   "LAW06",
+   "LAW05",
+   "LAW02",
+   "LAW03",
+   "LAW04",
+   "LAW07",
+   "ENV06",
+   "ENV07",
+   "ENV01",
+   "ENV02",
+   "ENV03",
+   "ENV04",
+   "ENV05",
+   "MKT01",
+   "MKT02",
+   "MKT03",
+   "MKT06",
+   "MKT21",
+   "MKT22",
+   "MKT04",
+   "MKT05",
+   "MKT07",
+   "MKT08",
+   "MKT12",
+   "MKT13",
+   "MKT14",
+   "MKT15",
+   "MKT16",
+   "MKT17",
+   "MKT25",
+   "MKT24",
+   "MKT23",
+   "MKT09",
+   "MKT10",
+   "MKT11",
+   "MKT19",
+   "MKT18",
+   "MKT20",
+   "OBH14",
+   "OBH19",
+   "OBH01",
+   "OBH04",
+   "OBH16",
+   "OBH17",
+   "OBH18",
+   "OBH03",
+   "OBH02",
+   "OBH05",
+   "OBH09",
+   "OBH10",
+   "OBH11",
+   "OBH12",
+   "OBH13",
+   "OBH15",
+   "OBH20",
+   "OBH06",
+   "OBH07",
+   "OBH08",
+   "FIN05",
+   "FIN15",
+   "FIN16",
+   "FIN17",
+   "FIN18",
+   "FIN35",
+   "FIN20",
+   "FIN22",
+   "FIN23",
+   "FIN24",
+   "FIN21",
+   "FIN10",
+   "FIN11",
+   "FIN12",
+   "FIN13",
+   "FIN14",
+   "FIN06",
+   "FIN07",
+   "FIN08",
+   "FIN09",
+   "FIN31",
+   "FIN25",
+   "FIN26",
+   "FIN27",
+   "FIN28",
+   "FIN29",
+   "FIN30",
+   "FIN34",
+   "ACC33",
+   "ACC34",
+   "COM01",
+   "COM04",
+   "COM05",
+   "COM02",
+   "COM03",
+   "RES01",
+   "RES02",
+   "RES03",
+   "RES08",
+   "RES07",
+   "RES06",
+   "RES04",
+   "RES05",
+   "RES10",
+   "RES09",
+   "STR01",
+   "STR03",
+   "STR04",
+   "STR05",
+   "STR06",
+   "STR07",
+   "STR16",
+   "STR10",
+   "STR12",
+   "STR02",
+   "STR15",
+   "STR14",
+   "STR13",
+   "STR08",
+   "STR09",
+   "STR11",
+   "ITD01",
+   "ITD02",
+   "ITD05",
+   "ITD03",
+   "ITD04",
+   "ITD08",
+   "ITD06",
+   "ITD07"
+  ],
+  "B0_ids": [
+   "ECO03",
+   "QNT01",
+   "ACC07",
+   "MKT01",
+   "QNT03",
+   "LAW01",
+   "OPS01",
+   "FIN01",
+   "ECO04",
+   "CMP01",
+   "QNT02",
+   "ACC10",
+   "OBH01",
+   "ECO05",
+   "MKT02",
+   "QNT04",
+   "OBH14",
+   "QNT05",
+   "ACC11",
+   "ECO06",
+   "LAW02",
+   "OPS02",
+   "QNT06",
+   "FIN05",
+   "COM01",
+   "MKT03",
+   "QNT31",
+   "ECO07",
+   "ACC12",
+   "CMP02",
+   "QNT07",
+   "ECO08",
+   "ACC13",
+   "MKT04",
+   "LAW03",
+   "OPS03",
+   "QNT08",
+   "OBH02",
+   "ECO09",
+   "FIN06",
+   "ACC14",
+   "QNT09",
+   "ECO10",
+   "MKT05",
+   "ACC15",
+   "FIN20",
+   "OBH15",
+   "OBH19",
+   "LAW04",
+   "ECO11",
+   "CMP03",
+   "OPS04",
+   "QNT10",
+   "MKT06",
+   "RES07",
+   "ECO12",
+   "QNT11",
+   "ACC16",
+   "FIN07",
+   "ECO13",
+   "OBH03",
+   "QNT12",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "LAW05",
+   "OPS05",
+   "MKT07",
+   "QNT22",
+   "ACC17",
+   "ECO14",
+   "QNT13",
+   "ACC18",
+   "ECO15",
+   "FIN08",
+   "COM04",
+   "MKT08",
+   "QNT23",
+   "QNT32",
+   "CMP04",
+   "QNT14",
+   "LAW06",
+   "ECO16",
+   "ACC19",
+   "QNT15",
+   "MKT09",
+   "QNT24",
+   "ECO17",
+   "OBH04",
+   "OBH16",
+   "ACC20",
+   "CMP05",
+   "QNT16",
+   "ECO18",
+   "FIN09",
+   "LAW07",
+   "MKT10",
+   "QNT25",
+   "ACC21",
+   "QNT17",
+   "ECO19",
+   "ACC23",
+   "QNT26",
+   "OPS07",
+   "OPS08",
+   "ECO20",
+   "FIN10",
+   "MKT11",
+   "OPS09",
+   "ITD01",
+   "ACC24",
+   "OBH05",
+   "QNT27",
+   "ECO21",
+   "FIN11",
+   "MKT12",
+   "OPS10",
+   "ACC25",
+   "QNT28",
+   "OBH17",
+   "ECO22",
+   "ENV01",
+   "ITD02",
+   "FIN12",
+   "MKT13",
+   "OPS11",
+   "ACC26",
+   "QNT29",
+   "ECO23",
+   "ACC27",
+   "OBH06",
+   "FIN13",
+   "MKT14",
+   "QNT30",
+   "ITD03",
+   "ECO24",
+   "ACC28",
+   "OPS12",
+   "FIN14",
+   "MKT15",
+   "OPS13",
+   "QNT33",
+   "ENV05",
+   "COM02",
+   "COM05",
+   "ACC29",
+   "ECO25",
+   "ITD04",
+   "QNT34",
+   "FIN15",
+   "MKT16",
+   "OPS14",
+   "ACC30",
+   "OBH07",
+   "ECO26",
+   "QNT35",
+   "ACC31",
+   "FIN16",
+   "MKT17",
+   "OPS15",
+   "OBH18",
+   "ECO27",
+   "ENV02",
+   "ITD05",
+   "QNT36",
+   "ACC32",
+   "FIN17",
+   "MKT18",
+   "OPS16",
+   "ECO28",
+   "QNT37",
+   "OBH08",
+   "ITD08",
+   "FIN18",
+   "MKT19",
+   "OPS17",
+   "ECO29",
+   "QNT38",
+   "STR01",
+   "FIN19",
+   "FIN35",
+   "OPS06",
+   "RES01",
+   "MKT20",
+   "STR02",
+   "FIN21",
+   "OBH09",
+   "OPS18",
+   "STR03",
+   "FIN22",
+   "RES02",
+   "STR04",
+   "FIN23",
+   "ENV03",
+   "ENV06",
+   "MKT21",
+   "ITD06",
+   "OPS19",
+   "STR05",
+   "FIN24",
+   "OBH10",
+   "RES03",
+   "RES08",
+   "STR06",
+   "OPS20",
+   "FIN25",
+   "STR07",
+   "MKT22",
+   "FIN26",
+   "ACC33",
+   "ACC34",
+   "RES04",
+   "OPS21",
+   "STR08",
+   "FIN27",
+   "OBH11",
+   "OPS26",
+   "COM03",
+   "STR09",
+   "OPS22",
+   "RES05",
+   "FIN28",
+   "MKT23",
+   "STR10",
+   "FIN29",
+   "OPS23",
+   "RES06",
+   "FIN30",
+   "OBH12",
+   "OBH20",
+   "ENV04",
+   "ENV07",
+   "ITD07",
+   "MKT24",
+   "OPS24",
+   "FIN31",
+   "STR13",
+   "RES09",
+   "FIN32",
+   "STR14",
+   "OPS25",
+   "STR11",
+   "FIN33",
+   "OBH13",
+   "STR15",
+   "MKT25",
+   "RES10",
+   "OPS27",
+   "FIN34",
+   "STR12",
+   "STR16"
+  ],
+  "B1_ids": [
+   "FIN01",
+   "FIN05",
+   "FIN06",
+   "FIN07",
+   "FIN08",
+   "FIN09",
+   "ACC07",
+   "ACC10",
+   "ACC11",
+   "ACC12",
+   "ACC13",
+   "ACC14",
+   "ACC15",
+   "FIN20",
+   "ACC16",
+   "ACC17",
+   "ACC18",
+   "ACC19",
+   "ACC20",
+   "ACC21",
+   "OBH14",
+   "OBH15",
+   "OBH19",
+   "OBH01",
+   "OBH02",
+   "OBH03",
+   "OBH04",
+   "OBH16",
+   "LAW01",
+   "LAW02",
+   "LAW03",
+   "LAW04",
+   "LAW05",
+   "LAW07",
+   "ECO03",
+   "ECO04",
+   "ECO11",
+   "ECO12",
+   "ECO15",
+   "ECO16",
+   "ECO17",
+   "ECO18",
+   "ECO19",
+   "COM01",
+   "CMP01",
+   "CMP02",
+   "CMP05",
+   "MKT01",
+   "MKT02",
+   "MKT03",
+   "MKT04",
+   "MKT06",
+   "OPS01",
+   "OPS02",
+   "OPS03",
+   "OPS04",
+   "QNT01",
+   "QNT02",
+   "ECO05",
+   "ECO06",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "LAW06",
+   "ECO10",
+   "ECO13",
+   "ECO14",
+   "QNT05",
+   "QNT06",
+   "QNT07",
+   "QNT03",
+   "CMP03",
+   "MKT05",
+   "MKT07",
+   "MKT08",
+   "MKT09",
+   "MKT10",
+   "QNT08",
+   "QNT09",
+   "RES07",
+   "QNT10",
+   "QNT11",
+   "OPS05",
+   "QNT12",
+   "QNT13",
+   "QNT14",
+   "QNT15",
+   "QNT16",
+   "QNT17",
+   "QNT04",
+   "COM04",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "QNT22",
+   "QNT23",
+   "QNT24",
+   "QNT25",
+   "QNT31",
+   "QNT32",
+   "CMP04",
+   "ACC23",
+   "ACC24",
+   "ACC25",
+   "ACC26",
+   "ACC27",
+   "ACC28",
+   "ACC29",
+   "ACC30",
+   "ACC31",
+   "ACC32",
+   "FIN10",
+   "FIN11",
+   "FIN12",
+   "FIN15",
+   "FIN16",
+   "FIN17",
+   "OBH17",
+   "OBH18",
+   "OBH05",
+   "OBH06",
+   "OBH07",
+   "OBH08",
+   "ECO20",
+   "ECO21",
+   "ECO22",
+   "ECO23",
+   "ECO24",
+   "ECO25",
+   "ECO26",
+   "ECO27",
+   "FIN18",
+   "ECO28",
+   "ECO29",
+   "MKT11",
+   "MKT12",
+   "MKT13",
+   "MKT14",
+   "MKT15",
+   "MKT16",
+   "MKT17",
+   "MKT18",
+   "MKT19",
+   "OPS09",
+   "OPS10",
+   "OPS11",
+   "OPS12",
+   "OPS13",
+   "OPS14",
+   "OPS15",
+   "OPS16",
+   "ENV01",
+   "ENV02",
+   "QNT26",
+   "OPS07",
+   "OPS08",
+   "FIN13",
+   "FIN14",
+   "QNT27",
+   "QNT28",
+   "QNT29",
+   "QNT30",
+   "QNT33",
+   "QNT34",
+   "QNT35",
+   "QNT36",
+   "QNT37",
+   "OPS17",
+   "QNT38",
+   "ENV05",
+   "ITD01",
+   "ITD02",
+   "ITD03",
+   "ITD04",
+   "ITD05",
+   "ITD08",
+   "COM02",
+   "COM05",
+   "ENV03",
+   "ENV04",
+   "RES01",
+   "RES02",
+   "RES03",
+   "RES08",
+   "RES04",
+   "RES05",
+   "RES06",
+   "RES09",
+   "RES10",
+   "FIN19",
+   "FIN35",
+   "FIN21",
+   "FIN22",
+   "FIN23",
+   "FIN24",
+   "FIN25",
+   "FIN26",
+   "ACC33",
+   "ACC34",
+   "FIN27",
+   "FIN28",
+   "FIN29",
+   "FIN30",
+   "FIN31",
+   "FIN32",
+   "FIN33",
+   "FIN34",
+   "ENV06",
+   "ENV07",
+   "MKT20",
+   "MKT21",
+   "ITD06",
+   "MKT22",
+   "MKT23",
+   "MKT24",
+   "MKT25",
+   "OBH09",
+   "OBH10",
+   "OBH11",
+   "OBH12",
+   "OBH13",
+   "OPS06",
+   "OPS18",
+   "OPS19",
+   "OPS20",
+   "OPS21",
+   "OPS22",
+   "OPS23",
+   "OPS24",
+   "OPS25",
+   "OPS27",
+   "OBH20",
+   "STR01",
+   "STR02",
+   "STR03",
+   "STR04",
+   "STR05",
+   "STR06",
+   "STR07",
+   "STR08",
+   "STR09",
+   "ITD07",
+   "STR10",
+   "STR11",
+   "STR12",
+   "STR13",
+   "STR14",
+   "STR15",
+   "OPS26",
+   "COM03",
+   "STR16"
+  ],
+  "curriculum_inversions_repaired": 14,
+  "heuristic_secs": 33.73,
+  "starts": [
+   {
+    "start": "NN",
+    "construct": 417.0990624999985,
+    "improved": 374.42437499999807,
+    "secs": 2.49
+   },
+   {
+    "start": "CI",
+    "construct": 398.21187499999826,
+    "improved": 370.74624999999827,
+    "secs": 2.03
+   },
+   {
+    "start": "FI",
+    "construct": 399.6384374999984,
+    "improved": 373.27812499999845,
+    "secs": 3.3
+   },
+   {
+    "start": "SAV",
+    "construct": 382.7899999999982,
+    "improved": 367.35999999999825,
+    "secs": 2.58
+   },
+   {
+    "start": "B0",
+    "construct": 594.7762499999997,
+    "improved": 379.92062499999815,
+    "secs": 3.2
+   },
+   {
+    "start": "B1",
+    "construct": 443.2884374999982,
+    "improved": 381.69124999999826,
+    "secs": 3.17
+   },
+   {
+    "start": "rand0",
+    "construct": 579.8487499999998,
+    "improved": 378.40249999999827
+   },
+   {
+    "start": "rand1",
+    "construct": 582.1943749999999,
+    "improved": 381.5137499999985
+   },
+   {
+    "start": "rand2",
+    "construct": 591.5393749999992,
+    "improved": 379.2806249999978
+   },
+   {
+    "start": "rand3",
+    "construct": 583.2075,
+    "improved": 379.4581249999983
+   },
+   {
+    "start": "rand4",
+    "construct": 592.5509375,
+    "improved": 382.887812499998
+   }
+  ],
+  "critical_path_hours": 26.5,
+  "scope_gain": 79.09,
+  "sequencing_gain_vs_B0": 227.42,
+  "sequencing_gain_vs_B1": 75.93,
+  "days": {
+   "feasible": true,
+   "days": [
+    {
+     "topics": [
+      "ACC11",
+      "ACC12",
+      "ACC13",
+      "ACC10",
+      "ACC16",
+      "ACC17",
+      "ACC21"
+     ],
+     "hours": 5.4
+    },
+    {
+     "topics": [
+      "ACC14",
+      "ACC15",
+      "ACC20",
+      "ACC07",
+      "ACC19",
+      "ACC18"
+     ],
+     "hours": 5.78
+    },
+    {
+     "topics": [
+      "ACC24",
+      "ACC25",
+      "ACC26",
+      "ACC23",
+      "ACC27",
+      "ACC28"
+     ],
+     "hours": 5.66
+    },
+    {
+     "topics": [
+      "ACC29",
+      "ACC30",
+      "ACC31",
+      "ACC32"
+     ],
+     "hours": 5.79
+    },
+    {
+     "topics": [
+      "FIN32",
+      "CMP01",
+      "CMP05"
+     ],
+     "hours": 5.03
+    },
+    {
+     "topics": [
+      "QNT01",
+      "QNT32",
+      "QNT33",
+      "QNT34"
+     ],
+     "hours": 5.68
+    },
+    {
+     "topics": [
+      "QNT35",
+      "QNT36",
+      "QNT37"
+     ],
+     "hours": 4.53
+    },
+    {
+     "topics": [
+      "QNT03",
+      "QNT04",
+      "CMP03",
+      "CMP02",
+      "CMP04",
+      "QNT02"
+     ],
+     "hours": 5.48
+    },
+    {
+     "topics": [
+      "QNT05",
+      "QNT08",
+      "QNT11",
+      "QNT12"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "QNT18",
+      "QNT19",
+      "QNT20",
+      "QNT21"
+     ],
+     "hours": 5.79
+    },
+    {
+     "topics": [
+      "QNT22",
+      "QNT25",
+      "QNT10",
+      "QNT17"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "QNT13",
+      "QNT16",
+      "QNT23",
+      "QNT24"
+     ],
+     "hours": 5.16
+    },
+    {
+     "topics": [
+      "QNT09",
+      "QNT26",
+      "QNT27"
+     ],
+     "hours": 5.25
+    },
+    {
+     "topics": [
+      "QNT30",
+      "QNT38",
+      "QNT06",
+      "QNT14"
+     ],
+     "hours": 5.25
+    },
+    {
+     "topics": [
+      "QNT07",
+      "QNT15",
+      "QNT28",
+      "QNT29"
+     ],
+     "hours": 5.91
+    },
+    {
+     "topics": [
+      "QNT31",
+      "OPS07"
+     ],
+     "hours": 3.52
+    },
+    {
+     "topics": [
+      "OPS09",
+      "OPS10",
+      "OPS13",
+      "OPS12",
+      "OPS11"
+     ],
+     "hours": 5.66
+    },
+    {
+     "topics": [
+      "OPS22",
+      "OPS23",
+      "OPS24",
+      "OPS25",
+      "OPS08"
+     ],
+     "hours": 5.86
+    },
+    {
+     "topics": [
+      "OPS01",
+      "OPS21",
+      "OPS17"
+     ],
+     "hours": 5.53
+    },
+    {
+     "topics": [
+      "OPS16",
+      "OPS02",
+      "OPS05",
+      "OPS26"
+     ],
+     "hours": 5.26
+    },
+    {
+     "topics": [
+      "OPS03",
+      "OPS04",
+      "OPS27",
+      "OPS18"
+     ],
+     "hours": 5.11
+    },
+    {
+     "topics": [
+      "OPS19",
+      "OPS20",
+      "OPS06",
+      "OPS14"
+     ],
+     "hours": 5.25
+    },
+    {
+     "topics": [
+      "OPS15",
+      "FIN01",
+      "FIN19",
+      "FIN33"
+     ],
+     "hours": 5.08
+    },
+    {
+     "topics": [
+      "ECO20",
+      "ECO22",
+      "ECO21",
+      "ECO23",
+      "ECO27"
+     ],
+     "hours": 5.52
+    },
+    {
+     "topics": [
+      "ECO24",
+      "ECO25",
+      "ECO26"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "ECO06",
+      "ECO28",
+      "ECO29"
+     ],
+     "hours": 4.3
+    },
+    {
+     "topics": [
+      "ECO03",
+      "ECO11",
+      "ECO15",
+      "ECO16"
+     ],
+     "hours": 5.96
+    },
+    {
+     "topics": [
+      "ECO07",
+      "ECO08",
+      "ECO09",
+      "ECO18"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "ECO12",
+      "ECO13"
+     ],
+     "hours": 3.88
+    },
+    {
+     "topics": [
+      "ECO14",
+      "ECO05",
+      "ECO19",
+      "ECO04",
+      "ECO17"
+     ],
+     "hours": 5.72
+    },
+    {
+     "topics": [
+      "ECO10",
+      "LAW01",
+      "LAW06",
+      "LAW05",
+      "LAW02",
+      "LAW03"
+     ],
+     "hours": 5.95
+    },
+    {
+     "topics": [
+      "LAW04",
+      "LAW07",
+      "ENV06",
+      "ENV07",
+      "ENV01"
+     ],
+     "hours": 5.78
+    },
+    {
+     "topics": [
+      "ENV02",
+      "ENV03",
+      "ENV04",
+      "ENV05"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "MKT01",
+      "MKT02",
+      "MKT03"
+     ],
+     "hours": 3.55
+    },
+    {
+     "topics": [
+      "MKT06",
+      "MKT21",
+      "MKT22",
+      "MKT04",
+      "MKT05"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "MKT07",
+      "MKT08",
+      "MKT12",
+      "MKT13"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "MKT14",
+      "MKT15",
+      "MKT16",
+      "MKT17"
+     ],
+     "hours": 5.05
+    },
+    {
+     "topics": [
+      "MKT25",
+      "MKT24",
+      "MKT23",
+      "MKT09"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "MKT10",
+      "MKT11",
+      "MKT19",
+      "MKT18"
+     ],
+     "hours": 5.86
+    },
+    {
+     "topics": [
+      "MKT20",
+      "OBH14",
+      "OBH19",
+      "OBH01"
+     ],
+     "hours": 5.78
+    },
+    {
+     "topics": [
+      "OBH04",
+      "OBH16",
+      "OBH17",
+      "OBH18"
+     ],
+     "hours": 4.99
+    },
+    {
+     "topics": [
+      "OBH03",
+      "OBH02",
+      "OBH05",
+      "OBH09",
+      "OBH10"
+     ],
+     "hours": 5.52
+    },
+    {
+     "topics": [
+      "OBH11",
+      "OBH12",
+      "OBH13",
+      "OBH15"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "OBH20",
+      "OBH06",
+      "OBH07",
+      "OBH08"
+     ],
+     "hours": 5.05
+    },
+    {
+     "topics": [
+      "FIN05",
+      "FIN15",
+      "FIN16",
+      "FIN17"
+     ],
+     "hours": 5.47
+    },
+    {
+     "topics": [
+      "FIN18",
+      "FIN35",
+      "FIN20"
+     ],
+     "hours": 4.91
+    },
+    {
+     "topics": [
+      "FIN22",
+      "FIN23",
+      "FIN24"
+     ],
+     "hours": 5.3
+    },
+    {
+     "topics": [
+      "FIN21",
+      "FIN10",
+      "FIN11"
+     ],
+     "hours": 5.38
+    },
+    {
+     "topics": [
+      "FIN12",
+      "FIN13",
+      "FIN14"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "FIN06",
+      "FIN07",
+      "FIN08",
+      "FIN09",
+      "FIN31"
+     ],
+     "hours": 5.63
+    },
+    {
+     "topics": [
+      "FIN25",
+      "FIN26",
+      "FIN27"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "FIN28",
+      "FIN29",
+      "FIN30"
+     ],
+     "hours": 5.45
+    },
+    {
+     "topics": [
+      "FIN34",
+      "ACC33",
+      "ACC34"
+     ],
+     "hours": 5.03
+    },
+    {
+     "topics": [
+      "COM01",
+      "COM04",
+      "COM05",
+      "COM02"
+     ],
+     "hours": 5.16
+    },
+    {
+     "topics": [
+      "COM03",
+      "RES01",
+      "RES02"
+     ],
+     "hours": 5.03
+    },
+    {
+     "topics": [
+      "RES03",
+      "RES08",
+      "RES07",
+      "RES06"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "RES04",
+      "RES05",
+      "RES10",
+      "RES09"
+     ],
+     "hours": 5.11
+    },
+    {
+     "topics": [
+      "STR01",
+      "STR03",
+      "STR04",
+      "STR05"
+     ],
+     "hours": 4.3
+    },
+    {
+     "topics": [
+      "STR06",
+      "STR07",
+      "STR16"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "STR10",
+      "STR12"
+     ],
+     "hours": 3.02
+    },
+    {
+     "topics": [
+      "STR02",
+      "STR15",
+      "STR14",
+      "STR13"
+     ],
+     "hours": 5.22
+    },
+    {
+     "topics": [
+      "STR08",
+      "STR09",
+      "STR11"
+     ],
+     "hours": 4.58
+    },
+    {
+     "topics": [
+      "ITD01",
+      "ITD02",
+      "ITD05",
+      "ITD03"
+     ],
+     "hours": 4.99
+    },
+    {
+     "topics": [
+      "ITD04",
+      "ITD08",
+      "ITD06",
+      "ITD07"
+     ],
+     "hours": 5.25
+    }
+   ],
+   "n_days": 64,
+   "lb_days": 58,
+   "total_hours": 336.64,
+   "H": 6.0
+  }
+ },
+ {
+  "profile": "skip_marketing",
+  "description": "Skip Marketing: drop the Marketing domain; closure adds back what other courses need",
+  "n_topics": 255,
+  "study_hours": 368.25,
+  "auto_added": [
+   "MKT01",
+   "MKT02",
+   "MKT04",
+   "MKT05",
+   "MKT06",
+   "MKT07",
+   "MKT08",
+   "MKT10",
+   "MKT11",
+   "MKT13",
+   "MKT15",
+   "MKT17",
+   "MKT21",
+   "MKT25"
+  ],
+  "warnings": [
+   "auto-included MKT01, MKT02, MKT06, MKT21 (required for ITD06; MKT21 was skipped)",
+   "auto-included MKT04 (required for RES01; MKT04 was skipped)",
+   "auto-included MKT05, MKT07, MKT08, MKT10, MKT11 (required for STR14; MKT11 was skipped)",
+   "auto-included MKT13, MKT15, MKT17, MKT25 (required for STR16; MKT25 was skipped)"
+  ],
+  "naive_B0": 673.87,
+  "B0": {
+   "total": 646.2262499999999,
+   "study": 368.25,
+   "transitions": 109.10624999999999,
+   "revision": 163.87,
+   "soft_penalty": 5.0,
+   "domain_switches": 227.0,
+   "feasible": true
+  },
+  "B1": {
+   "total": 484.200625,
+   "study": 368.25,
+   "transitions": -0.9343749999999988,
+   "revision": 108.88499999999999,
+   "soft_penalty": 8.0,
+   "domain_switches": 60.0,
+   "feasible": true
+  },
+  "roadmap": {
+   "total": 401.494375,
+   "study": 368.25,
+   "transitions": -28.765625,
+   "revision": 61.01,
+   "soft_penalty": 1.0,
+   "domain_switches": 16.0,
+   "feasible": true
+  },
+  "roadmap_ids": [
+   "ACC01",
+   "ACC02",
+   "ACC03",
+   "ACC06",
+   "ACC05",
+   "ACC04",
+   "ACC17",
+   "ACC21",
+   "ACC18",
+   "ACC13",
+   "ACC07",
+   "ACC08",
+   "ACC09",
+   "ACC15",
+   "ACC19",
+   "ACC20",
+   "ACC10",
+   "ACC16",
+   "ACC22",
+   "ACC24",
+   "ACC25",
+   "ACC26",
+   "ACC23",
+   "ACC29",
+   "ACC30",
+   "ACC31",
+   "ACC27",
+   "ACC28",
+   "ACC32",
+   "QNT03",
+   "QNT31",
+   "QNT04",
+   "QNT01",
+   "QNT32",
+   "QNT37",
+   "QNT36",
+   "QNT33",
+   "QNT34",
+   "QNT35",
+   "QNT05",
+   "QNT06",
+   "QNT07",
+   "QNT08",
+   "QNT13",
+   "QNT14",
+   "QNT15",
+   "QNT16",
+   "QNT38",
+   "QNT09",
+   "QNT02",
+   "QNT11",
+   "QNT12",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "QNT26",
+   "QNT27",
+   "QNT28",
+   "QNT10",
+   "QNT30",
+   "QNT29",
+   "QNT23",
+   "QNT22",
+   "QNT25",
+   "QNT24",
+   "CMP01",
+   "CMP02",
+   "QNT17",
+   "CMP03",
+   "CMP04",
+   "CMP05",
+   "FIN02",
+   "FIN03",
+   "FIN10",
+   "FIN11",
+   "FIN12",
+   "FIN13",
+   "FIN14",
+   "FIN33",
+   "FIN32",
+   "FIN04",
+   "FIN20",
+   "FIN22",
+   "FIN23",
+   "FIN21",
+   "FIN05",
+   "FIN06",
+   "FIN25",
+   "FIN26",
+   "FIN30",
+   "ACC11",
+   "ACC12",
+   "ACC14",
+   "ACC33",
+   "ACC34",
+   "FIN08",
+   "FIN07",
+   "FIN01",
+   "FIN09",
+   "FIN31",
+   "FIN34",
+   "FIN27",
+   "FIN28",
+   "FIN29",
+   "FIN19",
+   "FIN35",
+   "FIN15",
+   "FIN16",
+   "FIN17",
+   "FIN24",
+   "ECO01",
+   "ECO05",
+   "ECO19",
+   "ECO03",
+   "ECO02",
+   "ECO04",
+   "ECO17",
+   "ECO06",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "ECO18",
+   "ECO14",
+   "ECO10",
+   "ECO11",
+   "ECO12",
+   "ECO13",
+   "ECO20",
+   "ECO22",
+   "ECO21",
+   "ECO23",
+   "ECO27",
+   "ECO28",
+   "ECO15",
+   "ECO16",
+   "ECO24",
+   "ECO25",
+   "ECO26",
+   "ECO29",
+   "FIN18",
+   "LAW01",
+   "LAW02",
+   "LAW03",
+   "LAW06",
+   "LAW05",
+   "LAW04",
+   "LAW07",
+   "ENV06",
+   "ENV07",
+   "ENV05",
+   "OBH01",
+   "OBH03",
+   "OBH06",
+   "OBH02",
+   "OBH05",
+   "OBH07",
+   "OBH08",
+   "OBH14",
+   "OBH19",
+   "OBH04",
+   "OBH16",
+   "OBH17",
+   "OBH18",
+   "OBH09",
+   "OBH10",
+   "OBH11",
+   "OBH12",
+   "OBH13",
+   "OBH15",
+   "OBH20",
+   "MKT01",
+   "MKT02",
+   "MKT06",
+   "MKT21",
+   "MKT04",
+   "MKT05",
+   "MKT07",
+   "MKT08",
+   "MKT10",
+   "MKT11",
+   "MKT15",
+   "MKT13",
+   "MKT17",
+   "MKT25",
+   "COM01",
+   "COM02",
+   "COM03",
+   "COM04",
+   "COM05",
+   "OPS01",
+   "OPS18",
+   "OPS19",
+   "OPS20",
+   "OPS03",
+   "OPS04",
+   "OPS14",
+   "OPS15",
+   "OPS16",
+   "OPS17",
+   "OPS09",
+   "OPS10",
+   "OPS02",
+   "OPS05",
+   "OPS06",
+   "OPS21",
+   "OPS27",
+   "OPS07",
+   "OPS08",
+   "OPS26",
+   "OPS13",
+   "OPS12",
+   "OPS11",
+   "OPS22",
+   "OPS23",
+   "OPS24",
+   "OPS25",
+   "ENV01",
+   "ENV02",
+   "ENV03",
+   "ENV04",
+   "STR01",
+   "STR03",
+   "STR04",
+   "STR05",
+   "STR06",
+   "STR07",
+   "STR16",
+   "STR02",
+   "STR10",
+   "STR11",
+   "STR12",
+   "STR13",
+   "STR14",
+   "STR15",
+   "STR08",
+   "STR09",
+   "ITD01",
+   "ITD02",
+   "ITD05",
+   "ITD03",
+   "ITD04",
+   "ITD08",
+   "ITD06",
+   "ITD07",
+   "RES01",
+   "RES02",
+   "RES03",
+   "RES08",
+   "RES07",
+   "RES06",
+   "RES04",
+   "RES05",
+   "RES10",
+   "RES09"
+  ],
+  "B0_ids": [
+   "ACC01",
+   "ECO01",
+   "QNT01",
+   "QNT03",
+   "FIN01",
+   "MKT01",
+   "ACC02",
+   "LAW01",
+   "OPS01",
+   "ECO02",
+   "CMP01",
+   "QNT02",
+   "ACC03",
+   "OBH01",
+   "ECO03",
+   "QNT04",
+   "FIN02",
+   "ACC04",
+   "OBH14",
+   "QNT05",
+   "ECO04",
+   "MKT02",
+   "ACC05",
+   "LAW02",
+   "OPS02",
+   "QNT06",
+   "ECO05",
+   "COM01",
+   "QNT31",
+   "ACC06",
+   "FIN03",
+   "ECO06",
+   "CMP02",
+   "QNT07",
+   "ACC07",
+   "MKT04",
+   "ACC08",
+   "LAW03",
+   "OPS03",
+   "QNT08",
+   "OBH02",
+   "FIN04",
+   "ACC09",
+   "QNT09",
+   "MKT05",
+   "ACC10",
+   "ACC22",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "FIN05",
+   "ACC11",
+   "OBH15",
+   "OBH19",
+   "LAW04",
+   "ECO10",
+   "CMP03",
+   "OPS04",
+   "QNT10",
+   "ACC12",
+   "ECO11",
+   "MKT06",
+   "RES07",
+   "QNT11",
+   "ACC13",
+   "ECO12",
+   "FIN06",
+   "OBH03",
+   "QNT12",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "ACC14",
+   "LAW05",
+   "OPS05",
+   "QNT22",
+   "ECO13",
+   "MKT07",
+   "ACC15",
+   "FIN20",
+   "QNT13",
+   "ECO14",
+   "FIN07",
+   "ACC16",
+   "COM04",
+   "QNT23",
+   "QNT32",
+   "CMP04",
+   "ECO15",
+   "QNT14",
+   "ACC17",
+   "LAW06",
+   "MKT08",
+   "ECO16",
+   "FIN08",
+   "ACC18",
+   "QNT15",
+   "QNT24",
+   "ECO17",
+   "OBH04",
+   "OBH16",
+   "ACC19",
+   "CMP05",
+   "QNT16",
+   "ECO18",
+   "ACC20",
+   "LAW07",
+   "MKT10",
+   "FIN09",
+   "QNT25",
+   "QNT17",
+   "ECO19",
+   "ACC21",
+   "ACC23",
+   "QNT26",
+   "OPS07",
+   "OPS08",
+   "ECO20",
+   "FIN10",
+   "OPS09",
+   "ITD01",
+   "ACC24",
+   "OBH05",
+   "MKT11",
+   "QNT27",
+   "ECO21",
+   "FIN11",
+   "OPS10",
+   "ACC25",
+   "QNT28",
+   "OBH17",
+   "ECO22",
+   "ENV01",
+   "ITD02",
+   "FIN12",
+   "OPS11",
+   "ACC26",
+   "QNT29",
+   "ECO23",
+   "ACC27",
+   "OBH06",
+   "MKT13",
+   "FIN13",
+   "QNT30",
+   "ITD03",
+   "ECO24",
+   "ACC28",
+   "OPS12",
+   "FIN14",
+   "OPS13",
+   "QNT33",
+   "ENV05",
+   "COM02",
+   "COM05",
+   "ACC29",
+   "ECO25",
+   "ITD04",
+   "QNT34",
+   "FIN15",
+   "OPS14",
+   "ACC30",
+   "OBH07",
+   "MKT15",
+   "ECO26",
+   "QNT35",
+   "ACC31",
+   "FIN16",
+   "OPS15",
+   "OBH18",
+   "ECO27",
+   "ENV02",
+   "ITD05",
+   "QNT36",
+   "ACC32",
+   "FIN17",
+   "OPS16",
+   "ECO28",
+   "QNT37",
+   "OBH08",
+   "MKT17",
+   "ITD08",
+   "FIN18",
+   "OPS17",
+   "ECO29",
+   "QNT38",
+   "STR01",
+   "FIN19",
+   "FIN35",
+   "OPS06",
+   "RES01",
+   "STR02",
+   "FIN21",
+   "OBH09",
+   "OPS18",
+   "STR03",
+   "FIN22",
+   "RES02",
+   "STR04",
+   "FIN23",
+   "ENV03",
+   "ENV06",
+   "MKT21",
+   "ITD06",
+   "OPS19",
+   "STR05",
+   "FIN24",
+   "OBH10",
+   "RES03",
+   "RES08",
+   "STR06",
+   "OPS20",
+   "FIN25",
+   "STR07",
+   "FIN26",
+   "ACC33",
+   "ACC34",
+   "RES04",
+   "OPS21",
+   "STR08",
+   "FIN27",
+   "OBH11",
+   "OPS26",
+   "COM03",
+   "STR09",
+   "OPS22",
+   "RES05",
+   "FIN28",
+   "STR10",
+   "FIN29",
+   "OPS23",
+   "RES06",
+   "FIN30",
+   "OBH12",
+   "OBH20",
+   "ENV04",
+   "ENV07",
+   "ITD07",
+   "MKT25",
+   "OPS24",
+   "FIN31",
+   "STR13",
+   "RES09",
+   "FIN32",
+   "STR14",
+   "OPS25",
+   "STR11",
+   "FIN33",
+   "OBH13",
+   "STR15",
+   "RES10",
+   "OPS27",
+   "FIN34",
+   "STR12",
+   "STR16"
+  ],
+  "B1_ids": [
+   "FIN01",
+   "ACC01",
+   "ACC02",
+   "ACC03",
+   "ACC04",
+   "ACC22",
+   "ACC05",
+   "ACC06",
+   "ACC07",
+   "ACC08",
+   "ACC09",
+   "ACC10",
+   "ACC11",
+   "ACC13",
+   "ACC14",
+   "ACC15",
+   "ACC16",
+   "ACC17",
+   "ACC18",
+   "ACC19",
+   "ACC20",
+   "ACC21",
+   "OBH14",
+   "OBH15",
+   "OBH19",
+   "OBH01",
+   "OBH02",
+   "OBH03",
+   "OBH04",
+   "OBH16",
+   "LAW01",
+   "LAW02",
+   "LAW03",
+   "LAW04",
+   "LAW05",
+   "LAW07",
+   "ECO01",
+   "ECO02",
+   "ECO03",
+   "ECO04",
+   "ECO11",
+   "ECO12",
+   "ECO15",
+   "ECO16",
+   "ECO17",
+   "ECO18",
+   "ECO19",
+   "COM01",
+   "CMP01",
+   "CMP02",
+   "CMP05",
+   "MKT01",
+   "MKT02",
+   "MKT04",
+   "MKT06",
+   "OPS01",
+   "OPS02",
+   "OPS03",
+   "OPS04",
+   "QNT01",
+   "FIN02",
+   "FIN03",
+   "FIN04",
+   "FIN20",
+   "FIN05",
+   "FIN06",
+   "FIN07",
+   "FIN08",
+   "FIN09",
+   "ACC12",
+   "QNT02",
+   "ECO05",
+   "ECO06",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "LAW06",
+   "ECO10",
+   "ECO13",
+   "ECO14",
+   "QNT05",
+   "QNT06",
+   "QNT07",
+   "QNT03",
+   "CMP03",
+   "MKT05",
+   "MKT07",
+   "MKT08",
+   "MKT10",
+   "QNT08",
+   "QNT09",
+   "RES07",
+   "QNT10",
+   "QNT11",
+   "OPS05",
+   "QNT12",
+   "QNT13",
+   "QNT14",
+   "QNT15",
+   "QNT16",
+   "QNT17",
+   "QNT04",
+   "COM04",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "QNT22",
+   "QNT23",
+   "QNT24",
+   "QNT25",
+   "QNT31",
+   "QNT32",
+   "CMP04",
+   "ACC23",
+   "ACC24",
+   "ACC25",
+   "ACC26",
+   "ACC27",
+   "ACC28",
+   "ACC29",
+   "ACC30",
+   "ACC31",
+   "ACC32",
+   "FIN10",
+   "FIN11",
+   "FIN12",
+   "FIN15",
+   "FIN16",
+   "FIN17",
+   "OBH17",
+   "OBH18",
+   "OBH05",
+   "OBH06",
+   "OBH07",
+   "OBH08",
+   "ECO20",
+   "ECO21",
+   "ECO22",
+   "ECO23",
+   "ECO24",
+   "ECO25",
+   "ECO26",
+   "ECO27",
+   "FIN18",
+   "ECO28",
+   "ECO29",
+   "MKT11",
+   "MKT13",
+   "MKT15",
+   "MKT17",
+   "OPS09",
+   "OPS10",
+   "OPS11",
+   "OPS12",
+   "OPS13",
+   "OPS14",
+   "OPS15",
+   "OPS16",
+   "ENV01",
+   "ENV02",
+   "QNT26",
+   "OPS07",
+   "OPS08",
+   "FIN13",
+   "FIN14",
+   "QNT27",
+   "QNT28",
+   "QNT29",
+   "QNT30",
+   "QNT33",
+   "QNT34",
+   "QNT35",
+   "QNT36",
+   "QNT37",
+   "OPS17",
+   "QNT38",
+   "ENV05",
+   "ITD01",
+   "ITD02",
+   "ITD03",
+   "ITD04",
+   "ITD05",
+   "ITD08",
+   "COM02",
+   "COM05",
+   "ENV03",
+   "ENV04",
+   "RES01",
+   "RES02",
+   "RES03",
+   "RES08",
+   "RES04",
+   "RES05",
+   "RES06",
+   "RES09",
+   "RES10",
+   "FIN19",
+   "FIN35",
+   "FIN21",
+   "FIN22",
+   "FIN23",
+   "FIN24",
+   "FIN25",
+   "FIN26",
+   "ACC33",
+   "ACC34",
+   "FIN27",
+   "FIN28",
+   "FIN29",
+   "FIN30",
+   "FIN31",
+   "FIN32",
+   "FIN33",
+   "FIN34",
+   "ENV06",
+   "ENV07",
+   "MKT21",
+   "ITD06",
+   "MKT25",
+   "OBH09",
+   "OBH10",
+   "OBH11",
+   "OBH12",
+   "OBH13",
+   "OPS06",
+   "OPS18",
+   "OPS19",
+   "OPS20",
+   "OPS21",
+   "OPS22",
+   "OPS23",
+   "OPS24",
+   "OPS25",
+   "OPS27",
+   "OBH20",
+   "STR01",
+   "STR02",
+   "STR03",
+   "STR04",
+   "STR05",
+   "STR06",
+   "STR07",
+   "STR08",
+   "STR09",
+   "ITD07",
+   "STR10",
+   "STR11",
+   "STR12",
+   "STR13",
+   "STR14",
+   "STR15",
+   "OPS26",
+   "COM03",
+   "STR16"
+  ],
+  "curriculum_inversions_repaired": 16,
+  "heuristic_secs": 29.96,
+  "starts": [
+   {
+    "start": "NN",
+    "construct": 454.95687499999815,
+    "improved": 414.0312499999978,
+    "secs": 2.08
+   },
+   {
+    "start": "CI",
+    "construct": 437.1162499999984,
+    "improved": 405.5037499999977,
+    "secs": 2.68
+   },
+   {
+    "start": "FI",
+    "construct": 437.61062499999815,
+    "improved": 407.24749999999807,
+    "secs": 2.8
+   },
+   {
+    "start": "SAV",
+    "construct": 427.5274999999981,
+    "improved": 401.4943749999977,
+    "secs": 1.52
+   },
+   {
+    "start": "B0",
+    "construct": 646.226249999999,
+    "improved": 421.31624999999764,
+    "secs": 3.01
+   },
+   {
+    "start": "B1",
+    "construct": 484.2006249999981,
+    "improved": 414.2437499999977,
+    "secs": 2.53
+   },
+   {
+    "start": "rand0",
+    "construct": 622.2768749999996,
+    "improved": 420.81687499999776
+   },
+   {
+    "start": "rand1",
+    "construct": 636.005,
+    "improved": 411.7012499999977
+   },
+   {
+    "start": "rand2",
+    "construct": 625.2581249999995,
+    "improved": 422.57187499999753
+   },
+   {
+    "start": "rand3",
+    "construct": 624.0456249999996,
+    "improved": 425.8637499999979
+   },
+   {
+    "start": "rand4",
+    "construct": 618.6949999999999,
+    "improved": 414.017499999998
+   }
+  ],
+  "critical_path_hours": 26.5,
+  "scope_gain": 27.64,
+  "sequencing_gain_vs_B0": 244.73,
+  "sequencing_gain_vs_B1": 82.71,
+  "days": {
+   "feasible": true,
+   "days": [
+    {
+     "topics": [
+      "ACC01",
+      "ACC02",
+      "ACC03"
+     ],
+     "hours": 4.41
+    },
+    {
+     "topics": [
+      "ACC06",
+      "ACC05",
+      "ACC04",
+      "ACC17"
+     ],
+     "hours": 5.79
+    },
+    {
+     "topics": [
+      "ACC21",
+      "ACC18",
+      "ACC13",
+      "ACC07"
+     ],
+     "hours": 4.64
+    },
+    {
+     "topics": [
+      "ACC08",
+      "ACC09",
+      "ACC15"
+     ],
+     "hours": 5.26
+    },
+    {
+     "topics": [
+      "ACC19",
+      "ACC20",
+      "ACC10",
+      "ACC16"
+     ],
+     "hours": 5.86
+    },
+    {
+     "topics": [
+      "ACC22",
+      "ACC24",
+      "ACC25",
+      "ACC26"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "ACC23",
+      "ACC29",
+      "ACC30"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "ACC31",
+      "ACC27",
+      "ACC28",
+      "ACC32"
+     ],
+     "hours": 5.13
+    },
+    {
+     "topics": [
+      "QNT03",
+      "QNT31",
+      "QNT04",
+      "QNT01",
+      "QNT32"
+     ],
+     "hours": 5.9
+    },
+    {
+     "topics": [
+      "QNT37",
+      "QNT36",
+      "QNT33",
+      "QNT34"
+     ],
+     "hours": 5.86
+    },
+    {
+     "topics": [
+      "QNT35",
+      "QNT05",
+      "QNT06",
+      "QNT07"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "QNT08",
+      "QNT13",
+      "QNT14",
+      "QNT15"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "QNT16",
+      "QNT38",
+      "QNT09",
+      "QNT02"
+     ],
+     "hours": 4.69
+    },
+    {
+     "topics": [
+      "QNT11",
+      "QNT12",
+      "QNT18",
+      "QNT19"
+     ],
+     "hours": 4.94
+    },
+    {
+     "topics": [
+      "QNT20",
+      "QNT21",
+      "QNT26"
+     ],
+     "hours": 6.0
+    },
+    {
+     "topics": [
+      "QNT27",
+      "QNT28"
+     ],
+     "hours": 4.03
+    },
+    {
+     "topics": [
+      "QNT10",
+      "QNT30",
+      "QNT29",
+      "QNT23"
+     ],
+     "hours": 5.16
+    },
+    {
+     "topics": [
+      "QNT22",
+      "QNT25",
+      "QNT24",
+      "CMP01"
+     ],
+     "hours": 5.91
+    },
+    {
+     "topics": [
+      "CMP02",
+      "QNT17",
+      "CMP03",
+      "CMP04",
+      "CMP05"
+     ],
+     "hours": 5.86
+    },
+    {
+     "topics": [
+      "FIN02",
+      "FIN03",
+      "FIN10",
+      "FIN11"
+     ],
+     "hours": 5.68
+    },
+    {
+     "topics": [
+      "FIN12",
+      "FIN13",
+      "FIN14"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "FIN33",
+      "FIN32"
+     ],
+     "hours": 3.14
+    },
+    {
+     "topics": [
+      "FIN04",
+      "FIN20",
+      "FIN22"
+     ],
+     "hours": 6.0
+    },
+    {
+     "topics": [
+      "FIN23",
+      "FIN21",
+      "FIN05",
+      "FIN06"
+     ],
+     "hours": 5.33
+    },
+    {
+     "topics": [
+      "FIN25",
+      "FIN26",
+      "FIN30"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "ACC11",
+      "ACC12",
+      "ACC14"
+     ],
+     "hours": 3.72
+    },
+    {
+     "topics": [
+      "ACC33",
+      "ACC34"
+     ],
+     "hours": 3.02
+    },
+    {
+     "topics": [
+      "FIN08",
+      "FIN07",
+      "FIN01",
+      "FIN09"
+     ],
+     "hours": 5.86
+    },
+    {
+     "topics": [
+      "FIN31",
+      "FIN34",
+      "FIN27"
+     ],
+     "hours": 5.43
+    },
+    {
+     "topics": [
+      "FIN28",
+      "FIN29",
+      "FIN19",
+      "FIN35",
+      "FIN15"
+     ],
+     "hours": 6.0
+    },
+    {
+     "topics": [
+      "FIN16",
+      "FIN17",
+      "FIN24"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "ECO01",
+      "ECO05",
+      "ECO19",
+      "ECO03"
+     ],
+     "hours": 5.74
+    },
+    {
+     "topics": [
+      "ECO02",
+      "ECO04",
+      "ECO17",
+      "ECO06"
+     ],
+     "hours": 5.11
+    },
+    {
+     "topics": [
+      "ECO07",
+      "ECO08",
+      "ECO09",
+      "ECO18"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "ECO14",
+      "ECO10",
+      "ECO11"
+     ],
+     "hours": 4.76
+    },
+    {
+     "topics": [
+      "ECO12",
+      "ECO13"
+     ],
+     "hours": 3.88
+    },
+    {
+     "topics": [
+      "ECO20",
+      "ECO22",
+      "ECO21",
+      "ECO23"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "ECO27",
+      "ECO28",
+      "ECO15",
+      "ECO16"
+     ],
+     "hours": 5.91
+    },
+    {
+     "topics": [
+      "ECO24",
+      "ECO25",
+      "ECO26"
+     ],
+     "hours": 5.15
+    },
+    {
+     "topics": [
+      "ECO29",
+      "FIN18"
+     ],
+     "hours": 3.75
+    },
+    {
+     "topics": [
+      "LAW01",
+      "LAW02",
+      "LAW03",
+      "LAW06"
+     ],
+     "hours": 4.27
+    },
+    {
+     "topics": [
+      "LAW05",
+      "LAW04",
+      "LAW07",
+      "ENV06",
+      "ENV07"
+     ],
+     "hours": 5.66
+    },
+    {
+     "topics": [
+      "ENV05",
+      "OBH01",
+      "OBH03",
+      "OBH06"
+     ],
+     "hours": 5.03
+    },
+    {
+     "topics": [
+      "OBH02",
+      "OBH05",
+      "OBH07",
+      "OBH08",
+      "OBH14"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "OBH19",
+      "OBH04",
+      "OBH16",
+      "OBH17"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "OBH18",
+      "OBH09",
+      "OBH10",
+      "OBH11"
+     ],
+     "hours": 5.16
+    },
+    {
+     "topics": [
+      "OBH12",
+      "OBH13",
+      "OBH15",
+      "OBH20"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "MKT01",
+      "MKT02",
+      "MKT06",
+      "MKT21"
+     ],
+     "hours": 4.83
+    },
+    {
+     "topics": [
+      "MKT04",
+      "MKT05",
+      "MKT07"
+     ],
+     "hours": 3.55
+    },
+    {
+     "topics": [
+      "MKT08",
+      "MKT10",
+      "MKT11",
+      "MKT15"
+     ],
+     "hours": 5.74
+    },
+    {
+     "topics": [
+      "MKT13",
+      "MKT17",
+      "MKT25"
+     ],
+     "hours": 5.32
+    },
+    {
+     "topics": [
+      "COM01",
+      "COM02",
+      "COM03",
+      "COM04"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "COM05",
+      "OPS01",
+      "OPS18"
+     ],
+     "hours": 5.28
+    },
+    {
+     "topics": [
+      "OPS19",
+      "OPS20",
+      "OPS03",
+      "OPS04"
+     ],
+     "hours": 5.16
+    },
+    {
+     "topics": [
+      "OPS14",
+      "OPS15",
+      "OPS16",
+      "OPS17"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "OPS09",
+      "OPS10",
+      "OPS02",
+      "OPS05",
+      "OPS06"
+     ],
+     "hours": 5.79
+    },
+    {
+     "topics": [
+      "OPS21",
+      "OPS27",
+      "OPS07",
+      "OPS08"
+     ],
+     "hours": 5.16
+    },
+    {
+     "topics": [
+      "OPS26",
+      "OPS13",
+      "OPS12",
+      "OPS11",
+      "OPS22"
+     ],
+     "hours": 5.69
+    },
+    {
+     "topics": [
+      "OPS23",
+      "OPS24",
+      "OPS25"
+     ],
+     "hours": 3.83
+    },
+    {
+     "topics": [
+      "ENV01",
+      "ENV02",
+      "ENV03",
+      "ENV04"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "STR01",
+      "STR03",
+      "STR04",
+      "STR05"
+     ],
+     "hours": 4.3
+    },
+    {
+     "topics": [
+      "STR06",
+      "STR07",
+      "STR16",
+      "STR02"
+     ],
+     "hours": 5.87
+    },
+    {
+     "topics": [
+      "STR10",
+      "STR11",
+      "STR12",
+      "STR13"
+     ],
+     "hours": 5.8
+    },
+    {
+     "topics": [
+      "STR14",
+      "STR15",
+      "STR08",
+      "STR09"
+     ],
+     "hours": 5.97
+    },
+    {
+     "topics": [
+      "ITD01",
+      "ITD02",
+      "ITD05",
+      "ITD03"
+     ],
+     "hours": 4.99
+    },
+    {
+     "topics": [
+      "ITD04",
+      "ITD08",
+      "ITD06",
+      "ITD07"
+     ],
+     "hours": 5.25
+    },
+    {
+     "topics": [
+      "RES01",
+      "RES02",
+      "RES03",
+      "RES08"
+     ],
+     "hours": 5.58
+    },
+    {
+     "topics": [
+      "RES07",
+      "RES06"
+     ],
+     "hours": 3.14
+    },
+    {
+     "topics": [
+      "RES04",
+      "RES05",
+      "RES10",
+      "RES09"
+     ],
+     "hours": 5.11
+    }
+   ],
+   "n_days": 69,
+   "lb_days": 62,
+   "total_hours": 357.59,
+   "H": 6.0
+  }
+ },
+ {
+  "profile": "summers_3_weeks",
+  "description": "Summers in 3 weeks: about 60 hours (3 h/day) before interviews; maximise value",
+  "n_topics": 266,
+  "study_hours": 381.75,
+  "auto_added": [],
+  "warnings": [],
+  "naive_B0": 673.87,
+  "B0": {
+   "total": 673.87125,
+   "study": 381.75,
+   "transitions": 115.60624999999999,
+   "revision": 171.51500000000001,
+   "soft_penalty": 5.0,
+   "domain_switches": 240.0,
+   "feasible": true
+  },
+  "B1": {
+   "total": 502.27750000000003,
+   "study": 381.75,
+   "transitions": -2.6124999999999985,
+   "revision": 115.14000000000001,
+   "soft_penalty": 8.0,
+   "domain_switches": 60.0,
+   "feasible": true
+  },
+  "roadmap": {
+   "total": 415.37875,
+   "study": 381.75,
+   "transitions": -28.55625,
+   "revision": 62.18499999999999,
+   "soft_penalty": 0.0,
+   "domain_switches": 17.0,
+   "feasible": true
+  },
+  "roadmap_ids": [
+   "QNT03",
+   "QNT31",
+   "QNT04",
+   "QNT01",
+   "QNT32",
+   "QNT37",
+   "QNT36",
+   "QNT33",
+   "QNT34",
+   "QNT35",
+   "QNT05",
+   "QNT08",
+   "QNT09",
+   "QNT02",
+   "QNT11",
+   "QNT12",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "QNT26",
+   "QNT27",
+   "QNT28",
+   "QNT13",
+   "QNT16",
+   "QNT10",
+   "QNT23",
+   "QNT22",
+   "QNT25",
+   "QNT24",
+   "QNT38",
+   "QNT30",
+   "QNT29",
+   "QNT06",
+   "QNT14",
+   "CMP01",
+   "CMP02",
+   "QNT17",
+   "CMP03",
+   "CMP04",
+   "CMP05",
+   "QNT07",
+   "QNT15",
+   "FIN02",
+   "FIN03",
+   "FIN10",
+   "FIN11",
+   "FIN12",
+   "ACC01",
+   "ACC02",
+   "ACC03",
+   "ACC06",
+   "ACC05",
+   "ACC04",
+   "ACC09",
+   "ACC10",
+   "ACC11",
+   "ACC12",
+   "ACC07",
+   "ACC08",
+   "ACC13",
+   "ACC16",
+   "ACC17",
+   "ACC18",
+   "ACC14",
+   "ACC15",
+   "ACC19",
+   "ACC20",
+   "ACC21",
+   "ACC22",
+   "ACC24",
+   "ACC25",
+   "ACC26",
+   "ACC23",
+   "ACC29",
+   "ACC30",
+   "ACC31",
+   "ACC27",
+   "ACC28",
+   "ACC32",
+   "FIN32",
+   "FIN33",
+   "OPS09",
+   "OPS10",
+   "OPS13",
+   "OPS12",
+   "OPS11",
+   "OPS07",
+   "OPS22",
+   "OPS25",
+   "OPS24",
+   "OPS23",
+   "OPS08",
+   "OPS01",
+   "OPS21",
+   "OPS17",
+   "OPS16",
+   "OPS02",
+   "OPS05",
+   "OPS26",
+   "OPS03",
+   "OPS04",
+   "OPS27",
+   "OPS18",
+   "OPS19",
+   "OPS20",
+   "OPS06",
+   "OPS14",
+   "OPS15",
+   "FIN01",
+   "FIN19",
+   "ECO20",
+   "ECO22",
+   "ECO21",
+   "ECO23",
+   "ECO27",
+   "ECO24",
+   "ECO25",
+   "ECO26",
+   "ECO06",
+   "ECO28",
+   "ECO29",
+   "ECO01",
+   "ECO03",
+   "ECO02",
+   "ECO04",
+   "ECO17",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "ECO10",
+   "ECO05",
+   "ECO19",
+   "ECO18",
+   "ECO11",
+   "ECO12",
+   "ECO13",
+   "ECO14",
+   "ECO15",
+   "ECO16",
+   "LAW01",
+   "LAW02",
+   "LAW03",
+   "LAW06",
+   "LAW05",
+   "LAW04",
+   "LAW07",
+   "ENV06",
+   "ENV07",
+   "ENV05",
+   "FIN35",
+   "FIN15",
+   "FIN16",
+   "FIN17",
+   "FIN18",
+   "FIN04",
+   "FIN20",
+   "FIN22",
+   "FIN23",
+   "FIN24",
+   "FIN21",
+   "FIN05",
+   "FIN06",
+   "FIN07",
+   "FIN08",
+   "FIN09",
+   "FIN31",
+   "FIN13",
+   "FIN25",
+   "FIN26",
+   "FIN30",
+   "FIN34",
+   "FIN27",
+   "FIN29",
+   "FIN28",
+   "FIN14",
+   "ACC33",
+   "ACC34",
+   "MKT01",
+   "MKT02",
+   "MKT06",
+   "MKT21",
+   "MKT22",
+   "MKT03",
+   "MKT04",
+   "MKT05",
+   "MKT07",
+   "MKT08",
+   "MKT09",
+   "MKT10",
+   "MKT11",
+   "MKT12",
+   "MKT15",
+   "MKT16",
+   "MKT17",
+   "MKT20",
+   "MKT24",
+   "MKT23",
+   "MKT19",
+   "MKT18",
+   "MKT13",
+   "MKT25",
+   "MKT14",
+   "RES07",
+   "RES01",
+   "RES02",
+   "RES06",
+   "RES05",
+   "RES10",
+   "RES04",
+   "RES03",
+   "RES08",
+   "RES09",
+   "OBH14",
+   "OBH15",
+   "OBH01",
+   "OBH04",
+   "OBH16",
+   "OBH17",
+   "OBH18",
+   "OBH19",
+   "OBH03",
+   "OBH02",
+   "OBH05",
+   "OBH11",
+   "OBH12",
+   "OBH20",
+   "OBH09",
+   "OBH10",
+   "OBH13",
+   "OBH06",
+   "OBH07",
+   "OBH08",
+   "ENV01",
+   "ENV02",
+   "ENV03",
+   "ENV04",
+   "COM01",
+   "COM04",
+   "COM05",
+   "COM02",
+   "COM03",
+   "STR01",
+   "STR03",
+   "STR04",
+   "STR05",
+   "STR06",
+   "STR07",
+   "STR16",
+   "STR02",
+   "STR10",
+   "STR15",
+   "STR14",
+   "STR13",
+   "STR12",
+   "STR11",
+   "STR09",
+   "STR08",
+   "ITD01",
+   "ITD02",
+   "ITD05",
+   "ITD03",
+   "ITD04",
+   "ITD08",
+   "ITD06",
+   "ITD07"
+  ],
+  "B0_ids": [
+   "ACC01",
+   "ECO01",
+   "QNT01",
+   "MKT01",
+   "QNT03",
+   "FIN01",
+   "ACC02",
+   "LAW01",
+   "OPS01",
+   "ECO02",
+   "CMP01",
+   "QNT02",
+   "ACC03",
+   "OBH01",
+   "ECO03",
+   "MKT02",
+   "QNT04",
+   "FIN02",
+   "ACC04",
+   "OBH14",
+   "QNT05",
+   "ECO04",
+   "ACC05",
+   "LAW02",
+   "OPS02",
+   "QNT06",
+   "ECO05",
+   "COM01",
+   "MKT03",
+   "QNT31",
+   "ACC06",
+   "FIN03",
+   "ECO06",
+   "CMP02",
+   "QNT07",
+   "ACC07",
+   "MKT04",
+   "ACC08",
+   "LAW03",
+   "OPS03",
+   "QNT08",
+   "OBH02",
+   "FIN04",
+   "ACC09",
+   "QNT09",
+   "MKT05",
+   "ACC10",
+   "ACC22",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "FIN05",
+   "ACC11",
+   "OBH15",
+   "OBH19",
+   "LAW04",
+   "ECO10",
+   "CMP03",
+   "OPS04",
+   "QNT10",
+   "ACC12",
+   "MKT06",
+   "RES07",
+   "ECO11",
+   "QNT11",
+   "ACC13",
+   "ECO12",
+   "FIN06",
+   "OBH03",
+   "QNT12",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "ACC14",
+   "LAW05",
+   "OPS05",
+   "MKT07",
+   "QNT22",
+   "ECO13",
+   "ACC15",
+   "FIN20",
+   "QNT13",
+   "ECO14",
+   "FIN07",
+   "ACC16",
+   "COM04",
+   "MKT08",
+   "QNT23",
+   "QNT32",
+   "CMP04",
+   "ECO15",
+   "QNT14",
+   "ACC17",
+   "LAW06",
+   "ECO16",
+   "FIN08",
+   "ACC18",
+   "QNT15",
+   "MKT09",
+   "QNT24",
+   "ECO17",
+   "OBH04",
+   "OBH16",
+   "ACC19",
+   "CMP05",
+   "QNT16",
+   "ECO18",
+   "ACC20",
+   "LAW07",
+   "FIN09",
+   "MKT10",
+   "QNT25",
+   "QNT17",
+   "ECO19",
+   "ACC21",
+   "ACC23",
+   "QNT26",
+   "OPS07",
+   "OPS08",
+   "ECO20",
+   "FIN10",
+   "MKT11",
+   "OPS09",
+   "ITD01",
+   "ACC24",
+   "OBH05",
+   "QNT27",
+   "ECO21",
+   "FIN11",
+   "MKT12",
+   "OPS10",
+   "ACC25",
+   "QNT28",
+   "OBH17",
+   "ECO22",
+   "ENV01",
+   "ITD02",
+   "FIN12",
+   "MKT13",
+   "OPS11",
+   "ACC26",
+   "QNT29",
+   "ECO23",
+   "ACC27",
+   "OBH06",
+   "FIN13",
+   "MKT14",
+   "QNT30",
+   "ITD03",
+   "ECO24",
+   "ACC28",
+   "OPS12",
+   "FIN14",
+   "MKT15",
+   "OPS13",
+   "QNT33",
+   "ENV05",
+   "COM02",
+   "COM05",
+   "ACC29",
+   "ECO25",
+   "ITD04",
+   "QNT34",
+   "FIN15",
+   "MKT16",
+   "OPS14",
+   "ACC30",
+   "OBH07",
+   "ECO26",
+   "QNT35",
+   "ACC31",
+   "FIN16",
+   "MKT17",
+   "OPS15",
+   "OBH18",
+   "ECO27",
+   "ENV02",
+   "ITD05",
+   "QNT36",
+   "ACC32",
+   "FIN17",
+   "MKT18",
+   "OPS16",
+   "ECO28",
+   "QNT37",
+   "OBH08",
+   "ITD08",
+   "FIN18",
+   "MKT19",
+   "OPS17",
+   "ECO29",
+   "QNT38",
+   "STR01",
+   "FIN19",
+   "FIN35",
+   "OPS06",
+   "RES01",
+   "MKT20",
+   "STR02",
+   "FIN21",
+   "OBH09",
+   "OPS18",
+   "STR03",
+   "FIN22",
+   "RES02",
+   "STR04",
+   "FIN23",
+   "ENV03",
+   "ENV06",
+   "MKT21",
+   "ITD06",
+   "OPS19",
+   "STR05",
+   "FIN24",
+   "OBH10",
+   "RES03",
+   "RES08",
+   "STR06",
+   "OPS20",
+   "FIN25",
+   "STR07",
+   "MKT22",
+   "FIN26",
+   "ACC33",
+   "ACC34",
+   "RES04",
+   "OPS21",
+   "STR08",
+   "FIN27",
+   "OBH11",
+   "OPS26",
+   "COM03",
+   "STR09",
+   "OPS22",
+   "RES05",
+   "FIN28",
+   "MKT23",
+   "STR10",
+   "FIN29",
+   "OPS23",
+   "RES06",
+   "FIN30",
+   "OBH12",
+   "OBH20",
+   "ENV04",
+   "ENV07",
+   "ITD07",
+   "MKT24",
+   "OPS24",
+   "FIN31",
+   "STR13",
+   "RES09",
+   "FIN32",
+   "STR14",
+   "OPS25",
+   "STR11",
+   "FIN33",
+   "OBH13",
+   "STR15",
+   "MKT25",
+   "RES10",
+   "OPS27",
+   "FIN34",
+   "STR12",
+   "STR16"
+  ],
+  "B1_ids": [
+   "FIN01",
+   "ACC01",
+   "ACC02",
+   "ACC03",
+   "ACC04",
+   "ACC22",
+   "ACC05",
+   "ACC06",
+   "ACC07",
+   "ACC08",
+   "ACC09",
+   "ACC10",
+   "ACC11",
+   "ACC13",
+   "ACC14",
+   "ACC15",
+   "ACC16",
+   "ACC17",
+   "ACC18",
+   "ACC19",
+   "ACC20",
+   "ACC21",
+   "OBH14",
+   "OBH15",
+   "OBH19",
+   "OBH01",
+   "OBH02",
+   "OBH03",
+   "OBH04",
+   "OBH16",
+   "LAW01",
+   "LAW02",
+   "LAW03",
+   "LAW04",
+   "LAW05",
+   "LAW07",
+   "ECO01",
+   "ECO02",
+   "ECO03",
+   "ECO04",
+   "ECO11",
+   "ECO12",
+   "ECO15",
+   "ECO16",
+   "ECO17",
+   "ECO18",
+   "ECO19",
+   "COM01",
+   "CMP01",
+   "CMP02",
+   "CMP05",
+   "MKT01",
+   "MKT02",
+   "MKT03",
+   "MKT04",
+   "MKT06",
+   "OPS01",
+   "OPS02",
+   "OPS03",
+   "OPS04",
+   "QNT01",
+   "FIN02",
+   "FIN03",
+   "FIN04",
+   "FIN20",
+   "FIN05",
+   "FIN06",
+   "FIN07",
+   "FIN08",
+   "FIN09",
+   "ACC12",
+   "QNT02",
+   "ECO05",
+   "ECO06",
+   "ECO07",
+   "ECO08",
+   "ECO09",
+   "LAW06",
+   "ECO10",
+   "ECO13",
+   "ECO14",
+   "QNT05",
+   "QNT06",
+   "QNT07",
+   "QNT03",
+   "CMP03",
+   "MKT05",
+   "MKT07",
+   "MKT08",
+   "MKT09",
+   "MKT10",
+   "QNT08",
+   "QNT09",
+   "RES07",
+   "QNT10",
+   "QNT11",
+   "OPS05",
+   "QNT12",
+   "QNT13",
+   "QNT14",
+   "QNT15",
+   "QNT16",
+   "QNT17",
+   "QNT04",
+   "COM04",
+   "QNT18",
+   "QNT19",
+   "QNT20",
+   "QNT21",
+   "QNT22",
+   "QNT23",
+   "QNT24",
+   "QNT25",
+   "QNT31",
+   "QNT32",
+   "CMP04",
+   "ACC23",
+   "ACC24",
+   "ACC25",
+   "ACC26",
+   "ACC27",
+   "ACC28",
+   "ACC29",
+   "ACC30",
+   "ACC31",
+   "ACC32",
+   "FIN10",
+   "FIN11",
+   "FIN12",
+   "FIN15",
+   "FIN16",
+   "FIN17",
+   "OBH17",
+   "OBH18",
+   "OBH05",
+   "OBH06",
+   "OBH07",
+   "OBH08",
+   "ECO20",
+   "ECO21",
+   "ECO22",
+   "ECO23",
+   "ECO24",
+   "ECO25",
+   "ECO26",
+   "ECO27",
+   "FIN18",
+   "ECO28",
+   "ECO29",
+   "MKT11",
+   "MKT12",
+   "MKT13",
+   "MKT14",
+   "MKT15",
+   "MKT16",
+   "MKT17",
+   "MKT18",
+   "MKT19",
+   "OPS09",
+   "OPS10",
+   "OPS11",
+   "OPS12",
+   "OPS13",
+   "OPS14",
+   "OPS15",
+   "OPS16",
+   "ENV01",
+   "ENV02",
+   "QNT26",
+   "OPS07",
+   "OPS08",
+   "FIN13",
+   "FIN14",
+   "QNT27",
+   "QNT28",
+   "QNT29",
+   "QNT30",
+   "QNT33",
+   "QNT34",
+   "QNT35",
+   "QNT36",
+   "QNT37",
+   "OPS17",
+   "QNT38",
+   "ENV05",
+   "ITD01",
+   "ITD02",
+   "ITD03",
+   "ITD04",
+   "ITD05",
+   "ITD08",
+   "COM02",
+   "COM05",
+   "ENV03",
+   "ENV04",
+   "RES01",
+   "RES02",
+   "RES03",
+   "RES08",
+   "RES04",
+   "RES05",
+   "RES06",
+   "RES09",
+   "RES10",
+   "FIN19",
+   "FIN35",
+   "FIN21",
+   "FIN22",
+   "FIN23",
+   "FIN24",
+   "FIN25",
+   "FIN26",
+   "ACC33",
+   "ACC34",
+   "FIN27",
+   "FIN28",
+   "FIN29",
+   "FIN30",
+   "FIN31",
+   "FIN32",
+   "FIN33",
+   "FIN34",
+   "ENV06",
+   "ENV07",
+   "MKT20",
+   "MKT21",
+   "ITD06",
+   "MKT22",
+   "MKT23",
+   "MKT24",
+   "MKT25",
+   "OBH09",
+   "OBH10",
+   "OBH11",
+   "OBH12",
+   "OBH13",
+   "OPS06",
+   "OPS18",
+   "OPS19",
+   "OPS20",
+   "OPS21",
+   "OPS22",
+   "OPS23",
+   "OPS24",
+   "OPS25",
+   "OPS27",
+   "OBH20",
+   "STR01",
+   "STR02",
+   "STR03",
+   "STR04",
+   "STR05",
+   "STR06",
+   "STR07",
+   "STR08",
+   "STR09",
+   "ITD07",
+   "STR10",
+   "STR11",
+   "STR12",
+   "STR13",
+   "STR14",
+   "STR15",
+   "OPS26",
+   "COM03",
+   "STR16"
+  ],
+  "curriculum_inversions_repaired": 16,
+  "heuristic_secs": 30.85,
+  "starts": [
+   {
+    "start": "NN",
+    "construct": 474.0618749999981,
+    "improved": 428.1399999999976,
+    "secs": 3.27
+   },
+   {
+    "start": "CI",
+    "construct": 453.7193749999983,
+    "improved": 420.4862499999978,
+    "secs": 2.93
+   },
+   {
+    "start": "FI",
+    "construct": 458.0012499999982,
+    "improved": 422.1637499999978,
+    "secs": 3.25
+   },
+   {
+    "start": "SAV",
+    "construct": 430.4037499999982,
+    "improved": 415.37874999999775,
+    "secs": 2.2
+   },
+   {
+    "start": "B0",
+    "construct": 673.8712499999997,
+    "improved": 445.9424999999978,
+    "secs": 4.74
+   },
+   {
+    "start": "B1",
+    "construct": 502.2774999999979,
+    "improved": 430.48624999999794,
+    "secs": 3.55
+   },
+   {
+    "start": "rand0",
+    "construct": 655.5724999999998,
+    "improved": 438.1593749999977
+   },
+   {
+    "start": "rand1",
+    "construct": 635.90625,
+    "improved": 431.9581249999977
+   },
+   {
+    "start": "rand2",
+    "construct": 636.4193749999997,
+    "improved": 432.8012499999979
+   },
+   {
+    "start": "rand3",
+    "construct": 668.4425000000006,
+    "improved": 436.1593749999978
+   },
+   {
+    "start": "rand4",
+    "construct": 638.77125,
+    "improved": 428.25374999999786
+   }
+  ],
+  "critical_path_hours": 26.5,
+  "scope_gain": -0.0,
+  "sequencing_gain_vs_B0": 258.49,
+  "sequencing_gain_vs_B1": 86.9,
+  "days": {
+   "feasible": true,
+   "days": [
+    {
+     "topics": [
+      "QNT03",
+      "QNT31"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "QNT04",
+      "QNT01"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT32"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "QNT37"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT36"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT33"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT34"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT35"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT05"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT08",
+      "QNT09"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "QNT02"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT11"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT12"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT18"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT19",
+      "QNT20"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "QNT21"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "QNT26"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "QNT27"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "QNT28"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT13"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT16"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT10"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT23",
+      "QNT22"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "QNT25"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT24"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT38",
+      "QNT30"
+     ],
+     "hours": 2.44
+    },
+    {
+     "topics": [
+      "QNT29"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT06"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT14"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "CMP01"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "CMP02"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT17",
+      "CMP03"
+     ],
+     "hours": 2.5
+    },
+    {
+     "topics": [
+      "CMP04",
+      "CMP05"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "QNT07"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "QNT15"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN02",
+      "FIN03"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "FIN10"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN11"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "FIN12"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC01"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC02"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC03"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC06",
+      "ACC05"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "ACC04"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC09"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC10"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC11",
+      "ACC12"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "ACC07"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC08"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC13",
+      "ACC16"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "ACC17"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "ACC18",
+      "ACC14"
+     ],
+     "hours": 2.44
+    },
+    {
+     "topics": [
+      "ACC15"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "ACC19"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC20"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC21"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC22"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC24"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC25"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC26"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC23"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC29"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC30"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "ACC31"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC27",
+      "ACC28"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "ACC32"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN32"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN33"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OPS09",
+      "OPS10"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "OPS13",
+      "OPS12"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "OPS11"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OPS07"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OPS22"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OPS25",
+      "OPS24"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "OPS23",
+      "OPS08"
+     ],
+     "hours": 2.5
+    },
+    {
+     "topics": [
+      "OPS01"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "OPS21"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OPS17"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OPS16",
+      "OPS02"
+     ],
+     "hours": 2.5
+    },
+    {
+     "topics": [
+      "OPS05"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "OPS26"
+     ],
+     "hours": 1.0
+    },
+    {
+     "topics": [
+      "OPS03",
+      "OPS04"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "OPS27"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OPS18"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OPS19"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OPS20",
+      "OPS06"
+     ],
+     "hours": 2.47
+    },
+    {
+     "topics": [
+      "OPS14"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OPS15"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN01",
+      "FIN19"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "ECO20"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO22"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO21"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO23"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO27"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO24"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO25"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "ECO26"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO06"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO28"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO29"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO01"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO03"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO02"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO04",
+      "ECO17"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "ECO07"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO08"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO09"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO10"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO05"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO19"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO18"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO11"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "ECO12"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ECO13"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "ECO14",
+      "ECO15"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "ECO16"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "LAW01",
+      "LAW02"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "LAW03",
+      "LAW06"
+     ],
+     "hours": 2.47
+    },
+    {
+     "topics": [
+      "LAW05",
+      "LAW04"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "LAW07",
+      "ENV06"
+     ],
+     "hours": 3.0
+    },
+    {
+     "topics": [
+      "ENV07",
+      "ENV05"
+     ],
+     "hours": 2.5
+    },
+    {
+     "topics": [
+      "FIN35",
+      "FIN15"
+     ],
+     "hours": 2.5
+    },
+    {
+     "topics": [
+      "FIN16"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN17"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "FIN18"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN04"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN20"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "FIN22"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "FIN23"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN24"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN21"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN05",
+      "FIN06"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "FIN07"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN08"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN09"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN31"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN13"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "FIN25"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN26"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN30"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "FIN34"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN27"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "FIN29"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN28"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "FIN14"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC33"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ACC34"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT01",
+      "MKT02"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "MKT06"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT21",
+      "MKT22"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "MKT03"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT04",
+      "MKT05"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "MKT07"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT08"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT09",
+      "MKT10"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "MKT11"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT12"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT15"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT16"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT17"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT20"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT24",
+      "MKT23"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "MKT19"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT18"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT13"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "MKT25"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "MKT14",
+      "RES07"
+     ],
+     "hours": 3.0
+    },
+    {
+     "topics": [
+      "RES01"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "RES02"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "RES06"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "RES05"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "RES10"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "RES04"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "RES03"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "RES08",
+      "RES09"
+     ],
+     "hours": 2.44
+    },
+    {
+     "topics": [
+      "OBH14",
+      "OBH15"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "OBH01"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OBH04"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OBH16"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OBH17"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OBH18",
+      "OBH19"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "OBH03",
+      "OBH02",
+      "OBH05"
+     ],
+     "hours": 2.97
+    },
+    {
+     "topics": [
+      "OBH11"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OBH12"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OBH20"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OBH09"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OBH10"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OBH13"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "OBH06",
+      "OBH07"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "OBH08"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ENV01"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ENV02"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ENV03"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ENV04"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "COM01"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "COM04",
+      "COM05"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "COM02"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "COM03"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "STR01",
+      "STR03"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "STR04",
+      "STR05"
+     ],
+     "hours": 2.39
+    },
+    {
+     "topics": [
+      "STR06"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "STR07"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "STR16"
+     ],
+     "hours": 2.75
+    },
+    {
+     "topics": [
+      "STR02",
+      "STR10"
+     ],
+     "hours": 2.44
+    },
+    {
+     "topics": [
+      "STR15"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "STR14"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "STR13"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "STR12"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "STR11"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "STR09"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "STR08"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ITD01",
+      "ITD02"
+     ],
+     "hours": 2.27
+    },
+    {
+     "topics": [
+      "ITD05"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ITD03"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ITD04",
+      "ITD08"
+     ],
+     "hours": 2.47
+    },
+    {
+     "topics": [
+      "ITD06"
+     ],
+     "hours": 1.75
+    },
+    {
+     "topics": [
+      "ITD07"
+     ],
+     "hours": 1.75
+    }
+   ],
+   "n_days": 217,
+   "lb_days": 128,
+   "total_hours": 431.19,
+   "H": 3.0
+  },
+  "crunch": {
+   "budget": 60,
+   "value": 218.0,
+   "hours": 59.95,
+   "ids": [
+    "ACC01",
+    "ACC05",
+    "ACC11",
+    "ACC03",
+    "ACC04",
+    "ACC17",
+    "ACC21",
+    "ACC18",
+    "ACC22",
+    "ACC28",
+    "ACC23",
+    "ACC13",
+    "OPS09",
+    "OPS13",
+    "CMP01",
+    "CMP02",
+    "QNT03",
+    "CMP03",
+    "QNT04",
+    "QNT01",
+    "QNT05",
+    "QNT08",
+    "QNT11",
+    "QNT12",
+    "QNT18",
+    "QNT19",
+    "QNT20",
+    "QNT09",
+    "FIN01",
+    "FIN19",
+    "FIN35",
+    "FIN02",
+    "FIN03",
+    "FIN04",
+    "FIN06",
+    "FIN09",
+    "FIN10",
+    "FIN05",
+    "STR01",
+    "STR05",
+    "STR06",
+    "STR02",
+    "OBH01",
+    "OBH04",
+    "OBH02",
+    "OBH05",
+    "OBH09",
+    "OBH03",
+    "OBH06",
+    "OBH07",
+    "OBH08",
+    "OBH14"
+   ],
+   "left_out": [
+    "RES07",
+    "FIN20",
+    "FIN07",
+    "FIN08",
+    "ACC02",
+    "ACC06",
+    "ACC07",
+    "ACC08",
+    "ACC09",
+    "ACC10",
+    "ACC12",
+    "ACC14",
+    "ACC15",
+    "ACC16",
+    "ACC19",
+    "ACC20",
+    "OBH15",
+    "OBH16",
+    "OBH19",
+    "LAW01",
+    "LAW02",
+    "LAW03",
+    "LAW04",
+    "LAW05",
+    "LAW06",
+    "LAW07",
+    "ECO01",
+    "ECO02",
+    "ECO03",
+    "ECO04",
+    "ECO05",
+    "ECO06",
+    "ECO07",
+    "ECO08",
+    "ECO09",
+    "ECO10",
+    "ECO11",
+    "ECO12",
+    "ECO13",
+    "ECO14",
+    "ECO15",
+    "ECO16",
+    "ECO17",
+    "ECO18",
+    "ECO19",
+    "COM01",
+    "COM04",
+    "CMP04",
+    "CMP05",
+    "MKT01",
+    "MKT02",
+    "MKT03",
+    "MKT04",
+    "MKT05",
+    "MKT06",
+    "MKT07",
+    "MKT08",
+    "MKT09",
+    "MKT10",
+    "OPS01",
+    "OPS02",
+    "OPS03",
+    "OPS04",
+    "OPS05",
+    "OPS07",
+    "OPS08",
+    "QNT02",
+    "QNT06",
+    "QNT07",
+    "QNT10",
+    "QNT13",
+    "QNT14",
+    "QNT15",
+    "QNT16",
+    "QNT17",
+    "QNT21",
+    "QNT22",
+    "QNT23",
+    "QNT24",
+    "QNT25",
+    "QNT31",
+    "QNT32",
+    "RES08",
+    "ACC24",
+    "ACC25",
+    "ACC26",
+    "ACC27",
+    "ACC29",
+    "ACC30",
+    "ACC31",
+    "ACC32",
+    "ACC33",
+    "ACC34",
+    "FIN11",
+    "FIN12",
+    "FIN13",
+    "FIN14",
+    "FIN15",
+    "FIN16",
+    "FIN17",
+    "FIN18",
+    "OBH17",
+    "OBH18",
+    "ECO20",
+    "ECO21",
+    "ECO22",
+    "ECO23",
+    "ECO24",
+    "ECO25",
+    "ECO26",
+    "ECO27",
+    "ECO28",
+    "ECO29",
+    "MKT11",
+    "MKT12",
+    "MKT13",
+    "MKT14",
+    "MKT15",
+    "MKT16",
+    "MKT17",
+    "MKT18",
+    "MKT19",
+    "OPS10",
+    "OPS11",
+    "OPS12",
+    "OPS14",
+    "OPS15",
+    "OPS16",
+    "OPS17",
+    "ENV01",
+    "ENV02",
+    "QNT26",
+    "QNT27",
+    "QNT28",
+    "QNT29",
+    "QNT30",
+    "QNT33",
+    "QNT34",
+    "QNT35",
+    "QNT36",
+    "QNT37",
+    "QNT38",
+    "ENV05",
+    "ITD01",
+    "ITD02",
+    "ITD03",
+    "ITD04",
+    "ITD05",
+    "ITD08",
+    "COM02",
+    "COM05",
+    "ENV03",
+    "ENV04",
+    "RES01",
+    "RES02",
+    "RES03",
+    "RES04",
+    "RES05",
+    "RES06",
+    "RES09",
+    "RES10",
+    "FIN21",
+    "FIN22",
+    "FIN23",
+    "FIN24",
+    "FIN25",
+    "FIN26",
+    "FIN27",
+    "FIN28",
+    "FIN29",
+    "FIN30",
+    "FIN31",
+    "FIN32",
+    "FIN33",
+    "FIN34",
+    "ENV06",
+    "ENV07",
+    "ITD06",
+    "ITD07",
+    "MKT20",
+    "MKT21",
+    "MKT22",
+    "MKT23",
+    "MKT24",
+    "MKT25",
+    "OBH10",
+    "OBH11",
+    "OBH12",
+    "OBH13",
+    "OPS06",
+    "OPS18",
+    "OPS19",
+    "OPS20",
+    "OPS21",
+    "OPS22",
+    "OPS23",
+    "OPS24",
+    "OPS25",
+    "OPS27",
+    "OBH20",
+    "STR03",
+    "STR04",
+    "STR07",
+    "STR08",
+    "STR09",
+    "STR10",
+    "STR11",
+    "STR12",
+    "STR13",
+    "STR14",
+    "STR15",
+    "STR16",
+    "OPS26",
+    "COM03"
+   ],
+   "knapsack_value": 216.0,
+   "total_value": 1041.0,
+   "days": {
+    "feasible": true,
+    "days": [
+     {
+      "topics": [
+       "ACC01"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "ACC05",
+       "ACC11"
+      ],
+      "hours": 2.39
+     },
+     {
+      "topics": [
+       "ACC03"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "ACC04"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "ACC17"
+      ],
+      "hours": 2.75
+     },
+     {
+      "topics": [
+       "ACC21",
+       "ACC18"
+      ],
+      "hours": 2.47
+     },
+     {
+      "topics": [
+       "ACC22"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "ACC28"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "ACC23",
+       "ACC13"
+      ],
+      "hours": 2.5
+     },
+     {
+      "topics": [
+       "OPS09",
+       "OPS13"
+      ],
+      "hours": 1.64
+     },
+     {
+      "topics": [
+       "CMP01"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "CMP02"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "QNT03",
+       "CMP03",
+       "QNT04"
+      ],
+      "hours": 2.39
+     },
+     {
+      "topics": [
+       "QNT01",
+       "QNT05"
+      ],
+      "hours": 2.27
+     },
+     {
+      "topics": [
+       "QNT08"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "QNT11"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "QNT12"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "QNT18",
+       "QNT19"
+      ],
+      "hours": 2.39
+     },
+     {
+      "topics": [
+       "QNT20",
+       "QNT09"
+      ],
+      "hours": 2.5
+     },
+     {
+      "topics": [
+       "FIN01"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "FIN19",
+       "FIN35"
+      ],
+      "hours": 1.64
+     },
+     {
+      "topics": [
+       "FIN02",
+       "FIN03"
+      ],
+      "hours": 2.27
+     },
+     {
+      "topics": [
+       "FIN04"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "FIN06"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "FIN09"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "FIN10",
+       "FIN05"
+      ],
+      "hours": 2.47
+     },
+     {
+      "topics": [
+       "STR01",
+       "STR05"
+      ],
+      "hours": 2.27
+     },
+     {
+      "topics": [
+       "STR06",
+       "STR02"
+      ],
+      "hours": 2.47
+     },
+     {
+      "topics": [
+       "OBH01"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "OBH04"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "OBH02",
+       "OBH05"
+      ],
+      "hours": 2.27
+     },
+     {
+      "topics": [
+       "OBH09"
+      ],
+      "hours": 1.75
+     },
+     {
+      "topics": [
+       "OBH03",
+       "OBH06",
+       "OBH07"
+      ],
+      "hours": 2.91
+     },
+     {
+      "topics": [
+       "OBH08",
+       "OBH14"
+      ],
+      "hours": 2.5
+     }
+    ],
+    "n_days": 34,
+    "lb_days": 128,
+    "total_hours": 69.85,
+    "H": 3.0
+   }
+  }
+ }
+]

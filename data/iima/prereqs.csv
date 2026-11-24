@@ -1,0 +1,388 @@
+from_id,to_id,type,or_group,source,external_evidence,step1
+QNT01,QNT02,AND,,estimate,,kept
+QNT03,QNT04,SOFT,,textbook,,downgraded: ASW14 teaches graphical displays (ch2) before numerical measures (ch3): helpful order but not required
+QNT01,QNT05,AND,,estimate,,kept
+QNT05,QNT06,AND,,textbook,ASW14(same unit),kept
+QNT06,QNT07,AND,,textbook,ASW14(same unit),kept
+QNT05,QNT08,AND,,textbook,ASW14,kept
+QNT03,QNT08,AND,,textbook,ASW14,kept
+QNT08,QNT09,AND,,estimate,,kept
+QNT08,QNT10,AND,,textbook,ASW14(same unit),kept
+QNT08,QNT11,AND,,textbook,ASW14,kept
+QNT02,QNT11,SOFT,,estimate,,kept
+QNT11,QNT12,AND,,textbook,ASW14(same unit),kept
+QNT08,QNT13,AND,,estimate,,kept
+QNT13,QNT14,AND,,estimate,,kept
+QNT06,QNT14,AND,,estimate,,kept
+QNT14,QNT15,AND,,estimate,,kept
+QNT07,QNT15,AND,,estimate,,kept
+QNT13,QNT16,AND,,estimate,,kept
+QNT12,QNT17,AND,,estimate,,kept
+QNT10,QNT17,AND,,estimate,,kept
+CMP02,QNT17,AND,,estimate,,kept
+QNT12,QNT18,AND,,textbook,ASW14,kept
+QNT18,QNT19,AND,,textbook,ASW14(same unit),kept
+QNT19,QNT20,AND,,textbook,ASW14,kept
+QNT20,QNT21,AND,,textbook,ASW14,kept
+QNT21,QNT22,AND,,textbook,ASW14,kept
+QNT21,QNT23,AND,,textbook,ASW14(same unit),kept
+QNT10,QNT23,AND,,textbook,ASW14,kept
+QNT21,QNT24,AND,,textbook,ASW14,kept
+QNT22,QNT25,AND,,estimate,,kept
+QNT09,QNT26,AND,,estimate,,kept
+QNT21,QNT26,AND,,textbook,ASW14,kept
+QNT26,QNT27,AND,,textbook,ASW14,kept
+QNT27,QNT28,AND,,estimate,,kept
+QNT27,QNT29,AND,,textbook,ASW14(same unit),kept
+QNT27,QNT30,AND,,estimate,,kept
+QNT10,QNT30,AND,,estimate,,kept
+QNT03,QNT31,AND,,estimate,,kept
+QNT01,QNT32,AND,,estimate,,kept
+QNT32,QNT33,AND,,estimate,,kept
+QNT33,QNT34,AND,,estimate,,kept
+QNT32,QNT35,AND,,estimate,,kept
+QNT32,QNT36,AND,,estimate,,kept
+QNT32,QNT37,AND,,estimate,,kept
+QNT13,QNT38,AND,,estimate,,kept
+CMP01,CMP02,AND,,estimate,,kept
+CMP01,CMP03,AND,,estimate,,kept
+QNT03,CMP03,AND,,estimate,,kept
+CMP02,CMP04,AND,,estimate,,kept
+QNT32,CMP04,AND,,estimate,,kept
+CMP01,CMP05,AND,,estimate,,kept
+ACC01,ACC02,AND,,syllabus,MIT511,kept
+ACC01,ACC03,AND,,syllabus,MIT511,kept
+ACC03,ACC04,AND,,syllabus,MIT511(same unit);MIT501(same unit),kept
+ACC01,ACC05,AND,,syllabus,MIT511(same unit),kept
+ACC02,ACC06,AND,,syllabus,MIT511(same unit);MIT501(same unit),kept
+ACC03,ACC06,AND,,syllabus,MIT511;MIT501,kept
+ACC04,ACC07,AND,,syllabus,MIT501,kept
+ACC04,ACC08,AND,,estimate,,kept
+ACC05,ACC08,AND,,estimate,,kept
+ACC04,ACC09,AND,,estimate,,kept
+ACC05,ACC09,AND,,estimate,,kept
+ACC09,ACC10,AND,,estimate,,kept
+ACC05,ACC11,AND,,estimate,,kept
+ACC11,ACC12,AND,,estimate,,kept
+ACC09,ACC12,AND,,estimate,,kept
+FIN03,ACC12,AND,,estimate,,kept
+ACC04,ACC13,AND,,estimate,,kept
+ACC05,ACC13,AND,,estimate,,kept
+ACC04,ACC14,AND,,estimate,,kept
+ACC11,ACC14,AND,,estimate,,kept
+ACC09,ACC15,AND,,estimate,,kept
+ACC13,ACC16,AND,,estimate,,kept
+ACC10,ACC16,AND,,estimate,,kept
+ACC04,ACC17,AND,,estimate,,kept
+ACC05,ACC17,AND,,estimate,,kept
+ACC17,ACC18,AND,,textbook,BMA14(same unit),kept
+ACC17,ACC19,AND,,estimate,,kept
+ACC15,ACC19,AND,,estimate,,kept
+ACC07,ACC19,AND,,estimate,,kept
+ACC15,ACC20,AND,,estimate,,kept
+ACC17,ACC20,AND,,estimate,,kept
+ACC17,ACC21,AND,,textbook,BMA14,kept
+ACC04,ACC22,AND,,estimate,,kept
+ACC22,ACC23,AND,,textbook,HDR17,kept
+ACC22,ACC24,AND,,textbook,HDR17,kept
+ACC08,ACC24,AND,,estimate,,kept
+ACC24,ACC25,AND,,textbook,HDR17(same unit),kept
+ACC25,ACC26,AND,,textbook,HDR17,kept
+ACC25,ACC27,AND,,textbook,HDR17,kept
+ACC23,ACC27,AND,,textbook,HDR17,kept
+ACC22,ACC28,AND,,estimate,,kept
+ACC23,ACC29,AND,,textbook,HDR17,kept
+ACC15,ACC29,AND,,estimate,,kept
+ACC29,ACC30,AND,,textbook,HDR17,kept
+ACC29,ACC31,AND,,estimate,,kept
+ACC31,ACC32,AND,,estimate,,kept
+ACC28,ACC32,AND,,estimate,,kept
+ACC31,ACC33,AND,,estimate,,kept
+ACC17,ACC33,AND,,estimate,,kept
+FIN26,ACC33,AND,,estimate,,kept
+ACC33,ACC34,AND,,estimate,,kept
+QNT01,FIN02,AND,,estimate,,kept
+FIN02,FIN03,AND,,estimate,,kept
+FIN03,FIN04,AND,,syllabus;textbook,MIT401(same unit);BMA14(same unit),kept
+FIN04,FIN05,AND,,estimate,,kept
+FIN04,FIN06,AND,,syllabus;textbook,MIT401;BMA14,kept
+FIN06,FIN07,AND,,syllabus,MIT401(same unit),kept
+FIN06,FIN08,AND,,syllabus,MIT401(same unit),kept
+QNT02,FIN08,SOFT,,estimate,,kept
+FIN04,FIN09,AND,,syllabus;textbook,MIT401;BMA14,kept
+FIN01,FIN09,AND,,estimate,,kept
+QNT08,FIN10,AND,,estimate,,kept
+FIN03,FIN10,AND,,syllabus;textbook,MIT401;BMA14,kept
+FIN10,FIN11,AND,,syllabus;textbook,MIT401;BMA14(same unit),kept
+QNT09,FIN11,AND,,estimate,,kept
+FIN11,FIN12,AND,,syllabus;textbook,MIT401(same unit);BMA14(same unit),kept
+QNT02,FIN12,SOFT,,estimate,,kept
+FIN12,FIN13,AND,,syllabus;textbook,MIT401;BMA14,kept
+QNT26,FIN13,AND,,estimate,,kept
+FIN13,FIN14,AND,,syllabus;textbook,MIT401;BMA14,kept
+FIN03,FIN15,AND,,syllabus;textbook,MIT401;BMA14,kept
+FIN01,FIN15,AND,,estimate,,kept
+FIN15,FIN16,AND,,syllabus,MIT401,kept after review: Mixed evidence: MIT401 teaches futures before options (agrees); BMA14 options (ch21) before risk management (ch27)
+FIN16,FIN17,AND,,syllabus;textbook,MIT401(same unit);BMA14,kept
+QNT10,FIN17,OR,FIN17-OR1,estimate,,kept
+QNT12,FIN17,OR,FIN17-OR1,estimate,,kept
+FIN15,FIN18,AND,,textbook,BMA14,kept
+ECO27,FIN18,AND,,estimate,,kept
+FIN01,FIN19,AND,,estimate,,kept
+FIN04,FIN20,AND,,syllabus;textbook,MIT401;BMA14,kept
+ACC15,FIN20,AND,,estimate,,kept
+FIN20,FIN21,AND,,textbook,BMA14(same unit),kept
+FIN20,FIN22,AND,,syllabus;textbook,MIT401(same unit);BMA14,kept
+ACC28,FIN22,AND,,estimate,,kept
+FIN22,FIN23,AND,,textbook,BMA14,kept
+QNT17,FIN23,AND,,estimate,,kept
+FIN23,FIN24,AND,,textbook,BMA14,kept
+FIN16,FIN24,AND,,textbook,BMA14,kept
+QNT14,FIN24,AND,,estimate,,kept
+FIN13,FIN25,AND,,textbook,BMA14,kept
+FIN06,FIN25,AND,,textbook,BMA14,kept
+FIN25,FIN26,AND,,textbook,BMA14(same unit),kept
+FIN26,FIN27,AND,,textbook,BMA14,kept
+FIN27,FIN28,AND,,textbook,BMA14,kept
+FIN27,FIN29,SOFT,,textbook,,downgraded: BMA14 teaches payout policy (ch15) before debt policy/MM (ch16): dividend irrelevance does not need MM capital structure first
+FIN09,FIN29,AND,,textbook,BMA14,kept
+FIN26,FIN30,AND,,estimate,,kept
+FIN22,FIN30,AND,,estimate,,kept
+ACC17,FIN30,AND,,estimate,,kept
+FIN09,FIN31,AND,,estimate,,kept
+ACC17,FIN31,AND,,estimate,,kept
+ACC13,FIN31,AND,,estimate,,kept
+ACC21,FIN32,AND,,textbook,BMA14(same unit),kept
+FIN03,FIN32,AND,,textbook,BMA14,kept
+ACC17,FIN33,AND,,textbook,BMA14,kept
+ACC29,FIN33,AND,,estimate,,kept
+CMP02,FIN33,AND,,estimate,,kept
+FIN30,FIN34,AND,,estimate,,kept
+FIN31,FIN34,AND,,estimate,,kept
+FIN19,FIN35,AND,,textbook,BMA14(same unit),kept
+LAW04,FIN35,SOFT,,estimate,,kept
+ECO01,ECO02,AND,,textbook,PR9(same unit),kept
+ECO01,ECO03,AND,,textbook,PR9(same unit),kept
+ECO02,ECO04,AND,,textbook,PR9,kept
+ECO01,ECO05,AND,,textbook,PR9,kept
+QNT02,ECO05,AND,,estimate,,kept
+QNT02,ECO06,AND,,estimate,,kept
+ECO06,ECO07,AND,,textbook,PR9,kept
+ACC22,ECO07,AND,,estimate,,kept
+ECO07,ECO08,AND,,textbook,PR9,kept
+ECO02,ECO08,AND,,textbook,PR9,kept
+ECO08,ECO09,AND,,textbook,PR9,kept
+ECO03,ECO09,AND,,textbook,PR9,kept
+ECO09,ECO10,AND,,textbook,PR9,kept
+ECO11,ECO12,AND,,textbook,PR9(same unit),kept
+ECO09,ECO13,AND,,textbook,PR9,kept
+ECO12,ECO13,SOFT,,textbook,,downgraded: PR9 teaches oligopoly (ch12) before game theory (ch13); only Stackelberg needs sequential games
+ECO09,ECO14,AND,,textbook,PR9,kept
+ECO11,ECO15,AND,,textbook,PR9,kept
+ECO15,ECO16,AND,,textbook,PR9(same unit),kept
+ECO04,ECO17,AND,,textbook,PR9,kept
+ECO09,ECO18,SOFT,,textbook,,downgraded: PR9 introduces network externalities with demand (ch4) long before monopoly (ch10)
+ECO05,ECO19,SOFT,,textbook,PR9,kept
+ECO20,ECO21,AND,,textbook,MANK11(same unit),kept
+ECO20,ECO22,AND,,estimate,,kept
+FIN01,ECO22,AND,,estimate,,kept
+ECO22,ECO23,AND,,estimate,,kept
+ECO21,ECO23,AND,,estimate,,kept
+FIN02,ECO23,AND,,estimate,,kept
+ECO20,ECO24,AND,,estimate,,kept
+ECO23,ECO25,AND,,estimate,,kept
+ECO24,ECO25,AND,,estimate,,kept
+ECO25,ECO26,AND,,estimate,,kept after review: Mapping artefact: ECO26 spans AS and the Phillips curve; Mankiw's Phillips curve comes after IS-LM
+ECO23,ECO27,AND,,estimate,,kept
+ECO20,ECO28,AND,,textbook,MANK11,kept
+ECO06,ECO28,AND,,estimate,,kept
+ECO24,ECO29,AND,,estimate,,kept
+ECO28,ECO29,AND,,estimate,,kept
+MKT01,MKT02,AND,,estimate,,kept
+ECO19,MKT02,SOFT,,estimate,,kept
+MKT02,MKT03,AND,,estimate,,kept
+MKT01,MKT04,AND,,estimate,,kept
+MKT04,MKT05,AND,,estimate,,kept
+QNT03,MKT05,AND,,estimate,,kept
+MKT02,MKT06,AND,,estimate,,kept
+MKT06,MKT07,AND,,textbook,KK16(same unit),kept
+MKT05,MKT07,AND,,estimate,,kept
+MKT07,MKT08,AND,,textbook,KK16,kept
+MKT08,MKT09,AND,,textbook,KK16,kept
+MKT08,MKT10,AND,,textbook,KK16,kept
+MKT10,MKT11,AND,,textbook,KK16,kept
+MKT08,MKT12,AND,,textbook,KK16,kept
+ACC23,MKT13,AND,,estimate,,kept
+ECO03,MKT13,AND,,estimate,,kept
+MKT08,MKT13,AND,,textbook,KK16,kept
+MKT13,MKT14,AND,,textbook,KK16(same unit),kept
+ECO10,MKT14,AND,,estimate,,kept
+MKT07,MKT15,AND,,textbook,KK16,kept
+MKT15,MKT16,AND,,textbook,KK16,kept
+MKT08,MKT17,AND,,textbook,KK16,kept
+MKT17,MKT18,AND,,textbook,KK16(same unit),kept
+ACC23,MKT18,AND,,estimate,,kept
+MKT15,MKT19,SOFT,,textbook,,downgraded: KK16 teaches personal selling (ch14) before channel design (ch15)
+MKT17,MKT20,AND,,textbook,KK16,kept
+FIN04,MKT21,AND,,estimate,,kept
+MKT06,MKT21,AND,,estimate,,kept
+MKT21,MKT22,AND,,estimate,,kept
+QNT27,MKT23,AND,,estimate,,kept
+MKT17,MKT23,AND,,estimate,,kept
+MKT08,MKT24,AND,,textbook,KK16,kept
+MKT13,MKT25,AND,,estimate,,kept after review: MKT25 is an integrative capstone (go-to-market plan); KK16 introduces planning first and integrates later
+MKT15,MKT25,AND,,estimate,,kept after review: As above
+MKT17,MKT25,AND,,estimate,,kept after review: As above
+OPS01,OPS02,AND,,textbook,CT5(same unit),kept
+OPS01,OPS03,AND,,textbook,CT5(same unit),kept
+OPS01,OPS04,AND,,textbook,CT5,kept
+OPS02,OPS05,AND,,estimate,,kept
+QNT11,OPS05,AND,,estimate,,kept
+OPS05,OPS06,AND,,estimate,,kept
+QNT31,OPS07,OR,OPS07-OR0,estimate,,kept
+QNT26,OPS07,OR,OPS07-OR0,estimate,,kept
+OPS07,OPS08,AND,,estimate,,kept
+ACC22,OPS09,AND,,estimate,,kept
+OPS09,OPS10,AND,,estimate,,kept
+QNT02,OPS10,AND,,estimate,,kept
+OPS10,OPS11,AND,,estimate,,kept
+QNT12,OPS11,AND,,estimate,,kept
+OPS09,OPS12,AND,,estimate,,kept
+QNT12,OPS12,AND,,estimate,,kept
+ACC28,OPS12,AND,,estimate,,kept
+OPS09,OPS13,AND,,estimate,,kept
+OPS04,OPS14,AND,,estimate,,kept
+QNT32,OPS14,AND,,estimate,,kept
+OPS14,OPS15,AND,,estimate,,kept
+OPS01,OPS16,AND,,estimate,,kept
+QNT37,OPS17,OR,OPS17-OR0,estimate,,kept
+OPS01,OPS17,OR,OPS17-OR0,textbook,CT5,kept
+OPS01,OPS18,AND,,estimate,,kept
+OPS18,OPS19,AND,,estimate,,kept
+QNT20,OPS19,AND,,estimate,,kept
+OPS19,OPS20,AND,,estimate,,kept
+OPS01,OPS21,AND,,estimate,,kept
+OPS09,OPS21,AND,,estimate,,kept
+OPS11,OPS22,AND,,estimate,,kept
+OPS07,OPS22,AND,,estimate,,kept
+OPS22,OPS23,AND,,estimate,,kept
+OPS12,OPS23,AND,,estimate,,kept
+OPS22,OPS24,AND,,estimate,,kept
+QNT36,OPS24,AND,,estimate,,kept
+ACC28,OPS25,AND,,estimate,,kept
+OPS22,OPS25,AND,,estimate,,kept
+OPS05,OPS26,AND,,estimate,,kept
+OPS21,OPS27,AND,,estimate,,kept
+OPS04,OPS27,AND,,estimate,,kept
+OBH01,OBH02,AND,,estimate,,kept
+OBH01,OBH03,SOFT,,textbook,,downgraded: RJ18 teaches emotions (ch4) before personality (ch5)
+OBH01,OBH04,AND,,textbook,RJ18,kept
+OBH02,OBH05,AND,,estimate,,kept
+OBH03,OBH06,AND,,estimate,,kept
+OBH05,OBH07,AND,,textbook,RJ18,kept
+OBH06,OBH07,AND,,estimate,,kept
+OBH07,OBH08,AND,,textbook,RJ18(same unit),kept
+ECO11,OBH08,SOFT,,estimate,,kept
+OBH04,OBH09,AND,,estimate,,kept
+OBH05,OBH09,AND,,estimate,,kept
+OBH09,OBH10,AND,,estimate,,kept
+OBH05,OBH11,AND,,estimate,,kept
+OBH11,OBH12,AND,,estimate,,kept
+OBH12,OBH13,AND,,textbook,RJ18,kept
+OBH10,OBH13,AND,,estimate,,kept
+OBH14,OBH15,AND,,textbook,RJ18(same unit),kept
+OBH04,OBH16,AND,,textbook,RJ18,kept
+OBH14,OBH16,AND,,textbook,RJ18(same unit),kept
+OBH16,OBH17,AND,,estimate,,kept
+ECO16,OBH17,AND,,estimate,,kept
+OBH16,OBH18,AND,,estimate,,kept
+OBH14,OBH19,AND,,estimate,,kept
+LAW01,OBH19,SOFT,,estimate,,kept
+OBH17,OBH20,AND,,estimate,,kept
+OBH15,OBH20,AND,,estimate,,kept
+OBH12,OBH20,AND,,estimate,,kept
+STR01,STR02,AND,,estimate,,kept
+ECO20,STR02,SOFT,,estimate,,kept
+STR01,STR03,AND,,estimate,,kept
+ECO09,STR03,AND,,estimate,,kept
+STR03,STR04,AND,,estimate,,kept
+STR01,STR05,AND,,estimate,,kept
+STR05,STR06,AND,,estimate,,kept
+STR03,STR07,AND,,estimate,,kept
+STR06,STR07,AND,,estimate,,kept
+STR07,STR08,AND,,estimate,,kept
+ECO12,STR08,AND,,estimate,,kept
+STR07,STR09,AND,,estimate,,kept
+ECO18,STR09,AND,,estimate,,kept
+STR07,STR10,AND,,estimate,,kept
+STR10,STR11,AND,,estimate,,kept
+OPS25,STR11,AND,,estimate,,kept
+ECO16,STR11,SOFT,,estimate,,kept
+STR10,STR12,AND,,estimate,,kept
+FIN34,STR12,AND,,estimate,,kept
+STR10,STR13,AND,,estimate,,kept
+ECO27,STR13,SOFT,,estimate,,kept
+STR07,STR14,AND,,estimate,,kept
+MKT11,STR14,AND,,estimate,,kept
+STR10,STR15,AND,,estimate,,kept
+OBH11,STR15,AND,,estimate,,kept
+ACC34,STR15,AND,,estimate,,kept
+STR07,STR16,AND,,estimate,,kept
+MKT25,STR16,AND,,estimate,,kept
+FIN30,STR16,AND,,estimate,,kept
+OPS27,STR16,AND,,estimate,,kept
+COM03,STR16,AND,,estimate,,kept
+MKT04,RES01,AND,,estimate,,kept
+RES01,RES02,AND,,estimate,,kept
+RES02,RES03,AND,,estimate,,kept
+RES01,RES04,AND,,estimate,,kept
+QNT20,RES04,AND,,estimate,,kept
+RES01,RES05,AND,,estimate,,kept
+QNT22,RES05,AND,,estimate,,kept
+QNT09,RES06,AND,,estimate,,kept
+RES02,RES06,AND,,estimate,,kept
+QNT09,RES07,AND,,estimate,,kept
+MKT06,RES07,AND,,estimate,,kept
+QNT29,RES08,AND,,estimate,,kept
+RES03,RES08,AND,,estimate,,kept
+RES01,RES09,AND,,estimate,,kept
+QNT27,RES10,AND,,estimate,,kept
+RES05,RES10,AND,,estimate,,kept
+LAW01,LAW02,AND,,estimate,,kept
+LAW02,LAW03,AND,,estimate,,kept
+LAW02,LAW04,AND,,estimate,,kept
+LAW01,LAW05,AND,,estimate,,kept
+LAW01,LAW06,AND,,estimate,,kept
+ECO09,LAW06,AND,,estimate,,kept
+LAW04,LAW07,AND,,estimate,,kept
+ITD01,ITD02,AND,,estimate,,kept
+ITD01,ITD03,AND,,estimate,,kept
+CMP05,ITD03,AND,,estimate,,kept
+ITD03,ITD04,AND,,estimate,,kept
+QNT30,ITD04,AND,,estimate,,kept
+ITD02,ITD05,AND,,estimate,,kept
+STR05,ITD05,SOFT,,estimate,,kept
+ITD01,ITD06,AND,,estimate,,kept
+ACC23,ITD06,AND,,estimate,,kept
+MKT21,ITD06,AND,,estimate,,kept
+ITD06,ITD07,AND,,estimate,,kept
+STR09,ITD07,AND,,estimate,,kept
+ITD03,ITD08,AND,,estimate,,kept
+ENV01,ENV02,AND,,estimate,,kept
+FIN19,ENV02,SOFT,,estimate,,kept
+ENV02,ENV03,AND,,estimate,,kept
+ECO17,ENV03,AND,,estimate,,kept
+ENV03,ENV04,AND,,estimate,,kept
+ECO24,ENV06,AND,,estimate,,kept
+LAW01,ENV06,AND,,estimate,,kept
+ENV06,ENV07,AND,,estimate,,kept
+COM01,COM02,AND,,estimate,,kept
+COM02,COM03,AND,,estimate,,kept
+COM01,COM04,AND,,estimate,,kept
+QNT04,COM04,AND,,estimate,,kept
+COM04,COM05,AND,,estimate,,kept
+OBH06,COM05,AND,,estimate,,kept
+FIN06,FIN09,SOFT,,textbook;syllabus,,added: BMA14 ch3 -> ch4 and MIT401 fixed income -> common stocks: valuing a bond first makes the DDM a small step
+FIN17,FIN24,SOFT,,textbook,,added: BMA14 ch22 (valuing options) -> ch23 (real options): real-option valuation reuses the binomial method
+ACC05,ACC04,SOFT,,syllabus,,added: MIT511 L2 balance sheet precedes L3 income statement
+OPS12,OPS11,SOFT,,textbook,,added: CT5 ch14 newsvendor -> ch16 service levels: the critical-ratio logic carries over to safety stock
