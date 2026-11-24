@@ -1,7 +1,7 @@
 # MBA Speedrun
 
 **Personalised learning roadmaps for the IIMA PGP core, as a Sequential Ordering Problem.**
-Group project for *Optimisation Methods in Logistics* (OML), IIM Ahmedabad.
+Group project for *Optimisation Methods in Logistics* (OML), IIM Ahmedabad. Group: Prathik, Nikita Naik Mood, Anureet Biswas, Mrinal Bhaskar.
 
 **Roadmap planner (live):** https://p25prathik-hue.github.io/mba-speedrun/  
 **Report (PDF):** [docs/report.pdf](docs/report.pdf)

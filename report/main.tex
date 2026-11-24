@@ -3,9 +3,11 @@
 \documentclass[11pt,a4paper]{article}
 
 % ---------------------------------------------------------------- edit these
-\newcommand{\studentname}{Prathik}
-\newcommand{\rollno}{PGPGC202500155}
-\newcommand{\groupmembers}{[Group member 2] \quad [Group member 3] \quad [Group member 4]}
+\newcommand{\groupmembers}{%
+  Prathik          & PGPGC202500155 \\
+  Nikita Naik Mood & PGPGC202500453 \\
+  Anureet Biswas   & PGPGC202500109 \\
+  Mrinal Bhaskar   & PGPGC202500338 \\}
 \newcommand{\repourl}{\url{https://github.com/p25prathik-hue/mba-speedrun}}
 \newcommand{\siteurl}{\url{https://p25prathik-hue.github.io/mba-speedrun/}}
 % ----------------------------------------------------------------------------
@@ -55,10 +57,12 @@
 \vspace{2.4cm}
 {\large Group project report\par}
 \vspace{0.8cm}
-{\Large \studentname\par}
-{\large Roll No.\ \rollno\par}
-\vspace{0.4cm}
-{\large \groupmembers\par}
+{\large
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{ll}
+\textbf{Group members} & \textbf{Roll No.} \\[2pt]
+\groupmembers
+\end{tabular}\par}
 \vfill
 {\large November 2026\par}
 \vspace{0.3cm}
