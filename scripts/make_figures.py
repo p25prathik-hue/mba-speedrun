@@ -145,7 +145,8 @@ if os.path.exists(sp):
     ax1.set_xlabel("gain vs subject by subject B1 (%)")
     ax1.legend(handles=[Patch(facecolor="#ffffff", edgecolor="black", hatch="///", label="parameter -25%"),
                         Patch(facecolor="#737373", edgecolor="black", label="parameter +25%")],
-               fontsize=6.5, frameon=False, loc="upper center", bbox_to_anchor=(0.45, -0.2), ncol=2); ax1.set_title("One at a time, +-25%", fontsize=9)
+               fontsize=6.5, frameon=False, loc="upper center", bbox_to_anchor=(0.5, 1.0), ncol=2); ax1.set_title("One at a time, +-25%", fontsize=9)
+    ax1.set_ylim(-0.6, len(names) + 0.5)  # head-room so the legend sits above the bars, clear of the x label
     mc = Sx["mc"]
     ax2.hist([m["gain_vs_B0_pct"] for m in mc], bins=18, color="#bdbdbd", edgecolor="black", lw=0.5, label="vs B0 (timetable)")
     ax2.hist([m["gain_vs_B1_pct"] for m in mc], bins=18, color="#ffffff", edgecolor="black", hatch="///", lw=0.5, label="vs B1 (subject by subject)")
